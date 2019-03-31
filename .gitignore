@@ -1,0 +1,10 @@
+.idea
+node_modules
+yarn
+yarn.lock
+*.iml
+metainfo
+output
+dist
+ftt-scripts/data
+ftt-scripts/scripts/*.json
