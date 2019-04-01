@@ -14,8 +14,8 @@
 
 - **minicharlas**
 
-- ..
-- ..
+- https://developers.google.com/web/fundamentals/web-components/
+- https://css-tricks.com/modular-future-web-components/
 - ..
 
 # Práctica deliberada
