@@ -11,7 +11,7 @@
     "build": "webpack --env production",
     "lint": "eslint ./src/*.js",
     "test": "jest",
-    "start": "node server.js | webpack-dev-server --env development"
+    "start": "webpack-dev-server --disable-host-check --host 0.0.0.0 --env development"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
