@@ -1,4 +1,5 @@
 ports:
 - port: 3000
 tasks:
-- command: cd ftt.programania.net; npm install
+- init: cd ftt.programania.net; npm install
+  command: cd ftt.programania.net; ./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --public 3000-c8da128e-47a0-4dbe-8f0a-8227df8fd176.ws-eu0.gitpod.io
