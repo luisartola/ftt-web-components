@@ -80,6 +80,10 @@
 
 - https://training.buntplanet.com/recursos/js/
 
+# Puntuación lighthouse
+
+- ...
+
 # Misc.
 
 - [More stuff](./docs/misc-others.md)
