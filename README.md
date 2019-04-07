@@ -16,7 +16,7 @@
 
 - https://developers.google.com/web/fundamentals/web-components/
 - https://css-tricks.com/modular-future-web-components/
-- ..
+- https://www.dannymoerkerke.com/blog/web-components-will-replace-your-frontend-framework
 
 # Práctica deliberada
 
