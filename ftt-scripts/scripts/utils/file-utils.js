@@ -9,7 +9,7 @@ const read = (entity, year) => {
 
 const write = (entity, year, content) =>
   fs.writeFileSync(
-    `../ftt.programania.net/data/${year}/${entity}.json`,
+    `../../ftt.programania.net/data/${year}/${entity}.json`,
     JSON.stringify(content, null, 2)
   );
 
