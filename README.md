@@ -7,6 +7,7 @@
 
 # Credits
 
+- [Empezando a seguir las recomendaciones de Open Wc](https://open-wc.org/)
 - [basado en create-lit-app-advanced](https://github.com/thepassle/create-lit-app-advanced)
 - [project Evergreen](https://github.com/ProjectEvergreen/project-evergreen)
 
