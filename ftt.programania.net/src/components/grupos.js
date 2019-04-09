@@ -92,7 +92,7 @@ export default {
         `: ``}
         
           ${repeat(this.grupos, grupo => html`
-            <ftt-grupo-section id="grupo-${grupo.id}" .year="${this.year}" .grupo="${grupo}" .content="${this.content[grupo.id]}" .audio="/assets/audio/${this.audios[grupo.id]}"></ftt-grupo-section>
+            <ftt-grupo-section id="grupo-${grupo.id}" .year="${this.year}" .grupo="${grupo}" .content="${this.content[grupo.id]}" .audio="https://github.com/Programania/ftt/blob/master/2018/audio/${grupo.id}.mp3?raw=true"></ftt-grupo-section>
           `)}
 		  `;
     }

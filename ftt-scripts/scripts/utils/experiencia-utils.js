@@ -24,7 +24,7 @@ const excelToExperienciaModel2019 = experiencia => {
 
 const excelToExperienciaModel = experiencia => {
   return !experiencia ? {} : {
-    title: experiencia.title.$t,
+    title: experiencia.gsx$title.$t,
     why: experiencia.gsx$_cpzh4.$t,
     when: experiencia.gsx$_cre1l.$t,
     how: experiencia.gsx$_chk2m.$t,

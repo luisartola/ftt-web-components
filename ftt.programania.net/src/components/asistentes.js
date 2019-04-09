@@ -66,7 +66,8 @@ export default {
         
         <ftt-section-title 
             title="Asistentes" 
-            subtitle="${this.asistentes.length ===0 ? 'Todavía no hay asistentes para ésta edición' : `Ésta edición cuenta con ${this.asistentes.length} deslumbrantes asistentes`}">
+            subtitle="${this.asistentes.length ===0 ? 'Todavía no hay asistentes para ésta edición' : 
+          `Ésta edición cuenta con ${this.asistentes.length} deslumbrantes asistentes`}">
         </ftt-section-title>
         
         <section class="section">
@@ -184,7 +185,8 @@ export default {
                       ${this.shortVersion(asistente.experiencia.title)}
                   </a> 
                   <br/>
-                  Grupo: <a href="/${this.year}/grupo/${asistente.grupo.id}">${asistente.grupo.name}</a>
+                  ${ asistente.grupo? html`Grupo: <a href="/${this.year}/grupo/${asistente.grupo.id}">${asistente.grupo.name}</a>` : ''}
+                  
                 </div>
                 ${estaCapturado(asistente) ? 
                       html`capturado!` : 

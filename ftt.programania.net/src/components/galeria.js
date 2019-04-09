@@ -28,7 +28,7 @@ const paths = [
   { name: 'todo-tipo-de-individuos.jpg',description: 'Aceptar a todo tipo de individuos :-D'},
   { name: 'vacilar.png' ,description: 'Vacilar'},
   { name: 'turismo.png',description: 'Hacer turismo'},
-].map(entry => ({name: `/assets/img/${entry.name}`, description: entry.description}));
+].map(entry => ({name: `https://raw.githubusercontent.com/Programania/ftt/master/2018/img/${entry.name}`, description: entry.description}));
 
 export default {
   name: 'ftt-galeria',

@@ -27,5 +27,6 @@ module.exports = year => {
 
   });
 
+
   write('grupos', year, content);
 };

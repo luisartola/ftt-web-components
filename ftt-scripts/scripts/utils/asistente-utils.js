@@ -1,5 +1,5 @@
  const excelToAsistenteModel = (e) => ({
-   id: e.gsx$id.$t,
+   id: 2018000 + parseInt(e.gsx$id.$t, 10),
    twitter: e.gsx$twitter.$t,
    vienede: e.gsx$vienede.$t,
    foto: e.gsx$foto.$t,

@@ -175,24 +175,24 @@ const productionConfig = merge([
         }
       }),
 
-      new WebpackPwaManifest({
-        filename: 'manifest.json',
-        name: 'From the trenches',
-        short_name: 'Ftt',
-        description: 'From the trenches app',
-        background_color: '#ffffff',
-        // crossorigin: 'use-credentials',
-        icons: [
-          {
-            src: resolve('src/assets/android-launchericon-512-512.png'),
-            sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
-          },
-          {
-            src: resolve('src/assets/android-launchericon-512-512.png'),
-            size: '1024x1024' // you can also use the specifications pattern
-          }
-        ]
-      })
+      // new WebpackPwaManifest({
+      //   filename: 'manifest.json',
+      //   name: 'From the trenches',
+      //   short_name: 'Ftt',
+      //   description: 'From the trenches app',
+      //   background_color: '#ffffff',
+      //   // crossorigin: 'use-credentials',
+      //   icons: [
+      //     {
+      //       src: resolve('src/assets/android-launchericon-512-512.png'),
+      //       sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
+      //     },
+      //     {
+      //       src: resolve('src/assets/android-launchericon-512-512.png'),
+      //       size: '1024x1024' // you can also use the specifications pattern
+      //     }
+      //   ]
+      // })
     ]
   }
 ]);

@@ -13,7 +13,8 @@ export default {
         <footer class="footer">
           <div class="content has-text-centered">
             <p>
-              Powered by Programania
+              Powered by Programania, <a href="https://github.com/luisartola/ftt-web-components">código fuente</a>
+              <img style="height:50px" src="/assets/logo-agilespain.png"/>
             </p>
           </div>
         </footer>
