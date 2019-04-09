@@ -1,6 +1,5 @@
 import Store from "repatch";
 
-
 export const initialState = () => {
   if (window.localStorage.getItem('state') !== null)
     return JSON.parse(window.localStorage.getItem('state'));
@@ -23,6 +22,21 @@ const localStorageMiddleware = store => next => reducer => {
 const repatch = new Store(initialState())
   .addMiddleware(logger)
   .addMiddleware(localStorageMiddleware);
+
+
+export const estaCapturado = asistente => {
+  const state = repatch.getState();
+  return state.capturados
+      .map(asistente => asistente.id)
+      .includes(asistente.id);
+};
+
+
+export const liberar = asistente => state => ({
+  ...state,
+  capturados: [... state.capturados.filter(entry => entry.id !== asistente.id)]
+});
+
 
 export const capturar = asistente => state => ({
   ...state,

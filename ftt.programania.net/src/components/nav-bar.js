@@ -54,11 +54,14 @@ export default {
             #ftt2019
           </a>
       
-          <a role="button" @click="${() => this.toggleMenu() }" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+          <a role="button" @click="${() => this.toggleMenu() }" 
+                class="navbar-burger burger" aria-label="menu" aria-expanded="false" 
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
           </a>
+          
         </div>
       
         <div class="navbar-menu ${ this.isActive ? 'is-active' : ''}">
@@ -67,6 +70,10 @@ export default {
            ${repeat(pages, page =>html`
               <a class="navbar-item" @click="${() => this.toggleMenu()}" href="${page.path}">${page.name}</a>
             `)}
+           
+           <a class="navbar-item" href="/2018/asistentes">
+            Capturados: ${this.capturados.length}
+            </a>
       
           </div>
         </div>

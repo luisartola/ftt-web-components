@@ -19,7 +19,6 @@ import galeriaComponent from './components/galeria.js';
 import horarioComponent from './components/horario.js';
 import sectionTitle from './components/ftt-section-title.js';
 
-
 [
   wellcomeForm,
   sectionTitle,
