@@ -24,7 +24,7 @@ const excelToExperienciaModel2019 = experiencia => {
 
 const excelToExperienciaModel = experiencia => {
   return !experiencia ? {} : {
-    title: experiencia.gsx$cuéntanosalgotécnicatecnologíawhateverquehayasutilizadoentudíaadíaesteúltimoaño.$t,
+    title: experiencia.title.$t,
     why: experiencia.gsx$_cpzh4.$t,
     when: experiencia.gsx$_cre1l.$t,
     how: experiencia.gsx$_chk2m.$t,
@@ -33,8 +33,9 @@ const excelToExperienciaModel = experiencia => {
   };
 };
 
-const byEmail = email => entry =>
-  entry.gsx$email.$t.toLowerCase() === email.toLowerCase();
+const byEmail = email => entry => {
+  return entry.gsx$email.$t.toLowerCase() === email.toLowerCase();
+};
 
 module.exports = {
   byEmail,

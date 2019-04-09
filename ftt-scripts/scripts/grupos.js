@@ -13,9 +13,10 @@ module.exports = year => {
     const asistentesGrupo = asistentes.filter(e => {
       return e.gsx$grupo.$t === grupo.id
     }).map(e => {
+      let experiencia = experiencias.find(byEmail(e.gsx$email.$t));
       return Object.assign(
-          excelToAsistenteModel2019(e),
-          {experiencia: excelToExperienciaModel2019(experiencias.find(byEmail(e.gsx$email.$t)))}
+          year === 2018 ? excelToAsistenteModel(e): excelToAsistenteModel2019(e),
+          {experiencia: year === 2018 ?  excelToExperienciaModel(experiencia) : excelToExperienciaModel2019(experiencia)}
       );
     });
 

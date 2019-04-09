@@ -4,16 +4,20 @@ const {excelToAsistenteModel2019, excelToAsistenteModel} = require('./utils/asis
 const {byEmail, excelToExperienciaModel2019, excelToExperienciaModel} = require('./utils/experiencia-utils.js');
 
 module.exports = year => {
+
     const asistentes = read('asistentes', year);
     const experiencias = read('experiencias', year);
     const grupos = read('grupos', year);
-
     const content = asistentes
-        .map(e => Object.assign(
-            excelToAsistenteModel2019(e),
-            {experiencia: excelToExperienciaModel2019(experiencias.find(byEmail(e.gsx$email.$t)))},
-            {grupo: grupos.find(byId(e.gsx$grupo.$t))}
-        ));
+        .map(e => {
+          const email = year === 2018 ? e.gsx$email.$t : e.gsx$email.$t;
+          const experiencia = experiencias.find(byEmail(email));
+          return Object.assign(
+              year === 2018 ? excelToAsistenteModel(e) : excelToAsistenteModel2019(e),
+              {experiencia: year === 2018 ? excelToExperienciaModel(experiencia) : excelToExperienciaModel2019(experiencia)},
+              {grupo: grupos.find(byId(e.gsx$grupo.$t))}
+          );
+        });
 
     write('asistentes', year, content);
 };

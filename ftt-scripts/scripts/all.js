@@ -11,7 +11,6 @@ download(2019, 2, 'experiencias', () => {
   });
 });
 
-/*
 download(2018, 1, 'experiencias', () => {
   download(2018, 2, 'asistentes', () => {
     asistentes(2018);
@@ -19,4 +18,3 @@ download(2018, 1, 'experiencias', () => {
     grupos(2018);
   });
 });
-*/

@@ -13,9 +13,8 @@ module.exports = year => {
     const asistenteExcel = asistentes
         .find(entry => e.gsx$email.$t.toLowerCase() === entry.gsx$email.$t.toLowerCase());
 
-    const target = excelToExperienciaModel2019(e);
-      console.log(e.gsx$email.$t.toLowerCase());
-    const asistente = excelToAsistenteModel2019(asistenteExcel);
+    const target = year === 2018 ?  excelToExperienciaModel(e): excelToExperienciaModel2019(e);
+    const asistente = year === 2018 ? excelToAsistenteModel(asistenteExcel): excelToAsistenteModel2019(asistenteExcel);
     const grupo = grupos.find(byId(asistenteExcel.gsx$grupo.$t));
 
     return Object.assign(
