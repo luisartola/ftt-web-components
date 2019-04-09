@@ -1,7 +1,7 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import e2018 from '../../data/2018/experiencias.json';
 import e2019 from '../../data/2019/experiencias.json';
-import {repeat} from "../../node_modules/lit-html/directives/repeat";
+import {repeat} from "lit-html/directives/repeat";
 import css from  '../mystyles.scss';
 
 const data = {
@@ -24,7 +24,9 @@ export default {
       super();
       this.experiencias = [];
     }
-    connectedCallback(){
+
+    connectedCallback() {
+      super.connectedCallback();
       this.year = this.location.params.year;
       this.experiencias = data[this.year];
     }

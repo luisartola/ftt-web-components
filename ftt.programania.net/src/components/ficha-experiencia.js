@@ -1,4 +1,4 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import data from '../../data/2018/experiencias.json';
 import css from '../mystyles.scss';
 

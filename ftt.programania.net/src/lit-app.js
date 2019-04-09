@@ -1,5 +1,5 @@
 import css from './mystyles.scss';
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import {Router} from '@vaadin/router';
 import experienciasComponent from './components/experiencias.js';
 import linksComponent from './components/links.js';
@@ -10,7 +10,6 @@ import grupoComponent from './components/grupo.js';
 import notFoundComponent from './components/not-found.js';
 import fttNavBar from './components/nav-bar.js';
 import fttFooter from './components/ftt-footer.js';
-import wellcomeForm from './components/wellcome-form.js';
 import portadaComponent from './components/portada.js';
 import conceptoComponent from './components/concepto.js';
 import fichaComponent from './components/ficha-experiencia.js';
@@ -20,7 +19,6 @@ import horarioComponent from './components/horario.js';
 import sectionTitle from './components/ftt-section-title.js';
 
 [
-  wellcomeForm,
   sectionTitle,
   fttFooter,
   gruposComponent,
@@ -50,7 +48,6 @@ customElements.define('lit-app', class extends LitElement {
         {path: '/', component: portadaComponent.name},
         {path: '/concepto', component: conceptoComponent.name},
         {path: '/horario', component: horarioComponent.name},
-        {path: '/wellcome', component: wellcomeForm.name},
 
         {path: '/:year/grupos', component: gruposComponent.name},
         {path: '/:year/grupo/:id', component: grupoComponent.name},

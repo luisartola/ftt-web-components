@@ -1,5 +1,5 @@
 import css from  '../mystyles.scss';
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 
 export default {
   name: 'ftt-footer',

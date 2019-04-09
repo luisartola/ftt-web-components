@@ -1,8 +1,8 @@
 import css from  '../mystyles.scss';
 import a2018 from "../../data/2018/asistentes.json";
 import a2019 from "../../data/2019/asistentes.json";
-import {html, LitElement} from '@polymer/lit-element/';
-import {repeat} from "../../node_modules/lit-html/directives/repeat";
+import {html, LitElement} from 'lit-element';
+import {repeat} from "lit-html/directives/repeat";
 import {estaCapturado, liberar, capturar, dispatch, subscribe} from "./state";
 
 const data = {
@@ -31,6 +31,7 @@ export default {
     }
 
     connectedCallback() {
+      super.connectedCallback();
       this.year = this.location.params.year;
       this.asistentes = data[this.year];
       this.todos = data[this.year];
@@ -45,6 +46,7 @@ export default {
     }
 
     disconnectedCallback() {
+      super.disconnectedCallback();
       this.unsubscribe();
     }
 
@@ -105,7 +107,7 @@ export default {
           </tr>          
           </thead>
           <tbody>
-            ${repeat(this.capturados, capturado => html` 
+            ${repeat(this.capturados, capturado => capturado.id, capturado => html` 
               <tr>
               <td>${capturado.nombre}</td>
               <td><a class="delete" @click="${ () => { dispatch(liberar(capturado))} }"></a></td>

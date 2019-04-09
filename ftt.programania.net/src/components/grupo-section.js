@@ -1,6 +1,6 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import {unsafeHTML} from "../../node_modules/lit-html/directives/unsafe-html";
-import {repeat} from "../../node_modules/lit-html/directives/repeat";
+import {repeat} from "lit-html/directives/repeat";
 
 import css from '../mystyles.scss';
 import mdFactory from 'markdown-it';

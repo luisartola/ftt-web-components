@@ -1,4 +1,4 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import css from '../mystyles.scss';
 
 export default {
@@ -10,7 +10,8 @@ export default {
       };
     }
 
-    connectedCallback(){
+    connectedCallback() {
+      super.connectedCallback();
 
       //meter el año en el id de experiencia y así no necesitarlo en la ficha de experiencia
 

@@ -1,4 +1,4 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import {bulmaCarousel} from '../../node_modules/bulma-extensions/dist/js/bulma-extensions.min.js';
 import {repeat} from "lit-html/directives/repeat";
 import css from '../mystyles.scss';
@@ -35,6 +35,7 @@ export default {
   element: class extends LitElement {
 
     connectedCallback() {
+      super.connectedCallback();
       const querySelectorAll = this.shadowRoot.querySelectorAll('.carousel, .hero-carousel');
       const ignorado = new bulmaCarousel(querySelectorAll[0], {});
     }

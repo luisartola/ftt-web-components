@@ -1,6 +1,5 @@
 import css from  '../mystyles.scss';
-import {html, LitElement} from '@polymer/lit-element/';
-import {repeat} from "../../node_modules/lit-html/directives/repeat";
+import {html, LitElement} from 'lit-element';
 import {subscribe} from "./state";
 
 const pages = [
@@ -29,6 +28,7 @@ export default {
     }
 
     connectedCallback() {
+      super.connectedCallback()
       subscribe(state => {
         this.capturados = state.capturados;
       });
@@ -67,7 +67,7 @@ export default {
         <div class="navbar-menu ${ this.isActive ? 'is-active' : ''}">
           <div class="navbar-start">
           
-           ${repeat(pages, page =>html`
+           ${pages.map(page =>html`
               <a class="navbar-item" @click="${() => this.toggleMenu()}" href="${page.path}">${page.name}</a>
             `)}
            

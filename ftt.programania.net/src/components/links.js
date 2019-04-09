@@ -1,4 +1,4 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import css from '../mystyles.scss';
 import a2018 from "../../data/2018/asistentes.json";
 import a2019 from "../../data/2019/asistentes.json";

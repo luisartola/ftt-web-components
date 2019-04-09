@@ -1,4 +1,4 @@
-import {html, LitElement} from '@polymer/lit-element/';
+import {html, LitElement} from 'lit-element';
 import g2018 from "../../data/2018/grupos.json";
 import g2019 from "../../data/2019/grupos.json";
 import a2018 from "../../data/2018/audio.js";
@@ -49,6 +49,7 @@ export default {
     }
 
     connectedCallback() {
+      super.connectedCallback();
       this.year = this.location.params.year;
       this.grupo = grupos[this.year]
         .filter(grupo => grupo.id === this.location.params.id)[0];
