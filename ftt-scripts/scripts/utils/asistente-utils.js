@@ -6,6 +6,17 @@
    nombre: e.gsx$nombre.$t,
  });
 
+ const excelToAsistenteModel2019 = (e) => {
+   return ({
+     id: e.gsx$u.$t,
+     nombre: e.gsx$tunombrecompleto.$t,
+     foto: null,
+     twitter: null,
+     vienede: null
+   });
+ };
+
 module.exports = {
-  excelToAsistenteModel
+  excelToAsistenteModel,
+  excelToAsistenteModel2019
 };

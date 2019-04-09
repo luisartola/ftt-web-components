@@ -1,1 +1,1538 @@
-[]
+[
+  {
+    "id": "2/3/2019 8:17:09",
+    "nombre": "Diana Aceves",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
+      "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
+      "when": "Pues cuando tocaba evento.",
+      "how": "no tenemos",
+      "links": [
+        "Laura Lacarra tiene una charla de \"Cómo dar una charla\" pero no encuentro el link.",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "1",
+      "name": "Grupo 1"
+    }
+  },
+  {
+    "id": "2/3/2019 8:26:40",
+    "nombre": "Guillermo Gutiérrez Almazor",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "1",
+      "name": "Grupo 1"
+    }
+  },
+  {
+    "id": "2/3/2019 10:56:52",
+    "nombre": "Nacho Sánchez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Construir un nuevo producto sobre una base de código legada (un ETL, concretamente)",
+      "why": "Teníamos que construir un nuevo producto y parte de la funcionalidad y los datos se solapaban con otro producto que ya teníamos. Ante la disyuntiva de construir de cero o aprovechar la base de código existente elegimos lo segundo para coger ownership de ello, continuar iterando, y reutilizar esfuerzos existentes.",
+      "when": "Cuando ya tienes herramientas propias que puedes reutilizar y el coste compensa (spoiler: al menos en teoría).",
+      "how": "no tenemos",
+      "links": [
+        "https://github.com/spotify/luigi",
+        "https://docs.mapbox.com/vector-tiles/reference/",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "1",
+      "name": "Grupo 1"
+    }
+  },
+  {
+    "id": "2/3/2019 11:47:55",
+    "nombre": "Jerónimo López",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Aprende a programar mediante el legacy code",
+      "why": "Este año no he planificado un aprendizaje (más allá de poder saber qué es GraalVM y dar una charla del tema, pero no lo considero material para el FTT)\n\nEl tema no ha sido planificado, y me ha surgido por el mero hecho de trabajar:\n\nCuando apredemos alguna técnica, te cuentan cómo usarla, el valor que aporta y porqué es buena. Te lo crees porque lo dice alguien con autoridad e intuyes que es cierto, aunque no lo veas claro el valor real.\nLuego en tu día a día las usas en mayor o menor medida y parece que todo va bien, pero como las usas por \"cargo cult\" no aprecias de verdad el efecto de no aplicar dichas técnicas.\n\nEste año teniendo que trabajar con código legacy, para poder evolucionarlo, he tenido que refactorizarlo y cada vez que \"arreglaba\" algo, era evidente que habiendo aplicado alguna de las buenas prácticas todo hubiera sido mucho más sencillo desde el principio. Por ejemplo: que he aprendido el verdadero poder del SRP o que la herencia es el origen de muchos males :) Cuando has estado allí no lo olvidas :D\n\nHaciendo un símil: es difícil saber el infierno que es usar el GOTO cuando toda la vida has usado procedimientos/funciones, y no aprecias la mierda que te puede salir cuando lo usas.",
+      "when": "Os hackeo el formulario para contar que he seguido investigando sobre temas de rendimiento y cómo aprendiendo a usar bien las estructuras de datos o creando nuevas estructuras de datos con otra implementación (pero manteniendo una abstracción que no exponga detalles de implementación y condicione nuestro código) podemos mejorar el rendimiento de nuestra aplicación, sin necesidad de ofuscar tu código buscando mejorar un ciclo de reloj o un byte de memoria.\n¿En qué momento dejas de aplicar la fuerza bruta y te preocupas por la complejidad de tu código y tus datos? ",
+      "how": "no tenemos",
+      "links": [
+        "https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "1",
+      "name": "Grupo 1"
+    }
+  },
+  {
+    "id": "2/3/2019 12:12:30",
+    "nombre": "Alvaro García Loaisa",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Técnicas para un equipo Senior remoto",
+      "why": "El objetivo del año fue entrar con un equipo propio externo en remoto a un cliente nuevo bastante \"carca\" en estos temas, para conseguir ganarnos su confianza con un éxito en el proyecto.\nEl proyecto consistió en la sustitución de su programa core principal, que estaba muy desfasado y dando muchos problemas, por uno nuevo mas adaptado a las necesidades de sus clientes.\nConseguimos desarrollar en menos de lo previsto el proyecto, con un muy buen resultado y aportando muchas mejoras, gracias a la coordinación del equipo y el uso de prácticas técnicas de calidad, como Code Review dobles, Mob/Pair Programming remoto, sesiones de arquitectura, etc",
+      "when": "Estas técnicas podrían aplicarse para cualquier equipo ágil, pero son especialmente eficaces para solventar muchos problemas típicos de equipos en remoto.",
+      "how": "no tenemos",
+      "links": [
+        "https://en.wikipedia.org/wiki/Code_review",
+        "https://medium.freecodecamp.org/how-remote-pair-programming-works-and-why-it-can-change-your-life-cd7b767dc60f",
+        "https://www.scrum.org/resources/what-is-a-daily-scrum"
+      ]
+    },
+    "grupo": {
+      "id": "1",
+      "name": "Grupo 1"
+    }
+  },
+  {
+    "id": "2/3/2019 20:13:33",
+    "nombre": "Modesto San Juan Alvarez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Event storming y cosas similares",
+      "why": "La dinámica es muy similar y lo suelo utilizar con dos objetivos:\n\n- Poner en común el conocimiento sobre un proceso de negocio o técnico dentro del equipo para que todo el equipo conozca el proceso completo.\n- Repensar uno o varios procesos existentes para simplificarlo, reenfocarlo, eliminar desperdicio, etc.\n- Definir un proceso complejo que implica a varias disciplinas del negocio evitando que un proceso que implica a 3 disciplinas se convierta en un proceso en tres pasos (por ejemplo).",
+      "when": "Aplica cuando se da alguna de estas circunstancias: procesos complejos, procesos con complejidad accidental, equipos que necesitan poner en común conocimiento, etc.",
+      "how": "no tenemos",
+      "links": [
+        "https://www.eventstorming.com/",
+        "https://speakerdeck.com/tastapod/event-storming-for-fun-and-profit",
+        "https://www.thoughtworks.com/radar/techniques/event-storming"
+      ]
+    },
+    "grupo": {
+      "id": "2",
+      "name": "Grupo 2"
+    }
+  },
+  {
+    "id": "2/3/2019 21:52:43",
+    "nombre": "Alvaro Salazar ",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Método Marie Kondo aplicado a la empresa",
+      "why": "He tenido la suerte en los últimos 7 años  de trabajar en un startup con un crecimiento casi incontrolable y trabajar en un gran corporación. Como manager  y responsable técnico de equipos en ambas empresas, sé lo complicado que resulta encontrar un modelo organizativo que permita el alineamiento con negocio, manteniendo la autonomía de los equipos.",
+      "when": "Cuando tu empresa empieza a escalar , cuando te das cuenta que impera la necesidad de tener equipos que puedan responder a diferentes áreas del negocio de forma autónoma...",
+      "how": "no tenemos",
+      "links": [
+        "https://rework.withgoogle.com/print/guides/5721312655835136/",
+        "https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897",
+        "https://dl.illwieckz.net/b/oreilly/free/www.oreilly.com/programming/free/files/designing-autonomous-teams-and-services.pdf"
+      ]
+    },
+    "grupo": {
+      "id": "2",
+      "name": "Grupo 2"
+    }
+  },
+  {
+    "id": "2/4/2019 10:11:41",
+    "nombre": "Joaquin Engelmo Moriche",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "2",
+      "name": "Grupo 2"
+    }
+  },
+  {
+    "id": "2/4/2019 19:17:21",
+    "nombre": "Xabier Amutxastegi",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "2",
+      "name": "Grupo 2"
+    }
+  },
+  {
+    "id": "2/4/2019 19:43:50",
+    "nombre": "Yeray Darias Camacho",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "El próximo que diga <buzzword> le arranco la lengua!!!",
+      "why": "Cada vez más nos encontramos con jefes de proyecto y directivos que intentan imponer una arquitectura de microservicios a sus equipos, sin conocer sus limitaciones y complejidades. O que quiere hacer algo con Blockchain. Un grupo de personas subidas en su torre de marfil empiezan a usar buzzwords que no saben que siginifican pero que suenan bien.\nCuando hay que dar más importancia a conceptos como delivery, clean architecture, 12 factor apps, hay gente que sólo quiere construir el próximo Netflix aunque su producto sea una mierda y no esté en producción, pero hay que acabar con eso. Hay que construir software útil y luego evolucionarlo, por eso propongo el decir que sí y hacer lo que más convenga al proyecto, no se van a dar cuenta!!!",
+      "when": "Aplica siempre que venga un jefecillo de proyecto que quiera aplicar una tecnología de la que ha oido hablar hace dos días sin haberla probado. Cuando viene el típico compañero que quiere hacer su trozo de código en Go aunque el 110% de la compañía sea Java ... también aplica.",
+      "how": "no tenemos",
+      "links": [
+        "https://duckduckgo.com/?q=microservices+are+not+so+good&t=ffab&ia=web",
+        "https://duckduckgo.com/?q=blockchain+as+a+silverbullet&t=ffab&ia=web",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "2",
+      "name": "Grupo 2"
+    }
+  },
+  {
+    "id": "2/5/2019 10:43:17",
+    "nombre": "Don Xabier Sáez de Ocáriz Lavín",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "3",
+      "name": "Grupo 3"
+    }
+  },
+  {
+    "id": "2/7/2019 14:32:11",
+    "nombre": "Vicenç García Altés",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "You build it, you run it",
+      "why": "Entramos en un equipo un poco immaduro a ayudarles en su producto. Empezamos poco a poco, sobretodo preguntando cosas como: por qué la build falla casi siempre? Por qué estos tests son tan lentos y tan frágiles? Por qué tardáis un dia en desplegar? Pero el hecho que lo cambió todo fué cuando nos dijeron que el servicio iría a producción justo antes de Navidad y que el equipo sería el encargado de estar on call. El pensamiento de poder ser despertado a las 3 de la mañana por que te daba pereza añadir un test hizo que la calidad del servicio aumentara a muchísima velocidad.",
+      "when": "Como desarrolladores estamos demasiado acostumbrados a preocuparnos de nuestro código hasta que pasa QA. Pero producción es un mundo aparte con unos sitemas celulares capaz de romperlo todo: los usuarios. Desdeñar el aprendizaje y las consecuencias de tener algo en producción es un lujo que ningún equipo se puede permitir.",
+      "how": "no tenemos",
+      "links": [
+        "Preparar nuestro software para fallos, tener una buena monitorización, prepararnos en caso de que algo falle, tener buenos playbooks, etc.",
+        "https://medium.com/aws-enterprise-collection/part-3-in-the-enterprise-devops-series-why-you-should-run-what-you-build-c62f0990f4c3",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "3",
+      "name": "Grupo 3"
+    }
+  },
+  {
+    "id": "2/9/2019 9:31:37",
+    "nombre": "Borja Reinares Ruiz Navarro",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "3",
+      "name": "Grupo 3"
+    }
+  },
+  {
+    "id": "2/9/2019 9:35:14",
+    "nombre": "Iker Mariñelarena",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "3",
+      "name": "Grupo 3"
+    }
+  },
+  {
+    "id": "2/9/2019 9:36:13",
+    "nombre": "Gorka Moreno",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "3",
+      "name": "Grupo 3"
+    }
+  },
+  {
+    "id": "2/9/2019 9:37:56",
+    "nombre": "Julen Garcia Leunda",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "4",
+      "name": "Grupo 4"
+    }
+  },
+  {
+    "id": "2/9/2019 10:09:53",
+    "nombre": "Marta Manso ",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
+      "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,… y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
+      "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
+      "how": "no tenemos",
+      "links": [
+        "https://blog.crisp.se/wp-content/uploads/2018/09/confessions-of-a-change-agent.jpg",
+        "https://innokabi.com/lienzo-lean-canvas-el-lienzo-de-los-emprendedores/",
+        "https://es.wikipedia.org/wiki/Lean_startup"
+      ]
+    },
+    "grupo": {
+      "id": "4",
+      "name": "Grupo 4"
+    }
+  },
+  {
+    "id": "2/9/2019 10:11:02",
+    "nombre": "Fernando Fariña",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "4",
+      "name": "Grupo 4"
+    }
+  },
+  {
+    "id": "2/9/2019 10:11:07",
+    "nombre": "Fran Mosteiro",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Blamaless incident reports",
+      "why": "Tras haber provocado y contenido una incidencia en alguno de tus clientes, ¿cómo hace el equipo para aprender y mejorar o incluso no volver a repetir los mismos errores?\nHay mil maneras (supongo), pero en nuestro caso comenzamos por lo más básico: blameless incident reports (un poco a nuestra manera) .\n- analizar y recopilar los datos objetivos\n- observar lo ocurrido con \"ojos limpios\"\n- analizar el output  y cómo se solventó el \"outage\"\n- diverger en posibles acciones para que no vuelva a ocurrir\n- converger en los pasos más obvios para asegurarnos que no ocurra de nuevo",
+      "when": "Todo esto, sobre el contexto de nuestro equipo:\n- multiproyecto, multicliente, con alta rotación y técnicamente alejado del SOLID, XP, etc",
+      "how": "no tenemos",
+      "links": [
+        "http://www.eferro.net/2018/04/dont-blame-manifesto-for-agile-software.html",
+        "https://www.thumbtack.com/engineering/blameless-incident-postmortems/",
+        "https://github.com/Backline/incidents"
+      ]
+    },
+    "grupo": {
+      "id": "4",
+      "name": "Grupo 4"
+    }
+  },
+  {
+    "id": "2/9/2019 12:02:07",
+    "nombre": "Aitor Alzola ",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Hablarse mucho con el resto del equipo.",
+      "why": "Al ser el nuevo que necesita aprenderlo todo y porque parecía que hacía falta un poco más de comunicación. Concretamente dentro del equipo de backend que es donde yo estoy, pero también con la parte de producto y apps, en general todos.",
+      "when": "Todo el rato, continuamente tengo dudas que necesito resolver. Y aún creo que nos queda bastante. Especialmente cuando necesitas coordinación entre varios miembros del equipo (casi siempre) o con otros equipos.",
+      "how": "no tenemos",
+      "links": [
+        "No tengo ningún link al respecto, y probablemente esto es un poco meh",
+        "http://Tampoco_es_una_técnica_o_tecnología.com",
+        "http://Pero_bueno_es_lo_que_hay_sorry.com"
+      ]
+    },
+    "grupo": {
+      "id": "4",
+      "name": "Grupo 4"
+    }
+  },
+  {
+    "id": "2/9/2019 12:45:01",
+    "nombre": "Irune",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Antinieblas",
+      "why": "Cómo gestionar el conocimiento en proyectos / producto cuya vida excede la permanencia del miembro más longevo del equipo? O peor aún, cuando un proyecto ajeno cae en tus manos (modelo en donde un cliente te trae el proyecto que ha pasado por demasiadas manos).\n\nTener toneladas de páginas de documentación es costoso de mantener y consultar. La verdad está ahí dentro, en el código, pero existen técnicas antiniebla que puedan iluminarnos el camino?\n\nMapas funcionales y técnicos generales para tener un inventario de los  bastos dominios a cubrir, notebooks o wikis que nos muestren las rutas de la seda por las que transitar, y la agenda de contactos necesaria para aprovisionarnos durante el camino.\n\n",
+      "when": "Cuando trabajas con legacy, o proyectos con tanto contenido que ni el equipo actual sabe lo que tiene entre manos.",
+      "how": "no tenemos",
+      "links": [
+        "No conozco nada curado /shrug",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "5",
+      "name": "Grupo 5"
+    }
+  },
+  {
+    "id": "2/9/2019 15:17:50",
+    "nombre": "Catalina Oyaneder Hurtado",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Full-Popurrí Developer",
+      "why": "Se me entremezclan los sentimientos cuando pienso si progreso adecuadamente como programadora. Me cuesta desacoplar la idea de que el número de líneas de código commiteadas justifican mi salario. En este último tiempo he interiorizado mejor el impacto del producto en el que trabajo desde aportando ideas en el diseño, aún no siendo mi campo pero justificando la intrusión en que es porque creo en lo que hago a la implementación del frontend usando React, el aprendizaje de Java para poder hacer crecer el backend y experimentar esa adrenalina cuando juegas con Docker y k8s y empiezas a conectar puntos.",
+      "when": "Sentarme con alguien de CS y ver en vivo y en directo los problemas que tus usuarios intentan resolver y recordar que lo que programas no es para ti sino para facilitar la vida de los demás. A nivel técnico me entretiene mucho intentar implementar servicios de terceros en nuestro POD y que los de Seguridad se queden tranquilos :)",
+      "how": "no tenemos",
+      "links": [
+        "https://nodejs.org/en/docs/guides/nodejs-docker-webapp/ Para mi el más intuitivo 101 para empezar con docker",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "5",
+      "name": "Grupo 5"
+    }
+  },
+  {
+    "id": "2/9/2019 15:45:09",
+    "nombre": "Patxi Bocos",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Programación funcional",
+      "why": "Que si las higher order functions, el currying, los higher kinded types, las type classes… No cabe duda que la programación funcional está tirando fuerte y muchos lenguajes \"mainstream\" están adoptando en mayor o menor medida ciertos conceptos. Pero quién en su día a día trabaja con algún lenguaje puramente funcional (tal que Haskell) o haciendo uso intensivo de estas técnicas?",
+      "when": "A esta pregunta busco respuesta yo también 😂\nHay partes que son aplicables en cualquier contexto, trasladables a lenguajes que no son de base funcional.\nOtro punto importante a debatir es el contexto de la aplicación a nivel de empresa/equipo: ¿cómo podemos introducir conceptos o un paradigma funcional en nuestra empresa sin hacer una PR que asuste?",
+      "how": "no tenemos",
+      "links": [
+        "No sé si aplica link aquí :/",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "5",
+      "name": "Grupo 5"
+    }
+  },
+  {
+    "id": "2/9/2019 16:02:34",
+    "nombre": "Ruben Eguiluz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Estrategias de mocking de repositorios",
+      "why": "Al principio de los tiempo cuando implementaba un servicio haciendo TDD, los repositorios los \"mockeaba\" usando la librería de turno, pero en Alea aprendí una nueva técnica: implementar un fake repo, normalmente en memoria.  La duda que me ha entrado últimamente es cómo preparar/asertar el test... veo dos caminos: a través del propio API del servicio que se está implementando o usando el fake repo directamente. Cada una de las opciones tienen sus pros-contras obviamente, pero me gustaría proponer este debate :) ",
+      "when": "Cuando se implementa un servicio que usa un repositorio haciendo TDD",
+      "how": "no tenemos",
+      "links": [
+        "No hay links jeje ",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "5",
+      "name": "Grupo 5"
+    }
+  },
+  {
+    "id": "2/9/2019 19:00:11",
+    "nombre": "Alberto Gualis Giménez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "5",
+      "name": "Grupo 5"
+    }
+  },
+  {
+    "id": "2/9/2019 21:12:35",
+    "nombre": "Alberto Perez Alonso",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "De las tablas también se sale (ó no sin mis tablas)",
+      "why": "Me he encontrado con muchas personas que \"aprietan el culo\" si les digo de salir a producción persistiendo la información en ficheros. Acaban poniendo cara de que no es serio/profesional.\nEl objetivo es demostrar que se puede vivir sin tablas y salir a producción con repositorios que persistan en ficheros normalicos (texto plano sería ideal)",
+      "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la información y con lo mínimo, podemos aplazar esta decisión",
+      "how": "no tenemos",
+      "links": [
+        "https://deviq.com/repository-pattern/",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "6",
+      "name": "Grupo 6"
+    }
+  },
+  {
+    "id": "2/9/2019 21:20:44",
+    "nombre": "Francho Joven",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Bajarse del burro (la regla del 80/20)",
+      "why": "Tras varios años trabajando en equipos ágiles muy alineados he llegado a una empresa que no lo es y que sigue como un mantra la ley de Pareto (el 80% de los ingresos, mejoras, lo que sea... proviene del 20% de acciones). \nEsto hace que haya visto cosas que no creeríais... pero es un caso de éxito ya que facturan millones y es una empresa que lo ha conseguido (respect). Esto ha hecho que me replantee ciertas cosas y me apee del burro de TalibanCraftmanshipAgilista. \nActualmente ando buscando un punto intermedio entre \"nuestro caos\" y los principios con los que he trabajado en los últimos años donde me sienta cómodo, para tratar de empujar en esa dirección.\n",
+      "when": "El principio se puede aplicar a casi todo, aunque nosotros principalmente lo aplicamos software, stocks, y gestión de incidencias con clientes",
+      "how": "no tenemos",
+      "links": [
+        "https://es.wikipedia.org/wiki/Principio_de_Pareto",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "6",
+      "name": "Grupo 6"
+    }
+  },
+  {
+    "id": "2/9/2019 21:39:01",
+    "nombre": "Gonzalo Ayuso",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "1) gestión de equipos/el-ser-humano-es-horrible 2) microservicios o micro-macro servicios o todo a la vez 3) JQuery en el 2019",
+      "why": "1) La teoría es sencilla. Pero el día a día es complicado. Todo parecen excepciones, aquí no puede, ... 2) Los microservicios parecen la solución a todo, pero ¿No estamos montando una sobreingeniería para hacer algo que hace 10 años lo hacíamos con dos cosas? ¿Los usamos porque los necesitamos o porque queremos usarlos? 3) Hemos elegido jQuery como framework de desarrollo en el 2019 y estamos muy contentos (Lo de jQuery tiene trampa. Es un framwork del ecosistema SAP: Opensource y con jQuery muy por debajo)",
+      "when": "1) Equipos consolidados  2) Entorno de producción con muchos componentes ya funcionando y algún que otro nuevo. ¿Lo migramos todo? ¿Nos hemos vuelto locos? 3) Desarrollo de front con unos requisitos de ciclo de vida de aplicaciones altos ¿Qué framework estará de moda dentro de 5 años?",
+      "how": "no tenemos",
+      "links": [
+        "https://openui5.hana.ondemand.com/",
+        "https://ui5lab.io/",
+        "https://sap.github.io/ui5-webcomponents/"
+      ]
+    },
+    "grupo": {
+      "id": "6",
+      "name": "Grupo 6"
+    }
+  },
+  {
+    "id": "2/9/2019 22:13:58",
+    "nombre": "Carlos Rueda Morales",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Concepto de microservicios en la capa de persistencia",
+      "why": "Trabajo en un producto con >15 años en sus espaldas. Los últimos años hemos ido dandole mordiscos para adelgazar el monolito e ir construyendo una arquitectura basada en microservicios.\n\nDurante este tiempo la capa de persistencia (la base de datos, vaya...MySQL en nuestro caso) se ha ido manteniendo en un monolito que ha ido creciendo y creciendo ... recibimos muchos datos (millones de mensajes diarios) que nuestros jefes nunca quieren borrar (síndrome de Diógenes digital).\n\nSobre esa base de datos monolítica hemos ido aplicando distintas técnicas para poder ir sobreviviendo con ella (replica master-slave, sharding, etc) pero ha llegado un punto en el que los backups son inmanejables y las operaciones cada vez más lentas, debido a un modelo de datos agotado y un volumen monstruoso (decenas de gigas).\n \nAplicando una filosofía similar a la de los microservicios hemos diversificado nuestra capa de persistencia por funcionalidad y eligiendo el tipo de base de datos más adecuada a cada caso concreto. De esta forma ahora mismo trabajamos con 4 bases de datos de naturalezas muy diversas (MySQL, mongoDB, InfluxDB y Redis) y nos estamos planteando incluir una 5ª (Cassandra)\n\nLas pegas de esto son principalmente 2: el trabajo de IT se multiplica y hay que tener cuidado con la sincronización de datos comunes en bases de datos diferentes.\nLas ventajas: TODO lo demás: backups mas sencillos y seguros, mayor tolerancia a fallos y, sobretodo, poder aprovechar las bondades de cada motor de base de datos concreto en su ámbito de actuación (ejemplo: influx es muy bueno para almacenar series temporales, Redis para frecuencias de consultas muy elevadas, mongo para datos no estructurados, etc)\n",
+      "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va añadiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
+      "how": "no tenemos",
+      "links": [
+        "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "6",
+      "name": "Grupo 6"
+    }
+  },
+  {
+    "id": "2/9/2019 22:27:32",
+    "nombre": "Agustín Herranz Cecilia",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Olvidate del repo! Hackeando cultura usando artefactos.",
+      "why": "Usar artefactos para favorecer la entrega continua. En origen partíamos de un proceso de despliegue manual en base a gitflow y git pull, que generaba ataques de ansiedad (hasta que no lo vi por mis propios ojos no me creía que fuera posible).\nSe implantaron pipelines de CI con un único requisito 'duro': una vez pasados las comprobaciones necesarias se generan un artefacto auto-contenido (tar.gz) con lo necesario para ser desplegado, no se despliegan repositorios.\nEsto estandariza y desacopla completamente el proceso de despliegue de forma que el repositorio y su estado dejan de ser una vaca sagrada, y nos podemos centrar más en aportar valor que en masajear el ego del repositorio y de los devs.",
+      "when": "Cuando se quiere ir hacia un esquema de entrega continua. Centrar la importancia en lo desplegado en producción en lugar del estado del repositorio (es una manera sutil de ayudar a dejar de mirar el ombligo al código y centrar la vista en lo que aporta valor). Usar Trunk Base Development o cualquier otro esquema que acelere la entrega continua.",
+      "how": "no tenemos",
+      "links": [
+        "Crear artefactos en nuestra pipeline de CI (tar.gz, jar, wheel, docker, etc.) con lo necesario para asegurar un despliegue repetible. ",
+        "https://continuousdelivery.com/implementing/patterns/",
+        "https://www.michielrook.nl/2018/01/typical-ci-cd-pipeline-explained/"
+      ]
+    },
+    "grupo": {
+      "id": "6",
+      "name": "Grupo 6"
+    }
+  },
+  {
+    "id": "2/10/2019 17:17:57",
+    "nombre": "Endika García Gayoso",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "¿Crees que tu app puede ser replicable y quieres ofrecer LO MISMO a nuevos clientes bajo su marca? Deja el Copy Paste, Flavors y Dimensions son tu arma de expansión masiva.",
+      "why": "El problema al que nos hemos enfrentado, ha sido enfrentarnos a la propuesta en primer lugar de un cliente, de poder explotar la solución que habíamos desarrollado para él, generando \"clones\" de la misma, para que este pueda ofrecer a sus clientes y colaboradores, para un uso interno en cada caso, y bajo su sistema e imagen. Empezamos a necesitar generar producto personalizable y replicable de manera sencilla, controlada, automatizada, y escalable.\n\nCon esto, hemos conseguido una base de código unificada, que compila automáticamente N réplicas de una misma App, con la misma funcionalidad y estructura (o al 90% en algunos casos), pero con aspectos, contenidos, e integraciones específicas para cada caso.",
+      "when": "Aplica cuando desarrollas una App que ofrece un servicio, que puede ser de interés para otras empresas, y te planteas ofrecer la misma solución, a empresas de tu mismo negocio, bajo su marca, cuando necesitas ofrecer una misma solución en contextos diferentes o cuando dispones de un producto que requiera de una personalización específica para cada nuevo cliente.",
+      "how": "no tenemos",
+      "links": [
+        "https://developer.android.com/studio/build/build-variants?hl=es-419",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "7",
+      "name": "Grupo 7"
+    }
+  },
+  {
+    "id": "2/10/2019 18:25:07",
+    "nombre": "Jezabel González Diez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Comunicación empática",
+      "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociación. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
+      "when": "En cualquier momento que necesitemos comunicarnos de forma efectiva -> Comunicación empática\nCuando queramos solucionar un conflicto -> Negociación\nCuando queremos conseguir un proyecto / cliente - > Persuasión\nCuando tenemos que recoger requisitos / historias de usuario -> Escucha activa",
+      "how": "no tenemos",
+      "links": [
+        "https://marketingaholic.com/principios-de-la-persuasion-robert-cialdini/2274/",
+        "https://cefne.com/metodo-harvard-negociacion",
+        "https://es.scribd.com/document/254483624/No-Hay-Personas-Dificiles-Bolton-Robert-Grover-Bolton-Dorothy"
+      ]
+    },
+    "grupo": {
+      "id": "7",
+      "name": "Grupo 7"
+    }
+  },
+  {
+    "id": "2/11/2019 17:12:23",
+    "nombre": "Jose Ramón",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Introduciendo el modelo de fluidez ágil",
+      "why": "El objetivo es tener un destino, una visualización clara de dónde ir y dónde se está, de los equipos ágiles. Eso ayuda a los equipos a conocerse, a plantearse los objetivo, y a la organización (management) a entender las inversiones necesarias.",
+      "when": "Aplica en organizaciones que quieren entender la situación de sus equipos respecto a \"lo ágil\", y evolucionar y mejorar.",
+      "how": "no tenemos",
+      "links": [
+        "https://www.agilefluency.org/",
+        "https://www.ynspira.com/modelo-de-fluidez-agil/",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "7",
+      "name": "Grupo 7"
+    }
+  },
+  {
+    "id": "2/11/2019 18:34:25",
+    "nombre": "Beñat Espiña Diaz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Arquitecturas hexagonales",
+      "why": "Cuando aterrizas en una plataforma enorme, con código de hace 7 años, que ha pasado por muchas manos y que encima el paradigma del FW es tan axfisiante que no te da cancha, o pegas un viraje 180º o no hay nada que hacer. La progresiva implantación de los paradigmas hexagonales en los diferentes codebase de la compañía nos ha hecho ser más ágiles al cambio y poder separar las dos líneas de tiempo dominantes en cualquier producto SW: la de negocio y la técnica.",
+      "when": "Cuando trabajas en una plataforma que no desintegra el átomo en términos de negocio pero cada vez necesitas más y más developers. Cuando una feature de negocio te impacta directamente en la evolución técnica de la plataforma. Cuando acometer esa necesaria evolución técnica es tan arriesgada ya que puede generar efectos colaterales en tu negocio. Para esto y mucho más, las arquitecturas hexagonales pueden sernos de gran ayuda.",
+      "how": "no tenemos",
+      "links": [
+        "Clean Architecture by Uncle Bob --> https://www.amazon.es/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/\n\nEn el Link 2 está mi resumen sobre el libro :)",
+        "https://github.com/benatespina/book-notes/blob/master/clean_architecture.md",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "7",
+      "name": "Grupo 7"
+    }
+  },
+  {
+    "id": "2/12/2019 15:09:56",
+    "nombre": "Jose Ignacio Andrés Hernández",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "7",
+      "name": "Grupo 7"
+    }
+  },
+  {
+    "id": "2/12/2019 19:30:38",
+    "nombre": "María Berenguer",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Juegos serios para divulgar Agile",
+      "why": "Aprender es motivante, y más aún si la forma de hacerlo es entretenida. Me encantan los juegos, y los uso mucho con los equipos. Aunque, eso sí, los \"Juegos Serios\" no son jugar \"porque sí\". La inversión de ese tiempo debe tener un motivo (el aprendizaje) para que se convierta en algo memorable. De lo contrario caemos en el estereotipo de que Agile es abrazar árboles, y quienes participan en los juegos tienen la sensación de perder el tiempo. Y no es así: se puede explicar la deuda técnica jugando, y los fundamentos de eXtreme Programming, flujos de trabajo, valores...\nEn los últimos meses he invertido mucho tiempo en:\n* investigar nuevos aprendizajes y moralejas de los juegos que ya uso\n* reinventar otros, a los que no veía fundamento tal cual se cuentan\n* buscar aplicaciones en el mindset Agile a juegos de mesa\n* inventar mis propios juegos (esto, estoy empezando)",
+      "when": "Como decía, jugar para transmitir un aprendizaje, no sólo \"porque sí\"\nCuando haces onboarding de personas a equipos de desarrollo, un juego es una buena forma de contar cómo funciona el equipo, y de integrarse con los demás.\nTambién los uso cuando quiero introducir una nueva técnica o concepto\nComo parte de espacios colaborativos donde gente de distintos equipos trabajan juntos\nY podría seguir...",
+      "how": "no tenemos",
+      "links": [
+        "http://www.onseriousgames.com/",
+        "http://play4agile.org/",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "7",
+      "name": "Grupo 7"
+    }
+  },
+  {
+    "id": "2/13/2019 10:02:14",
+    "nombre": "Imanol Pinto Carral",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Microservicios asíncronos",
+      "why": "Porque llevo dos años trabajando en un conjunto de microservicios que se comunican de manera asíncrona, con todas las problemáticas que conlleva... Estoy muy contento con nuestro trabajo y el resultado que hemos obtenido, aunque, como siempre, hay cosas que podríamos haber hecho mejor (a toro pasado esas decisiones parecen lógicas).",
+      "when": "En sistemas complejos y muy específicos. Con varios equipos pequeños que saben trabajar en equipo y junto al resto de equipos. La buena comunicación con el resto de equipos es imprescindible.",
+      "how": "no tenemos",
+      "links": [
+        "https://eng.uber.com/reliable-reprocessing/",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "8",
+      "name": "Grupo 8"
+    }
+  },
+  {
+    "id": "2/13/2019 17:10:11",
+    "nombre": "German Del Zotto",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Convertir unas aplicaciones (casi CRUD) interconectadas en un \"sistema\" ",
+      "why": "Las operaciones se van sofisticando, con lo cual el software donde eso ocurre (aplicaciones para usuarios, servicios de lógica de negocio, almacenamiento de datos) que son desarrolladas ad-hoc para nuestra empresa comienzan a ser mucho más complejas y soportan muy mal los cambios en el negocio y sufren las integraciones.\n\nSe necesita un enfoque más sistémico, donde cada área sea más autónoma, pero conviva mejor con sus vecinos. Ya no es posible tener un modelo centralizado que soporte a todo y todos.",
+      "when": "Había que pasar de ser una startup buscando modelo de negocio (mucho MVP) a una empresa con un crecimiento bestial, nuevos servicios a clientes, y más operaciones (que son locales) en más países requieren escalar el equipo y obtener ventajas claras del software para hacerlo.",
+      "how": "no tenemos",
+      "links": [
+        "https://en.wikipedia.org/wiki/Domain-driven_design",
+        "https://www.amazon.es/Object-Oriented-Software-Engineering-Approach/dp/0201544350",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "8",
+      "name": "Grupo 8"
+    }
+  },
+  {
+    "id": "2/18/2019 10:49:38",
+    "nombre": "Sergio Sáenz Romero",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Desarrollo de producto. Descubriendo la cultura devops.",
+      "why": "La mayor parte de mi experiencia laboral la he pasado en una empresa de servicios. Una consultora de toda la vida. En la mayoría de los proyectos que desarrollaba estaba muy viciada la relación entre proveedor y cliente. Normalmente tenía que responder ante una jerarquía inacabable de gente que sabe más que tu y te dice lo que tienes que hacer. La sensación general es de que el cliente no obtiene el valor necesario de tu trabajo debido a la inmensa cantidad de capas entre el desarrollo y el usuario.\n\nEste último año he conseguido entrar en el mundo del desarrollo de producto en un equipo con una cultura devops muy fuerte. He tenido la suerte de tener a mi lado a David, que para mi ha sido un mentor capaz de enseñarme otra forma de hacer software. Más cercana al aporte de valor real al usuario.\nUna de las claves con las que me quedo es que cada integrante del equipo es conocedor de todo el ciclo de desarrollo del software. Desde el negocio hasta el despliegue y vuelta al negocio de nuevo.\nTambién me quedo con grandes lecciones de economía del software. Como desarrollador soy parte del negocio. El coste de mi trabajo también es mi responsabilidad por lo que tengo que maximizar el valor aportado al cliente minimizando el coste no solo a corto, si no también a largo.\nUn aspecto que ha sido diferencial para mi es que todo el producto es responsabilidad del equipo, no solo del individuo. Yo no solo soy responsable de mi código si no de todo el producto. \n\nEn resumen, me quedo con el salto cultural que he experimentado entre dos mundos que deberían parecerse más.\n\n",
+      "when": "Creo que en general, esta cultura de equipo aplica a desarrollo de producto. O al menos es más fácil implementarla por la propia organización de este tipo de empresas.\nCreo que hay empresas de servicios que también son capaces de aplicar esta forma de organización y trabajo, pero es más difícil encontrar clientes que quieran trabajar así con sus proveedores. ",
+      "how": "no tenemos",
+      "links": [
+        "Me encanta todo lo que cuenta Eduardo Ferro en su blog. Está super metido en la cultura devops y para mi es un referente.\nTambién creo que es muy recomendable Luis Artola y su pedazo de libro sobre economía del software (conste que no es peloteo, es culpa de David que me ha hackeado el cerebro). Creo que está haciendo un esfuerzo muy necesario para estrechar barreras entre desarrollo y negocio.",
+        "http://www.eferro.net/",
+        "https://leanpub.com/software-economics"
+      ]
+    },
+    "grupo": {
+      "id": "8",
+      "name": "Grupo 8"
+    }
+  },
+  {
+    "id": "2/18/2019 18:17:30",
+    "nombre": "Javier Rubio Rubio",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "8",
+      "name": "Grupo 8"
+    }
+  },
+  {
+    "id": "2/22/2019 12:09:55",
+    "nombre": "Jorge Juan Barroso Carmona",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "8",
+      "name": "Grupo 8"
+    }
+  },
+  {
+    "id": "2/25/2019 16:24:07",
+    "nombre": "Alfredo Fernández",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "9",
+      "name": "Grupo 9"
+    }
+  },
+  {
+    "id": "3/3/2019 10:34:00",
+    "nombre": "Álex Dolara",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "9",
+      "name": "Grupo 9"
+    }
+  },
+  {
+    "id": "3/3/2019 10:54:44",
+    "nombre": "Dani Latorre",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "9",
+      "name": "Grupo 9"
+    }
+  },
+  {
+    "id": "3/3/2019 23:47:52",
+    "nombre": "Eduardo Ferro Aldama",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Macroeconomics / Entrega continua y excelencia técnica (XP Moderno)",
+      "why": "Si queremos centrarnos en Outcomes en vez de en outputs y poder evolucionar un producto a lo que el mercado nos vaya indicando, necesitamos ser capaces de sacar a producción experimentos y funcionalidades a gran velocidad con una buena estabilidad. Esto se consigue con la entrega continua y para poder llevarla a cabo requires un proceso de calidad y centrado en la excelencia técnica.",
+      "when": "Empresa de producto y que sea tecnológica (quiero recordar que hay una gran tendencia general de pasar de proyectos a productos y que hoy por hoy las empresas que no se consideran tecnológicas tienen un futuro muy limitado).\nRespecto a cuando, para mi es un ideal a perseguir como target condition y guia. Pueden existir momentos concretos en el que desactivar este objetivo, pero como excepción y no como regla. Y por otro lado si no tienes la experiencia de hacer entrega continua, tampoco tienes el criterio de saber cuando desactivar algunas partes.  Esto es como pilotar barcos grandes, los movimientos son lentos y dificiles...",
+      "how": "no tenemos",
+      "links": [
+        "Las compañías que dominan los medios de producción son las que son capaces de florecer y dirigir las revoluciones. Estamos justo en el punto de inflexión de la revolución del software así que las empresas que lo petan son las que dominan el desarrollo sostenido de software (medio de producción). Estas élites son capaces de entregar varias veces al día, con un tiempo de puesta en marcha de menos de una hora y con una muy buena estabilidad (MTTR menor de una hora y un porcentaje de fallos de lo puesto en producción <10%). Vamos, la élite de esta revolución hace Entrega Continua (excelencia técnica y calidad en todo el proceso).",
+        "https://cloudplatformonline.com/2018-state-of-devops.html",
+        "https://agilemanifesto.org/iso/es/principles.html"
+      ]
+    },
+    "grupo": {
+      "id": "9",
+      "name": "Grupo 9"
+    }
+  },
+  {
+    "id": "3/4/2019 8:44:57",
+    "nombre": "Luis Artola",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "9",
+      "name": "Grupo 9"
+    }
+  },
+  {
+    "id": "3/5/2019 16:05:24",
+    "nombre": "Jordi Díaz Añorga",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "10",
+      "name": "Grupo 10"
+    }
+  },
+  {
+    "id": "3/5/2019 16:55:37",
+    "nombre": "Javier Gamarra",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Transparent leadership",
+      "why": "Dar confianza como líder a un nuevo equipo. No voy a refinar más xD.",
+      "when": "Nuevo líder de equipo, incorporación a un nuevo equipo en el que hay baja confianza.",
+      "how": "no tenemos",
+      "links": [
+        "Básicamente: ser transparente, seguir followups...",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "10",
+      "name": "Grupo 10"
+    }
+  },
+  {
+    "id": "3/8/2019 9:01:45",
+    "nombre": "inigo delgado ",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Negarte y su cadena de consecuencias",
+      "why": "He vivido como la negación hace desatascarse proyectos ante clientes que se guían por el dogma de que 'el cliente siempre tiene la razón', pero aparte de esos pequeños detalles lo bonito son todas las implicaciones que tiene detrás: En algunos momentos es inevitable la imposibilidad de negarse porque el producto no es tuyo. Llegados a ese momento: Qué esfuerzo merece un producto que no es tuyo? Que se le puede pedir a un desarrollador cuyo producto no es suyo? 9-17? Es licito arriesgar? Es ético obviar información a tu empleador tecnofobo cuando sabes -aunque el no lo sepa- que va a ser mas provechoso para tu trabajo que no hacerlo y sabes que el/ella te lo negaría?...",
+      "when": "Se aplica en el día a día y lo veo mas como una cuestion filosófica",
+      "how": "no tenemos",
+      "links": [
+        "Vi algún retazo de esto en el libro de TDD de Kent Beck, creo recordar, o en el de Clean Code (no recuerdo)",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "10",
+      "name": "Grupo 10"
+    }
+  },
+  {
+    "id": "3/8/2019 9:37:57",
+    "nombre": "Aritz Águila Díaz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "10",
+      "name": "Grupo 10"
+    }
+  },
+  {
+    "id": "3/9/2019 9:27:33",
+    "nombre": "David González",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "10",
+      "name": "Grupo 10"
+    }
+  },
+  {
+    "id": "3/9/2019 9:38:11",
+    "nombre": "Abel Muiño Vizcaino",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "11",
+      "name": "Grupo 11"
+    }
+  },
+  {
+    "id": "3/9/2019 12:33:37",
+    "nombre": "Alberto Rodríguez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Arquitectura apañadica / Clean Arquitechture en “el mundo real” / IDD a lo pobre",
+      "why": "Pasada la fase de prototipo, cuando una aplicación crece, y tienes el típico monolito basado en un framework MVC, se hace difícil tener una visión de qué hace tu aplicación y qué afecta a qué. Para lograr una cierta mantenibilidad en bases de código grandes, se hace necesario definir una arquitectura adicional más allá de la que te da el propio framework.",
+      "when": "Si aterrizas en un proyecto con un montón de código legado, sin una arquitectura clara, acoplado al framework. Cuando salir de ese agujero parece complicado. Si ves a otros hablar de DDD, IDD, arquitecturas limpias, etc, y piensas “ya me gustaría a mí verte con esto entre manos”.",
+      "how": "no tenemos",
+      "links": [
+        "No tengo un enlace que lo explique exactamente porque es un poco cosecha propia, un refrito de ideas, una suerte IDD simplificado desacoplando de la capa de delivery, no tan estricto en otras cosas. Basado principalmente en convenciones (organización por features, interactors como punto de entrada a tu “core”, query objects, callable objects).",
+        "https://codurance.com/2017/12/08/introducing-idd/",
+        "https://vimeo.com/130256611"
+      ]
+    },
+    "grupo": {
+      "id": "11",
+      "name": "Grupo 11"
+    }
+  },
+  {
+    "id": "3/9/2019 16:24:32",
+    "nombre": "Mikel Ros León",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "11",
+      "name": "Grupo 11"
+    }
+  },
+  {
+    "id": "3/9/2019 17:31:37",
+    "nombre": "Manuel Rivero Gonzalez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Introducir progresivamente una arquitectura funcional basada en efectos y coefectos en una SPA legacy",
+      "why": "Me encontré con una SPA legacy con arquitectura diluida hasta convertirse en una sopa imperativa con responsabilidades mezcladas que era muy difícil de testear y entender.  Aunque creamos herramientas de testing (dobles de pruebas, trabajo con canales, ...), esto sólo atacaba los síntomas y no el problema. Para atacar el problema decidimos introducir de manera progresiva (usando strangler application pattern) una arquitectura funcional con constraints fuertes sobre los side-effects para reducir la barrera de entrada al testing y crear islas de cordura funcional dentro de la sopa imperativa en que se había convertido la SPA. A un año vista hemos conseguido bastantes de las cosas que nos propusimos y a mejorado muchísimo la habitabilidad del código.",
+      "when": "SPAs legacy con pocos tests y pobre separación de responsabilidades que mantienen equipos con poca cultura de testing y diseño en una organización que presiona para que nunca pare la fábrica de features.",
+      "how": "no tenemos",
+      "links": [
+        "Nos dimos cuenta de que no podíamos seguir atacando síntomas y pretendiendo que el equipo testeara en condiciones muy adversas porque no tenía la pericia suficiente, y decidimos atacar el problema de fondo por el que la base de código no se beneficiaba de usar un lenguaje funcional: pobre separación de concrens y programación imperativa. Por eso empezamos a introducir una arquitectura funcional (functional core, imperative shell) con efectos y coefectos (effects as data pattern or declarative effects pattern) que impone constraints muy fuertes sobre cómo hacer código y facilita muchísimo el testing. Lo hicimos de forma progresiva siguiendo un strangler application pattern. Hubo muchos obstáculos sobre todo al principio y lleva tiempo entender el concepto, pero a medio plazo ha tenido un impacto muy bueno en la habitabilidad del código y estamos bastante satisfechos con los resultados.\nGiving new life to existing Om legacy SPAs with re-om https://codesai.com/2018/10/re-om",
+        "https://github.com/GreenPowerMonitor/re-om",
+        "https://www.youtube.com/watch?v=6EdXaWfoslc"
+      ]
+    },
+    "grupo": {
+      "id": "11",
+      "name": "Grupo 11"
+    }
+  },
+  {
+    "id": "3/9/2019 21:22:44",
+    "nombre": "David López",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "OpenSource - Arrimar el hombro para crecer juntos",
+      "why": "Todos utilizamos miles de librerías opensource a diario. Las kilométricas carpetas \"vendor\", \"node_modules\" y derivados son testigo de ello.  Tendemos a ver a las personas que han desarrollado dichas librerias (ya sea un developer o una empresa muy reconocida), como fuera de nuestro alcance y a limitarnos a ser usuarios de dichas herramientas, evitando reportar problemas o aportar soluciones, ñapeando en \"userland\". Ya sea por una supuesta falta de tiempo (€€), o por miedo a ser rechazado y/o hacer el ridículo.   En mi último año utilizando Golang (y a gracias a su abierta comunidad) he aprendido a aplicar el dicho: de bien nacidos es ser agradecidos.\nCuando tu caso de uso no está cubierto (ya sea un bug, nueva funcionalidad, traducción, testing añadido, mejora)... lo suyo es devolver a la comunidad  lo que te da a diario; compartiendo tu solución mediante un PR, detallándolo en un issue o incluso generando un fork/herramienta paralela para cubrir un uso que piensas que podrían ser interesante para otros usuarios.",
+      "when": "A todxs y en prácticamente cualquier contexto a día de hoy.",
+      "how": "no tenemos",
+      "links": [
+        "https://github.com/MunGell/awesome-for-beginners",
+        "https://hackernoon.com/unconventional-way-of-learning-a-new-programming-language-e4d1f600342c",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "11",
+      "name": "Grupo 11"
+    }
+  },
+  {
+    "id": "3/9/2019 23:57:54",
+    "nombre": "Alex Barrero Escalante",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": " Flutter",
+      "why": "Desarrollo de una app móvil para android/ios",
+      "when": "Poder desarrollar una app nativa para android e iOS utilizando un código fuente común",
+      "how": "no tenemos",
+      "links": [
+        "En lugar de manejar código nativo Java/kotlin en android, y Swift en iOS, poder desarrollar de manera conjunta es una gran ventaja y ahorro de tiempo",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "12",
+      "name": "Grupo 12"
+    }
+  },
+  {
+    "id": "3/10/2019 10:19:06",
+    "nombre": "Aitor Aznar Álvarez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "12",
+      "name": "Grupo 12"
+    }
+  },
+  {
+    "id": "3/11/2019 7:41:57",
+    "nombre": "Oscar Teixeira Martín",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "12",
+      "name": "Grupo 12"
+    }
+  },
+  {
+    "id": "3/11/2019 11:50:13",
+    "nombre": "Ibai Imaz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "From zero to hero con Spring Boot + Angular",
+      "why": "Aterricé en mi actual empresa por distintas razones, y una de ellas era el reto que suponía para mi dejar de lado mas de 12 años trabajando con .NET / C# en entornos totalmente Windows, y principalmente como Backend, a pasar a ser \"Full Stack\" y trabajar con Java / Spring Boot y Angular. El enfoque Framework JS + API era el camino que quería seguir para los desarrollos web por creer en las múltiples ventajas que ello tiene.",
+      "when": "Ha día de hoy, no me imagino haciendo un front de una aplicación web sin usar un Framework JS. Si bien puede tener un costo un poco mayor en cuanto a tiempo (y por lo tanto a dinero) respecto a utilizar un Framework MVC con templates (sobre todo si no tienes cierta experiencia), la diferencia en experiencia de usuario creo que lo justifica con creces.",
+      "how": "no tenemos",
+      "links": [
+        "https://ultimatecourses.com/angular",
+        "https://www.baeldung.com/",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "12",
+      "name": "Grupo 12"
+    }
+  },
+  {
+    "id": "3/11/2019 15:16:43",
+    "nombre": "Martin Erauskin",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "12",
+      "name": "Grupo 12"
+    }
+  },
+  {
+    "id": "3/11/2019 15:17:49",
+    "nombre": "Miguel Borinaga Treviño",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "13",
+      "name": "Grupo 13"
+    }
+  },
+  {
+    "id": "3/11/2019 16:15:14",
+    "nombre": "Javier García Garrido",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Colaborar con la universidad para hacerla mejor",
+      "why": "Se habla mucho de acercar el mundo de la empresa a la universidad, pero realmente se hace muy poco o se limita a momentos puntuales. Desde hace tiempo trabajo para que la universidad conozca el mundo real de cerca, con distintas iniciativas. Se trata de que los estudiantes reciban una mejor formación y estén más preparados para su futuro profesional. \nPor otro lado los profesores necesitaban actualizar sus conocimientos y formas de trabajo con los alumnos para que aparte de facilitar el aprendizaje de materias más técnicas, se facilitase la adquisición de otras habilidades necesarias en el futuro desarrollo de su trabajo.\n",
+      "when": "Todo lo que habíamos hecho en años anteriores ha estado bien, pero este año gracias a un proyecto de innovación educativa en la UVa, estamos implicando a profesores y alumnos de la Escuela de Informática, para introducir en las asignaturas principios y valores ágiles, y esta resultando muy positivo. ",
+      "how": "no tenemos",
+      "links": [
+        "Lo hemos hecho a través de:\n- Talleres\n- Charlas\n- Eventos como AOS o Hackerfest\n- Proyectos de innovacion educativa",
+        "http://www.eui.uva.es/?q=node/644",
+        "http://www.eui.uva.es/?q=node/633"
+      ]
+    },
+    "grupo": {
+      "id": "13",
+      "name": "Grupo 13"
+    }
+  },
+  {
+    "id": "3/12/2019 8:24:58",
+    "nombre": "Ana Gil Amor",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Buscando a Yoda: por qué el mentoring es importante para los juniors ",
+      "why": "Cuando te inicias en la programación, la sensación de meterte solo en una jungla con un cuchillo de mantequilla para abrirte paso, puede resultar abrumadora.\n\nDesarrolladores seniors, pueden guiar a desarrolladores juniors en el desarrollo de su carrera profesional, además de ayudar a mejorar áreas de conocimiento que, a veces, son difícilmente adquiribles en el contexto académico.",
+      "when": "El contexto, realmente no es esencial, puesto que más que \"un espacio\", se tiene que dar una conexión entre 2 personas que pueda generar una mejora en ambas.",
+      "how": "no tenemos",
+      "links": [
+        "https://dev.to/d_ir/how-to-mentor-developers",
+        "https://medium.freecodecamp.org/the-five-mentors-every-software-developer-needs-and-how-to-find-them-4f9bbd410d29",
+        "https://dev.to/davidsteveen/peer-mentoring---can-benefit-the-student-4g55"
+      ]
+    },
+    "grupo": {
+      "id": "13",
+      "name": "Grupo 13"
+    }
+  },
+  {
+    "id": "3/15/2019 7:30:43",
+    "nombre": "Fran Naranjo",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "13",
+      "name": "Grupo 13"
+    }
+  },
+  {
+    "id": "3/17/2019 9:59:46",
+    "nombre": "Asier Ramos ",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "13",
+      "name": "Grupo 13"
+    }
+  },
+  {
+    "id": "3/17/2019 10:29:26",
+    "nombre": "Jon E Eguiluz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "No bosses",
+      "why": "Hay cosas que todos odiamos: \n1.- Poca gente tomando todas las deciciones\n2.- Estúpidas perdidas de tiempo en decisiones eternas (burocracia)\n3.- Información oculta\n4.- Falta de autonomía\n5.- No ver el final del camino o la razón para andarlo. \n\nPara solucionar estos problema y algún otro, necesitas \"NO-BOSSES culture\"\n",
+      "when": "Para aplicar esta cultura los requisitos basicos son 2:\n1.- Trabajadores responsables\n2.- Trabajadores sin EGOs (lo pogo en mayuscula para resaltar el tamaño)\n\nProbablemente en empresas pequeñas es más fácil de aplicar que en empresas grandes, pero eso que se lo pregunten a Valve. ",
+      "how": "no tenemos",
+      "links": [
+        "Los principios básicos son:\n1.- Celulas \"autonomas\", los trabajadores se agrupan para un proyecto en concreto.\n2.- Todos actuan como dueños\n3.- Transparencia radical\n4.- Líderes (orgánicos), no jefes ",
+        "https://good.co/blog/non-traditional-workplace-hierarchy/",
+        "https://www.holacracy.org/"
+      ]
+    },
+    "grupo": {
+      "id": "14",
+      "name": "Grupo 14"
+    }
+  },
+  {
+    "id": "3/17/2019 11:26:27",
+    "nombre": "José Turégano Barbero",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Acelerando el ciclo de desarrollo, acercando dev y qa con Elastest.",
+      "why": "Compartir una herramienta opensource liderada por el grupo CodeURJC de la Universidad Rey Juan Carlos con la que colaboro como miembro del consejo asesor del proyecto (Elastest), que nos facilitará el testing end to end, consiguiendo reducir el time to market.",
+      "when": "Esta herramienta ayuda cuando hay un desacople entre los equipos que desarrollan la aplicación y los equipos que se encargan del aseguramiento de la calidad, poniendo a disposición todo el contexto de la ejecución. De este modo se reducen los tiempos de análisis de los problemas, facilitando la comunicación entre equipos. Conseguimos reducir el time to market.",
+      "how": "no tenemos",
+      "links": [
+        "https://elastest.io/",
+        "https://www.youtube.com/watch?v=8l0paDOS9Ks",
+        "https://www.youtube.com/watch?v=q2kdFUx-xeo&t=3s"
+      ]
+    },
+    "grupo": {
+      "id": "14",
+      "name": "Grupo 14"
+    }
+  },
+  {
+    "id": "3/17/2019 13:58:28",
+    "nombre": "Dabiz Boniyakoetxea",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Encontrar, contratar y mantener talento técnico",
+      "why": "Las empresas me pagan para que busque talento técnico (desde programadores a diseñadores) con el que completar sus equipos y, para conseguirlo, no basta con publicar una oferta en Injofobs. De hecho, publicar una oferta en Injofobs es, probablemente, la segunda PEOR forma de encontrar talento, sólo superada por mandar un mensaje vía LinkedIn. Sin embargo ese es el 99% del trabajo que suelen hacer los recruiters. Yo me centré en el 1% restante.",
+      "when": "Si quieres empezar a contratar mañana, el momento para empezar a buscar talento no es hoy sino... hace seis meses, pero la mayoría de las empresas no cuentan con esos seis meses, ni siquiera con seis semanas. Ese es el contexto en el que normalmente hay que trabajar.",
+      "how": "no tenemos",
+      "links": [
+        "https://us2.campaign-archive.com/?u=374c664073e1a1fa3deca53b4&id=539364dde4",
+        "https://speakerdeck.com/davidbonilla/deconstructing-technical-recruitment",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "14",
+      "name": "Grupo 14"
+    }
+  },
+  {
+    "id": "3/17/2019 21:08:06",
+    "nombre": "Javier Provecho Fernandez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "14",
+      "name": "Grupo 14"
+    }
+  },
+  {
+    "id": "3/17/2019 22:03:38",
+    "nombre": "Bea Hernández",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Sin calidad no hay paraíso",
+      "why": "Recoger datos para tener inteligencia de mercado suena genial pero, ¿qué datos recojo? Si tengo varias fuentes, ¿son homogéneas? Si mi pregunta es incierta, ¿recojo todo lo posible? ¿Cómo aplico inteligencia antes de tener los datos? Son preguntas difíciles en un mercado donde los datos son supuestamente la base de muchas decisiones. Además de encontrarnos con la pregunta de si seré capaz de sacar inteligencia de los datos que tengo me encuentro un problema en el paso anterior: no tengo datos, ¿qué datos necesito para responder mi pregunta? Nos solemos dirigir a esto como calidad del dato, y tras varios meses de experiencia he conseguido medirlo pero... solo en mi caso de uso, claro. Y al final del todo nos podemos preguntar, ¿cuánto es palabrería y cómo tengo que trabajarlo?",
+      "when": "Los casos pueden ser inmensos, sobre todo cuando queremos coger datos de varias fuentes, estudios de mercado, modelos de predicción de precios,... ",
+      "how": "no tenemos",
+      "links": [
+        "https://en.wikipedia.org/wiki/Data_quality",
+        "https://www.bmc.com/blogs/data-integrity-vs-data-quality/",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "14",
+      "name": "Grupo 14"
+    }
+  },
+  {
+    "id": "3/18/2019 9:28:22",
+    "nombre": "Fran Reyes Perdomo",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Legacy de mis amores",
+      "why": "Tras haber aterrizado en algunos proyectos legacy hemos cometido algunos errores. Algunos en el plano táctico, otros en el estratégico e incluso humano. La idea es contar experiencias alrededor de estos ¿antipatrones?",
+      "when": "En código poco habitable en el que probablemente el equipo esté frustrado pero el software genera pasta y produce algo de valor a los usuarios.",
+      "how": "no tenemos",
+      "links": [
+        "Teniendo en cuenta los anti-patrones para no caer en ellos. Están basados en la experiencia. Prácticas y técnicas hay muchas en los diferentes planos.",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "15",
+      "name": "Grupo 15"
+    }
+  },
+  {
+    "id": "3/18/2019 9:40:04",
+    "nombre": "Félix López Luis",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Organización de una empresa tecnológica. (Management, Leads, PMs... la salsa secreta que te convierte casa Manolo en un estrella Michelin)",
+      "why": " (El título es para que parezca que sé de lo que hablo)\nEn los últimos años he pasado de ser el CTO de una startup pequeña a engineering manager de dos equipos en un scale-up y por último engineering manager/PM en una empresa enorme.  He aprendido muchísimo sobre como organizarse a nivel de management (Engineering managers, career path, calibration meetings, resolution, etc) y también sobre como organizar equipos, me gusta especialmente como se organiza Gocardless con un modelo de dual leads (PM y TL) compartiendo las riendas y responsabilidades del equipo.\n",
+      "when": "La pregunta del millón :D En mi opinión cuando una empresa deja de ser los 3 amigos y empiezas a contratar. Necesitas tener algo para organizarte, para cuidar a la gente, etc\n",
+      "how": "no tenemos",
+      "links": [
+        "https://www.amazon.co.uk/Manager%60s-Path-Camille-Fournier/dp/1491973897",
+        "https://www.youtube.com/watch?v=4yODalLQ2lM",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "15",
+      "name": "Grupo 15"
+    }
+  },
+  {
+    "id": "3/18/2019 12:19:43",
+    "nombre": "Rafael Luque",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "15",
+      "name": "Grupo 15"
+    }
+  },
+  {
+    "id": "3/18/2019 13:06:37",
+    "nombre": "Angela Cardoso",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Menú de Conversación",
+      "why": "El objetivo es de crear relaciones empáticas y tejido social en las organizaciones. El Menú de Conversación es una invitación a reflexionar y a cambiar nuestras ideas y valores como compasión, gratitud, confianza, felicidad, perfección, etc. ",
+      "when": "El Menú de Conversación es una lista de preguntas abiertas a ser elegidas por los participantes y puede ser aplicada en un kick-off de un equipo, una Retrospectiva, una comida,  un evento de la empresa, etc. ",
+      "how": "no tenemos",
+      "links": [
+        "https://www.oxfordmuse.com/?q=conversation-dinners#conversation-menu",
+        "https://coactive.com/learning-hub/fundamentals/res/FUN-Topics/FUN-Co-Active-Coaching-Skills-Listening.pdf",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "15",
+      "name": "Grupo 15"
+    }
+  },
+  {
+    "id": "3/18/2019 13:19:08",
+    "nombre": "Pablo Santos Luaces",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "15",
+      "name": "Grupo 15"
+    }
+  },
+  {
+    "id": "3/18/2019 15:35:26",
+    "nombre": "Sebastian Hermida",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "2 propuestas: 1) Que como trabajamos? Aqui tienes el libro gordo de Petete 2) Odio CSS. Por eso amo el CSS funcional.",
+      "why": "1) Somos un equipo remoto. Estamos apostando por \"codificar\" todos nuestras actividades. Empezamos poco a poco: como contestar en soporte a clientes, como proponer un proyecto, pero lo estamos llevando a nuevos limites: como atender conferencias, o como escribir un blog post. Tiene sentido? Estamos locos? 2) Estamos moviendonos a CSS funcional porque odio CSS y estoy cansado de romperlo todo con un cambio inocente. Tiene sentido? Estamos locos?",
+      "when": ") Codificar tareas para actividades que se repiten mas de una vez. Delegar para que cualquier miembro del equipo puede efectuar cualquier tarea. Comunicar nuevos procesos. Transparencia. Automatizar cuando se pueda. 2) Cuando tienes demasiado CSS con poco reuso. Cuando no paras de \"tabulear\" entre el HTML y el CSS porque no te enteras de lo que pasa. Porque escribir una linea de CSS para invalidarla dos mas abajo no es bueno para tu salud.",
+      "how": "no tenemos",
+      "links": [
+        "https://en.wikipedia.org/wiki/Standard_operating_procedure",
+        "http://tachyons.io/",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "16",
+      "name": "Grupo 16"
+    }
+  },
+  {
+    "id": "3/18/2019 22:41:47",
+    "nombre": "Jose Manuel Armesto Cereijo",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Convergencia tecnológica",
+      "why": "Schibsted Spain tiene 6 o 7 empresas distintas dentro, cada una con su propio producto y su propio stack tecnológico. Debido a la similitud de los productos, los equipos acaban resolviendo el mismo problema 6 veces. Para intentar eliminar este \"waste\" se intenta alcanzar una convergencia tecnológica, donde (salvo donde esté justificado salirse) todos utilicen el mismo lenguaje de programación, mismo framework y, en general, mismas herramientas.\n\nHemos pasado por largos debates sopesando los trade-offs de distintos aspectos: desde si \"obligar a usar el stack elegido\" vs o \"son solo recomendaciones para no enfadar a nadie\"; hasta qué framework utilizar.\n\nHay lecciones aprendidas:\n- Generar código con el stack tecnológico decidido cuando se crea un nuevo microservicio, hace que los servicios más antiguos queden rapidamente desactualizados.\n- Si creas una capa de abstracción sobre un servicio de algún cloud público para que la gente no tenga que usarlo directamente, no serás capaz de ofrecer en tu capa todas las funcionalidades que ofrece el cloud, y lo sufrirás.\n- Habilita mecanismos para que la gente pueda saltarse una parte del stack decidido: que no sea un todo o nada.",
+      "when": "En una empresa con muchos equipos, en los que cada uno elige sus propias herramientas, y hay solapamiento en los problemas a resolver. Puede parecer que si cada equipo resuelve problemas independientes, no es tan necesaria esa convergencia, pero aunque se resuelven problemas de negocio distintos, hay mucha problemática común hoy en día entre servicios: despliegue, monitorización, etc. Para qué vas a tener un equipo desplegando en Kubernetes y otro en Mesos?",
+      "how": "no tenemos",
+      "links": [
+        "Cuanto espacio tengo para esto? xDD Con lo que me digáis, os pongo aquí más o menos cómo lo enfocamos.",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "16",
+      "name": "Grupo 16"
+    }
+  },
+  {
+    "id": "3/19/2019 8:23:49",
+    "nombre": "Francisco Moreno Sanz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "16",
+      "name": "Grupo 16"
+    }
+  },
+  {
+    "id": "3/19/2019 9:03:10",
+    "nombre": "Ronny Ancorini Rodríguez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "16",
+      "name": "Grupo 16"
+    }
+  },
+  {
+    "id": "3/20/2019 9:17:56",
+    "nombre": "Oscar Gilaberte Sanchez",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "16",
+      "name": "Grupo 16"
+    }
+  },
+  {
+    "id": "3/20/2019 9:25:12",
+    "nombre": "Frank Torres",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {
+      "title": "Concienciación sobre buenas prácticas de desarrollo de software / Quality Assurance / Deuda técnica",
+      "why": "A pesar de que parecemos estar funcionando como una máquina perfectamente engrasada, me han propuesto concienciar a las personas sobre la importancia de aplicar técnicas de aseguramiento de la calidad como parte del trabajo diario y estamos descubriendo \"hábitos ocultos\" de comunicación, trabajo en equipo y de desarrollo del software",
+      "when": "A partir de este año",
+      "how": "no tenemos",
+      "links": [
+        "https://twitter.com/jmbeas/status/1106242107705044993",
+        "https://twitter.com/CoralineAda/status/1110699191532220416",
+        "https://twitter.com/flowchainsensei"
+      ]
+    },
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  },
+  {
+    "id": "3/20/2019 9:53:52",
+    "nombre": "Adrián Señor",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  },
+  {
+    "id": "3/24/2019 0:13:31",
+    "nombre": "Maica Trinidad",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  },
+  {
+    "id": "4/1/2019 9:58:55",
+    "nombre": "Maitane Itoiz",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  },
+  {
+    "id": "4/1/2019 14:08:32",
+    "nombre": "JULIA OLCOZ",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  },
+  {
+    "id": "4/1/2019 16:01:49",
+    "nombre": "Pilar Barbero Iriarte",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  },
+  {
+    "id": "4/1/2019 23:20:49",
+    "nombre": "Ismael Liberal",
+    "foto": null,
+    "twitter": null,
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Grupo 17"
+    }
+  }
+]

@@ -3,11 +3,11 @@ const experiencias = require('./experiencias');
 const grupos = require('./grupos');
 const download = require('./download');
 
-const year = 2018;
+const year = 2019;
 
-download(year, 1, 'experiencias', () => {
+download(year, 2, 'experiencias', () => {
 
-  download(year, 2, 'asistentes', () => {
+  download(year, 3, 'asistentes', () => {
     asistentes(year);
     experiencias(year);
     grupos(year);

@@ -6,6 +6,22 @@ const extractUrls = experiencia => {
   return Array.from(urls);
 };
 
+
+const excelToExperienciaModel2019 = experiencia => {
+
+  return !experiencia ? {} : {
+    title: experiencia.gsx$title.$t,
+    why: experiencia.gsx$why.$t,
+    when: experiencia.gsx$when.$t,
+    how: 'no tenemos',
+    links: [
+      experiencia.gsx$link1.$t,
+      experiencia.gsx$link2.$t,
+      experiencia.gsx$link3.$t
+    ]
+  };
+};
+
 const excelToExperienciaModel = experiencia => {
   return !experiencia ? {} : {
     title: experiencia.gsx$cuéntanosalgotécnicatecnologíawhateverquehayasutilizadoentudíaadíaesteúltimoaño.$t,
@@ -18,9 +34,10 @@ const excelToExperienciaModel = experiencia => {
 };
 
 const byEmail = email => entry =>
-  entry.gsx$tucorreoelectrógeno.$t.toLowerCase() === email.toLowerCase();
+  entry.gsx$email.$t.toLowerCase() === email.toLowerCase();
 
 module.exports = {
   byEmail,
-  excelToExperienciaModel
+  excelToExperienciaModel,
+  excelToExperienciaModel2019
 };

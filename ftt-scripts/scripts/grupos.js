@@ -1,7 +1,7 @@
 const {read, write} = require('./utils/file-utils.js');
 const {byId} = require('./utils/grupo-utils.js');
-const {excelToAsistenteModel} = require('./utils/asistente-utils.js');
-const {byEmail, excelToExperienciaModel} = require('./utils/experiencia-utils.js');
+const { excelToAsistenteModel2019, excelToAsistenteModel} = require('./utils/asistente-utils.js');
+const {byEmail, excelToExperienciaModel2019, excelToExperienciaModel} = require('./utils/experiencia-utils.js');
 
 
 module.exports = year => {
@@ -14,8 +14,8 @@ module.exports = year => {
       return e.gsx$grupo.$t === grupo.id
     }).map(e => {
       return Object.assign(
-          excelToAsistenteModel(e),
-          {experiencia: excelToExperienciaModel(experiencias.find(byEmail(e.gsx$email.$t)))}
+          excelToAsistenteModel2019(e),
+          {experiencia: excelToExperienciaModel2019(experiencias.find(byEmail(e.gsx$email.$t)))}
       );
     });
 
