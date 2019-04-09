@@ -48,7 +48,7 @@ export default {
       this.audio = '';
     }
 
-    firstUpdated() {
+    connectedCallback() {
       this.year = this.location.params.year;
       this.grupo = grupos[this.year]
         .filter(grupo => grupo.id === this.location.params.id)[0];

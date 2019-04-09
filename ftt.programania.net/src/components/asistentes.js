@@ -30,7 +30,7 @@ export default {
       this.capturados = [];
     }
 
-    firstUpdated() {
+    connectedCallback() {
       this.year = this.location.params.year;
       this.asistentes = data[this.year];
       this.todos = data[this.year];

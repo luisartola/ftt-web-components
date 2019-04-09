@@ -24,7 +24,7 @@ export default {
       super();
       this.experiencias = [];
     }
-    firstUpdated(){
+    connectedCallback(){
       this.year = this.location.params.year;
       this.experiencias = data[this.year];
     }

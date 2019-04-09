@@ -28,7 +28,7 @@ export default {
       this.isActive = false;
     }
 
-    firstUpdated() {
+    connectedCallback() {
       subscribe(state => {
         this.capturados = state.capturados;
       });

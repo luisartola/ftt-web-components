@@ -10,7 +10,7 @@ export default {
       };
     }
 
-    firstUpdated(){
+    connectedCallback(){
 
       //meter el año en el id de experiencia y así no necesitarlo en la ficha de experiencia
 

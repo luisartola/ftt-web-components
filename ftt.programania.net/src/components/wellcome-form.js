@@ -5,7 +5,7 @@ export default {
   name: 'ftt-wellcome-form',
   element: class extends LitElement {
 
-    firstUpdated(){
+    connectedCallback(){
 
       var bouncer = new Bouncer('[data-validate]', {
         disableSubmit: false
