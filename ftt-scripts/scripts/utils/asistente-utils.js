@@ -8,7 +8,7 @@
 
  const excelToAsistenteModel2019 = (e) => {
    return ({
-     id: e.gsx$u.$t,
+     id: Date.parse(e.gsx$u.$t),
      nombre: e.gsx$tunombrecompleto.$t,
      foto: null,
      twitter: null,

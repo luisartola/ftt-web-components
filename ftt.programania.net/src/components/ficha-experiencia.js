@@ -1,14 +1,18 @@
 import {html, LitElement} from 'lit-element';
-import data from '../../data/2018/experiencias.json';
+import data2018 from '../../data/2018/experiencias.json';
+import data2019 from '../../data/2019/experiencias.json';
 import css from '../mystyles.scss';
+
+const data = [...data2018, ...data2019];
 
 export default {
   name: 'ftt-ficha-experiencia',
   element: class extends LitElement {
     render() {
 
+      debugger;
       //mover aquí la asignación hace que no intente renderizar algo vacío
-      this.experiencia = data.find(exp => exp.asistente.id === this.location.params.id);
+      this.experiencia = data.find(exp => exp.asistente.id === parseInt(this.location.params.id, 10));
 
       return html`
         <style>
@@ -21,11 +25,6 @@ export default {
         </ftt-section-title>
         <section class="section">
           <div class="container content" style="overflow: hidden;">
-             <!--
-               <span class="tag is-primary">Primary</span>
-              <span class="tag is-link">Link</span>
-              <span class="tag is-info">Info</span>
-              --> 
     
               <h1>Por qué</h1>
               <p >${this.experiencia.why}</p>
@@ -44,7 +43,6 @@ export default {
                 `)}
               </ul>
             `: ''}
-            
     
             </div>       
         </section>
