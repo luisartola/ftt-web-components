@@ -9,7 +9,12 @@ module.exports = year => {
   const experiencias = read('experiencias', year);
   const grupos = read('grupos', year);
 
-  const content = experiencias.map(e => {
+  const content = experiencias
+      .filter(e => {
+          return !!e.gsx$email && typeof e.gsx$email.$t === "string" && e.gsx$email.$t.length > 0;
+      })
+      .map(e => {
+    console.log("Buscando a :", e.gsx$email.$t);
     const asistenteExcel = asistentes
         .find(entry => e.gsx$email.$t.toLowerCase() === entry.gsx$email.$t.toLowerCase());
 

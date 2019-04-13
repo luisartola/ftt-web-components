@@ -987,7 +987,7 @@
       "title": "Actualizacion de AngularJS y tooling",
       "why": "Para poder utilizar una arquitectura más enfocada a componentes y que el proyecto sea más coherente",
       "when": "Cuando se hereda un proyecto AngularJS legacy y se pretende actualizarlo para acercarse más a enfoques desarrollo por componentes como Angular, React o Vue",
-      "how": "Por un lado leyendo a fondo la documentaci��n de AngularJS y por otro basándose en las buenas prácticas y guías de estilo como por ejemplo\nhttps://github.com/johnpapa/angular-styleguide\nhttps://github.com/toddmotto/angularjs-styleguide",
+      "how": "Por un lado leyendo a fondo la documentación de AngularJS y por otro basándose en las buenas prácticas y guías de estilo como por ejemplo\nhttps://github.com/johnpapa/angular-styleguide\nhttps://github.com/toddmotto/angularjs-styleguide",
       "links": [
         "https://github.com/johnpapa/angular-styleguide",
         "https://github.com/toddmotto/angularjs-styleguide"

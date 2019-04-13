@@ -5,6 +5,8 @@ import css from '../mystyles.scss';
 
 const data = [...data2018, ...data2019];
 
+
+
 export default {
   name: 'ftt-ficha-experiencia',
   element: class extends LitElement {
