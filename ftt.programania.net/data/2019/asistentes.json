@@ -110,28 +110,6 @@
     }
   },
   {
-    "id": 317124317462000,
-    "nombre": "Francisco Javier Garcia",
-    "foto": "https://pbs.twimg.com/profile_images/666305731054985216/NCvb7zxO_400x400.jpg",
-    "twitter": "fgperianez",
-    "vienede": null,
-    "experiencia": {
-      "title": "Tirar el legacy que yo mismo he construí cuando la startup tenía que salir adelante",
-      "why": "Al principio todo es incertidumbre, prisas y poco dinero/tiempo. ¿Hago esto de aquella forma para que escale mejor? Quizá entonces no lleguemos a que nos contrate este cliente que supone acercarnos a ser viables. \nMás adelante, sin embargo, el equipo crece y lo que antes te hizo ganar algo de velocidad es justamente lo que ahora te frena. Por ese motivo hay que cambiar la forma en la que ves el proyecto. Durante un tiempo se buscaba la velocidad pura, pero ahora necesita crecer de forma estable y permitir que muchos más equipos trabajen sobre él sin tirarse de los pelos. ",
-      "when": "La pregunta del millón, y  justamente donde cada uno puede tener una opinión muy distinta. En mi caso creo que empecé a hacerlo como mínimo un año más tarde de lo que debería haberlo hecho. Lo malo de esa velocidad inicial y poco sostenible, es que te acostumbras muy fácilmente a ella. ",
-      "how": "no tenemos",
-      "links": [
-        "https://martinfowler.com/articles/break-monolith-into-microservices.html",
-        "",
-        ""
-      ]
-    },
-    "grupo": {
-      "id": "2",
-      "name": "Legacy 2"
-    }
-  },
-  {
     "id": 1549712701000,
     "nombre": "Irune",
     "foto": "https://pbs.twimg.com/profile_images/56756978/tatoo_400x400.png",
@@ -144,6 +122,28 @@
       "how": "no tenemos",
       "links": [
         "No conozco nada curado /shrug",
+        "",
+        ""
+      ]
+    },
+    "grupo": {
+      "id": "2",
+      "name": "Legacy 2"
+    }
+  },
+  {
+    "id": 317124317462000,
+    "nombre": "Francisco Javier Garcia",
+    "foto": "https://pbs.twimg.com/profile_images/666305731054985216/NCvb7zxO_400x400.jpg",
+    "twitter": "fgperianez",
+    "vienede": null,
+    "experiencia": {
+      "title": "Tirar el legacy que yo mismo he construí cuando la startup tenía que salir adelante",
+      "why": "Al principio todo es incertidumbre, prisas y poco dinero/tiempo. ¿Hago esto de aquella forma para que escale mejor? Quizá entonces no lleguemos a que nos contrate este cliente que supone acercarnos a ser viables. \nMás adelante, sin embargo, el equipo crece y lo que antes te hizo ganar algo de velocidad es justamente lo que ahora te frena. Por ese motivo hay que cambiar la forma en la que ves el proyecto. Durante un tiempo se buscaba la velocidad pura, pero ahora necesita crecer de forma estable y permitir que muchos más equipos trabajen sobre él sin tirarse de los pelos. ",
+      "when": "La pregunta del millón, y  justamente donde cada uno puede tener una opinión muy distinta. En mi caso creo que empecé a hacerlo como mínimo un año más tarde de lo que debería haberlo hecho. Lo malo de esa velocidad inicial y poco sostenible, es que te acostumbras muy fácilmente a ella. ",
+      "how": "no tenemos",
+      "links": [
+        "https://martinfowler.com/articles/break-monolith-into-microservices.html",
         "",
         ""
       ]
@@ -308,6 +308,28 @@
     }
   },
   {
+    "id": 1549703393000,
+    "nombre": "Marta Manso ",
+    "foto": "https://pbs.twimg.com/profile_images/937787824010612736/iYyD3tIz_400x400.jpg",
+    "twitter": "ladypain",
+    "vienede": null,
+    "experiencia": {
+      "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
+      "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,… y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
+      "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
+      "how": "no tenemos",
+      "links": [
+        "https://blog.crisp.se/wp-content/uploads/2018/09/confessions-of-a-change-agent.jpg",
+        "https://innokabi.com/lienzo-lean-canvas-el-lienzo-de-los-emprendedores/",
+        "https://es.wikipedia.org/wiki/Lean_startup"
+      ]
+    },
+    "grupo": {
+      "id": "4",
+      "name": "Organizaciones/escalabilidad"
+    }
+  },
+  {
     "id": 1549701373000,
     "nombre": "Gorka Moreno",
     "foto": "https://pbs.twimg.com/profile_images/476963726214856704/erDHC1lk_400x400.jpeg",
@@ -344,28 +366,6 @@
         "",
         "https://vimeo.com/85490944",
         "https://vimeo.com/94950270"
-      ]
-    },
-    "grupo": {
-      "id": "4",
-      "name": "Organizaciones/escalabilidad"
-    }
-  },
-  {
-    "id": 1549703393000,
-    "nombre": "Marta Manso ",
-    "foto": "https://pbs.twimg.com/profile_images/937787824010612736/iYyD3tIz_400x400.jpg",
-    "twitter": "ladypain",
-    "vienede": null,
-    "experiencia": {
-      "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
-      "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,… y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
-      "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
-      "how": "no tenemos",
-      "links": [
-        "https://blog.crisp.se/wp-content/uploads/2018/09/confessions-of-a-change-agent.jpg",
-        "https://innokabi.com/lienzo-lean-canvas-el-lienzo-de-los-emprendedores/",
-        "https://es.wikipedia.org/wiki/Lean_startup"
       ]
     },
     "grupo": {
@@ -498,28 +498,6 @@
         "",
         "",
         ""
-      ]
-    },
-    "grupo": {
-      "id": "6",
-      "name": "Front"
-    }
-  },
-  {
-    "id": 1549271501000,
-    "nombre": "Joaquin Engelmo Moriche",
-    "foto": "https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg",
-    "twitter": "kinisoftware",
-    "vienede": null,
-    "experiencia": {
-      "title": "Alexa, ¿has venido para quedarte?",
-      "why": "El objetivo de esta experiencia es debatir sobre la llegada de asistentes de voz en diferentes dispositivos y tecnologías. En estos últimos meses he estado jugando en concreto con Alexa, el asistente de Amazon. He ido descubriendo que ofrece y he ido teniendo ideas según profundizaba. Para mí, a día de hoy, este tipo de asistentes me parecen muy interesantes pero, ¿han venido para quedarse? ¿Este tipo de interfaces de interacción tendrán éxito en el largo tiempo o será algo que quedará en nada o poco? ¿Nor permiten resolver problemas que hasta ahora no se podían y/o refinar soluciones existentes para hacerlas mejores?",
-      "when": "La creación de software para asistentes de voz se puede aplicar en muchos contextos, ya sea cubriendo necesidades que no estaba cubiertas por otro software hasta ahora, mejorando soluciones existentes o, simplemente, creado utilidades aleatorias. \nAdemás, para llevar a cabo ciertos desarrollos para estos asistentes tiene una barrera de entrada bastante baja y, de momento, hay mucho movimiento a nivel individual y sin ánimo de lucro que a nivel corporativo. ",
-      "how": "no tenemos",
-      "links": [
-        "https://developer.amazon.com/alexa",
-        "https://dialogflow.com/",
-        "https://www.luis.ai/home"
       ]
     },
     "grupo": {
@@ -862,6 +840,28 @@
     }
   },
   {
+    "id": 1549744741000,
+    "nombre": "Gonzalo Ayuso",
+    "foto": "https://pbs.twimg.com/profile_images/916587733522505735/i5qB2ov1_400x400.jpg",
+    "twitter": "gonzalo123",
+    "vienede": null,
+    "experiencia": {
+      "title": "1) gestión de equipos/el-ser-humano-es-horrible 2) microservicios o micro-macro servicios o todo a la vez 3) JQuery en el 2019",
+      "why": "1) La teoría es sencilla. Pero el día a día es complicado. Todo parecen excepciones, aquí no puede, ... 2) Los microservicios parecen la solución a todo, pero ¿No estamos montando una sobreingeniería para hacer algo que hace 10 años lo hacíamos con dos cosas? ¿Los usamos porque los necesitamos o porque queremos usarlos? 3) Hemos elegido jQuery como framework de desarrollo en el 2019 y estamos muy contentos (Lo de jQuery tiene trampa. Es un framwork del ecosistema SAP: Opensource y con jQuery muy por debajo)",
+      "when": "1) Equipos consolidados  2) Entorno de producción con muchos componentes ya funcionando y algún que otro nuevo. ¿Lo migramos todo? ¿Nos hemos vuelto locos? 3) Desarrollo de front con unos requisitos de ciclo de vida de aplicaciones altos ¿Qué framework estará de moda dentro de 5 años?",
+      "how": "no tenemos",
+      "links": [
+        "https://openui5.hana.ondemand.com/",
+        "https://ui5lab.io/",
+        "https://sap.github.io/ui5-webcomponents/"
+      ]
+    },
+    "grupo": {
+      "id": "10",
+      "name": "Techniques 1"
+    }
+  },
+  {
     "id": 1550074211000,
     "nombre": "German Del Zotto",
     "foto": "https://pbs.twimg.com/profile_images/1023988966415056896/05FvFn5J_400x400.jpg",
@@ -942,28 +942,6 @@
         "https://elastest.io/",
         "https://www.youtube.com/watch?v=8l0paDOS9Ks",
         "https://www.youtube.com/watch?v=q2kdFUx-xeo&t=3s"
-      ]
-    },
-    "grupo": {
-      "id": "10",
-      "name": "Techniques 1"
-    }
-  },
-  {
-    "id": 1549744741000,
-    "nombre": "Gonzalo Ayuso",
-    "foto": "https://pbs.twimg.com/profile_images/916587733522505735/i5qB2ov1_400x400.jpg",
-    "twitter": "gonzalo123",
-    "vienede": null,
-    "experiencia": {
-      "title": "1) gestión de equipos/el-ser-humano-es-horrible 2) microservicios o micro-macro servicios o todo a la vez 3) JQuery en el 2019",
-      "why": "1) La teoría es sencilla. Pero el día a día es complicado. Todo parecen excepciones, aquí no puede, ... 2) Los microservicios parecen la solución a todo, pero ¿No estamos montando una sobreingeniería para hacer algo que hace 10 años lo hacíamos con dos cosas? ¿Los usamos porque los necesitamos o porque queremos usarlos? 3) Hemos elegido jQuery como framework de desarrollo en el 2019 y estamos muy contentos (Lo de jQuery tiene trampa. Es un framwork del ecosistema SAP: Opensource y con jQuery muy por debajo)",
-      "when": "1) Equipos consolidados  2) Entorno de producción con muchos componentes ya funcionando y algún que otro nuevo. ¿Lo migramos todo? ¿Nos hemos vuelto locos? 3) Desarrollo de front con unos requisitos de ciclo de vida de aplicaciones altos ¿Qué framework estará de moda dentro de 5 años?",
-      "how": "no tenemos",
-      "links": [
-        "https://openui5.hana.ondemand.com/",
-        "https://ui5lab.io/",
-        "https://sap.github.io/ui5-webcomponents/"
       ]
     },
     "grupo": {
@@ -1170,28 +1148,6 @@
     }
   },
   {
-    "id": 1549819507000,
-    "nombre": "Jezabel González Diez",
-    "foto": "https://pbs.twimg.com/profile_images/1150101314/jeza2_400x400.png",
-    "twitter": "jezis",
-    "vienede": null,
-    "experiencia": {
-      "title": "Comunicación empática",
-      "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociación. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
-      "when": "En cualquier momento que necesitemos comunicarnos de forma efectiva -> Comunicación empática\nCuando queramos solucionar un conflicto -> Negociación\nCuando queremos conseguir un proyecto / cliente - > Persuasión\nCuando tenemos que recoger requisitos / historias de usuario -> Escucha activa",
-      "how": "no tenemos",
-      "links": [
-        "https://marketingaholic.com/principios-de-la-persuasion-robert-cialdini/2274/",
-        "https://cefne.com/metodo-harvard-negociacion",
-        "https://es.scribd.com/document/254483624/No-Hay-Personas-Dificiles-Bolton-Robert-Grover-Bolton-Dorothy"
-      ]
-    },
-    "grupo": {
-      "id": "13",
-      "name": "Agile 1"
-    }
-  },
-  {
     "id": 1549901543000,
     "nombre": "Jose Ramón",
     "foto": "https://pbs.twimg.com/profile_images/593854279628251136/J5rDdA7I_400x400.png",
@@ -1206,6 +1162,28 @@
         "https://www.agilefluency.org/",
         "https://www.ynspira.com/modelo-de-fluidez-agil/",
         ""
+      ]
+    },
+    "grupo": {
+      "id": "13",
+      "name": "Agile 1"
+    }
+  },
+  {
+    "id": 1549819507000,
+    "nombre": "Jezabel González Diez",
+    "foto": "https://pbs.twimg.com/profile_images/1150101314/jeza2_400x400.png",
+    "twitter": "jezis",
+    "vienede": null,
+    "experiencia": {
+      "title": "Comunicación empática",
+      "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociación. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
+      "when": "En cualquier momento que necesitemos comunicarnos de forma efectiva -> Comunicación empática\nCuando queramos solucionar un conflicto -> Negociación\nCuando queremos conseguir un proyecto / cliente - > Persuasión\nCuando tenemos que recoger requisitos / historias de usuario -> Escucha activa",
+      "how": "no tenemos",
+      "links": [
+        "https://marketingaholic.com/principios-de-la-persuasion-robert-cialdini/2274/",
+        "https://cefne.com/metodo-harvard-negociacion",
+        "https://es.scribd.com/document/254483624/No-Hay-Personas-Dificiles-Bolton-Robert-Grover-Bolton-Dorothy"
       ]
     },
     "grupo": {
@@ -1500,6 +1478,28 @@
     }
   },
   {
+    "id": 1549359797000,
+    "nombre": "Don Xabier Sáez de Ocáriz Lavín",
+    "foto": "https://pbs.twimg.com/profile_images/969526453950930944/14BuJ2Oo_400x400.jpg",
+    "twitter": "ziraco",
+    "vienede": null,
+    "experiencia": {
+      "title": "Roadmaps orientadas a outcomes ",
+      "why": "Alinear estrategia con operativa de manera adaptable. Una herramienta que sirva tanto para \"la dirección\" como para el equipo que está en el día a día. Centrándose en objetivos de negocio y dejando abierta la puerta a opciones/apuestas/oportunidades.",
+      "when": "Sabes que hay una oportunidad de mercado para un producto, tienes la propuesta de valor, clientess/usuarios objetivos claros y quieres visibilizarlo para que todo el equipo de producto y stakeholders sepa de qué va la mandanga.",
+      "how": "no tenemos",
+      "links": [
+        "http://leanstartup.co/2018-conference/wp-content/uploads/sites/17/2017/11/Lean-Product-Roadmaps-Setting-Direction-While-Embracing-Uncertainty.pdf",
+        "https://medium.com/@maa1/no-more-features-on-product-roadmaps-have-themes-or-goals-instead-484bde68a990",
+        "https://www.producttalk.org/2018/10/continuous-discovery-mindsets/"
+      ]
+    },
+    "grupo": {
+      "id": "16",
+      "name": "Equipos + producto"
+    }
+  },
+  {
     "id": 1552145072000,
     "nombre": "Mikel Ros León",
     "foto": "https://pbs.twimg.com/profile_images/955532025649299456/ct2xwMXk_400x400.jpg",
@@ -1536,28 +1536,6 @@
         "https://agilemanifesto.org/iso/es/principles.html",
         "https://martinfowler.com/bliki/ExtremeProgramming.html",
         ""
-      ]
-    },
-    "grupo": {
-      "id": "16",
-      "name": "Equipos + producto"
-    }
-  },
-  {
-    "id": 1549359797000,
-    "nombre": "Don Xabier Sáez de Ocáriz Lavín",
-    "foto": "https://pbs.twimg.com/profile_images/969526453950930944/14BuJ2Oo_400x400.jpg",
-    "twitter": "ziraco",
-    "vienede": null,
-    "experiencia": {
-      "title": "Roadmaps orientadas a outcomes ",
-      "why": "Alinear estrategia con operativa de manera adaptable. Una herramienta que sirva tanto para \"la dirección\" como para el equipo que está en el día a día. Centrándose en objetivos de negocio y dejando abierta la puerta a opciones/apuestas/oportunidades.",
-      "when": "Sabes que hay una oportunidad de mercado para un producto, tienes la propuesta de valor, clientess/usuarios objetivos claros y quieres visibilizarlo para que todo el equipo de producto y stakeholders sepa de qué va la mandanga.",
-      "how": "no tenemos",
-      "links": [
-        "http://leanstartup.co/2018-conference/wp-content/uploads/sites/17/2017/11/Lean-Product-Roadmaps-Setting-Direction-While-Embracing-Uncertainty.pdf",
-        "https://medium.com/@maa1/no-more-features-on-product-roadmaps-have-themes-or-goals-instead-484bde68a990",
-        "https://www.producttalk.org/2018/10/continuous-discovery-mindsets/"
       ]
     },
     "grupo": {
@@ -1610,12 +1588,22 @@
     }
   },
   {
-    "id": 1549271561000,
-    "nombre": "Koldo Hernandez",
-    "foto": "https://pbs.twimg.com/profile_images/957580013930532864/0nwRwG1u_400x400.jpg",
-    "twitter": "koldo",
+    "id": 1549271501000,
+    "nombre": "Joaquin Engelmo Moriche",
+    "foto": "https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg",
+    "twitter": "kinisoftware",
     "vienede": null,
-    "experiencia": {},
+    "experiencia": {
+      "title": "Alexa, ¿has venido para quedarte?",
+      "why": "El objetivo de esta experiencia es debatir sobre la llegada de asistentes de voz en diferentes dispositivos y tecnologías. En estos últimos meses he estado jugando en concreto con Alexa, el asistente de Amazon. He ido descubriendo que ofrece y he ido teniendo ideas según profundizaba. Para mí, a día de hoy, este tipo de asistentes me parecen muy interesantes pero, ¿han venido para quedarse? ¿Este tipo de interfaces de interacción tendrán éxito en el largo tiempo o será algo que quedará en nada o poco? ¿Nor permiten resolver problemas que hasta ahora no se podían y/o refinar soluciones existentes para hacerlas mejores?",
+      "when": "La creación de software para asistentes de voz se puede aplicar en muchos contextos, ya sea cubriendo necesidades que no estaba cubiertas por otro software hasta ahora, mejorando soluciones existentes o, simplemente, creado utilidades aleatorias. \nAdemás, para llevar a cabo ciertos desarrollos para estos asistentes tiene una barrera de entrada bastante baja y, de momento, hay mucho movimiento a nivel individual y sin ánimo de lucro que a nivel corporativo. ",
+      "how": "no tenemos",
+      "links": [
+        "https://developer.amazon.com/alexa",
+        "https://dialogflow.com/",
+        "https://www.luis.ai/home"
+      ]
+    },
     "grupo": {
       "id": "17",
       "name": "Experiencia no enviada 1"
@@ -1626,6 +1614,18 @@
     "nombre": "Xabier Amutxastegi",
     "foto": "https://pbs.twimg.com/profile_images/860412518174511104/2d4cet8i_400x400.jpg",
     "twitter": "xabiamu",
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "17",
+      "name": "Experiencia no enviada 1"
+    }
+  },
+  {
+    "id": 1549271561000,
+    "nombre": "Koldo Hernandez",
+    "foto": "https://pbs.twimg.com/profile_images/957580013930532864/0nwRwG1u_400x400.jpg",
+    "twitter": "koldo",
     "vienede": null,
     "experiencia": {},
     "grupo": {
@@ -1670,6 +1670,18 @@
     }
   },
   {
+    "id": 1550833795000,
+    "nombre": "Jorge Juan Barroso Carmona",
+    "foto": "https://pbs.twimg.com/profile_images/905364975149047809/z0fkj2mp_400x400.jpg",
+    "twitter": "flipper83",
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "18",
+      "name": "Experiencia no enviada 2"
+    }
+  },
+  {
     "id": 1549820107000,
     "nombre": "Joan Fisbein",
     "foto": "https://pbs.twimg.com/profile_images/41374962/joan_400x400.png",
@@ -1686,18 +1698,6 @@
     "nombre": "Javier Provecho",
     "foto": "https://pbs.twimg.com/profile_images/786246662981287937/LSlPYTcf_400x400.jpg",
     "twitter": "javierprovecho",
-    "vienede": null,
-    "experiencia": {},
-    "grupo": {
-      "id": "18",
-      "name": "Experiencia no enviada 2"
-    }
-  },
-  {
-    "id": 1550833795000,
-    "nombre": "Jorge Juan Barroso Carmona",
-    "foto": "https://pbs.twimg.com/profile_images/905364975149047809/z0fkj2mp_400x400.jpg",
-    "twitter": "flipper83",
     "vienede": null,
     "experiencia": {},
     "grupo": {
@@ -1730,6 +1730,18 @@
     }
   },
   {
+    "id": 1552209546000,
+    "nombre": "Aitor Aznar Álvarez",
+    "foto": "https://pbs.twimg.com/profile_images/898278619428081668/y9cCjW5y_400x400.jpg",
+    "twitter": "aitoraznara",
+    "vienede": null,
+    "experiencia": {},
+    "grupo": {
+      "id": "19",
+      "name": "Experiencia no enviada 3"
+    }
+  },
+  {
     "id": 1551605640000,
     "nombre": "Álex Dolara",
     "foto": "https://pbs.twimg.com/profile_images/1078682575667900417/WXqH_u2w_400x400.jpg",
@@ -1746,18 +1758,6 @@
     "nombre": "Abel Vidal",
     "foto": "https://pbs.twimg.com/profile_images/955941297507983360/kaPsD0sO_400x400.jpg",
     "twitter": "abelgvidal",
-    "vienede": null,
-    "experiencia": {},
-    "grupo": {
-      "id": "19",
-      "name": "Experiencia no enviada 3"
-    }
-  },
-  {
-    "id": 1552209546000,
-    "nombre": "Aitor Aznar Álvarez",
-    "foto": "https://pbs.twimg.com/profile_images/898278619428081668/y9cCjW5y_400x400.jpg",
-    "twitter": "aitoraznara",
     "vienede": null,
     "experiencia": {},
     "grupo": {
