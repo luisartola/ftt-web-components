@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "legacy",
+    "name": "Legacy 1",
     "asistentes": [
       {
         "id": 1549178800000,
@@ -97,7 +97,7 @@
   },
   {
     "id": "2",
-    "name": "legacy",
+    "name": "Legacy 2",
     "asistentes": [
       {
         "id": 317124317462000,
@@ -175,7 +175,7 @@
   },
   {
     "id": "3",
-    "name": "arquitectura",
+    "name": "Arquitectura",
     "asistentes": [
       {
         "id": 1549221213000,
@@ -258,7 +258,7 @@
         "experiencia": {
           "title": "Concepto de microservicios en la capa de persistencia",
           "why": "Trabajo en un producto con >15 años en sus espaldas. Los últimos años hemos ido dandole mordiscos para adelgazar el monolito e ir construyendo una arquitectura basada en microservicios.\n\nDurante este tiempo la capa de persistencia (la base de datos, vaya...MySQL en nuestro caso) se ha ido manteniendo en un monolito que ha ido creciendo y creciendo ... recibimos muchos datos (millones de mensajes diarios) que nuestros jefes nunca quieren borrar (síndrome de Diógenes digital).\n\nSobre esa base de datos monolítica hemos ido aplicando distintas técnicas para poder ir sobreviviendo con ella (replica master-slave, sharding, etc) pero ha llegado un punto en el que los backups son inmanejables y las operaciones cada vez más lentas, debido a un modelo de datos agotado y un volumen monstruoso (decenas de gigas).\n \nAplicando una filosofía similar a la de los microservicios hemos diversificado nuestra capa de persistencia por funcionalidad y eligiendo el tipo de base de datos más adecuada a cada caso concreto. De esta forma ahora mismo trabajamos con 4 bases de datos de naturalezas muy diversas (MySQL, mongoDB, InfluxDB y Redis) y nos estamos planteando incluir una 5ª (Cassandra)\n\nLas pegas de esto son principalmente 2: el trabajo de IT se multiplica y hay que tener cuidado con la sincronización de datos comunes en bases de datos diferentes.\nLas ventajas: TODO lo demás: backups mas sencillos y seguros, mayor tolerancia a fallos y, sobretodo, poder aprovechar las bondades de cada motor de base de datos concreto en su ámbito de actuación (ejemplo: influx es muy bueno para almacenar series temporales, Redis para frecuencias de consultas muy elevadas, mongo para datos no estructurados, etc)\n",
-          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va añadiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
+          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va a��adiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
           "how": "no tenemos",
           "links": [
             "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
@@ -271,7 +271,7 @@
   },
   {
     "id": "4",
-    "name": "organizaciones/escalabilidad",
+    "name": "Organizaciones/escalabilidad",
     "asistentes": [
       {
         "id": 1549701373000,
@@ -336,7 +336,7 @@
         "experiencia": {
           "title": "Negarte y su cadena de consecuencias",
           "why": "He vivido como la negación hace desatascarse proyectos ante clientes que se guían por el dogma de que 'el cliente siempre tiene la razón', pero aparte de esos pequeños detalles lo bonito son todas las implicaciones que tiene detrás: En algunos momentos es inevitable la imposibilidad de negarse porque el producto no es tuyo. Llegados a ese momento: Qué esfuerzo merece un producto que no es tuyo? Que se le puede pedir a un desarrollador cuyo producto no es suyo? 9-17? Es licito arriesgar? Es ético obviar información a tu empleador tecnofobo cuando sabes -aunque el no lo sepa- que va a ser mas provechoso para tu trabajo que no hacerlo y sabes que el/ella te lo negaría?...",
-          "when": "Se aplica en el día a día y lo veo mas como una cuestion filos��fica",
+          "when": "Se aplica en el día a día y lo veo mas como una cuestion filosófica",
           "how": "no tenemos",
           "links": [
             "Vi algún retazo de esto en el libro de TDD de Kent Beck, creo recordar, o en el de Clean Code (no recuerdo)",
@@ -409,7 +409,7 @@
   },
   {
     "id": "6",
-    "name": "front",
+    "name": "Front",
     "asistentes": [
       {
         "id": 1549178229000,
@@ -505,7 +505,7 @@
   },
   {
     "id": "7",
-    "name": "organizaciones/escalabilida",
+    "name": "Macro economics",
     "asistentes": [
       {
         "id": 1549227163000,
@@ -601,7 +601,7 @@
   },
   {
     "id": "8",
-    "name": "datos (timeseries, etc)",
+    "name": "Dame datos",
     "asistentes": [
       {
         "id": 1552120053000,
@@ -657,7 +657,7 @@
   },
   {
     "id": "9",
-    "name": "Seamos audltos",
+    "name": "Coding",
     "asistentes": [
       {
         "id": 1549305830000,
@@ -945,7 +945,7 @@
   },
   {
     "id": "12",
-    "name": "mobile",
+    "name": "Mobile",
     "asistentes": [
       {
         "id": 1549703462000,
@@ -1023,7 +1023,7 @@
   },
   {
     "id": "13",
-    "name": "agile 1",
+    "name": "Agile 1",
     "asistentes": [
       {
         "id": 1549819507000,
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "14",
-    "name": "agile 2",
+    "name": "Agile 2",
     "asistentes": [
       {
         "id": 1549703467000,
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "15",
-    "name": "organizaciones/cultura",
+    "name": "Aprendizaje, talento, cultura",
     "asistentes": [
       {
         "id": 1549192350000,
@@ -1311,7 +1311,7 @@
   },
   {
     "id": "16",
-    "name": "equipos + producto",
+    "name": "Equipos + producto",
     "asistentes": [
       {
         "id": 1552145072000,
