@@ -12,13 +12,13 @@
     "asistente": {
       "id": 1552375498000,
       "nombre": "Ana Gil Amor",
-      "foto": "",
-      "twitter": "",
+      "foto": "https://pbs.twimg.com/profile_images/536283351393374208/zfVaWP7F_400x400.jpeg",
+      "twitter": "manosfrias",
       "vienede": null
     },
     "grupo": {
-      "id": "14",
-      "name": "softskills"
+      "id": "13",
+      "name": "agile 1"
     }
   },
   {
@@ -39,7 +39,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2",
+      "id": "1",
       "name": "legacy"
     }
   },
@@ -62,7 +62,7 @@
     },
     "grupo": {
       "id": "11",
-      "name": "microservicios asíncronos"
+      "name": "Techniques 2"
     }
   },
   {
@@ -84,7 +84,7 @@
     },
     "grupo": {
       "id": "5",
-      "name": "Seamos audltos"
+      "name": "Seamos adultos"
     }
   },
   {
@@ -105,8 +105,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "9",
+      "name": "Seamos audltos"
     }
   },
   {
@@ -128,7 +128,7 @@
     },
     "grupo": {
       "id": "3",
-      "name": "arquitectura/diseño"
+      "name": "arquitectura"
     }
   },
   {
@@ -150,7 +150,7 @@
     },
     "grupo": {
       "id": "3",
-      "name": "arquitectura/diseño"
+      "name": "arquitectura"
     }
   },
   {
@@ -172,7 +172,7 @@
     },
     "grupo": {
       "id": "3",
-      "name": "arquitectura/diseño"
+      "name": "arquitectura"
     }
   },
   {
@@ -193,7 +193,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "13",
+      "id": "12",
       "name": "mobile"
     }
   },
@@ -215,8 +215,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14.5",
-      "name": "coaching agile"
+      "id": "14",
+      "name": "agile 2"
     }
   },
   {
@@ -238,7 +238,7 @@
     },
     "grupo": {
       "id": "3",
-      "name": "arquitectura/diseño"
+      "name": "arquitectura"
     }
   },
   {
@@ -260,7 +260,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "aprendizaje"
+      "name": "front"
     }
   },
   {
@@ -281,8 +281,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "3",
+      "name": "arquitectura"
     }
   },
   {
@@ -303,8 +303,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "3",
+      "name": "arquitectura"
     }
   },
   {
@@ -325,8 +325,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "3",
+      "name": "arquitectura"
     }
   },
   {
@@ -348,7 +348,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "aprendizaje"
+      "name": "front"
     }
   },
   {
@@ -369,8 +369,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14",
-      "name": "softskills"
+      "id": "13",
+      "name": "agile 1"
     }
   },
   {
@@ -392,7 +392,7 @@
     },
     "grupo": {
       "id": "15",
-      "name": "legacy/trabajo remoto"
+      "name": "organizaciones/cultura"
     }
   },
   {
@@ -414,7 +414,7 @@
     },
     "grupo": {
       "id": "11",
-      "name": "microservicios asíncronos"
+      "name": "Techniques 2"
     }
   },
   {
@@ -435,7 +435,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "8",
+      "id": "7",
       "name": "organizaciones/escalabilida"
     }
   },
@@ -479,7 +479,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "13",
+      "id": "12",
       "name": "mobile"
     }
   },
@@ -502,7 +502,7 @@
     },
     "grupo": {
       "id": "15",
-      "name": "legacy/trabajo remoto"
+      "name": "organizaciones/cultura"
     }
   },
   {
@@ -523,7 +523,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "13",
+      "id": "12",
       "name": "mobile"
     }
   },
@@ -545,8 +545,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "5",
-      "name": "Seamos audltos"
+      "id": "14",
+      "name": "agile 2"
     }
   },
   {
@@ -567,8 +567,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "5",
-      "name": "Seamos audltos"
+      "id": "14",
+      "name": "agile 2"
     }
   },
   {
@@ -589,7 +589,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2.5",
+      "id": "2",
       "name": "legacy"
     }
   },
@@ -611,8 +611,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -633,7 +633,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2",
+      "id": "1",
       "name": "legacy"
     }
   },
@@ -655,8 +655,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -700,7 +700,7 @@
     },
     "grupo": {
       "id": "3",
-      "name": "arquitectura/diseño"
+      "name": "arquitectura"
     }
   },
   {
@@ -721,7 +721,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "8",
+      "id": "7",
       "name": "organizaciones/escalabilida"
     }
   },
@@ -743,8 +743,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -788,7 +788,7 @@
     },
     "grupo": {
       "id": "11",
-      "name": "microservicios asíncronos"
+      "name": "Techniques 2"
     }
   },
   {
@@ -810,7 +810,7 @@
     },
     "grupo": {
       "id": "11",
-      "name": "microservicios asíncronos"
+      "name": "Techniques 2"
     }
   },
   {
@@ -832,7 +832,7 @@
     },
     "grupo": {
       "id": "15",
-      "name": "legacy/trabajo remoto"
+      "name": "organizaciones/cultura"
     }
   },
   {
@@ -853,7 +853,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2",
+      "id": "1",
       "name": "legacy"
     }
   },
@@ -875,8 +875,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14",
-      "name": "softskills"
+      "id": "13",
+      "name": "agile 1"
     }
   },
   {
@@ -898,7 +898,7 @@
     },
     "grupo": {
       "id": "15",
-      "name": "legacy/trabajo remoto"
+      "name": "organizaciones/cultura"
     }
   },
   {
@@ -920,7 +920,7 @@
     },
     "grupo": {
       "id": "15",
-      "name": "legacy/trabajo remoto"
+      "name": "organizaciones/cultura"
     }
   },
   {
@@ -941,8 +941,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -963,8 +963,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14",
-      "name": "softskills"
+      "id": "13",
+      "name": "agile 1"
     }
   },
   {
@@ -985,7 +985,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2",
+      "id": "1",
       "name": "legacy"
     }
   },
@@ -1008,7 +1008,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "aprendizaje"
+      "name": "front"
     }
   },
   {
@@ -1030,7 +1030,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "aprendizaje"
+      "name": "front"
     }
   },
   {
@@ -1052,7 +1052,7 @@
     },
     "grupo": {
       "id": "5",
-      "name": "Seamos audltos"
+      "name": "Seamos adultos"
     }
   },
   {
@@ -1074,7 +1074,7 @@
     },
     "grupo": {
       "id": "5",
-      "name": "Seamos audltos"
+      "name": "Seamos adultos"
     }
   },
   {
@@ -1118,7 +1118,7 @@
     },
     "grupo": {
       "id": "15",
-      "name": "legacy/trabajo remoto"
+      "name": "organizaciones/cultura"
     }
   },
   {
@@ -1139,7 +1139,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "8",
+      "id": "7",
       "name": "organizaciones/escalabilida"
     }
   },
@@ -1161,8 +1161,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14",
-      "name": "softskills"
+      "id": "13",
+      "name": "agile 1"
     }
   },
   {
@@ -1183,8 +1183,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14.5",
-      "name": "coaching agile"
+      "id": "16",
+      "name": "equipos + producto"
     }
   },
   {
@@ -1201,12 +1201,12 @@
       "id": 1549221213000,
       "nombre": "Modesto San Juan Alvarez",
       "foto": "https://pbs.twimg.com/profile_images/894206073883721728/l_t7xMK5_400x400.jpg",
-      "twitter": "nestorsalceda",
+      "twitter": "msanjuan",
       "vienede": null
     },
     "grupo": {
       "id": "3",
-      "name": "arquitectura/diseño"
+      "name": "arquitectura"
     }
   },
   {
@@ -1227,8 +1227,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14.5",
-      "name": "coaching agile"
+      "id": "14",
+      "name": "agile 2"
     }
   },
   {
@@ -1249,8 +1249,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "4",
-      "name": "organizaciones/escalabilidad"
+      "id": "16",
+      "name": "equipos + producto"
     }
   },
   {
@@ -1271,7 +1271,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "13",
+      "id": "12",
       "name": "mobile"
     }
   },
@@ -1293,8 +1293,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "9",
+      "name": "Seamos audltos"
     }
   },
   {
@@ -1316,7 +1316,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "aprendizaje"
+      "name": "front"
     }
   },
   {
@@ -1337,8 +1337,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14.5",
-      "name": "coaching agile"
+      "id": "14",
+      "name": "agile 2"
     }
   },
   {
@@ -1359,8 +1359,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -1381,8 +1381,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -1403,8 +1403,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10.5",
-      "name": "Coding techniques 1"
+      "id": "10",
+      "name": "Techniques 1"
     }
   },
   {
@@ -1425,8 +1425,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "9",
+      "name": "Seamos audltos"
     }
   },
   {
@@ -1448,7 +1448,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "aprendizaje"
+      "name": "front"
     }
   },
   {
@@ -1470,7 +1470,7 @@
     },
     "grupo": {
       "id": "11",
-      "name": "microservicios asíncronos"
+      "name": "Techniques 2"
     }
   },
   {
@@ -1491,7 +1491,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "9",
+      "id": "8",
       "name": "datos (timeseries, etc)"
     }
   },
@@ -1513,8 +1513,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "10",
-      "name": "Coding techniques 1"
+      "id": "9",
+      "name": "Seamos audltos"
     }
   },
   {
@@ -1535,7 +1535,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2.5",
+      "id": "2",
       "name": "legacy"
     }
   },
@@ -1558,7 +1558,7 @@
     },
     "grupo": {
       "id": "5",
-      "name": "Seamos audltos"
+      "name": "Seamos adultos"
     }
   },
   {
@@ -1579,8 +1579,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14.5",
-      "name": "coaching agile"
+      "id": "14",
+      "name": "agile 2"
     }
   },
   {
@@ -1601,7 +1601,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "2.5",
+      "id": "2",
       "name": "legacy"
     }
   },
@@ -1623,7 +1623,7 @@
       "vienede": null
     },
     "grupo": {
-      "id": "8",
+      "id": "7",
       "name": "organizaciones/escalabilida"
     }
   },
@@ -1645,8 +1645,184 @@
       "vienede": null
     },
     "grupo": {
-      "id": "5",
+      "id": "9",
       "name": "Seamos audltos"
+    }
+  },
+  {
+    "title": "Soft skills. Ahora en remoto.",
+    "why": "Qué importante es la comunicación en el óptimo desarrollo de un proyecto. También el sentirte responsable del proyecto y ser capaz de discernir qué tareas hay pendientes y cuál va a ser la carga de trabajo de estas.\n\nCiertas habilidades se potencian cuando no tienes a tu interlocutor a un metro de ti. O a tu equipo en tu misma oficina. Creo que es interesante compartir nuestras ideas sobre dos conceptos, uno de ellos crucial y habitualmente ignorado (soft skills) en relación con una metodología (trabajo en remoto) a la que tiende nuestro sector.",
+    "when": "Los soft skills son necesario siempre. Incluso cuando escribimos código (naming, saber ordenar tareas, evaluar tu capacidad de concentración actual...) y el trabajo en remoto comprende ciertas habilidades que, siendo cruciales en remoto, también se deberían aplicar en trabajo presencial (escritura de emails, asincronía, iniciativa, product owning...)",
+    "how": "no tenemos",
+    "links": [
+      "https://www.business2community.com/human-resources/essential-soft-skills-for-successful-remote-workers-02146160",
+      "https://blog.devcenter.co/6-must-have-skills-for-remote-work-eb46e8e76bcb",
+      ""
+    ],
+    "asistente": {
+      "id": 1552145132000,
+      "nombre": "Mikel Torres",
+      "foto": "https://pbs.twimg.com/profile_images/1055773872384040960/iZIlr6VE_400x400.jpg",
+      "twitter": "ojoven",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "16",
+      "name": "equipos + producto"
+    }
+  },
+  {
+    "title": "Como ser el QA del equipo y no morir en el intento",
+    "why": "Trabajar como QA dentro de un equipo",
+    "when": "Equipo multidisciplinar",
+    "how": "no tenemos",
+    "links": [
+      "",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1552034277000,
+      "nombre": "Aritz Águila Díaz",
+      "foto": "https://pbs.twimg.com/profile_images/1111024612647882753/9WBAT6Qo_400x400.jpg",
+      "twitter": "duiraritz",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "16",
+      "name": "equipos + producto"
+    }
+  },
+  {
+    "title": "Dando cariño a tu api y clientes (minimizando dolores de cabeza)",
+    "why": "La experiencia, adquirida a lo largo de años participando en proyectos/productos en los que se exponen apis/servicios y a su vez se integra con servicios de terceros, nos apunta a que cada vez se menciona \"integración con servicio externo\" es un warning en el que puede haber una gran incertidumbre en ese punto.\n\nEstas integraciones con apis de terceros suelen ser en muchas ocasiones un sumidero de horas, correos, tickets de soporte, llamadas telefónicas y muchas veces debido a una pobre/incorrecta documentación.\n\nLo que intentamos hacer es que cuando nosotros somos los que exponemos el servicio, la experiencia de uso del mismo sea la más sencilla posible y que minimice las horas de soporte a terceros.\n",
+    "when": "Siempre que expongas un api, pero sobre todo cuando es parte del core de tu producto/servicio.",
+    "how": "no tenemos",
+    "links": [
+      "https://docs.google.com/document/d/1hGR5ZmHbR8EBFYHoMo-WbKTLA1GZG-4iDocIgPK3Tno/edit?usp=sharing",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1555063795000,
+      "nombre": "Alberto SANCHEZ FONTECHA",
+      "foto": "https://pbs.twimg.com/profile_images/936616962582597632/tB0mTI_f_400x400.jpg",
+      "twitter": "asfontecha",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "11",
+      "name": "Techniques 2"
+    }
+  },
+  {
+    "title": "Tirar el legacy que yo mismo he construí cuando la startup tenía que salir adelante",
+    "why": "Al principio todo es incertidumbre, prisas y poco dinero/tiempo. ¿Hago esto de aquella forma para que escale mejor? Quizá entonces no lleguemos a que nos contrate este cliente que supone acercarnos a ser viables. \nMás adelante, sin embargo, el equipo crece y lo que antes te hizo ganar algo de velocidad es justamente lo que ahora te frena. Por ese motivo hay que cambiar la forma en la que ves el proyecto. Durante un tiempo se buscaba la velocidad pura, pero ahora necesita crecer de forma estable y permitir que muchos más equipos trabajen sobre él sin tirarse de los pelos. ",
+    "when": "La pregunta del millón, y  justamente donde cada uno puede tener una opinión muy distinta. En mi caso creo que empecé a hacerlo como mínimo un año más tarde de lo que debería haberlo hecho. Lo malo de esa velocidad inicial y poco sostenible, es que te acostumbras muy fácilmente a ella. ",
+    "how": "no tenemos",
+    "links": [
+      "https://martinfowler.com/articles/break-monolith-into-microservices.html",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 317124317462000,
+      "nombre": "Francisco Javier Garcia",
+      "foto": "https://pbs.twimg.com/profile_images/666305731054985216/NCvb7zxO_400x400.jpg",
+      "twitter": "fgperianez",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "2",
+      "name": "legacy"
+    }
+  },
+  {
+    "title": "Como trabajar desde una empresa de servicios para una startup y no morir en el intento",
+    "why": "Este último año he formado parte de un equipo de desarrollo externalizado, para una startup, en la que hemos tenido que trabajar con código legado y ajustarnos a los tiempos de entrega y objetivos de negocio cambiantes.\n",
+    "when": "Cuando existe una diferencia tan grande entre los objetivos/plazos del cliente y del equipo de desarrollo, en este caso el equipo de desarrollo era externo al completo, y necesitas que todo el mundo esté lo más alineado posible.\n\nCuando tienes unos plazos de tiempo ajustados, y los objetivos de negocio son cambiantes en un periodo de tiempo corto.",
+    "how": "no tenemos",
+    "links": [
+      "https://agilemanifesto.org/iso/es/principles.html",
+      "https://martinfowler.com/bliki/ExtremeProgramming.html",
+      ""
+    ],
+    "asistente": {
+      "id": 1554153649000,
+      "nombre": "Ismael Liberal",
+      "foto": "https://pbs.twimg.com/profile_images/930874054436904960/NH7qsRyL_400x400.jpg",
+      "twitter": "ismaelliberal",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "16",
+      "name": "equipos + producto"
+    }
+  },
+  {
+    "title": "He dejado de programar",
+    "why": "Me gusta resolver problemas con software. Se me da bien, creo. Pero ya no tengo tiempo para ello. En los últimos años he pasado del \"desarrollador ágil\" a \"team lead\". Vuelta a \"solo ingeniero\" y finalmente \"manager puro\".\n\nTengo tendencia a \"llenar huecos\" en lugar de especializarme, y eso me ha ido llevando a interesarme en el desarrollo de los equipos, en crear soluciones, en tener diálogos con \"no-desarrolladores\" para buscar mejores formas de trabajo.\n\nYo solo quería trabajar en equipos ágiles en entornos que se estaban volviendo corporate… y para eso \"llené el hueco\" de la gestión. Para empujar mejores formas de trabajo entre los que deciden las formas de trabajo.\n\nAhora soy manager, y el precio es que ya no programo.",
+    "when": "En algún punto de la carrera de un desarrollador, será tentado por el lado de la gestión de equipos. Es el momento de pensar si es la dirección que quieres darle a tu carrera o no… si vales para ello y por qué quieres hacerlo.",
+    "how": "no tenemos",
+    "links": [
+      "https://www.amazon.es/Programming-Beyond-Practices-More-Monkey-ebook/dp/B01LYRCGA8/ref=sr_1_fkmrnull_1?__mk_es_ES=ÅMÅŽÕÑ&keywords=more+than+a+code+monkey&qid=1555156240&s=gateway&sr=8-1-fkmrnull",
+      "https://www.amazon.es/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?__mk_es_ES=ÅMÅŽÕÑ&keywords=managers+path&qid=1555156266&s=gateway&sr=8-1",
+      ""
+    ],
+    "asistente": {
+      "id": 1552120691000,
+      "nombre": "Abel Muiño Vizcaino",
+      "foto": "https://pbs.twimg.com/profile_images/1058471932725727234/LEXLEEtx_400x400.jpg",
+      "twitter": "amuino",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "7",
+      "name": "organizaciones/escalabilida"
+    }
+  },
+  {
+    "title": "Static Action objects ",
+    "why": "Los estamos usando para recubrir el legacy en Nextail, no es idea mia ya esta allí, pero me gusta por: interfaz comun a todos los actions (call()) desde la consola puedes instanciarlos facilmente crearse internamente el objeto con sus dependencias injectadas. ",
+    "when": "Puedes aplicarlo si no inicializas los objetos con diferences dependencias. Interfaz comun a un legacy existente.",
+    "how": "no tenemos",
+    "links": [
+      "",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1555100038000,
+      "nombre": "Cesar Ortiz",
+      "foto": "https://pbs.twimg.com/profile_images/450031987169185792/pLsD4KBl_400x400.jpeg",
+      "twitter": "cesarob",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "1",
+      "name": "legacy"
+    }
+  },
+  {
+    "title": "Unit testing con dataframes (pandas)",
+    "why": "Reducir tiempos en una base de codigo de DS.",
+    "when": "El contexto es que la gente que viene de DS no está acostumbrada a practicas los devs tenemos ya muy asimiladas y si los algoritmos de DS no es que sean rápidos si encima le metes pasos extra como tocar la BD pues...",
+    "how": "no tenemos",
+    "links": [
+      "",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1555100038000,
+      "nombre": "Cesar Ortiz",
+      "foto": "https://pbs.twimg.com/profile_images/450031987169185792/pLsD4KBl_400x400.jpeg",
+      "twitter": "cesarob",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "1",
+      "name": "legacy"
     }
   }
 ]
