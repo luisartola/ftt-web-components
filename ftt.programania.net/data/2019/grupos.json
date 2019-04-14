@@ -258,103 +258,7 @@
         "experiencia": {
           "title": "Concepto de microservicios en la capa de persistencia",
           "why": "Trabajo en un producto con >15 años en sus espaldas. Los últimos años hemos ido dandole mordiscos para adelgazar el monolito e ir construyendo una arquitectura basada en microservicios.\n\nDurante este tiempo la capa de persistencia (la base de datos, vaya...MySQL en nuestro caso) se ha ido manteniendo en un monolito que ha ido creciendo y creciendo ... recibimos muchos datos (millones de mensajes diarios) que nuestros jefes nunca quieren borrar (síndrome de Diógenes digital).\n\nSobre esa base de datos monolítica hemos ido aplicando distintas técnicas para poder ir sobreviviendo con ella (replica master-slave, sharding, etc) pero ha llegado un punto en el que los backups son inmanejables y las operaciones cada vez más lentas, debido a un modelo de datos agotado y un volumen monstruoso (decenas de gigas).\n \nAplicando una filosofía similar a la de los microservicios hemos diversificado nuestra capa de persistencia por funcionalidad y eligiendo el tipo de base de datos más adecuada a cada caso concreto. De esta forma ahora mismo trabajamos con 4 bases de datos de naturalezas muy diversas (MySQL, mongoDB, InfluxDB y Redis) y nos estamos planteando incluir una 5ª (Cassandra)\n\nLas pegas de esto son principalmente 2: el trabajo de IT se multiplica y hay que tener cuidado con la sincronización de datos comunes en bases de datos diferentes.\nLas ventajas: TODO lo demás: backups mas sencillos y seguros, mayor tolerancia a fallos y, sobretodo, poder aprovechar las bondades de cada motor de base de datos concreto en su ámbito de actuación (ejemplo: influx es muy bueno para almacenar series temporales, Redis para frecuencias de consultas muy elevadas, mongo para datos no estructurados, etc)\n",
-          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va a��adiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
-          "how": "no tenemos",
-          "links": [
-            "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
-            "",
-            ""
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "name": "Coding techniques",
-    "asistentes": [
-      {
-        "id": 1549221213000,
-        "nombre": "Modesto San Juan Alvarez",
-        "foto": "https://pbs.twimg.com/profile_images/894206073883721728/l_t7xMK5_400x400.jpg",
-        "twitter": "msanjuan",
-        "vienede": null,
-        "experiencia": {
-          "title": "Event storming y cosas similares",
-          "why": "La dinámica es muy similar y lo suelo utilizar con dos objetivos:\n\n- Poner en común el conocimiento sobre un proceso de negocio o técnico dentro del equipo para que todo el equipo conozca el proceso completo.\n- Repensar uno o varios procesos existentes para simplificarlo, reenfocarlo, eliminar desperdicio, etc.\n- Definir un proceso complejo que implica a varias disciplinas del negocio evitando que un proceso que implica a 3 disciplinas se convierta en un proceso en tres pasos (por ejemplo).",
-          "when": "Aplica cuando se da alguna de estas circunstancias: procesos complejos, procesos con complejidad accidental, equipos que necesitan poner en común conocimiento, etc.",
-          "how": "no tenemos",
-          "links": [
-            "https://www.eventstorming.com/",
-            "https://speakerdeck.com/tastapod/event-storming-for-fun-and-profit",
-            "https://www.thoughtworks.com/radar/techniques/event-storming"
-          ]
-        }
-      },
-      {
-        "id": 1549701476000,
-        "nombre": "Julen Garcia Leunda",
-        "foto": "https://pbs.twimg.com/profile_images/804964176875716608/SpafYo0h_400x400.jpg",
-        "twitter": "hicom150",
-        "vienede": null,
-        "experiencia": {
-          "title": "",
-          "why": "La arquitectura de capas que teníamos nos encontrábamos con ciertos problemas, acoplamiento del código, dificultad a la hora de testear, no estaban bien definidas las responsabilidades…\n\nSe intenta ir migrando el código a una arquitectura hexagonal en la cual se establecen unas limitaciones claras de las capas y se propone una regla de dependencias entre ellas (de fuera hacia dentro) \n\nLa arquitectura hexagonal ofrece ciertas ventajas, entre ellas desacoplar capas de la aplicación permitiendo que evolucionen de manera aislada, tener el sistema separado por responsabilidades facilita la reutilización y más facilidad a la hora de testear.",
-          "when": "* Proyectos estables con una esperanza de vida larga (mantenibilidad)\n* Proyectos grandes que necesita adaptarse bien al cambio (alta tolerancia al cambio)",
-          "how": "no tenemos",
-          "links": [
-            "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
-            "https://pro.codely.tv/library/arquitectura-hexagonal/about/",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1549906465000,
-        "nombre": "Beñat Espiña Diaz",
-        "foto": "https://pbs.twimg.com/profile_images/674974182988496896/prjrcUgC_400x400.png",
-        "twitter": "benatespina",
-        "vienede": null,
-        "experiencia": {
-          "title": "Arquitecturas hexagonales",
-          "why": "Cuando aterrizas en una plataforma enorme, con código de hace 7 años, que ha pasado por muchas manos y que encima el paradigma del FW es tan axfisiante que no te da cancha, o pegas un viraje 180º o no hay nada que hacer. La progresiva implantación de los paradigmas hexagonales en los diferentes codebase de la compañía nos ha hecho ser más ágiles al cambio y poder separar las dos líneas de tiempo dominantes en cualquier producto SW: la de negocio y la técnica.",
-          "when": "Cuando trabajas en una plataforma que no desintegra el átomo en términos de negocio pero cada vez necesitas más y más developers. Cuando una feature de negocio te impacta directamente en la evolución técnica de la plataforma. Cuando acometer esa necesaria evolución técnica es tan arriesgada ya que puede generar efectos colaterales en tu negocio. Para esto y mucho más, las arquitecturas hexagonales pueden sernos de gran ayuda.",
-          "how": "no tenemos",
-          "links": [
-            "Clean Architecture by Uncle Bob --> https://www.amazon.es/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/\n\nEn el Link 2 está mi resumen sobre el libro :)",
-            "https://github.com/benatespina/book-notes/blob/master/clean_architecture.md",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1552131217000,
-        "nombre": "Alberto Rodríguez",
-        "foto": "https://pbs.twimg.com/profile_images/693572910/pierre_400x400.jpg",
-        "twitter": "sharpbites",
-        "vienede": null,
-        "experiencia": {
-          "title": "Arquitectura apañadica / Clean Arquitechture en “el mundo real” / IDD a lo pobre",
-          "why": "Pasada la fase de prototipo, cuando una aplicación crece, y tienes el típico monolito basado en un framework MVC, se hace difícil tener una visión de qué hace tu aplicación y qué afecta a qué. Para lograr una cierta mantenibilidad en bases de código grandes, se hace necesario definir una arquitectura adicional más allá de la que te da el propio framework.",
-          "when": "Si aterrizas en un proyecto con un montón de código legado, sin una arquitectura clara, acoplado al framework. Cuando salir de ese agujero parece complicado. Si ves a otros hablar de DDD, IDD, arquitecturas limpias, etc, y piensas “ya me gustaría a mí verte con esto entre manos”.",
-          "how": "no tenemos",
-          "links": [
-            "No tengo un enlace que lo explique exactamente porque es un poco cosecha propia, un refrito de ideas, una suerte IDD simplificado desacoplando de la capa de delivery, no tan estricto en otras cosas. Basado principalmente en convenciones (organización por features, interactors como punto de entrada a tu “core”, query objects, callable objects).",
-            "https://codurance.com/2017/12/08/introducing-idd/",
-            "https://vimeo.com/130256611"
-          ]
-        }
-      },
-      {
-        "id": 1549746838000,
-        "nombre": "Carlos Rueda Morales",
-        "foto": "https://pbs.twimg.com/profile_images/1101234256691511296/xiEsROfB_400x400.jpg",
-        "twitter": "carlrue",
-        "vienede": null,
-        "experiencia": {
-          "title": "Concepto de microservicios en la capa de persistencia",
-          "why": "Trabajo en un producto con >15 años en sus espaldas. Los últimos años hemos ido dandole mordiscos para adelgazar el monolito e ir construyendo una arquitectura basada en microservicios.\n\nDurante este tiempo la capa de persistencia (la base de datos, vaya...MySQL en nuestro caso) se ha ido manteniendo en un monolito que ha ido creciendo y creciendo ... recibimos muchos datos (millones de mensajes diarios) que nuestros jefes nunca quieren borrar (síndrome de Diógenes digital).\n\nSobre esa base de datos monolítica hemos ido aplicando distintas técnicas para poder ir sobreviviendo con ella (replica master-slave, sharding, etc) pero ha llegado un punto en el que los backups son inmanejables y las operaciones cada vez más lentas, debido a un modelo de datos agotado y un volumen monstruoso (decenas de gigas).\n \nAplicando una filosofía similar a la de los microservicios hemos diversificado nuestra capa de persistencia por funcionalidad y eligiendo el tipo de base de datos más adecuada a cada caso concreto. De esta forma ahora mismo trabajamos con 4 bases de datos de naturalezas muy diversas (MySQL, mongoDB, InfluxDB y Redis) y nos estamos planteando incluir una 5ª (Cassandra)\n\nLas pegas de esto son principalmente 2: el trabajo de IT se multiplica y hay que tener cuidado con la sincronización de datos comunes en bases de datos diferentes.\nLas ventajas: TODO lo demás: backups mas sencillos y seguros, mayor tolerancia a fallos y, sobretodo, poder aprovechar las bondades de cada motor de base de datos concreto en su ámbito de actuación (ejemplo: influx es muy bueno para almacenar series temporales, Redis para frecuencias de consultas muy elevadas, mongo para datos no estructurados, etc)\n",
-          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va a��adiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
+          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va añadiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
           "how": "no tenemos",
           "links": [
             "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
@@ -432,7 +336,7 @@
         "experiencia": {
           "title": "Negarte y su cadena de consecuencias",
           "why": "He vivido como la negación hace desatascarse proyectos ante clientes que se guían por el dogma de que 'el cliente siempre tiene la razón', pero aparte de esos pequeños detalles lo bonito son todas las implicaciones que tiene detrás: En algunos momentos es inevitable la imposibilidad de negarse porque el producto no es tuyo. Llegados a ese momento: Qué esfuerzo merece un producto que no es tuyo? Que se le puede pedir a un desarrollador cuyo producto no es suyo? 9-17? Es licito arriesgar? Es ético obviar información a tu empleador tecnofobo cuando sabes -aunque el no lo sepa- que va a ser mas provechoso para tu trabajo que no hacerlo y sabes que el/ella te lo negaría?...",
-          "when": "Se aplica en el día a día y lo veo mas como una cuestion filosófica",
+          "when": "Se aplica en el día a día y lo veo mas como una cuestion filos��fica",
           "how": "no tenemos",
           "links": [
             "Vi algún retazo de esto en el libro de TDD de Kent Beck, creo recordar, o en el de Clean Code (no recuerdo)",
