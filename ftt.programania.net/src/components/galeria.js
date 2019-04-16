@@ -34,8 +34,9 @@ export default {
   name: 'ftt-galeria',
   element: class extends LitElement {
 
-    connectedCallback() {
-      super.connectedCallback();
+    //connectedCallback no tiene DOM aquí
+    firstUpdated() {
+      super.firstUpdated();
       const querySelectorAll = this.shadowRoot.querySelectorAll('.carousel, .hero-carousel');
       const ignorado = new bulmaCarousel(querySelectorAll[0], {});
     }

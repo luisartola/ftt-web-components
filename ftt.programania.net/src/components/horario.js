@@ -12,7 +12,7 @@ export default {
       </style>
 
       <ftt-section-title 
-            title="Horario (provisional)" 
+            title="Horario" 
             subtitle="El plan completo de viernes a domingo">
        </ftt-section-title>
        

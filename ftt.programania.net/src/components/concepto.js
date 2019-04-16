@@ -61,10 +61,10 @@ export default {
         
         <p><a href="https://www.iruinsagardotegia.com">Sidrería Iruin</a></p>
         <video width="640" controls>
-          <source src="/assets/video/VID_20180414_110255.mp4" type="video/mp4">
+          <source src="https://github.com/Programania/ftt/blob/master/2018/video/VID_20180414_110255.mp4?raw=true" type="video/mp4">
         </video>
         <br/>
-        <img src="/assets/img/disfrutar-del-entorno.jpg">        
+        <img src="https://raw.githubusercontent.com/Programania/ftt/master/2018/img/disfrutar-del-entorno.jpg">        
         
       </div>
     </section>

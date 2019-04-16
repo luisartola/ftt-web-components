@@ -38,12 +38,15 @@ export default {
             <p>${this.experiencia.why}</p>
             <h3>Cuándo</h2>
             <p>${this.experiencia.when}</p>
-            <h3>Cómo</h3>
-            <p>${this.experiencia.how}</p>
-            ${this.experiencia.links.length > 0 ? html`
+            ${!!this.experiencia.how ? html`
+                        <h1>Cómo</h1>
+                        <p>${this.experiencia.how}</p>
+              `: ''}
+            
+            ${this.experiencia.links.filter(link => !!link).length > 0 ? html`
               <h3>Links</h3>
               <ul>
-                ${this.experiencia.links.map(link => html`
+                ${this.experiencia.links.filter(link => !!link && link.length > 0 ).map(link => html`
                   <li><a  target="_blank" href="${link}">${link}</a></li>
                 `)}
               </ul>

@@ -8,7 +8,6 @@ const data = {
   2019: a2019
 };
 
-
 export default {
   name: 'ftt-links',
   element: class extends LitElement {
@@ -17,13 +16,13 @@ export default {
 
       this.year = this.location.params.year;
       this.asistentes = data[this.year]
-        .filter(entry => !!entry.experiencia.links)
-        .map(entry => {
-          return {
-            nombre: entry.nombre,
-            links: entry.experiencia.links
-          };
-        });
+          .filter(entry => !!entry.experiencia.links)
+          .map(entry => {
+            return {
+              nombre: entry.nombre,
+              links: entry.experiencia.links
+            };
+          });
 
       return html`
 
@@ -59,22 +58,17 @@ export default {
 
         
         <section class="section is-paddingless">
-        <div class="container ">
-        
-        
-        <div class="content" style="overflow: hidden;">
-        
-       ${this.asistentes.map(asistente => html`
-           <h3>${asistente.nombre}</h3>
-           <ul>
-           ${asistente.links.map(link => html`
-              <li><a target="_blank" href="${link}">${link}</a></li>
-            `)}
-           </ul>
-       `)}
-</div>
-</div>
-</section>
+          <div class="container content "  style="overflow: hidden;">
+             ${this.asistentes.map(asistente => html`
+                 <p class="is-5">${asistente.nombre}</p>
+                 <ul>
+                 ${asistente.links.filter(link => !!link).map(link => html`
+                    <li><a target="_blank" href="${link}">${link}</a></li>
+                  `)}
+                 </ul>
+             `)}
+          </div>
+        </section>
 			
 		`;
     }

@@ -12,7 +12,6 @@ export default {
   element: class extends LitElement {
     render() {
 
-      debugger;
       //mover aquí la asignación hace que no intente renderizar algo vacío
       this.experiencia = data.find(exp => exp.asistente.id === parseInt(this.location.params.id, 10));
 
@@ -34,13 +33,15 @@ export default {
               <h1>Cuándo</h1>
               <p>${this.experiencia.when}</p>
     
-              <h1>Cómo</h1>
-              <p>${this.experiencia.how}</p>
+              ${!!this.experiencia.how ? html`
+                        <h1>Cómo</h1>
+                        <p>${this.experiencia.how}</p>
+              `: ''}
               
-              ${this.experiencia.links.length > 0 ? html`
+              ${this.experiencia.links.filter(link => !!link && link.length > 0 ).length > 0 ? html`
               <h3>Links</h3>
               <ul>
-                ${this.experiencia.links.map(link => html`
+                ${this.experiencia.links.filter(link => !!link && link.length > 0 ).map(link => html`
                   <li><a target="_blank" href="${link}">${link}</a></li>
                 `)}
               </ul>

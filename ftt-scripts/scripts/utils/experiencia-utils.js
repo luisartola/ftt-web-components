@@ -13,7 +13,7 @@ const excelToExperienciaModel2019 = experiencia => {
     title: experiencia.gsx$title.$t,
     why: experiencia.gsx$why.$t,
     when: experiencia.gsx$when.$t,
-    how: 'no tenemos',
+    how: null,
     links: [
       experiencia.gsx$link1.$t,
       experiencia.gsx$link2.$t,

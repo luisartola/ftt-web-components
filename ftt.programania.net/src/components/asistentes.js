@@ -66,8 +66,8 @@ export default {
         
         <ftt-section-title 
             title="Asistentes" 
-            subtitle="${this.asistentes.length ===0 ? 'Todavía no hay asistentes para ésta edición' : 
-          `Ésta edición cuenta con ${this.asistentes.length} deslumbrantes asistentes`}">
+            subtitle="${this.asistentes.length === 0 ? 'Todavía no hay asistentes para ésta edición' : 
+          `Ésta edición cuenta con ${data[this.year].length} deslumbrantes asistentes`}">
         </ftt-section-title>
         
         <section class="section">
