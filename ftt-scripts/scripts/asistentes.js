@@ -12,6 +12,7 @@ module.exports = year => {
         .map(e => {
           const email = year === 2018 ? e.gsx$email.$t : e.gsx$email.$t;
           const experiencia = experiencias.find(byEmail(email));
+
           return Object.assign(
               year === 2018 ? excelToAsistenteModel(e) : excelToAsistenteModel2019(e),
               {experiencia: year === 2018 ? excelToExperienciaModel(experiencia) : excelToExperienciaModel2019(experiencia)},

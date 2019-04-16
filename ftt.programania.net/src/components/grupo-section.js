@@ -40,7 +40,7 @@ export default {
 
               <h1 class="title">Grupo ${this.grupo.id}: ${this.grupo.name}</h1>
 
-              <table class="table">
+              <table class="table is-fullwidth">
                 <thead>
                 <tr>
                 <th></th>

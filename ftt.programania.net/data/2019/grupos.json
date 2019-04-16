@@ -101,7 +101,7 @@
     "asistentes": [
       {
         "id": 1549712701000,
-        "nombre": "Irune",
+        "nombre": "Irune Prado",
         "foto": "https://pbs.twimg.com/profile_images/56756978/tatoo_400x400.png",
         "twitter": "wideawakening",
         "vienede": null,
@@ -202,7 +202,7 @@
         "twitter": "hicom150",
         "vienede": null,
         "experiencia": {
-          "title": "",
+          "title": "Arquitectura hexagonal",
           "why": "La arquitectura de capas que teníamos nos encontrábamos con ciertos problemas, acoplamiento del código, dificultad a la hora de testear, no estaban bien definidas las responsabilidades…\n\nSe intenta ir migrando el código a una arquitectura hexagonal en la cual se establecen unas limitaciones claras de las capas y se propone una regla de dependencias entre ellas (de fuera hacia dentro) \n\nLa arquitectura hexagonal ofrece ciertas ventajas, entre ellas desacoplar capas de la aplicación permitiendo que evolucionen de manera aislada, tener el sistema separado por responsabilidades facilita la reutilización y más facilidad a la hora de testear.",
           "when": "* Proyectos estables con una esperanza de vida larga (mantenibilidad)\n* Proyectos grandes que necesita adaptarse bien al cambio (alta tolerancia al cambio)",
           "how": "no tenemos",
@@ -258,7 +258,7 @@
         "experiencia": {
           "title": "Concepto de microservicios en la capa de persistencia",
           "why": "Trabajo en un producto con >15 años en sus espaldas. Los últimos años hemos ido dandole mordiscos para adelgazar el monolito e ir construyendo una arquitectura basada en microservicios.\n\nDurante este tiempo la capa de persistencia (la base de datos, vaya...MySQL en nuestro caso) se ha ido manteniendo en un monolito que ha ido creciendo y creciendo ... recibimos muchos datos (millones de mensajes diarios) que nuestros jefes nunca quieren borrar (síndrome de Diógenes digital).\n\nSobre esa base de datos monolítica hemos ido aplicando distintas técnicas para poder ir sobreviviendo con ella (replica master-slave, sharding, etc) pero ha llegado un punto en el que los backups son inmanejables y las operaciones cada vez más lentas, debido a un modelo de datos agotado y un volumen monstruoso (decenas de gigas).\n \nAplicando una filosofía similar a la de los microservicios hemos diversificado nuestra capa de persistencia por funcionalidad y eligiendo el tipo de base de datos más adecuada a cada caso concreto. De esta forma ahora mismo trabajamos con 4 bases de datos de naturalezas muy diversas (MySQL, mongoDB, InfluxDB y Redis) y nos estamos planteando incluir una 5ª (Cassandra)\n\nLas pegas de esto son principalmente 2: el trabajo de IT se multiplica y hay que tener cuidado con la sincronización de datos comunes en bases de datos diferentes.\nLas ventajas: TODO lo demás: backups mas sencillos y seguros, mayor tolerancia a fallos y, sobretodo, poder aprovechar las bondades de cada motor de base de datos concreto en su ámbito de actuación (ejemplo: influx es muy bueno para almacenar series temporales, Redis para frecuencias de consultas muy elevadas, mongo para datos no estructurados, etc)\n",
-          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va a��adiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
+          "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va añadiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
           "how": "no tenemos",
           "links": [
             "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
@@ -273,24 +273,6 @@
     "id": "4",
     "name": "Organizaciones/escalabilidad",
     "asistentes": [
-      {
-        "id": 1549703393000,
-        "nombre": "Marta Manso ",
-        "foto": "https://pbs.twimg.com/profile_images/937787824010612736/iYyD3tIz_400x400.jpg",
-        "twitter": "ladypain",
-        "vienede": null,
-        "experiencia": {
-          "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
-          "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,… y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
-          "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
-          "how": "no tenemos",
-          "links": [
-            "https://blog.crisp.se/wp-content/uploads/2018/09/confessions-of-a-change-agent.jpg",
-            "https://innokabi.com/lienzo-lean-canvas-el-lienzo-de-los-emprendedores/",
-            "https://es.wikipedia.org/wiki/Lean_startup"
-          ]
-        }
-      },
       {
         "id": 1549701373000,
         "nombre": "Gorka Moreno",
@@ -329,7 +311,7 @@
       },
       {
         "id": 1552032105000,
-        "nombre": "inigo delgado ",
+        "nombre": "Inigo Delgado ",
         "foto": "https://pbs.twimg.com/profile_images/1005732733988036609/Ut3rf6O8_400x400.jpg",
         "twitter": "eddieferetro",
         "vienede": null,
@@ -342,6 +324,24 @@
             "Vi algún retazo de esto en el libro de TDD de Kent Beck, creo recordar, o en el de Clean Code (no recuerdo)",
             "",
             ""
+          ]
+        }
+      },
+      {
+        "id": 1549227163000,
+        "nombre": "Alvaro Salazar ",
+        "foto": "https://pbs.twimg.com/profile_images/971487175907913728/jYZ3eOYD_400x400.jpg",
+        "twitter": "xala3pa",
+        "vienede": null,
+        "experiencia": {
+          "title": "Método Marie Kondo aplicado a la empresa",
+          "why": "He tenido la suerte en los últimos 7 años  de trabajar en un startup con un crecimiento casi incontrolable y trabajar en un gran corporación. Como manager  y responsable técnico de equipos en ambas empresas, sé lo complicado que resulta encontrar un modelo organizativo que permita el alineamiento con negocio, manteniendo la autonomía de los equipos.",
+          "when": "Cuando tu empresa empieza a escalar , cuando te das cuenta que impera la necesidad de tener equipos que puedan responder a diferentes áreas del negocio de forma autónoma...",
+          "how": "no tenemos",
+          "links": [
+            "https://rework.withgoogle.com/print/guides/5721312655835136/",
+            "https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897",
+            "https://dl.illwieckz.net/b/oreilly/free/www.oreilly.com/programming/free/files/designing-autonomous-teams-and-services.pdf"
           ]
         }
       }
@@ -409,44 +409,8 @@
   },
   {
     "id": "6",
-    "name": "Front",
+    "name": "Frontend",
     "asistentes": [
-      {
-        "id": 1549178229000,
-        "nombre": "Diana Aceves",
-        "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
-        "twitter": "diana_aceves_",
-        "vienede": null,
-        "experiencia": {
-          "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
-          "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
-          "when": "Pues cuando tocaba evento.",
-          "how": "no tenemos",
-          "links": [
-            "Laura Lacarra tiene una charla de \"Cómo dar una charla\" pero no encuentro el link.",
-            "",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1554127309000,
-        "nombre": "Pilar Barbero Iriarte",
-        "foto": "",
-        "twitter": "",
-        "vienede": null,
-        "experiencia": {
-          "title": "Diario de una técnica: a mí no me preguntes soy solo una chica ",
-          "why": "Mi experiencia es acerca de como ir adquiriendo un rol de Tech lead como mujer en un ambiente principalmente masculino ",
-          "when": "",
-          "how": "no tenemos",
-          "links": [
-            "",
-            "",
-            ""
-          ]
-        }
-      },
       {
         "id": 1552919726000,
         "nombre": "Sebastian Hermida",
@@ -490,24 +454,6 @@
     "name": "Macro economics",
     "asistentes": [
       {
-        "id": 1549227163000,
-        "nombre": "Alvaro Salazar ",
-        "foto": "https://pbs.twimg.com/profile_images/971487175907913728/jYZ3eOYD_400x400.jpg",
-        "twitter": "xala3pa",
-        "vienede": null,
-        "experiencia": {
-          "title": "Método Marie Kondo aplicado a la empresa",
-          "why": "He tenido la suerte en los últimos 7 años  de trabajar en un startup con un crecimiento casi incontrolable y trabajar en un gran corporación. Como manager  y responsable técnico de equipos en ambas empresas, sé lo complicado que resulta encontrar un modelo organizativo que permita el alineamiento con negocio, manteniendo la autonomía de los equipos.",
-          "when": "Cuando tu empresa empieza a escalar , cuando te das cuenta que impera la necesidad de tener equipos que puedan responder a diferentes áreas del negocio de forma autónoma...",
-          "how": "no tenemos",
-          "links": [
-            "https://rework.withgoogle.com/print/guides/5721312655835136/",
-            "https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897",
-            "https://dl.illwieckz.net/b/oreilly/free/www.oreilly.com/programming/free/files/designing-autonomous-teams-and-services.pdf"
-          ]
-        }
-      },
-      {
         "id": 1551653272000,
         "nombre": "Eduardo Ferro Aldama",
         "foto": "https://pbs.twimg.com/profile_images/378800000201347202/03bef1fe4f818c98f4d637d9f949dae9_400x400.jpeg",
@@ -532,14 +478,14 @@
         "twitter": "artolamola",
         "vienede": null,
         "experiencia": {
-          "title": "",
-          "why": "prueba luis arreglando cagada",
-          "when": "adsfadf",
+          "title": "Entrega contínua como ventaja competitiva real ",
+          "why": "Entregamos nuestro producto pronto y a menudo con dos objetivos. En primer lugar, responder a las necesidades especiales de las licitaciones y demostrar que escuchamos a nuestros potenciales clientes: ganarnos su confianza y despertar su interés. En segundo lugar, para evitar sobredesarrollar: desarrollar las adaptaciones necesarias a cada implantación y añadir flexibilidad/opciones al software sólo cuando hace falta, no antes.",
+          "when": "En Buntplanet desarrollamos Buntbrain. Un sistema de análisis de redes de agua y contadores que permite hacer mantenimiento predictivo de la red y detectar fugas de agua antes de que ocurra un desastre. En cada licitación de cada ciudad, competimos con softwares similares al nuestro, algunos de ellos con bastantes más años en el mercado. Nuestros rivales más fuertes tienen mejor red comercial y mejores referencias, pero nosotros demostramos mucha más flexibilidad y adaptabilidad y respondemos a sus necesidades específicas mucho más rápido: en algunos casos respondemos en una semana a lo que la competencia no responde en meses. ",
           "how": "no tenemos",
           "links": [
-            "http://cocoter.com",
-            "http://cocoter.com",
-            "http://cocoter.com"
+            "https://continuousdelivery.com/",
+            "https://martinfowler.com/articles/feature-toggles.html",
+            ""
           ]
         }
       },
@@ -578,6 +524,24 @@
             ""
           ]
         }
+      },
+      {
+        "id": 1549703467000,
+        "nombre": "Fran Mosteiro",
+        "foto": "https://pbs.twimg.com/profile_images/960181039799918592/XhrHGDf7_400x400.jpg",
+        "twitter": "fran_mosteiro",
+        "vienede": null,
+        "experiencia": {
+          "title": "Blamaless incident reports",
+          "why": "Tras haber provocado y contenido una incidencia en alguno de tus clientes, ¿cómo hace el equipo para aprender y mejorar o incluso no volver a repetir los mismos errores?\nHay mil maneras (supongo), pero en nuestro caso comenzamos por lo más básico: blameless incident reports (un poco a nuestra manera) .\n- analizar y recopilar los datos objetivos\n- observar lo ocurrido con \"ojos limpios\"\n- analizar el output  y cómo se solventó el \"outage\"\n- diverger en posibles acciones para que no vuelva a ocurrir\n- converger en los pasos más obvios para asegurarnos que no ocurra de nuevo",
+          "when": "Todo esto, sobre el contexto de nuestro equipo:\n- multiproyecto, multicliente, con alta rotación y técnicamente alejado del SOLID, XP, etc",
+          "how": "no tenemos",
+          "links": [
+            "http://www.eferro.net/2018/04/dont-blame-manifesto-for-agile-software.html",
+            "https://www.thumbtack.com/engineering/blameless-incident-postmortems/",
+            "https://github.com/Backline/incidents"
+          ]
+        }
       }
     ]
   },
@@ -599,15 +563,35 @@
         "foto": "https://pbs.twimg.com/profile_images/378800000525463382/8fa31309bd59d0250fce04ce3faa3ec2_400x400.jpeg",
         "twitter": "txinplas",
         "vienede": null,
-        "experiencia": {}
+        "experiencia": {
+          "title": "Un matemático entre informáticos",
+          "why": "Lo mío os encaja poco en \"técnica\", \"metodología\"  o \"pequeño truco\". Los informáticos lo veis más como \"cosa\". Sumas, restas y esas \"cosas\". Resulta que yo a esas cosas les llamo \"problemas\", y a veces hasta son difíciles de resolver. Tanto, que hay que pensar. Y claro, pienso en lo mío, no en la memoria consumida, ni en la escalabilidad de los datos, ni en el número de conexiones a BD, ni en las versiones de las librerías, ni en el naming... Y así empecé, hace 4 años, con un \"SELECT * FROM readings\", una tabla de 50 millones de registros, para después quedarme con unas 1000 lecturas y trabajar buscando un buen algoritmo. De aquellos prototipos, estos códigos en producción...con un montón de malas decisiones en el  pasado que ahora me golpean con dureza. Pasar de un prototipo a código mantenible en el tiempo es un reto. Algo que he aprendido golpe a golpe. ",
+          "when": "Mi experiencia puede interesar a los informáticos que queráis desarrollar una herramienta que, básicamente, hace matemáticas. Y, sobre todo, a algún matemático que se haya visto forzado u obligado a trabajar entre informáticos para lo mismo.",
+          "how": "no tenemos",
+          "links": [
+            "",
+            "",
+            ""
+          ]
+        }
       },
       {
         "id": 1552313869000,
         "nombre": "Miguel Borinaga Treviño",
-        "foto": "",
-        "twitter": "",
+        "foto": "https://pbs.twimg.com/profile_images/958728338088054786/qbEi6RQ2_400x400.jpg",
+        "twitter": "mboritrevi",
         "vienede": null,
-        "experiencia": {}
+        "experiencia": {
+          "title": "Tensorflow en R: del cacharreo a algo útil en pocos días (semanas)",
+          "why": "A la hora de detectar fugas en redes de abastecimiento de agua, predecir la normalidad es clave. Al hacer predicciones, hay veces que las sumas y restas no son suficientes.",
+          "when": "Cuando tus datos no quieren obedecer a una regla de tres, ni a una de diez: No es lo mismo un martes que un domingo, ni verano que invierno. Tampoco se parece un martes de invierno a un martes de verano, especialmente en Marina D'Or.\n\nNo aplicar a series temporales con poco historial ya que, como sutilmente indicó un compañero un poco c****,  puede dar lugar a predicciones \"demasiado buenas\" (alerta spoiler: muy malas).",
+          "how": "no tenemos",
+          "links": [
+            "https://keras.rstudio.com/",
+            "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            ""
+          ]
+        }
       },
       {
         "id": 1554392332000,
@@ -615,12 +599,22 @@
         "foto": "https://pbs.twimg.com/profile_images/1072273144814145536/ylMO8Vw5_400x400.jpg",
         "twitter": "maialenberrondo",
         "vienede": null,
-        "experiencia": {}
+        "experiencia": {
+          "title": "Si los datos mienten, el cliente más",
+          "why": "Bajo el principio del \"Shit In. Shit Out.\" no se puede obtener un gran algoritmo cuando en la fase de recogida hay diversas anomalías ligadas al contexto del origen de los datos. Obtener un ´regimen normal' del funcionamiento del sistema y quitar el ruido es una fase vital a la hora de obtener un buen algoritmo, sin embargo, siempre existen periodos de prueba, festivos, averías indirectas al sistema,... y más de los cuales el cliente NO se acuerda y derivan en rangos de valores que asegura que NO están en su base de datos.",
+          "when": "Siempre que tengas datos nuevos. Dependiendo de su veracidad aplicarás más o menos técnicas. Además cada vez que te tengan un hipótesis por seguros que estén necesitaras alguna herramienta que compruebe que esta sea cierta. ",
+          "how": "no tenemos",
+          "links": [
+            "https://github.com/pandas-profiling/pandas-profiling",
+            "https://scikit-learn.org/stable/modules/feature_selection.html",
+            ""
+          ]
+        }
       },
       {
         "id": 1552856618000,
         "nombre": "Bea Hernández",
-        "foto": "",
+        "foto": "https://pbs.twimg.com/profile_images/1043761455089287168/vnFDL_mK_400x400.jpg",
         "twitter": "chucheria",
         "vienede": null,
         "experiencia": {
@@ -894,13 +888,13 @@
         "twitter": "jordi_diaz",
         "vienede": null,
         "experiencia": {
-          "title": "Escalar al infinito con Azure Functions",
-          "why": "El cliente nos dijo que sería totalmente rompedor para su negocio poder ejecutar unos cálculos matemáticos muy rápido, ya que ahora tardaban incluso días con un sistema de hojas de calculo en excel. Para esto decidimos utilizar la solución serverless de Azure, Azure Functions. La idea era cargar primero unos ficheros csv a base de datos y lanzar el proceso Serverless. Sin embargo tuvimos que lidiar con bastantes problemas: La V2 de AF estaba en preview y no era compatible con la version de .net que estábamos utilizando, tuvimos que implementar inyección de dependencias en las AF cuando no lo traia out-of-the-box, y para poder encadenar varias AF y hacer fan-out tuvimos que utilizar la extensión Durable Functions, que son AFs con estado: permiten parar, reiniciar, cancelar ejecuciones de procesos y tener ejecuciones muy largas (que necesitábamos si o si y AF no nos permitía).",
-          "when": "Serverless es una buena solución para preocuparte mas en tu lógica de negocio y alejarte (que no aislarte) de tu infrastructura. Sin embargo, cuanto mas te alejas de ella menos control tienes. En este caso nos solucionó el escalado pero a costa de ejecutar las AFs en una una maquina reservada para ello, no 100% serverless. Conclusión: Serverless si, pero no para todo. El cliente quedó contento con la solución pese a los tradeoffs. Dudaría si utilizarlas en un contexto así de nuevo.",
+          "title": "Business abstraction",
+          "why": "Desarrollamos el core de un sistema practicamente abstraidos del negocio, apenas conociendo detalles sobre el",
+          "when": "Era un proyecto de Analytics as a Service para una startup de Londres. En la fase de CRUDs el cliente (CTO y tambien desarrollador junto a nosotros) levantó la mano: Tenemos muchos CRUDs por hacer aún, quiero un framework sobre el framework (ASP.NET Core + Angular en este caso) para hacer CRUDs como churros. Tras advertirle de los contras de hacerlo y tras insistir el muchïsimo, se hizo.\n\nFue un antes y un después en el proyecto ya que desde entonces nuestro rol cambió. Nosotros creabamos framework para que el desarrollara facilmente, lo que nos empezó a alejar del negocio. Cuando llegamos al core del negocio (eso que cuento en mi otra experiencia) ocurrió lo mismo, implementamos la infraestructura necesaria para que el pudiera ejecutar su código core. \n\nLos problemas llegaron cuando esa parte no escalaba bien, se quería una ejecución rápida pero no la teníamos. Optimizamos todo por nuestra parte pero llegó el punto en el que necesitábamos entrar a su código y entenderlo para poder optimizarlo. Lo hicimos y conseguimos mejorar el rendimiento, pero mi sensación es que no pudimos mejorarlo todo lo que podríamos precisamente por ese desconocimiento que arrastrabamos (ojo, porque así empujó el cliente) desde el principio del proyecto. \n\nMi sensación final fue agridulce: Lo hicimos, pero el cliente apretaba para mejorarlo más aún y nosotros en muchas partes nos enfrentabamos a una caja negra, so frustrating.\n\nMoraleja: No te abstraigas del negocio más de lo que necesites en cada caso/proyecto.",
           "how": "no tenemos",
           "links": [
-            "https://docs.microsoft.com/es-es/azure/azure-functions/",
-            "https://docs.microsoft.com/es-es/azure/azure-functions/durable/durable-functions-overview",
+            "",
+            "",
             ""
           ]
         }
@@ -928,80 +922,7 @@
   {
     "id": "12",
     "name": "Mobile",
-    "asistentes": [
-      {
-        "id": 1549703462000,
-        "nombre": "Fernando Fariña",
-        "foto": "https://pbs.twimg.com/profile_images/470165028692189184/IrgKGKkP_400x400.png",
-        "twitter": "penniath",
-        "vienede": null,
-        "experiencia": {
-          "title": "Desarrollo de APPs con Flutter",
-          "why": "Después de que el desarrollo con NativeScript fuese un fracaso, elegimos Flutter  como framework de desarrollo de Apps.\nNuestro cuello de botella era generar UIs con pseudo-HTML y pseudo-CSS.",
-          "when": "",
-          "how": "no tenemos",
-          "links": [
-            "https://eu.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
-            "https://flutter.dev/docs/cookbook",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1549815477000,
-        "nombre": "Endika García Gayoso",
-        "foto": "https://pbs.twimg.com/profile_images/850375654155616260/D6W5bJxn_400x400.jpg",
-        "twitter": "endikabatura",
-        "vienede": null,
-        "experiencia": {
-          "title": "¿Crees que tu app puede ser replicable y quieres ofrecer LO MISMO a nuevos clientes bajo su marca? Deja el Copy Paste, Flavors y Dimensions son tu arma de expansión masiva.",
-          "why": "El problema al que nos hemos enfrentado, ha sido enfrentarnos a la propuesta en primer lugar de un cliente, de poder explotar la solución que habíamos desarrollado para él, generando \"clones\" de la misma, para que este pueda ofrecer a sus clientes y colaboradores, para un uso interno en cada caso, y bajo su sistema e imagen. Empezamos a necesitar generar producto personalizable y replicable de manera sencilla, controlada, automatizada, y escalable.\n\nCon esto, hemos conseguido una base de código unificada, que compila automáticamente N réplicas de una misma App, con la misma funcionalidad y estructura (o al 90% en algunos casos), pero con aspectos, contenidos, e integraciones específicas para cada caso.",
-          "when": "Aplica cuando desarrollas una App que ofrece un servicio, que puede ser de interés para otras empresas, y te planteas ofrecer la misma solución, a empresas de tu mismo negocio, bajo su marca, cuando necesitas ofrecer una misma solución en contextos diferentes o cuando dispones de un producto que requiera de una personalización específica para cada nuevo cliente.",
-          "how": "no tenemos",
-          "links": [
-            "https://developer.android.com/studio/build/build-variants?hl=es-419",
-            "",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1552172274000,
-        "nombre": "Alex Barrero Escalante",
-        "foto": "https://pbs.twimg.com/profile_images/958313676125212672/jwQYUk41_400x400.jpg",
-        "twitter": "alexbrrsclnt",
-        "vienede": null,
-        "experiencia": {
-          "title": " Flutter",
-          "why": "Desarrollo de una app móvil para android/ios",
-          "when": "Poder desarrollar una app nativa para android e iOS utilizando un código fuente común",
-          "how": "no tenemos",
-          "links": [
-            "En lugar de manejar código nativo Java/kotlin en android, y Swift en iOS, poder desarrollar de manera conjunta es una gran ventaja y ahorro de tiempo",
-            "",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1552286517000,
-        "nombre": "Oscar Teixeira Martín",
-        "foto": "https://pbs.twimg.com/profile_images/808253933063913473/tQuQJsON_400x400.jpg",
-        "twitter": "oskarbi",
-        "vienede": null,
-        "experiencia": {
-          "title": "",
-          "why": "Desarrollo móvil con Flutter. Tras pocos meses usándolo, parece consolidarse como nuestro framework de cabecera para desarrollo móvil. En este tiempo nos ha facilitado bastante la vida en varios proyectos, pero también nos ha dado algún susto que valdría la pena contar a quien se plantee adoptarlo.",
-          "when": "Para desarrollos Android/iOS compilando a nativo para cada plataforma.\nTambién interesante sin el factor multiplataforma por la baja curva de aprendizaje y el buen rendimiento.\nOtro factor, cuando el equipo es más fuerte en back que en front, es que su librería de componentes basados en Material Design facilita la construcción de interfaces sin grandes dolores de cabeza y sin depender de un maquetador (para nosotros esto es un win muy claro).",
-          "how": "no tenemos",
-          "links": [
-            "https://link.medium.com/Ka83lxNFvV",
-            "https://flutter.dev/",
-            "https://material.io/design/"
-          ]
-        }
-      }
-    ]
+    "asistentes": []
   },
   {
     "id": "13",
@@ -1104,20 +1025,20 @@
     "name": "Agile 2",
     "asistentes": [
       {
-        "id": 1549703467000,
-        "nombre": "Fran Mosteiro",
-        "foto": "https://pbs.twimg.com/profile_images/960181039799918592/XhrHGDf7_400x400.jpg",
-        "twitter": "fran_mosteiro",
+        "id": 1549703393000,
+        "nombre": "Marta Manso ",
+        "foto": "https://pbs.twimg.com/profile_images/937787824010612736/iYyD3tIz_400x400.jpg",
+        "twitter": "ladypain",
         "vienede": null,
         "experiencia": {
-          "title": "Blamaless incident reports",
-          "why": "Tras haber provocado y contenido una incidencia en alguno de tus clientes, ¿cómo hace el equipo para aprender y mejorar o incluso no volver a repetir los mismos errores?\nHay mil maneras (supongo), pero en nuestro caso comenzamos por lo más básico: blameless incident reports (un poco a nuestra manera) .\n- analizar y recopilar los datos objetivos\n- observar lo ocurrido con \"ojos limpios\"\n- analizar el output  y cómo se solventó el \"outage\"\n- diverger en posibles acciones para que no vuelva a ocurrir\n- converger en los pasos más obvios para asegurarnos que no ocurra de nuevo",
-          "when": "Todo esto, sobre el contexto de nuestro equipo:\n- multiproyecto, multicliente, con alta rotación y técnicamente alejado del SOLID, XP, etc",
+          "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
+          "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,… y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
+          "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
           "how": "no tenemos",
           "links": [
-            "http://www.eferro.net/2018/04/dont-blame-manifesto-for-agile-software.html",
-            "https://www.thumbtack.com/engineering/blameless-incident-postmortems/",
-            "https://github.com/Backline/incidents"
+            "https://blog.crisp.se/wp-content/uploads/2018/09/confessions-of-a-change-agent.jpg",
+            "https://innokabi.com/lienzo-lean-canvas-el-lienzo-de-los-emprendedores/",
+            "https://es.wikipedia.org/wiki/Lean_startup"
           ]
         }
       },
@@ -1389,8 +1310,116 @@
   },
   {
     "id": "17",
-    "name": "Experiencia no enviada 1",
+    "name": "Experiencia enviada, sin asignar",
     "asistentes": [
+      {
+        "id": 1549178229000,
+        "nombre": "Diana Aceves",
+        "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
+        "twitter": "diana_aceves_",
+        "vienede": null,
+        "experiencia": {
+          "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
+          "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
+          "when": "Pues cuando tocaba evento.",
+          "how": "no tenemos",
+          "links": [
+            "Laura Lacarra tiene una charla de \"Cómo dar una charla\" pero no encuentro el link.",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1554127309000,
+        "nombre": "Pilar Barbero Iriarte",
+        "foto": "https://pbs.twimg.com/profile_images/1068981883114004483/f_F7Iqv0_400x400.jpg",
+        "twitter": "yayaqueprograma",
+        "vienede": null,
+        "experiencia": {
+          "title": "Diario de una técnica: a mí no me preguntes soy solo una chica ",
+          "why": "Mi experiencia es acerca de como ir adquiriendo un rol de Tech lead como mujer en un ambiente principalmente masculino ",
+          "when": "",
+          "how": "no tenemos",
+          "links": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549703462000,
+        "nombre": "Fernando Fariña",
+        "foto": "https://pbs.twimg.com/profile_images/470165028692189184/IrgKGKkP_400x400.png",
+        "twitter": "penniath",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollo de APPs con Flutter",
+          "why": "Después de que el desarrollo con NativeScript fuese un fracaso, elegimos Flutter  como framework de desarrollo de Apps.\nNuestro cuello de botella era generar UIs con pseudo-HTML y pseudo-CSS.",
+          "when": "",
+          "how": "no tenemos",
+          "links": [
+            "https://eu.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
+            "https://flutter.dev/docs/cookbook",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549815477000,
+        "nombre": "Endika García Gayoso",
+        "foto": "https://pbs.twimg.com/profile_images/850375654155616260/D6W5bJxn_400x400.jpg",
+        "twitter": "endikabatura",
+        "vienede": null,
+        "experiencia": {
+          "title": "¿Crees que tu app puede ser replicable y quieres ofrecer LO MISMO a nuevos clientes bajo su marca? Deja el Copy Paste, Flavors y Dimensions son tu arma de expansión masiva.",
+          "why": "El problema al que nos hemos enfrentado, ha sido enfrentarnos a la propuesta en primer lugar de un cliente, de poder explotar la solución que habíamos desarrollado para él, generando \"clones\" de la misma, para que este pueda ofrecer a sus clientes y colaboradores, para un uso interno en cada caso, y bajo su sistema e imagen. Empezamos a necesitar generar producto personalizable y replicable de manera sencilla, controlada, automatizada, y escalable.\n\nCon esto, hemos conseguido una base de código unificada, que compila automáticamente N réplicas de una misma App, con la misma funcionalidad y estructura (o al 90% en algunos casos), pero con aspectos, contenidos, e integraciones específicas para cada caso.",
+          "when": "Aplica cuando desarrollas una App que ofrece un servicio, que puede ser de interés para otras empresas, y te planteas ofrecer la misma solución, a empresas de tu mismo negocio, bajo su marca, cuando necesitas ofrecer una misma solución en contextos diferentes o cuando dispones de un producto que requiera de una personalización específica para cada nuevo cliente.",
+          "how": "no tenemos",
+          "links": [
+            "https://developer.android.com/studio/build/build-variants?hl=es-419",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1552172274000,
+        "nombre": "Alex Barrero Escalante",
+        "foto": "https://pbs.twimg.com/profile_images/958313676125212672/jwQYUk41_400x400.jpg",
+        "twitter": "alexbrrsclnt",
+        "vienede": null,
+        "experiencia": {
+          "title": " Flutter",
+          "why": "Desarrollo de una app móvil para android/ios",
+          "when": "Poder desarrollar una app nativa para android e iOS utilizando un código fuente común",
+          "how": "no tenemos",
+          "links": [
+            "En lugar de manejar código nativo Java/kotlin en android, y Swift en iOS, poder desarrollar de manera conjunta es una gran ventaja y ahorro de tiempo",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1552286517000,
+        "nombre": "Oscar Teixeira Martín",
+        "foto": "https://pbs.twimg.com/profile_images/808253933063913473/tQuQJsON_400x400.jpg",
+        "twitter": "oskarbi",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollo móvil con Flutter",
+          "why": "Desarrollo móvil con Flutter. Tras pocos meses usándolo, parece consolidarse como nuestro framework de cabecera para desarrollo móvil. En este tiempo nos ha facilitado bastante la vida en varios proyectos, pero también nos ha dado algún susto que valdría la pena contar a quien se plantee adoptarlo.",
+          "when": "Para desarrollos Android/iOS compilando a nativo para cada plataforma.\nTambién interesante sin el factor multiplataforma por la baja curva de aprendizaje y el buen rendimiento.\nOtro factor, cuando el equipo es más fuerte en back que en front, es que su librería de componentes basados en Material Design facilita la construcción de interfaces sin grandes dolores de cabeza y sin depender de un maquetador (para nosotros esto es un win muy claro).",
+          "how": "no tenemos",
+          "links": [
+            "https://link.medium.com/Ka83lxNFvV",
+            "https://flutter.dev/",
+            "https://material.io/design/"
+          ]
+        }
+      },
       {
         "id": 1549271501000,
         "nombre": "Joaquin Engelmo Moriche",
@@ -1409,6 +1438,102 @@
           ]
         }
       },
+      {
+        "id": 1551108307000,
+        "nombre": "Abel Rincón",
+        "foto": "https://pbs.twimg.com/profile_images/3164466478/b46f0380961a9c51c656a04b129a31ca_400x400.png",
+        "twitter": "ganger85",
+        "vienede": null,
+        "experiencia": {
+          "title": "Web API en Scala",
+          "why": "Durante los últimos años he tenido Scala como lenguaje principal, y en todos los proyectos cae alguna API sobre HTTP, y siempre me hago la misma pregunta, ¿qué framework uso esta vez?, asi que Akka Http, Finch o Play son respuestas habituales.",
+          "when": "Básicamente la selección de framework limita o decide el stack del servicio, así que si hay componentes de streaming y actores pues Akka parece ser una buena opción, si tenemos un stack más “puramente” funcional typelevel, Finch tendrá más papeletas, o si necesitamos un framework más completo deberíamos mirar Lagom o Play! .",
+          "how": "no tenemos",
+          "links": [
+            "https://typelevel.org/",
+            "https://doc.akka.io/docs/akka-http/current/index.html",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1551801397000,
+        "nombre": "Abel Vidal",
+        "foto": "https://pbs.twimg.com/profile_images/955941297507983360/kaPsD0sO_400x400.jpg",
+        "twitter": "abelgvidal",
+        "vienede": null,
+        "experiencia": {
+          "title": "Bash con buenas prácticas",
+          "why": "Normalmente cuidamos menos las partes del stack escritas en bash y esto provoca no pocos errores. Me ha ayudado tratarlo como un lenguaje más  con testing, buenas prácticas y cuidar el estilo.",
+          "when": "En una plataforma con varios servicios cloud native acabas usando bash como pegamento y normalmente se convierte en una parte propensa a fallos. ",
+          "how": "no tenemos",
+          "links": [
+            "https://github.com/progrium/bashstyle",
+            "https://github.com/sstephenson/bats",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1552980229000,
+        "nombre": "Francisco Moreno Sanz",
+        "foto": "",
+        "twitter": "",
+        "vienede": null,
+        "experiencia": {
+          "title": "Cómo asegurar la calidad cada 2 semanas y no morir en el intento",
+          "why": "El testing tradicional ha quedado desfasado. Hoy en día casi todos los proyectos se desarrollan de manera ágil y el testing tiene que adaptarse a esta nueva realidad. Aquí coge fuerza el concepto de AgileTesting e implicación de la calidad a todos los niveles",
+          "when": "Proyectos qur siguen un ciclo de dsarrollo ágil y donde se requieres subidas a producción frecuentes. En este tipo de proyectos es importante aplicar enfoques como \"Shift-left Testing\" y \"Context Driven Testing\".",
+          "how": "no tenemos",
+          "links": [
+            "http://context-driven-testing.com/",
+            "https://docs.google.com/presentation/d/1iD_xbRBvHbWD2TRhK4Rmwr9BsWBoJ5pAoWEy1oigeRQ/edit?usp=sharing",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1554120512000,
+        "nombre": "JULIA OLCOZ",
+        "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
+        "twitter": "Julia_Olcoz",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollando Scrum Masters",
+          "why": "Sea por la necesidad del negocio o por la saturación del mercado, entre otros, en ocasiones, el Scrum Master de un equipo Scrum, surge del propio equipo de desarrollo, como resultado de un experimento.\n\nSe trata de una transformación, de un cambio de rol iteración tras iteración, del que todo el equipo Scrum, en primera instancia, así como la Organización en sí, son partícipes. La dualidad de rol suele ser factible al comienzo, cuando el conocimiento y la especialización en uno de los roles prepondera sobre el otro. Sin embargo, a medida que los sprints se suceden, pueden darse situaciones que habitualmente se gestionan mediante un cambio de sombrero (\"ahora desarrollador\", \"ahora Scrum Master\"). El desempeño de múltiples funciones en paralelo puede llegar a ser enriquecedor, pero lograr aportar el máximo valor al equipo desde todas las perspectivas, no suele ser sencillo.\n\nAsí como al principio del experimento nos identificábamos e identificaban como desarrolladores, porque contribuíamos al objetivo común del equipo implementando funcionalidades en código, al final, suele optarse por uno u otro rol, es decir, seguir siendo miembro del equipo de desarrollo, o bien, ser el Scrum Master del equipo, si creemos que así aportamos más. Si bien, la cantidad de valor aportado generalmente suele estar relacionada con la dedicación, sin interrupciones, a las funciones del rol desempeñado.",
+          "when": "Equipo de 6-8 personas comenzando a trabajar con metodología Scrum (sin Scrum Master dedicado).",
+          "how": "no tenemos",
+          "links": [
+            "https://www.scrumguides.org/",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1554977395000,
+        "nombre": "Francisco Ortiz Abril",
+        "foto": "https://pbs.twimg.com/profile_images/1100497912889556992/b9SrZLGi_400x400.png",
+        "twitter": "Fortiz2305",
+        "vienede": null,
+        "experiencia": {
+          "title": "Observar antes de empezar a cambiar",
+          "why": "A medida que la complejidad de un sistema aumenta, va aumentando también la complejidad de mantenerlo, y de comprobar que “todo va bien”. Este año cogíamos el reto de rediseñar el proceso de ingestión de datos en nuestra empresa (bastante complejidad accidental metida y muy complicado de hacer evolucionar para que encajaran nuevos requisitos funcionales y de rendimiento).\n\nLas primeras preguntas fueron: Cómo vamos a medir las mejoras de rendimiento de este nuevo proceso? Sabemos exactamente el tiempo que tarda cada parte en hacer su trabajo? Sabemos cuándo “todo va bien”?\nEn ese momento la respuesta a esas preguntas no eran fáciles de responder, así que no tenía mucho sentido ir directamente a trabajar en el rediseño sin poder medir qué estábamos consiguiendo con él. Además, vender este proceso a la parte de negocio sin presentar números de las mejoras que íbamos consiguiendo no era fácil.\n\nQué hicimos? Dar la bienvenida a la **observabilidad** en nuestra plataforma. En el proceso actual, decidimos cuáles eran las **métricas** clave que nos daban la respuesta a ese “todo va bien”. Y qué pasa con la medida de las mejoras? Para eso dentro de cada proceso, incluímos **trazas** que nos proporcionan el tiempo invertido en cada parte y cómo se mueven los datos por nuestra plataforma. Dichas trazas van relacionadas con **logs** que nos permiten tener información extra sobre dichos procesos. El siguiente paso será mejorar el sistema de **alertas**.\n\nLa situación actual es que el nuevo proceso proporciona toda esa misma información, y a simple golpe de vista podemos comprobar si se están consiguiendo los mismos resultados que en el anterior y medir cuál es la mejora de rendimiento para conseguir dichos resultados. Viviendo los dos en producción durante un tiempo podemos validar que todo va bien y qué mejoras hemos conseguido, para luego dar el cambiazo a un proceso por el otro.",
+          "when": "Poder evolucionar/cambiar/mantener sin morir en el intento cualquier sistema con cierta complejidad.",
+          "how": "no tenemos",
+          "links": [
+            "https://opentracing.io/",
+            "https://www.datadoghq.com/apm/",
+            ""
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Experiencia no enviada 2",
+    "asistentes": [
       {
         "id": 1549304241000,
         "nombre": "Xabier Amutxastegi",
@@ -1448,13 +1573,7 @@
         "twitter": "che1404",
         "vienede": null,
         "experiencia": {}
-      }
-    ]
-  },
-  {
-    "id": "18",
-    "name": "Experiencia no enviada 2",
-    "asistentes": [
+      },
       {
         "id": 1550833795000,
         "nombre": "Jorge Juan Barroso Carmona",
@@ -1486,14 +1605,6 @@
         "twitter": "alfredodev",
         "vienede": null,
         "experiencia": {}
-      },
-      {
-        "id": 1551108307000,
-        "nombre": "Abel Rincón",
-        "foto": "",
-        "twitter": "",
-        "vienede": null,
-        "experiencia": {}
       }
     ]
   },
@@ -1518,14 +1629,6 @@
         "experiencia": {}
       },
       {
-        "id": 1551801397000,
-        "nombre": "Abel Vidal",
-        "foto": "https://pbs.twimg.com/profile_images/955941297507983360/kaPsD0sO_400x400.jpg",
-        "twitter": "abelgvidal",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
         "id": 1552631443000,
         "nombre": "Fran Naranjo",
         "foto": "https://pbs.twimg.com/profile_images/415925617868034048/boQGEXYD_400x400.jpeg",
@@ -1534,34 +1637,10 @@
         "experiencia": {}
       },
       {
-        "id": 1552980229000,
-        "nombre": "Francisco Moreno Sanz",
-        "foto": "",
-        "twitter": "",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
         "id": 1554105535000,
         "nombre": "Maitane Itoiz",
         "foto": "https://pbs.twimg.com/profile_images/953761297836986369/xSUi7gx7_400x400.jpg",
         "twitter": "maitaneitoiz",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1554120512000,
-        "nombre": "JULIA OLCOZ",
-        "foto": "",
-        "twitter": "",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1554977395000,
-        "nombre": "Francisco Ortiz Abril",
-        "foto": "https://pbs.twimg.com/profile_images/1100497912889556992/b9SrZLGi_400x400.png",
-        "twitter": "Fortiz2305",
         "vienede": null,
         "experiencia": {}
       }
