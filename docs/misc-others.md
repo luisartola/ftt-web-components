@@ -78,6 +78,7 @@
 
 ## Test
 
+- https://dev.to/open-wc/testing-workflow-for-web-components-g73
 - jest 
 - coverage
 - snapshots
