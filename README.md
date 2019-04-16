@@ -19,6 +19,10 @@
 - https://css-tricks.com/modular-future-web-components/
 - https://www.dannymoerkerke.com/blog/web-components-will-replace-your-frontend-framework
 
+# Tutoriales completos
+
+- https://medium.com/@westbrook/not-another-to-do-app-762ea0bb960
+
 # Práctica deliberada
 
 | Ejercicio concreto  | Conceptos a entender (temario) |
