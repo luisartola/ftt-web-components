@@ -38,6 +38,7 @@
 
 - **flash cards, SQ3R (test), y mindmap final**
 - clave invertida
+- https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 ## Web components
 
@@ -65,6 +66,7 @@
 ## CSS y web components
 
 - [Apuntes sobre css](./docs/web-components-and-css.md)
+- https://open-wc.org/faq/component-libraries.html
 
 - CSS ::slotted()
 - CSS custom properties
