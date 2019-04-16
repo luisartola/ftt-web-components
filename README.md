@@ -85,20 +85,41 @@
 
 - ...
 
-# Misc.
+# Crosscutting concerns
 
-- [More stuff](./docs/misc-others.md)
+- [Error handling](./docs/misc-others.md#errors)
+- [Form reacting and validation](https://github.com/luisartola/ftt-web-components/blob/master/docs/misc-others.md#form-validation)
+- [Spa and routing](./docs/misc-others.md#spa-routing)
+- [Command line](./docs/misc-others.md#command-line)
+- [i18n](./docs/misc-others.md#i18n)
+- [Security](./docs/misc-others.md#security)
+- [http](./docs/misc-others.md#https)
+- [Monitoring and alerting](./docs/misc-others.md#monitoring-and-alerting)
 
+# Walking skeleton (build/test/deploy)
+
+- [Deploying](./docs/delivery-netlify.md)
+- [Testing](./docs/misc-others.md#test)
+- [Building](./docs/misc-others.md#build)
+
+# Stack
+
+- [Css only frameworks](./docs/misc-others.md#css-only-bulma)
+- [Libraries](./docs/misc-others.md#libraries)
+
+# Misc
+
+- [Fulltext search](./docs/misc-others.md#fulltext-search)
+- [PWA](./docs/pwa.md)
+- [Mobile](./docs/misc-others.md#cordoba)
+- [IDE](./docs/misc-others.md#ide)
 
 # Ideas diver
 
-## Usar un Google Spreadsheet como backend
+## Usar un Google Spreadsheet como backend para protitpar
 
 - https://sheety.co/
 - https://sheetlabs.com/#/
 - https://sheetdb.io/
 
-
   
-
-
