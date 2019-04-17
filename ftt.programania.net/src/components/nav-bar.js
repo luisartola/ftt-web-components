@@ -71,7 +71,7 @@ export default {
               <a class="navbar-item" @click="${() => this.toggleMenu()}" href="${page.path}">${page.name}</a>
             `)}
            
-           <a class="navbar-item" href="/2018/asistentes">
+           <a class="navbar-item" href="/2019/asistentes">
             Capturados: ${this.capturados.length}
             </a>
       

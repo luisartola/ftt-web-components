@@ -1,4 +1,4 @@
-import css from  '../mystyles.scss';
+import css from '../mystyles.scss';
 import a2018 from "../../data/2018/asistentes.json";
 import a2019 from "../../data/2019/asistentes.json";
 import {html, LitElement} from 'lit-element';
@@ -40,7 +40,7 @@ export default {
       });
     }
 
-    filter(e){
+    filter(e) {
       this.asistentes = this.todos
           .filter(entry => entry.nombre.toLowerCase().includes(e.target.value.toLowerCase()))
     }
@@ -50,8 +50,8 @@ export default {
       this.unsubscribe();
     }
 
-    shortVersion(title = ""){
-      if(title.length < 30)
+    shortVersion(title = "") {
+      if (title.length < 30)
         return title.replace('"', '');
       return title.replace(/"/g, '').substring(0, 30) + "...";
     }
@@ -66,7 +66,7 @@ export default {
         
         <ftt-section-title 
             title="Asistentes" 
-            subtitle="${this.asistentes.length === 0 ? 'Todavía no hay asistentes para ésta edición' : 
+            subtitle="${this.asistentes.length === 0 ? 'Todavía no hay asistentes para ésta edición' :
           `Ésta edición cuenta con ${data[this.year].length} deslumbrantes asistentes`}">
         </ftt-section-title>
         
@@ -111,7 +111,9 @@ export default {
             ${repeat(this.capturados, capturado => capturado.id, capturado => html` 
               <tr>
               <td>${capturado.nombre}</td>
-              <td><a class="delete" @click="${ () => { dispatch(liberar(capturado))} }"></a></td>
+              <td><a class="delete" @click="${() => {
+        dispatch(liberar(capturado))
+      }}"></a></td>
               </tr>
             `)}
         </tbody>
@@ -119,7 +121,7 @@ export default {
         </div>
           </section>
          
-          `: ``}
+          ` : ``}
            
           ${this.asistentes.length === 0 ? html`
           <section class="section">
@@ -130,7 +132,7 @@ export default {
             </div>
             </div>
           </section>
-        `: ``}
+        ` : ``}
           
           <section class="section is-paddingless">
           <div class="container">
@@ -147,9 +149,10 @@ export default {
                 <div class="level-item">
                   <div class="field has-addons">
                     <p class="control">
-                    
-                    
-                      <input @keyup="${e => {this.filter(e)}}" class="input" type="text" placeholder="Encuentra un asistente">
+                      <input @keyup="${e => {
+        this.filter(e)
+      }}" 
+                          class="input" type="text" placeholder="Encuentra un asistente">
                     </p>
                     <p class="control">
                       <button class="button">
@@ -176,8 +179,8 @@ export default {
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-5">${asistente.nombre}</p>
-                    <p class="subtitle is-6">@${asistente.twitter}</p>
+                    <p style="font-size: 0.9em" class="title">${asistente.nombre}</p>
+                    <p style="font-size: 0.8em" class="subtitle">@${asistente.twitter}</p>
                   </div>
                 </div>
                 <div class="content">
@@ -185,13 +188,11 @@ export default {
                       ${this.shortVersion(asistente.experiencia.title)}
                   </a> 
                   <br/>
-                  ${ asistente.grupo? html`Grupo: <a href="/${this.year}/grupo/${asistente.grupo.id}">${asistente.grupo.name}</a>` : ''}
+                  ${asistente.grupo ? html`Grupo: <a href="/${this.year}/grupo/${asistente.grupo.id}">${asistente.grupo.name}</a>` : ''}
                   
                 </div>
-                ${estaCapturado(asistente) ? 
-                      html`capturado!` : 
-                      html`<button class="button is-small" @click="${ () => { dispatch(capturar(asistente))} }">Capturarlo</button>`
-                  }
+                      <button ?disabled="${estaCapturado(asistente)}" class="button is-small" 
+                                 @click="${() => {dispatch(capturar(asistente))}}">Capturarlo</button>
                 
               </div>
             </div>
