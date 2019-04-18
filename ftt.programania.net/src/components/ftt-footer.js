@@ -13,8 +13,14 @@ export default {
         <footer class="footer">
           <div class="content has-text-centered">
           <hr style="border: thin dotted #cdcdcd"/>
-              Powered by Programania, 
-              <a target="_blank" href="https://github.com/luisartola/ftt-web-components">código fuente</a>
+              Powered by Programania
+              <br/>
+              <br/>
+              <a target="_blank" href="https://github.com/luisartola/ftt-web-components">Código fuente</a>
+              <span style="margin:10px">|</span>
+              <a target="_blank" href="https://twitter.com/ggalmazor/lists/ftt2019">Asistentes en twitter</a>
+              <span style="margin:10px">|</span>
+              <a target="_blank" href="https://twitter.com/hashtag/ftt2019?src=hash">#ftt2019</a>
               <br/>
               <br/>
               <br/>
