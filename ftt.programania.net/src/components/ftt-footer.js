@@ -18,7 +18,9 @@ export default {
               <br/>
               <br/>
               <br/>
-              <img style="height:100px" src="/assets/logo-agilespain.png"/>
+              <a target="_blank" href="https://agile-spain.org/">
+                <img style="height:100px" src="/assets/logo-agilespain.png"/>
+              </a>
           </div>
         </footer>
 		`;
