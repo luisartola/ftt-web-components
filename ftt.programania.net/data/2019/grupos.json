@@ -170,6 +170,24 @@
             ""
           ]
         }
+      },
+      {
+        "id": 1554977395000,
+        "nombre": "Francisco Ortiz Abril",
+        "foto": "https://pbs.twimg.com/profile_images/1100497912889556992/b9SrZLGi_400x400.png",
+        "twitter": "Fortiz2305",
+        "vienede": null,
+        "experiencia": {
+          "title": "Observar antes de empezar a cambiar",
+          "why": "A medida que la complejidad de un sistema aumenta, va aumentando también la complejidad de mantenerlo, y de comprobar que “todo va bien”. Este año cogíamos el reto de rediseñar el proceso de ingestión de datos en nuestra empresa (bastante complejidad accidental metida y muy complicado de hacer evolucionar para que encajaran nuevos requisitos funcionales y de rendimiento).\n\nLas primeras preguntas fueron: Cómo vamos a medir las mejoras de rendimiento de este nuevo proceso? Sabemos exactamente el tiempo que tarda cada parte en hacer su trabajo? Sabemos cuándo “todo va bien”?\nEn ese momento la respuesta a esas preguntas no eran fáciles de responder, así que no tenía mucho sentido ir directamente a trabajar en el rediseño sin poder medir qué estábamos consiguiendo con él. Además, vender este proceso a la parte de negocio sin presentar números de las mejoras que íbamos consiguiendo no era fácil.\n\nQué hicimos? Dar la bienvenida a la **observabilidad** en nuestra plataforma. En el proceso actual, decidimos cuáles eran las **métricas** clave que nos daban la respuesta a ese “todo va bien”. Y qué pasa con la medida de las mejoras? Para eso dentro de cada proceso, incluímos **trazas** que nos proporcionan el tiempo invertido en cada parte y cómo se mueven los datos por nuestra plataforma. Dichas trazas van relacionadas con **logs** que nos permiten tener información extra sobre dichos procesos. El siguiente paso será mejorar el sistema de **alertas**.\n\nLa situación actual es que el nuevo proceso proporciona toda esa misma información, y a simple golpe de vista podemos comprobar si se están consiguiendo los mismos resultados que en el anterior y medir cuál es la mejora de rendimiento para conseguir dichos resultados. Viviendo los dos en producción durante un tiempo podemos validar que todo va bien y qué mejoras hemos conseguido, para luego dar el cambiazo a un proceso por el otro.",
+          "when": "Poder evolucionar/cambiar/mantener sin morir en el intento cualquier sistema con cierta complejidad.",
+          "how": null,
+          "links": [
+            "https://opentracing.io/",
+            "https://www.datadoghq.com/apm/",
+            ""
+          ]
+        }
       }
     ]
   },
@@ -344,6 +362,24 @@
             "https://dl.illwieckz.net/b/oreilly/free/www.oreilly.com/programming/free/files/designing-autonomous-teams-and-services.pdf"
           ]
         }
+      },
+      {
+        "id": 1549271561000,
+        "nombre": "Koldo Hernandez",
+        "foto": "https://pbs.twimg.com/profile_images/957580013930532864/0nwRwG1u_400x400.jpg",
+        "twitter": "koldo",
+        "vienede": null,
+        "experiencia": {
+          "title": "Hombre orquesta y ¿startups?",
+          "why": "Dejé mi anterior curro (estable) por participar en el lanzamiento y desarrollo de una startup. Esa incertidumbre y cultura me motivaba... pero tras 6 años en el proyecto, creo que los fundadores del proyecto en ningún momento han querido funcionar de forma \"Lean\".\n\nMe ha tocado realizar todo tipo de tareas: mantener el sistema \"legacy\", desarrollar nuevos servicios/pruebas de concepto, solicitar ayudas, etc...",
+          "when": "Me gustaría debatir sobre cómo \"lidiar\" con los fundadores (no son perfiles técnicos) convenciendo de que las metodologías ágiles, pair programming, etc... es la mejor forma de ir aportando valor y crecer a nivel de producto y empresa.\n\nMe preocupa los \"silos de conocimiento\" creados en nuestro pequeño equipo (1 CMO + Tech Lead + 2 developers) y el enfoque que el CEO está intentando dar a la empresa. Tenemos varios productos propios, la idea de negocio validada pero falta \"chicha\" para pivotar y crear una nueva versión de los desarrollos que se ajusten al mercado.",
+          "how": null,
+          "links": [
+            "",
+            "",
+            ""
+          ]
+        }
       }
     ]
   },
@@ -404,12 +440,30 @@
             ""
           ]
         }
+      },
+      {
+        "id": 1552814966000,
+        "nombre": "Jon E Eguiluz",
+        "foto": "https://pbs.twimg.com/profile_images/935810778929815554/x5kf-jYk_400x400.jpg",
+        "twitter": "viroide",
+        "vienede": null,
+        "experiencia": {
+          "title": "No bosses",
+          "why": "Hay cosas que todos odiamos: \n1.- Poca gente tomando todas las deciciones\n2.- Estúpidas perdidas de tiempo en decisiones eternas (burocracia)\n3.- Información oculta\n4.- Falta de autonomía\n5.- No ver el final del camino o la razón para andarlo. \n\nPara solucionar estos problema y algún otro, necesitas \"NO-BOSSES culture\"\n",
+          "when": "Para aplicar esta cultura los requisitos basicos son 2:\n1.- Trabajadores responsables\n2.- Trabajadores sin EGOs (lo pogo en mayuscula para resaltar el tamaño)\n\nProbablemente en empresas pequeñas es más fácil de aplicar que en empresas grandes, pero eso que se lo pregunten a Valve. ",
+          "how": null,
+          "links": [
+            "Los principios básicos son:\n1.- Celulas \"autonomas\", los trabajadores se agrupan para un proyecto en concreto.\n2.- Todos actuan como dueños\n3.- Transparencia radical\n4.- Líderes (orgánicos), no jefes ",
+            "https://good.co/blog/non-traditional-workplace-hierarchy/",
+            "https://www.holacracy.org/"
+          ]
+        }
       }
     ]
   },
   {
     "id": "6",
-    "name": "Frontend",
+    "name": "Front",
     "asistentes": [
       {
         "id": 1552919726000,
@@ -443,6 +497,42 @@
           "links": [
             "https://nodejs.org/en/docs/guides/nodejs-docker-webapp/ Para mi el más intuitivo 101 para empezar con docker",
             "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549703462000,
+        "nombre": "Fernando Fariña",
+        "foto": "https://pbs.twimg.com/profile_images/470165028692189184/IrgKGKkP_400x400.png",
+        "twitter": "penniath",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollo de APPs con Flutter",
+          "why": "Después de que el desarrollo con NativeScript fuese un fracaso, elegimos Flutter  como framework de desarrollo de Apps.\nNuestro cuello de botella era generar UIs con pseudo-HTML y pseudo-CSS.",
+          "when": "",
+          "how": null,
+          "links": [
+            "https://eu.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
+            "https://flutter.dev/docs/cookbook",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1554105535000,
+        "nombre": "Maitane Itoiz",
+        "foto": "https://pbs.twimg.com/profile_images/953761297836986369/xSUi7gx7_400x400.jpg",
+        "twitter": "maitaneitoiz",
+        "vienede": null,
+        "experiencia": {
+          "title": "Sí, la frontera en el front-end existe. Pero. ¿debería?",
+          "why": "En un proyecto de 4 personas, con código legado en symphony y nuevo front-end  desarrollado en React, se ha dado una brecha enorme entre el front-ender desarrollador de javascrit y el componetizador/maquetador de la aplicación web. ",
+          "when": "En nuestro caso era un proyecto con un equipo pequeño en el que una persona se encargaba del backend en symphony, otras dos del desarrollo javascritp en react y otra en la parte de componetización/maquetación. Creo que en frameworks como react, la brecha entre los font-enders debería ser mínima ya que a la hora de crear un componente necesitas tener tanto conocimiento HTML/CSS como Javascript para darle funcionalidad. Opino que los perfiles de front end deberían estar especializados en una cosa (por ejemplo, maquetación) pero que esa misma persona fuese capaz de darle funcionalidad al componente en caso de que la necesite. Nuestra experiencia nos dice que crear un componente solamente con la parte de HTML/CSS y que luego otra persona le dé funcionalidad es muy complicado, se pierde mucho tiempo e información por el camino.",
+          "how": null,
+          "links": [
+            "https://www.ivoox.com/gran-brecha-del-frontend-hay-crisis-audios-mp3_rf_32624113_1.html",
+            "https://css-tricks.com/the-great-divide/",
             ""
           ]
         }
@@ -921,8 +1011,117 @@
   },
   {
     "id": "12",
-    "name": "Mobile",
-    "asistentes": []
+    "name": "La gente de Kini",
+    "asistentes": [
+      {
+        "id": 1549178229000,
+        "nombre": "Diana Aceves",
+        "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
+        "twitter": "diana_aceves_",
+        "vienede": null,
+        "experiencia": {
+          "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
+          "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
+          "when": "Pues cuando tocaba evento.",
+          "how": null,
+          "links": [
+            "Laura Lacarra tiene una charla de \"Cómo dar una charla\" pero no encuentro el link.",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1554127309000,
+        "nombre": "Pilar Barbero Iriarte",
+        "foto": "https://pbs.twimg.com/profile_images/1068981883114004483/f_F7Iqv0_400x400.jpg",
+        "twitter": "yayaqueprograma",
+        "vienede": null,
+        "experiencia": {
+          "title": "Diario de una técnica: a mí no me preguntes soy solo una chica ",
+          "why": "Mi experiencia es acerca de como ir adquiriendo un rol de Tech lead como mujer en un ambiente principalmente masculino ",
+          "when": "",
+          "how": null,
+          "links": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549815477000,
+        "nombre": "Endika García Gayoso",
+        "foto": "https://pbs.twimg.com/profile_images/850375654155616260/D6W5bJxn_400x400.jpg",
+        "twitter": "endikabatura",
+        "vienede": null,
+        "experiencia": {
+          "title": "¿Crees que tu app puede ser replicable y quieres ofrecer LO MISMO a nuevos clientes bajo su marca? Deja el Copy Paste, Flavors y Dimensions son tu arma de expansión masiva.",
+          "why": "El problema al que nos hemos enfrentado, ha sido enfrentarnos a la propuesta en primer lugar de un cliente, de poder explotar la solución que habíamos desarrollado para él, generando \"clones\" de la misma, para que este pueda ofrecer a sus clientes y colaboradores, para un uso interno en cada caso, y bajo su sistema e imagen. Empezamos a necesitar generar producto personalizable y replicable de manera sencilla, controlada, automatizada, y escalable.\n\nCon esto, hemos conseguido una base de código unificada, que compila automáticamente N réplicas de una misma App, con la misma funcionalidad y estructura (o al 90% en algunos casos), pero con aspectos, contenidos, e integraciones específicas para cada caso.",
+          "when": "Aplica cuando desarrollas una App que ofrece un servicio, que puede ser de interés para otras empresas, y te planteas ofrecer la misma solución, a empresas de tu mismo negocio, bajo su marca, cuando necesitas ofrecer una misma solución en contextos diferentes o cuando dispones de un producto que requiera de una personalización específica para cada nuevo cliente.",
+          "how": null,
+          "links": [
+            "https://developer.android.com/studio/build/build-variants?hl=es-419",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549271501000,
+        "nombre": "Joaquin Engelmo Moriche",
+        "foto": "https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg",
+        "twitter": "kinisoftware",
+        "vienede": null,
+        "experiencia": {
+          "title": "Alexa, ¿has venido para quedarte?",
+          "why": "El objetivo de esta experiencia es debatir sobre la llegada de asistentes de voz en diferentes dispositivos y tecnologías. En estos últimos meses he estado jugando en concreto con Alexa, el asistente de Amazon. He ido descubriendo que ofrece y he ido teniendo ideas según profundizaba. Para mí, a día de hoy, este tipo de asistentes me parecen muy interesantes pero, ¿han venido para quedarse? ¿Este tipo de interfaces de interacción tendrán éxito en el largo tiempo o será algo que quedará en nada o poco? ¿Nor permiten resolver problemas que hasta ahora no se podían y/o refinar soluciones existentes para hacerlas mejores?",
+          "when": "La creación de software para asistentes de voz se puede aplicar en muchos contextos, ya sea cubriendo necesidades que no estaba cubiertas por otro software hasta ahora, mejorando soluciones existentes o, simplemente, creado utilidades aleatorias. \nAdemás, para llevar a cabo ciertos desarrollos para estos asistentes tiene una barrera de entrada bastante baja y, de momento, hay mucho movimiento a nivel individual y sin ánimo de lucro que a nivel corporativo. ",
+          "how": null,
+          "links": [
+            "https://developer.amazon.com/alexa",
+            "https://dialogflow.com/",
+            "https://www.luis.ai/home"
+          ]
+        }
+      },
+      {
+        "id": 1552980229000,
+        "nombre": "Francisco Moreno Sanz",
+        "foto": "",
+        "twitter": "",
+        "vienede": null,
+        "experiencia": {
+          "title": "Cómo asegurar la calidad cada 2 semanas y no morir en el intento",
+          "why": "El testing tradicional ha quedado desfasado. Hoy en día casi todos los proyectos se desarrollan de manera ágil y el testing tiene que adaptarse a esta nueva realidad. Aquí coge fuerza el concepto de AgileTesting e implicación de la calidad a todos los niveles",
+          "when": "Proyectos qur siguen un ciclo de dsarrollo ágil y donde se requieres subidas a producción frecuentes. En este tipo de proyectos es importante aplicar enfoques como \"Shift-left Testing\" y \"Context Driven Testing\".",
+          "how": null,
+          "links": [
+            "http://context-driven-testing.com/",
+            "https://docs.google.com/presentation/d/1iD_xbRBvHbWD2TRhK4Rmwr9BsWBoJ5pAoWEy1oigeRQ/edit?usp=sharing",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549304241000,
+        "nombre": "Xabier Amutxastegi",
+        "foto": "https://pbs.twimg.com/profile_images/860412518174511104/2d4cet8i_400x400.jpg",
+        "twitter": "xabiamu",
+        "vienede": null,
+        "experiencia": {
+          "title": "Ayudando a crear un producto multimarca y multifuncionalidad para que no sea un sindiós",
+          "why": "Por necesidad de negocio. La primera es que el producto se pueda personalizar, lo tipico del logo, el color corporativo y el . La segunda que no todos los clientes tengas las mismas funcionalidades.",
+          "when": "Aplica para un producto con necesidad de ser multimarca y con instalaciones heterogéneas a nivel de funcionalidades.\nOrganizar todo lo necesario en un repositorío único con recetas de Ansible (https://www.ansible.com/) para automatizar los despliegues, construir todos los artefactos con un solo instrucción de Maven (https://maven.apache.org/) y los artefactos de backend son especificos de cada cliente mientras la web se despliega con un \"bundle\" especifico para cada cliente que se optiene con Webpack (https://webpack.js.org/)",
+          "how": null,
+          "links": [
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "13",
@@ -954,7 +1153,7 @@
         "vienede": null,
         "experiencia": {
           "title": "Comunicación empática",
-          "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociación. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
+          "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociaci��n. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
           "when": "En cualquier momento que necesitemos comunicarnos de forma efectiva -> Comunicación empática\nCuando queramos solucionar un conflicto -> Negociación\nCuando queremos conseguir un proyecto / cliente - > Persuasión\nCuando tenemos que recoger requisitos / historias de usuario -> Escucha activa",
           "how": null,
           "links": [
@@ -1097,20 +1296,20 @@
         }
       },
       {
-        "id": 1552814966000,
-        "nombre": "Jon E Eguiluz",
-        "foto": "https://pbs.twimg.com/profile_images/935810778929815554/x5kf-jYk_400x400.jpg",
-        "twitter": "viroide",
+        "id": 1549701314000,
+        "nombre": "Iker Mariñelarena",
+        "foto": "https://pbs.twimg.com/profile_images/907347484158119936/900GL8lu_400x400.jpg",
+        "twitter": "wricka69",
         "vienede": null,
         "experiencia": {
-          "title": "No bosses",
-          "why": "Hay cosas que todos odiamos: \n1.- Poca gente tomando todas las deciciones\n2.- Estúpidas perdidas de tiempo en decisiones eternas (burocracia)\n3.- Información oculta\n4.- Falta de autonomía\n5.- No ver el final del camino o la razón para andarlo. \n\nPara solucionar estos problema y algún otro, necesitas \"NO-BOSSES culture\"\n",
-          "when": "Para aplicar esta cultura los requisitos basicos son 2:\n1.- Trabajadores responsables\n2.- Trabajadores sin EGOs (lo pogo en mayuscula para resaltar el tamaño)\n\nProbablemente en empresas pequeñas es más fácil de aplicar que en empresas grandes, pero eso que se lo pregunten a Valve. ",
+          "title": "Acompañando equipos ",
+          "why": "Porque es en lo que he trabajado en el úitmo año y lo que trabajaré en lo que queda de este. Además porque me gusta y me motiva.",
+          "when": "Equipos que van a empezar un proyecto y necesitan un acompañamiento para establecer las bases del desarrollo, buenas practicas, CI/CD, ...\n\nEmpresas con un equipo funcionando pero que el códgio no ha sido cuidado y les cuesta seguir aportando valor a l negocio por le coste de trabajar con ese código\n\nY ahora el como porque los links...\n\nHabrá mucha info por el intenete, en nuestro caso el cómo lo tenemos a raíz de leer diferentes referencias sobre conocimiento más transversal y sobre todo con la experience que hemos ido adquiriendo con diferentes clientes. Para nosotros la clave es fijarse bien en cómo trabaja ahora mismo el equipo con el que vas a trabajar, qué tipos de perfiles hay, cómo se organizan y entender qué tipos de problemas tienen. Una vez vamos viendo estas cosillas, establecemos una serie de objetivos con el equipo tanto a nivel de negocio como a nivel de equipo y personas. Y luego empezamos a trabajar. Normalmente acotumbramos a empezar haciendo metiendo tema de PRs para el equipo empiece a compartir, hablar, conocerse y a crear un \"Team code\", así nosotros también empezamos a comprender el proyecto, el contexto e identificamos necesidades y problemas. Esto lo unimos con pair programming y mobs si interesa. A partir de aquí, ya es ir viendo, e ir ajustándonos a las necesidades que vayamos viendo. Siempre intentando marcar unos objetivos y unas pautas para que en medida que pasa el tiempo podamos medir cómo avanzamos y analizar el porqué de lo que estamos haciendo y los resultados que obtenemos.",
           "how": null,
           "links": [
-            "Los principios básicos son:\n1.- Celulas \"autonomas\", los trabajadores se agrupan para un proyecto en concreto.\n2.- Todos actuan como dueños\n3.- Transparencia radical\n4.- Líderes (orgánicos), no jefes ",
-            "https://good.co/blog/non-traditional-workplace-hierarchy/",
-            "https://www.holacracy.org/"
+            "",
+            "",
+            ""
           ]
         }
       }
@@ -1310,80 +1509,8 @@
   },
   {
     "id": "17",
-    "name": "Experiencia enviada, sin asignar",
+    "name": "Experiencia enviada, grupo sin asignar",
     "asistentes": [
-      {
-        "id": 1549178229000,
-        "nombre": "Diana Aceves",
-        "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
-        "twitter": "diana_aceves_",
-        "vienede": null,
-        "experiencia": {
-          "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
-          "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
-          "when": "Pues cuando tocaba evento.",
-          "how": null,
-          "links": [
-            "Laura Lacarra tiene una charla de \"Cómo dar una charla\" pero no encuentro el link.",
-            "",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1554127309000,
-        "nombre": "Pilar Barbero Iriarte",
-        "foto": "https://pbs.twimg.com/profile_images/1068981883114004483/f_F7Iqv0_400x400.jpg",
-        "twitter": "yayaqueprograma",
-        "vienede": null,
-        "experiencia": {
-          "title": "Diario de una técnica: a mí no me preguntes soy solo una chica ",
-          "why": "Mi experiencia es acerca de como ir adquiriendo un rol de Tech lead como mujer en un ambiente principalmente masculino ",
-          "when": "",
-          "how": null,
-          "links": [
-            "",
-            "",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1549703462000,
-        "nombre": "Fernando Fariña",
-        "foto": "https://pbs.twimg.com/profile_images/470165028692189184/IrgKGKkP_400x400.png",
-        "twitter": "penniath",
-        "vienede": null,
-        "experiencia": {
-          "title": "Desarrollo de APPs con Flutter",
-          "why": "Después de que el desarrollo con NativeScript fuese un fracaso, elegimos Flutter  como framework de desarrollo de Apps.\nNuestro cuello de botella era generar UIs con pseudo-HTML y pseudo-CSS.",
-          "when": "",
-          "how": null,
-          "links": [
-            "https://eu.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
-            "https://flutter.dev/docs/cookbook",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1549815477000,
-        "nombre": "Endika García Gayoso",
-        "foto": "https://pbs.twimg.com/profile_images/850375654155616260/D6W5bJxn_400x400.jpg",
-        "twitter": "endikabatura",
-        "vienede": null,
-        "experiencia": {
-          "title": "¿Crees que tu app puede ser replicable y quieres ofrecer LO MISMO a nuevos clientes bajo su marca? Deja el Copy Paste, Flavors y Dimensions son tu arma de expansión masiva.",
-          "why": "El problema al que nos hemos enfrentado, ha sido enfrentarnos a la propuesta en primer lugar de un cliente, de poder explotar la solución que habíamos desarrollado para él, generando \"clones\" de la misma, para que este pueda ofrecer a sus clientes y colaboradores, para un uso interno en cada caso, y bajo su sistema e imagen. Empezamos a necesitar generar producto personalizable y replicable de manera sencilla, controlada, automatizada, y escalable.\n\nCon esto, hemos conseguido una base de código unificada, que compila automáticamente N réplicas de una misma App, con la misma funcionalidad y estructura (o al 90% en algunos casos), pero con aspectos, contenidos, e integraciones específicas para cada caso.",
-          "when": "Aplica cuando desarrollas una App que ofrece un servicio, que puede ser de interés para otras empresas, y te planteas ofrecer la misma solución, a empresas de tu mismo negocio, bajo su marca, cuando necesitas ofrecer una misma solución en contextos diferentes o cuando dispones de un producto que requiera de una personalización específica para cada nuevo cliente.",
-          "how": null,
-          "links": [
-            "https://developer.android.com/studio/build/build-variants?hl=es-419",
-            "",
-            ""
-          ]
-        }
-      },
       {
         "id": 1552172274000,
         "nombre": "Alex Barrero Escalante",
@@ -1417,24 +1544,6 @@
             "https://link.medium.com/Ka83lxNFvV",
             "https://flutter.dev/",
             "https://material.io/design/"
-          ]
-        }
-      },
-      {
-        "id": 1549271501000,
-        "nombre": "Joaquin Engelmo Moriche",
-        "foto": "https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg",
-        "twitter": "kinisoftware",
-        "vienede": null,
-        "experiencia": {
-          "title": "Alexa, ¿has venido para quedarte?",
-          "why": "El objetivo de esta experiencia es debatir sobre la llegada de asistentes de voz en diferentes dispositivos y tecnologías. En estos últimos meses he estado jugando en concreto con Alexa, el asistente de Amazon. He ido descubriendo que ofrece y he ido teniendo ideas según profundizaba. Para mí, a día de hoy, este tipo de asistentes me parecen muy interesantes pero, ¿han venido para quedarse? ¿Este tipo de interfaces de interacción tendrán éxito en el largo tiempo o será algo que quedará en nada o poco? ¿Nor permiten resolver problemas que hasta ahora no se podían y/o refinar soluciones existentes para hacerlas mejores?",
-          "when": "La creación de software para asistentes de voz se puede aplicar en muchos contextos, ya sea cubriendo necesidades que no estaba cubiertas por otro software hasta ahora, mejorando soluciones existentes o, simplemente, creado utilidades aleatorias. \nAdemás, para llevar a cabo ciertos desarrollos para estos asistentes tiene una barrera de entrada bastante baja y, de momento, hay mucho movimiento a nivel individual y sin ánimo de lucro que a nivel corporativo. ",
-          "how": null,
-          "links": [
-            "https://developer.amazon.com/alexa",
-            "https://dialogflow.com/",
-            "https://www.luis.ai/home"
           ]
         }
       },
@@ -1475,24 +1584,6 @@
         }
       },
       {
-        "id": 1552980229000,
-        "nombre": "Francisco Moreno Sanz",
-        "foto": "",
-        "twitter": "",
-        "vienede": null,
-        "experiencia": {
-          "title": "Cómo asegurar la calidad cada 2 semanas y no morir en el intento",
-          "why": "El testing tradicional ha quedado desfasado. Hoy en día casi todos los proyectos se desarrollan de manera ágil y el testing tiene que adaptarse a esta nueva realidad. Aquí coge fuerza el concepto de AgileTesting e implicación de la calidad a todos los niveles",
-          "when": "Proyectos qur siguen un ciclo de dsarrollo ágil y donde se requieres subidas a producción frecuentes. En este tipo de proyectos es importante aplicar enfoques como \"Shift-left Testing\" y \"Context Driven Testing\".",
-          "how": null,
-          "links": [
-            "http://context-driven-testing.com/",
-            "https://docs.google.com/presentation/d/1iD_xbRBvHbWD2TRhK4Rmwr9BsWBoJ5pAoWEy1oigeRQ/edit?usp=sharing",
-            ""
-          ]
-        }
-      },
-      {
         "id": 1554120512000,
         "nombre": "JULIA OLCOZ",
         "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
@@ -1511,19 +1602,37 @@
         }
       },
       {
-        "id": 1554977395000,
-        "nombre": "Francisco Ortiz Abril",
-        "foto": "https://pbs.twimg.com/profile_images/1100497912889556992/b9SrZLGi_400x400.png",
-        "twitter": "Fortiz2305",
+        "id": 1549820107000,
+        "nombre": "Joan Fisbein",
+        "foto": "https://pbs.twimg.com/profile_images/41374962/joan_400x400.png",
+        "twitter": "jfisbein",
         "vienede": null,
         "experiencia": {
-          "title": "Observar antes de empezar a cambiar",
-          "why": "A medida que la complejidad de un sistema aumenta, va aumentando también la complejidad de mantenerlo, y de comprobar que “todo va bien”. Este año cogíamos el reto de rediseñar el proceso de ingestión de datos en nuestra empresa (bastante complejidad accidental metida y muy complicado de hacer evolucionar para que encajaran nuevos requisitos funcionales y de rendimiento).\n\nLas primeras preguntas fueron: Cómo vamos a medir las mejoras de rendimiento de este nuevo proceso? Sabemos exactamente el tiempo que tarda cada parte en hacer su trabajo? Sabemos cuándo “todo va bien”?\nEn ese momento la respuesta a esas preguntas no eran fáciles de responder, así que no tenía mucho sentido ir directamente a trabajar en el rediseño sin poder medir qué estábamos consiguiendo con él. Además, vender este proceso a la parte de negocio sin presentar números de las mejoras que íbamos consiguiendo no era fácil.\n\nQué hicimos? Dar la bienvenida a la **observabilidad** en nuestra plataforma. En el proceso actual, decidimos cuáles eran las **métricas** clave que nos daban la respuesta a ese “todo va bien”. Y qué pasa con la medida de las mejoras? Para eso dentro de cada proceso, incluímos **trazas** que nos proporcionan el tiempo invertido en cada parte y cómo se mueven los datos por nuestra plataforma. Dichas trazas van relacionadas con **logs** que nos permiten tener información extra sobre dichos procesos. El siguiente paso será mejorar el sistema de **alertas**.\n\nLa situación actual es que el nuevo proceso proporciona toda esa misma información, y a simple golpe de vista podemos comprobar si se están consiguiendo los mismos resultados que en el anterior y medir cuál es la mejora de rendimiento para conseguir dichos resultados. Viviendo los dos en producción durante un tiempo podemos validar que todo va bien y qué mejoras hemos conseguido, para luego dar el cambiazo a un proceso por el otro.",
-          "when": "Poder evolucionar/cambiar/mantener sin morir en el intento cualquier sistema con cierta complejidad.",
+          "title": "Doctor, ya no se hacer nada sin contenedores. ¿Estoy enfermo?",
+          "why": "Empecé, como la mayoría, siguiendo la moda de los microservicios y kubernetes.",
+          "when": "Es mi caso es un poco enfermizo, poco a poco he ido incorporando los contenedores a mi vida y ya los uso para casi cualquier cosa, automatización de pruebas, creación de entornos de desarrollo, distribución de pequeñas utilidades, despliegue de monolitos... lo que sea.\n\nSiempre que hay que instalar un software nuevo en una máquina me planteo si no se puede hacer con un contenedor.",
           "how": null,
           "links": [
-            "https://opentracing.io/",
-            "https://www.datadoghq.com/apm/",
+            "https://docs.docker.com/engine/reference/builder/",
+            "https://github.com/GoogleContainerTools/jib",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1550510250000,
+        "nombre": "Javier Provecho",
+        "foto": "https://pbs.twimg.com/profile_images/786246662981287937/LSlPYTcf_400x400.jpg",
+        "twitter": "javierprovecho",
+        "vienede": null,
+        "experiencia": {
+          "title": "SRE implements DevOps",
+          "why": "Las empresas reclutan perfiles DevOps pensando en CI/CD lo que resulta en grandes carencias y riesgo a la hora de afrontar incidentes en producción. SRE es una forma práctica de implementar DevOps, con perfiles multidisciplinares y métricas para poder decidir el camino a seguir.",
+          "when": "Cuando haya más de tres equipos trabajando en común y más de tres entornos productivos.",
+          "how": null,
+          "links": [
+            "https://youtu.be/uTEL8Ff1Zvk",
+            "",
             ""
           ]
         }
@@ -1535,34 +1644,10 @@
     "name": "Experiencia no enviada 2",
     "asistentes": [
       {
-        "id": 1549304241000,
-        "nombre": "Xabier Amutxastegi",
-        "foto": "https://pbs.twimg.com/profile_images/860412518174511104/2d4cet8i_400x400.jpg",
-        "twitter": "xabiamu",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1549271561000,
-        "nombre": "Koldo Hernandez",
-        "foto": "https://pbs.twimg.com/profile_images/957580013930532864/0nwRwG1u_400x400.jpg",
-        "twitter": "koldo",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
         "id": 1549701097000,
         "nombre": "Borja Reinares Ruiz Navarro",
         "foto": "https://pbs.twimg.com/profile_images/607930537848602625/qfaocmyA_400x400.jpg",
         "twitter": "borjareinares",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1549701314000,
-        "nombre": "Iker Mariñelarena",
-        "foto": "https://pbs.twimg.com/profile_images/907347484158119936/900GL8lu_400x400.jpg",
-        "twitter": "wricka69",
         "vienede": null,
         "experiencia": {}
       },
@@ -1579,22 +1664,6 @@
         "nombre": "Jorge Juan Barroso Carmona",
         "foto": "https://pbs.twimg.com/profile_images/905364975149047809/z0fkj2mp_400x400.jpg",
         "twitter": "flipper83",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1549820107000,
-        "nombre": "Joan Fisbein",
-        "foto": "https://pbs.twimg.com/profile_images/41374962/joan_400x400.png",
-        "twitter": "jfisbein",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1550510250000,
-        "nombre": "Javier Provecho",
-        "foto": "https://pbs.twimg.com/profile_images/786246662981287937/LSlPYTcf_400x400.jpg",
-        "twitter": "javierprovecho",
         "vienede": null,
         "experiencia": {}
       },
@@ -1633,14 +1702,6 @@
         "nombre": "Fran Naranjo",
         "foto": "https://pbs.twimg.com/profile_images/415925617868034048/boQGEXYD_400x400.jpeg",
         "twitter": "tatai",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1554105535000,
-        "nombre": "Maitane Itoiz",
-        "foto": "https://pbs.twimg.com/profile_images/953761297836986369/xSUi7gx7_400x400.jpg",
-        "twitter": "maitaneitoiz",
         "vienede": null,
         "experiencia": {}
       }

@@ -34,7 +34,7 @@ const excelToExperienciaModel = experiencia => {
 };
 
 const byEmail = email => entry => {
-  return entry.gsx$email.$t.toLowerCase() === email.toLowerCase();
+  return entry.gsx$email.$t.toLowerCase().trim() === email.toLowerCase().trim();
 };
 
 module.exports = {

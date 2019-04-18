@@ -16,7 +16,7 @@ module.exports = year => {
       .map(e => {
     console.log("Buscando a :", e.gsx$email.$t);
     const asistenteExcel = asistentes
-        .find(entry => e.gsx$email.$t.toLowerCase() === entry.gsx$email.$t.toLowerCase());
+        .find(entry => e.gsx$email.$t.toLowerCase().trim() === entry.gsx$email.$t.toLowerCase().trim());
 
     const target = year === 2018 ?  excelToExperienciaModel(e): excelToExperienciaModel2019(e);
     const asistente = year === 2018 ? excelToAsistenteModel(asistenteExcel): excelToAsistenteModel2019(asistenteExcel);

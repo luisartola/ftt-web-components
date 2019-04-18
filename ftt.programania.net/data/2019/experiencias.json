@@ -194,7 +194,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "name": "Experiencia enviada, grupo sin asignar"
     }
   },
   {
@@ -260,7 +260,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "Frontend"
+      "name": "Front"
     }
   },
   {
@@ -347,8 +347,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "12",
+      "name": "La gente de Kini"
     }
   },
   {
@@ -479,8 +479,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "12",
+      "name": "La gente de Kini"
     }
   },
   {
@@ -523,8 +523,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "6",
+      "name": "Front"
     }
   },
   {
@@ -859,7 +859,7 @@
   },
   {
     "title": "Comunicación empática",
-    "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociación. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
+    "why": "Tras 9 años de responsable de desarrollo de negocio (aka comercial) como directora de Vital Innova decidí ponerme las pilas para mejorar mis capacidades de comunicación y negociaci��n. ¿Realmente nos comunicamos con nuestros clientes / clientes potenciales / proveedores / compañeros o solo hablamos nosotros? ¿Escuchamos realmente? ¿Qué pasa cuando el cliente cambia el alcance continuamente?\nObjetivos: \nAveriguar las necesidades del cliente/cliente potencial/proveedor/compañero para mejorar la comunicación. \nSaber negociar desde un punto de vista win-win, estableciendo unos límites claros. \nTrabajar la asertividad, no mandar al cliente/cliente potencial/proveedor/compañero atpc ni dejarse tomar el pelo. \nNegociar desde la influencia y la presuasión (que no manipulación)",
     "when": "En cualquier momento que necesitemos comunicarnos de forma efectiva -> Comunicación empática\nCuando queramos solucionar un conflicto -> Negociación\nCuando queremos conseguir un proyecto / cliente - > Persuasión\nCuando tenemos que recoger requisitos / historias de usuario -> Escucha activa",
     "how": null,
     "links": [
@@ -1007,8 +1007,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "12",
+      "name": "La gente de Kini"
     }
   },
   {
@@ -1029,8 +1029,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "12",
+      "name": "La gente de Kini"
     }
   },
   {
@@ -1250,7 +1250,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "name": "Experiencia enviada, grupo sin asignar"
     }
   },
   {
@@ -1293,8 +1293,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "12",
+      "name": "La gente de Kini"
     }
   },
   {
@@ -1426,7 +1426,7 @@
     },
     "grupo": {
       "id": "6",
-      "name": "Frontend"
+      "name": "Front"
     }
   },
   {
@@ -1557,8 +1557,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "14",
-      "name": "Agile 2"
+      "id": "5",
+      "name": "Seamos adultos"
     }
   },
   {
@@ -1821,8 +1821,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "2",
+      "name": "Legacy 2"
     }
   },
   {
@@ -1844,7 +1844,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "name": "Experiencia enviada, grupo sin asignar"
     }
   },
   {
@@ -1866,7 +1866,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "name": "Experiencia enviada, grupo sin asignar"
     }
   },
   {
@@ -1932,7 +1932,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "name": "Experiencia enviada, grupo sin asignar"
     }
   },
   {
@@ -1997,8 +1997,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, sin asignar"
+      "id": "12",
+      "name": "La gente de Kini"
     }
   },
   {
@@ -2021,6 +2021,138 @@
     "grupo": {
       "id": "7",
       "name": "Macro economics"
+    }
+  },
+  {
+    "title": "Acompañando equipos ",
+    "why": "Porque es en lo que he trabajado en el úitmo año y lo que trabajaré en lo que queda de este. Además porque me gusta y me motiva.",
+    "when": "Equipos que van a empezar un proyecto y necesitan un acompañamiento para establecer las bases del desarrollo, buenas practicas, CI/CD, ...\n\nEmpresas con un equipo funcionando pero que el códgio no ha sido cuidado y les cuesta seguir aportando valor a l negocio por le coste de trabajar con ese código\n\nY ahora el como porque los links...\n\nHabrá mucha info por el intenete, en nuestro caso el cómo lo tenemos a raíz de leer diferentes referencias sobre conocimiento más transversal y sobre todo con la experience que hemos ido adquiriendo con diferentes clientes. Para nosotros la clave es fijarse bien en cómo trabaja ahora mismo el equipo con el que vas a trabajar, qué tipos de perfiles hay, cómo se organizan y entender qué tipos de problemas tienen. Una vez vamos viendo estas cosillas, establecemos una serie de objetivos con el equipo tanto a nivel de negocio como a nivel de equipo y personas. Y luego empezamos a trabajar. Normalmente acotumbramos a empezar haciendo metiendo tema de PRs para el equipo empiece a compartir, hablar, conocerse y a crear un \"Team code\", así nosotros también empezamos a comprender el proyecto, el contexto e identificamos necesidades y problemas. Esto lo unimos con pair programming y mobs si interesa. A partir de aquí, ya es ir viendo, e ir ajustándonos a las necesidades que vayamos viendo. Siempre intentando marcar unos objetivos y unas pautas para que en medida que pasa el tiempo podamos medir cómo avanzamos y analizar el porqué de lo que estamos haciendo y los resultados que obtenemos.",
+    "how": null,
+    "links": [
+      "",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1549701314000,
+      "nombre": "Iker Mariñelarena",
+      "foto": "https://pbs.twimg.com/profile_images/907347484158119936/900GL8lu_400x400.jpg",
+      "twitter": "wricka69",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "14",
+      "name": "Agile 2"
+    }
+  },
+  {
+    "title": "Hombre orquesta y ¿startups?",
+    "why": "Dejé mi anterior curro (estable) por participar en el lanzamiento y desarrollo de una startup. Esa incertidumbre y cultura me motivaba... pero tras 6 años en el proyecto, creo que los fundadores del proyecto en ningún momento han querido funcionar de forma \"Lean\".\n\nMe ha tocado realizar todo tipo de tareas: mantener el sistema \"legacy\", desarrollar nuevos servicios/pruebas de concepto, solicitar ayudas, etc...",
+    "when": "Me gustaría debatir sobre cómo \"lidiar\" con los fundadores (no son perfiles técnicos) convenciendo de que las metodologías ágiles, pair programming, etc... es la mejor forma de ir aportando valor y crecer a nivel de producto y empresa.\n\nMe preocupa los \"silos de conocimiento\" creados en nuestro pequeño equipo (1 CMO + Tech Lead + 2 developers) y el enfoque que el CEO está intentando dar a la empresa. Tenemos varios productos propios, la idea de negocio validada pero falta \"chicha\" para pivotar y crear una nueva versión de los desarrollos que se ajusten al mercado.",
+    "how": null,
+    "links": [
+      "",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1549271561000,
+      "nombre": "Koldo Hernandez",
+      "foto": "https://pbs.twimg.com/profile_images/957580013930532864/0nwRwG1u_400x400.jpg",
+      "twitter": "koldo",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "4",
+      "name": "Organizaciones/escalabilidad"
+    }
+  },
+  {
+    "title": "Ayudando a crear un producto multimarca y multifuncionalidad para que no sea un sindiós",
+    "why": "Por necesidad de negocio. La primera es que el producto se pueda personalizar, lo tipico del logo, el color corporativo y el . La segunda que no todos los clientes tengas las mismas funcionalidades.",
+    "when": "Aplica para un producto con necesidad de ser multimarca y con instalaciones heterogéneas a nivel de funcionalidades.\nOrganizar todo lo necesario en un repositorío único con recetas de Ansible (https://www.ansible.com/) para automatizar los despliegues, construir todos los artefactos con un solo instrucción de Maven (https://maven.apache.org/) y los artefactos de backend son especificos de cada cliente mientras la web se despliega con un \"bundle\" especifico para cada cliente que se optiene con Webpack (https://webpack.js.org/)",
+    "how": null,
+    "links": [
+      "",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1549304241000,
+      "nombre": "Xabier Amutxastegi",
+      "foto": "https://pbs.twimg.com/profile_images/860412518174511104/2d4cet8i_400x400.jpg",
+      "twitter": "xabiamu",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "12",
+      "name": "La gente de Kini"
+    }
+  },
+  {
+    "title": "Sí, la frontera en el front-end existe. Pero. ¿debería?",
+    "why": "En un proyecto de 4 personas, con código legado en symphony y nuevo front-end  desarrollado en React, se ha dado una brecha enorme entre el front-ender desarrollador de javascrit y el componetizador/maquetador de la aplicación web. ",
+    "when": "En nuestro caso era un proyecto con un equipo pequeño en el que una persona se encargaba del backend en symphony, otras dos del desarrollo javascritp en react y otra en la parte de componetización/maquetación. Creo que en frameworks como react, la brecha entre los font-enders debería ser mínima ya que a la hora de crear un componente necesitas tener tanto conocimiento HTML/CSS como Javascript para darle funcionalidad. Opino que los perfiles de front end deberían estar especializados en una cosa (por ejemplo, maquetación) pero que esa misma persona fuese capaz de darle funcionalidad al componente en caso de que la necesite. Nuestra experiencia nos dice que crear un componente solamente con la parte de HTML/CSS y que luego otra persona le dé funcionalidad es muy complicado, se pierde mucho tiempo e información por el camino.",
+    "how": null,
+    "links": [
+      "https://www.ivoox.com/gran-brecha-del-frontend-hay-crisis-audios-mp3_rf_32624113_1.html",
+      "https://css-tricks.com/the-great-divide/",
+      ""
+    ],
+    "asistente": {
+      "id": 1554105535000,
+      "nombre": "Maitane Itoiz",
+      "foto": "https://pbs.twimg.com/profile_images/953761297836986369/xSUi7gx7_400x400.jpg",
+      "twitter": "maitaneitoiz",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "6",
+      "name": "Front"
+    }
+  },
+  {
+    "title": "Doctor, ya no se hacer nada sin contenedores. ¿Estoy enfermo?",
+    "why": "Empecé, como la mayoría, siguiendo la moda de los microservicios y kubernetes.",
+    "when": "Es mi caso es un poco enfermizo, poco a poco he ido incorporando los contenedores a mi vida y ya los uso para casi cualquier cosa, automatización de pruebas, creación de entornos de desarrollo, distribución de pequeñas utilidades, despliegue de monolitos... lo que sea.\n\nSiempre que hay que instalar un software nuevo en una máquina me planteo si no se puede hacer con un contenedor.",
+    "how": null,
+    "links": [
+      "https://docs.docker.com/engine/reference/builder/",
+      "https://github.com/GoogleContainerTools/jib",
+      ""
+    ],
+    "asistente": {
+      "id": 1549820107000,
+      "nombre": "Joan Fisbein",
+      "foto": "https://pbs.twimg.com/profile_images/41374962/joan_400x400.png",
+      "twitter": "jfisbein",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "17",
+      "name": "Experiencia enviada, grupo sin asignar"
+    }
+  },
+  {
+    "title": "SRE implements DevOps",
+    "why": "Las empresas reclutan perfiles DevOps pensando en CI/CD lo que resulta en grandes carencias y riesgo a la hora de afrontar incidentes en producción. SRE es una forma práctica de implementar DevOps, con perfiles multidisciplinares y métricas para poder decidir el camino a seguir.",
+    "when": "Cuando haya más de tres equipos trabajando en común y más de tres entornos productivos.",
+    "how": null,
+    "links": [
+      "https://youtu.be/uTEL8Ff1Zvk",
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1550510250000,
+      "nombre": "Javier Provecho",
+      "foto": "https://pbs.twimg.com/profile_images/786246662981287937/LSlPYTcf_400x400.jpg",
+      "twitter": "javierprovecho",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "17",
+      "name": "Experiencia enviada, grupo sin asignar"
     }
   }
 ]
