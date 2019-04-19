@@ -24,6 +24,12 @@ const repatch = new Store(initialState())
   .addMiddleware(localStorageMiddleware);
 
 
+export const limiteCapturas = () => {
+    const state = repatch.getState();
+    return state.capturados.length === 10;
+};
+
+
 export const estaCapturado = asistente => {
   const state = repatch.getState();
   return state.capturados
@@ -40,7 +46,7 @@ export const liberar = asistente => state => ({
 
 export const capturar = asistente => state => ({
   ...state,
-  capturados: [... state.capturados, asistente]
+  capturados: state.capturados.length < 10 ?  [... state.capturados, asistente] : state.capturados
 });
 
 export const dispatch = (action) => {

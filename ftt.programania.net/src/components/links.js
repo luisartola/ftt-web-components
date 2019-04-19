@@ -1,7 +1,7 @@
 import {html, LitElement} from 'lit-element';
 import css from '../mystyles.scss';
-import a2018 from "../../data/2018/asistentes.json";
-import a2019 from "../../data/2019/asistentes.json";
+import a2018 from '../../data/2018/asistentes.json';
+import a2019 from '../../data/2019/asistentes.json';
 
 const data = {
   2018: a2018,
@@ -20,6 +20,7 @@ export default {
           .map(entry => {
             return {
               nombre: entry.nombre,
+              titulo: entry.experiencia.title,
               links: entry.experiencia.links
             };
           });
@@ -40,10 +41,8 @@ export default {
               <li class="is-active"><a href="#" aria-current="page">Links</a></li>
             </ul>
           </nav>
-        
         </div>
         </section>
-        
              
         ${this.asistentes.length === 0 ? html`
         <section class="section">
@@ -54,13 +53,16 @@ export default {
           </div>
           </div>
           </section>
-        ` : ``}
+        ` : ''}
 
         
         <section class="section is-paddingless">
-          <div class="container content "  style="overflow: hidden;">
-             ${this.asistentes.map(asistente => html`
-                 <p class="is-5">${asistente.nombre}</p>
+          <div class="container content" style="overflow: hidden;">
+             ${this.asistentes
+                    .filter(asistente => asistente.links.filter(link => !!link).length > 0)
+                    .map(asistente => html`
+                 <div class="is-5"><strong>${asistente.nombre}</strong></div>
+                 <small>${asistente.titulo}</small>
                  <ul>
                  ${asistente.links.filter(link => !!link).map(link => html`
                     <li><a target="_blank" href="${link}">${link}</a></li>
@@ -73,4 +75,4 @@ export default {
 		`;
     }
   }
-}
+};

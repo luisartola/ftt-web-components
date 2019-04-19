@@ -29,7 +29,7 @@ export default {
             <tbody>
             <tr>
               <td>19:30</td>
-              <td>Birras previas en el <a href="#">Drop</a></td>
+              <td>Birras previas en el <a target="_blank" href="https://goo.gl/maps/gQ1v5Vk28kJGWDY5A">Drop</a></td>
             </tr>
           </table>
         </div>
@@ -48,7 +48,11 @@ export default {
             <tbody>
             <tr>
               <td>8:40</td>
-              <td>Sale el bus de la <a href="#">Estación de autobuses</a></td>
+              <td>
+              Sale el bus de la 
+              <a target="_blank" href="https://goo.gl/maps/pB6du1TQW6GF36qk7">Estación de autobuses</a>
+              camino de la <a target="_blank" href="https://www.iruinsagardotegia.com/home">sidrería Irúin</a>
+              </td>
             </tr>
           <tr>
               <td>9:30</td>
@@ -81,7 +85,7 @@ export default {
               <td>19:30</td>
               <td>
                 Sale el bus de vuelta. 
-                Networking en <a href="#">Plaza de la constitución</a>
+                Networking en <a target="_blank" href="https://goo.gl/maps/CdRXCzWPsX5U18476">Plaza de la constitución</a>
               </td>
           </tr>
 

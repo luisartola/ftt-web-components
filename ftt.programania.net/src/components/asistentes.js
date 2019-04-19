@@ -1,9 +1,9 @@
 import css from '../mystyles.scss';
-import a2018 from "../../data/2018/asistentes.json";
-import a2019 from "../../data/2019/asistentes.json";
+import a2018 from '../../data/2018/asistentes.json';
+import a2019 from '../../data/2019/asistentes.json';
 import {html, LitElement} from 'lit-element';
-import {repeat} from "lit-html/directives/repeat";
-import {estaCapturado, liberar, capturar, dispatch, subscribe} from "./state";
+import {repeat} from 'lit-html/directives/repeat';
+import {limiteCapturas, estaCapturado, liberar, capturar, dispatch, subscribe} from './state';
 
 const data = {
   2018: a2018,
@@ -42,7 +42,7 @@ export default {
 
     filter(e) {
       this.asistentes = this.todos
-          .filter(entry => entry.nombre.toLowerCase().includes(e.target.value.toLowerCase()))
+          .filter(entry => entry.nombre.toLowerCase().includes(e.target.value.toLowerCase()));
     }
 
     disconnectedCallback() {
@@ -50,10 +50,10 @@ export default {
       this.unsubscribe();
     }
 
-    shortVersion(title = "") {
+    shortVersion(title = '') {
       if (title.length < 30)
         return title.replace('"', '');
-      return title.replace(/"/g, '').substring(0, 30) + "...";
+      return title.replace(/"/g, '').substring(0, 30) + '...';
     }
 
     render() {
@@ -94,11 +94,12 @@ export default {
           ${this.capturados.length >= 10 ? html`
           <div class="notification is-warning">
             <!--<button class="delete"></button>-->
-            Ésta lista es rotatoria.
+            
+            Máximo <strong>diez</strong> capturas.
             <br/>
             <small>¿De verdad crees que eres capaz de desvirtualizar como dios manda a más de 10 personas?</small>
           </div>
-          ` : ``}
+          ` : ''}
           
           <table class="table is-striped is-fullwidth">
           <thead>
@@ -111,9 +112,7 @@ export default {
             ${repeat(this.capturados, capturado => capturado.id, capturado => html` 
               <tr>
               <td>${capturado.nombre}</td>
-              <td><a class="delete" @click="${() => {
-        dispatch(liberar(capturado))
-      }}"></a></td>
+              <td><a class="delete" @click="${() => { dispatch(liberar(capturado));}}"></a></td>
               </tr>
             `)}
         </tbody>
@@ -121,7 +120,7 @@ export default {
         </div>
           </section>
          
-          ` : ``}
+          ` : ''}
            
           ${this.asistentes.length === 0 ? html`
           <section class="section">
@@ -132,7 +131,7 @@ export default {
             </div>
             </div>
           </section>
-        ` : ``}
+        ` : ''}
           
           <section class="section is-paddingless">
           <div class="container">
@@ -149,9 +148,7 @@ export default {
                 <div class="level-item">
                   <div class="field has-addons">
                     <p class="control">
-                      <input @keyup="${e => {
-        this.filter(e)
-      }}" 
+                      <input @keyup="${e => { this.filter(e); }}" 
                           class="input" type="text" placeholder="Encuentra un asistente">
                     </p>
                     <p class="control">
@@ -180,7 +177,11 @@ export default {
                   </div>
                   <div class="media-content">
                     <p style="font-size: 0.9em" class="title">${asistente.nombre}</p>
-                    <p style="font-size: 0.8em" class="subtitle">@${asistente.twitter}</p>
+                    <p style="font-size: 0.8em" class="subtitle">
+                    <a style="color:#757763" target="_blank" href="https://twitter.com/@${asistente.twitter}">
+                        @${asistente.twitter}
+                    </a>
+                    </p>
                   </div>
                 </div>
                 <div class="content">
@@ -191,8 +192,8 @@ export default {
                   ${asistente.grupo ? html`Grupo: <a href="/${this.year}/grupo/${asistente.grupo.id}">${asistente.grupo.name}</a>` : ''}
                   
                 </div>
-                      <button ?disabled="${estaCapturado(asistente)}" class="button is-small" 
-                                 @click="${() => {dispatch(capturar(asistente))}}">Capturarlo</button>
+                      <button ?disabled="${limiteCapturas() || estaCapturado(asistente)}" class="button is-small" 
+                                 @click="${() => {dispatch(capturar(asistente));}}">Capturarlo</button>
                 
               </div>
             </div>
@@ -204,4 +205,4 @@ export default {
     `;
     }
   }
-}
+};

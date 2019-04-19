@@ -1,6 +1,6 @@
 import css from  '../mystyles.scss';
 import {html, LitElement} from 'lit-element';
-import {subscribe} from "./state";
+import {subscribe} from './state';
 
 const pages = [
   {name: 'Horario', path: '/horario'},
@@ -28,7 +28,7 @@ export default {
     }
 
     connectedCallback() {
-      super.connectedCallback()
+      super.connectedCallback();
       subscribe(state => {
         this.capturados = state.capturados;
       });
@@ -71,7 +71,7 @@ export default {
               <a class="navbar-item" @click="${() => this.toggleMenu()}" href="${page.path}">${page.name}</a>
             `)}
            
-           <a class="navbar-item" href="/2019/asistentes">
+           <a class="navbar-item"  @click="${() => this.toggleMenu()}" href="/2019/asistentes">
             Capturados: ${this.capturados.length}
             </a>
       
@@ -81,4 +81,4 @@ export default {
 		`;
     }
   }
-}
+};
