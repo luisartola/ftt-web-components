@@ -83,44 +83,35 @@ export default {
         </section>
         
         
-        ${this.capturados.length > 0 ? html`
-        
-        
-        <section class="section">
-        <div class="container">
-        
-          <h1 id="asistentes-capturados" class="title">Asistentes capturados</h1>
-          
-          ${this.capturados.length >= 10 ? html`
-          <div class="notification is-warning">
-            <!--<button class="delete"></button>-->
+        <ftt-collapse .title="Asistentes capturados (${this.capturados.length})">
             
-            Máximo <strong>diez</strong> capturas.
-            <br/>
-            <small>¿De verdad crees que eres capaz de desvirtualizar como dios manda a más de 10 personas?</small>
-          </div>
-          ` : ''}
-          
-          <table class="table is-striped is-fullwidth">
-          <thead>
-            <tr>
-            <th>Capturado</th>
-            <th></th>
-          </tr>          
-          </thead>
-          <tbody>
-            ${repeat(this.capturados, capturado => capturado.id, capturado => html` 
-              <tr>
-              <td>${capturado.nombre}</td>
-              <td><a class="delete" @click="${() => { dispatch(liberar(capturado));}}"></a></td>
-              </tr>
-            `)}
-        </tbody>
-          </table>
-        </div>
-          </section>
+              ${this.capturados.length >= 10 ? html`
+              <div class="notification is-warning">
+                
+                Máximo <strong>diez</strong> capturas.
+                <br/>
+                <small>¿De verdad crees que eres capaz de desvirtualizar como dios manda a más de 10 personas?</small>
+              </div>
+              ` : ''}
+              
+              <table class="table is-striped is-fullwidth">
+              <thead>
+                <tr>
+                <th>Capturado</th>
+                <th></th>
+              </tr>          
+              </thead>
+              <tbody>
+                ${repeat(this.capturados, capturado => capturado.id, capturado => html` 
+                  <tr>
+                  <td>${capturado.nombre}</td>
+                  <td><a class="delete" @click="${(e) => { e.stopPropagation(); dispatch(liberar(capturado));}}"></a></td>
+                  </tr>
+                `)}
+            </tbody>
+              </table>
+        </ftt-collapse>
          
-          ` : ''}
            
           ${this.asistentes.length === 0 ? html`
           <section class="section">

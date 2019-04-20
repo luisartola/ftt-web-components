@@ -1,6 +1,7 @@
 import css from './mystyles.scss';
 import {html, LitElement} from 'lit-element';
 import {Router} from '@vaadin/router';
+import collapse from './components/collapse.js';
 import experienciasComponent from './components/experiencias.js';
 import linksComponent from './components/links.js';
 import experienciaComponent from './components/experiencia.js';
@@ -20,6 +21,7 @@ import sectionTitle from './components/ftt-section-title.js';
 
 [
   sectionTitle,
+  collapse,
   fttFooter,
   gruposComponent,
   grupoComponent,

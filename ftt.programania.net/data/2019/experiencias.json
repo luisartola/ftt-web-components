@@ -528,50 +528,6 @@
     }
   },
   {
-    "title": "Blamaless incident reports",
-    "why": "Tras haber provocado y contenido una incidencia en alguno de tus clientes, ¿cómo hace el equipo para aprender y mejorar o incluso no volver a repetir los mismos errores?\nHay mil maneras (supongo), pero en nuestro caso comenzamos por lo más básico: blameless incident reports (un poco a nuestra manera) .\n- analizar y recopilar los datos objetivos\n- observar lo ocurrido con \"ojos limpios\"\n- analizar el output  y cómo se solventó el \"outage\"\n- diverger en posibles acciones para que no vuelva a ocurrir\n- converger en los pasos más obvios para asegurarnos que no ocurra de nuevo",
-    "when": "Todo esto, sobre el contexto de nuestro equipo:\n- multiproyecto, multicliente, con alta rotación y técnicamente alejado del SOLID, XP, etc",
-    "how": null,
-    "links": [
-      null,
-      "https://www.thumbtack.com/engineering/blameless-incident-postmortems/",
-      "https://github.com/Backline/incidents"
-    ],
-    "asistente": {
-      "id": 1549703467000,
-      "nombre": "Fran Mosteiro",
-      "foto": "https://pbs.twimg.com/profile_images/1095040557594931201/REwYliHg_400x400.jpg",
-      "twitter": "fran_mosteiro",
-      "vienede": null
-    },
-    "grupo": {
-      "id": "7",
-      "name": "Macro economics"
-    }
-  },
-  {
-    "title": "101: ¿Cómo hacer de PO cuando tu cliente quiere un/a jefe de proyecto?",
-    "why": "Llevas 12 años desarrollando software. Siempre has dicho que \"no tienes claro si lo tuyo es desarrollar (donde eres del montón)\" o \"crear producto\". Eres más de \"estoy donde se me necesite  y ahí doy mi mejor kungfu\".\n\nLlega el día, una compañera coge una baja y hay que rellenar el hueco de PO en los 2 clientes más toca-ripiltipis que maneja tu equipo: management old school, \"el producto  es nuestro, tu eres carne de desarrollo\", \"no puedo compatirte mi contexto si no firmais un NDA),\"no me cuentes historias, llevo sintiendo medio engañado durante meses ¿cómo vas a arreglar nuesto problema?\", ...\n\n¿Cómo rescatamos este pastel  para que nos dejen hacer product owning de verdad?",
-    "when": "Clientes complicados donde el rol de PO en el proveedor se ve como un@ jefe de proyecto. Que no esperan del mismo nada más allá que gestión de tareas, tiempos y fechas. No ven al equipo como nada más allá que el brazo ejecutor de sus ideas y además no le permiten técnicas de creatividad porque traen una mochila de desconfianza que no les permite \"soltar amarre\" con vosotr@s",
-    "how": null,
-    "links": [
-      null,
-      "https://www.youtube.com/watch?v=pyYh6fFtmD0&t=0s&list=PLkRxqbI6n7KcVNKqMQzfz4KTM4BHa40Ba&index=35",
-      ""
-    ],
-    "asistente": {
-      "id": 1549703467000,
-      "nombre": "Fran Mosteiro",
-      "foto": "https://pbs.twimg.com/profile_images/1095040557594931201/REwYliHg_400x400.jpg",
-      "twitter": "fran_mosteiro",
-      "vienede": null
-    },
-    "grupo": {
-      "id": "7",
-      "name": "Macro economics"
-    }
-  },
-  {
     "title": "Legacy de mis amores",
     "why": "Tras haber aterrizado en algunos proyectos legacy hemos cometido algunos errores. Algunos en el plano táctico, otros en el estratégico e incluso humano. La idea es contar experiencias alrededor de estos ¿antipatrones?",
     "when": "En código poco habitable en el que probablemente el equipo esté frustrado pero el software genera pasta y produce algo de valor a los usuarios.",
@@ -1079,7 +1035,7 @@
   },
   {
     "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
-    "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,… y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
+    "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,�� y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
     "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
     "how": null,
     "links": [
@@ -2153,6 +2109,50 @@
     "grupo": {
       "id": "17",
       "name": "Experiencia enviada, grupo sin asignar"
+    }
+  },
+  {
+    "title": "Qué significa ser \"responsable de tecnología\" en una empresa que nunca tuvo un@",
+    "why": "La organización crece, escala y se da cuenta (mentira, la hacemos darse cuenta) de que algo tan evidente como que \"nos dedicamos ha crear los productos tecnológicos de nuestros clientes\", osea, a hacer software, implica tener personas que dedican parte de su tiempo a ayudar y dar soporte a los equipos en post de una mejor calidad, de trabajar a que de ellos emerjan conceptos como XP, devops .... \n\nPero claro, ni la organización ni tú mismo (en mi caso) tiene ni idea de qué hace un responsable de tecnología. Qué implica y dónde poner las primeras piedras y cómo crear esos roles que ayuden crecer a los equipos (tech leads, ...)\n\nCreo que se me da bien resolver problemas. La visión sistémica es una de mis aptitudes y esto me ayuda a ponerlo foco a lo importante en cada momento. Además, soy de esas personas que aporta mucho más por versatilidad que por especialización, así que eso más que soy de lo más terco que te puedes echar al cuerpo (pero sé negociar, eh xD) y que hace muchos años y gracias a un CEO muy muy tiburón aprendí a no decir que sí a los \"jefes\" de una empresa, me hacían un buen (o único xD) candidato para ser ese nuestro primer responsable de tecnología.\n\nEl resto está siendo mucho de: \n- descubrir qué hace un manager de este tipo, de quién se rodea, cómo ... composición de lugar\n- descubrir qué acciones concretas implican \"quick wins\" que nos demuestren que \"esa es la manera\"\n- ser terriblemente cabezota en la visión y super flexible en la implementación ..... y a aveces no tanto, porque recordemos que hablamos de una organización que culturalmente no se cree todo lo  que algun@s promulgamos a bombo y platillo.\n- cómo haces todo esto sostenible\n- cómo compartir las riendas y a quién",
+    "when": "La verdad es que no lo sé xD Supongo que en nuestro caso ha sido el crecer de ser una empresa de 20 personas a serlo de 60, con 5 equipos dedicados a diferentes tecnologías y clientes, donde empezábamos a ver que que cada uno fuese haciendo su propio camino sin tener una cultura técnica (para empezar, aunque también me meto en cómo hacemos producto digital, cómo vendemos etc ....) compartida que nos permitiese hacerlo con seguridad de que ese crecimiento estuviese alineado con la \"visión\" de la empresa (truco para negocio: transmitir la visión es mágico! ¬¬) era peligroso. Los equipos no son maduros como para dejarlos \"ir solos\", pero que lo hagan a medio plazo es la única manera de sobrevivir, así que hemos creado ese rol de responsable un poco (o yo lo veo así) en modo paliativo y por urgencia.",
+    "how": null,
+    "links": [
+      null,
+      "https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a",
+      ""
+    ],
+    "asistente": {
+      "id": 1549703467000,
+      "nombre": "Fran Mosteiro",
+      "foto": "https://pbs.twimg.com/profile_images/1095040557594931201/REwYliHg_400x400.jpg",
+      "twitter": "fran_mosteiro",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "7",
+      "name": "Macro economics"
+    }
+  },
+  {
+    "title": "Los datos son un sindiós",
+    "why": "Al calor del buzzword \"Industria 4.0\" las empresas han llenado sus instalaciones de sensórica que registraba todo y en muchos casos persistía ese algo en sitios (CSV, SQL, ficheros binarios infernales). \nAhora el buzzword \"Data analytics\" y resulta que un ingrediente esencial son los datos pero \"Eh, esos sensores que me compré en la última cosa de moda guardaban datos así que lo mas imporante lo tenemos hecho\", pues no, esos datos rara vez están en un formato \"comodamente\" explotable.\nHay que cribar, normalizar, rellenar (o identificar) los gaps, estandarizar vamos los datos brutos que en muchos casos se empezaron a almacenar sin un objetivo claro y que por lo tanto no estan en el mas deseable de los formatos.",
+    "when": "Cuando el contexto no da un origen de datos que no está en un formato que ayude a quien vaya a realizar el análisis de datos a trabajar con los datos. Cuando disponemos de múltiples orígenes de datos que necesitamos poder cruzar de una manera cómoda. En esencia cuando nos dan un montón de datos y necesitamos prepararnos el trabajo para empezar a trabajar con ellos de cara a sacar información.\nLa base de a que me refiero con preparar datos para el análisis de datos:\nhttps://www.coursera.org/learn/data-cleaning",
+    "how": null,
+    "links": [
+      null,
+      "https://www.postgresql.org/docs/9.4/sql-copy.html",
+      ""
+    ],
+    "asistente": {
+      "id": 1552120053000,
+      "nombre": "David González",
+      "foto": "https://pbs.twimg.com/profile_images/778179192093638656/KaIgOStE_400x400.jpg",
+      "twitter": "penguinjournals",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "8",
+      "name": "Dame datos"
     }
   }
 ]
