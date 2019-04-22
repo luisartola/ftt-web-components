@@ -1240,14 +1240,14 @@
         "twitter": "ladypain",
         "vienede": null,
         "experiencia": {
-          "title": "Dos posibilidades: 1) \"Ser un agente de cambio sin morir en el intento\" o 2) \"Discovery para pet projects\"",
-          "why": "\"Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.\"\n\n\"Los developers tendemos a meternos en pet projects para probar tecnologías o llevar a cabo una idea que se nos ha ocurrido, pero también lo abandonamos con mucha facilidad, algo de lo que tampoco nos orgullecemos. Como a menudo solo son ideas felices o excusas... Pero ¿y si hiciéramos un mini discovery de producto antes de empezar? ¿Nos darían alguna buena idea? ¿Podríamos incluso monetizar algo? ¿Llegaríamos más lejos y nos sentiríamos más orgullosos? Llevo un año que mis pet projects han sido estadios tempranos de descubrimiento: Lean model canvas, entrevistas, MVPs,�� y puedo decir que trabajar con foco -o tirar algo a la basura a tiempo- lo cambia todo.\"",
-          "when": "\"Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme.\"\n\n\"Nos guste o no la UX y las técnicas para descubrir productos que funcionen antes de empezar a construirlos han llegado para quedarse. Si hablar con gente no es algo que nos asuste… nuestros pet projects podrían beneficiarse mucho de tener un acercamiento más *lean* antes de empezar a construir\"",
+          "title": "Ser un agente de cambio sin morir en el intento",
+          "why": "Tus jefes en la empresa tienen una mentalidad que encaja con la tuya. En 2018 contratan a dos agile coaches que siembran la semilla y abren algunos caminos y aquí estás tú, con unos jefes que les gustaría ver el cambio real pero que no pueden traccionarlo sin que les coma el día a día. Y aquí estás tú, también con tus marrones y tus jornadas a tope, y con energía limitada para contagiar a gente que lleva muchos años haciendo las cosas de otra manera. Lo peor que puedes hacer... Es elegir mal tus guerras y quemarte.",
+          "when": "Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme",
           "how": null,
           "links": [
             null,
-            "https://innokabi.com/lienzo-lean-canvas-el-lienzo-de-los-emprendedores/",
-            "https://es.wikipedia.org/wiki/Lean_startup"
+            "",
+            ""
           ]
         }
       },
@@ -1277,7 +1277,7 @@
         "vienede": null,
         "experiencia": {
           "title": "De scrum a kanban",
-          "why": "(Pues no sé si estoy contestando a lo que debo... en el link anterior contaba algo más de contexto, pero era el link malo).\n\nDurante más de 13 años usamos SCRUM. No un SCRUM muy puro, seguro que muy adulterado. En ese tiempo nos \"optimizamos\" para ser productivos individualmente. No quiere decir que no trabajásemos como equipo, pero cada uno tenía su lista de tareas.\n\nCombatimos interrupciones, mejoramos estimaciones, reglas de biblioteca, silencio, pocas interrupciones, todo eso.\n\nY \"todo eso\" funcionaba, pero llegó un momento en el que pensamos: \"y si nos preocupásemos más de mover cosas todos juntos en lugar de mover nuestra lista?\" Y eso cambió todo.",
+          "why": "(Pues no sé si estoy contestando a lo que debo... en el link anterior contaba algo m��s de contexto, pero era el link malo).\n\nDurante más de 13 años usamos SCRUM. No un SCRUM muy puro, seguro que muy adulterado. En ese tiempo nos \"optimizamos\" para ser productivos individualmente. No quiere decir que no trabajásemos como equipo, pero cada uno tenía su lista de tareas.\n\nCombatimos interrupciones, mejoramos estimaciones, reglas de biblioteca, silencio, pocas interrupciones, todo eso.\n\nY \"todo eso\" funcionaba, pero llegó un momento en el que pensamos: \"y si nos preocupásemos más de mover cosas todos juntos en lugar de mover nuestra lista?\" Y eso cambió todo.",
           "when": "(Sigo sin saber si estoy contestando lo que debo).\n\nPues esto aplica a equipos que quieren eliminar burocracia y sacar más trabajo adelante.",
           "how": null,
           "links": [

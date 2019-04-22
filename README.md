@@ -10,6 +10,14 @@
 - [Empezando a seguir las recomendaciones de Open Wc](https://open-wc.org/)
 - [basado en create-lit-app-advanced](https://github.com/thepassle/create-lit-app-advanced)
 - [project Evergreen](https://github.com/ProjectEvergreen/project-evergreen)
+- https://pwa-starter-kit.polymer-project.org/
+- https://github.com/PolymerLabs/start-lit-element
+
+# Cheatsheets
+
+- [Template synxtax cheatsheet](https://lit-element.polymer-project.org/guide/templates#template-syntax-cheat-sheet)
+- [Template synxtax reference](https://lit-html.polymer-project.org/guide/template-reference)
+
 
 # Presentaciones clave
 
@@ -36,9 +44,13 @@
 
 # Conceptos clave 
 
-- **flash cards, SQ3R (test), y mindmap final**
+- **flash cards, SQ3R (test), y group mindmapping**
 - clave invertida
 - https://developer.mozilla.org/en-US/docs/Web/Web_Components
+
+# Mindmap
+
+- ...
 
 ## Web components
 
