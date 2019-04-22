@@ -8,6 +8,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const postcssPresetEnv = require('postcss-preset-env');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const workboxPlugin = require('workbox-webpack-plugin');
+
 
 const ENV = process.argv.find(arg => arg.includes('production'))
   ? 'production'
@@ -174,6 +176,11 @@ const productionConfig = merge([
           minifyJS: true
         }
       }),
+        new workboxPlugin.GenerateSW({
+            swDest: 'sw.js',
+            clientsClaim: true,
+            skipWaiting: true,
+        })
 
       // new WebpackPwaManifest({
       //   filename: 'manifest.json',

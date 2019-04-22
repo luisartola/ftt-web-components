@@ -19,6 +19,17 @@ import galeriaComponent from './components/galeria.js';
 import horarioComponent from './components/horario.js';
 import sectionTitle from './components/ftt-section-title.js';
 
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+        }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+        });
+    });
+}
+
 [
   sectionTitle,
   collapse,
