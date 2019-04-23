@@ -1,7 +1,7 @@
 {
     "name": "From the trenches 2019",
     "short_name": "ftt2019",
-    "star_url" : "https://ftt.programania.net"
+    "star_url" : "https://ftt.programania.net",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
