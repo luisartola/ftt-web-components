@@ -10,6 +10,13 @@ const data = [...data2018, ...data2019];
 export default {
   name: 'ftt-ficha-experiencia',
   element: class extends LitElement {
+
+
+    connectedCallback(){
+      super.connectedCallback();
+      window.scrollTo(0,0);
+    }
+
     render() {
 
       //mover aquí la asignación hace que no intente renderizar algo vacío

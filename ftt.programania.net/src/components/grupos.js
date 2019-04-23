@@ -51,21 +51,22 @@ export default {
 
 
 
-
-
-
-
-
-
-
-
-
-
       this.year = this.location.params.year;
-      this.grupos = grupos[this.year];
+
+        this.grupos = grupos[this.year].slice(0,  5);
+
+        for(let i = 1; i < (grupos[this.year].length - 5); i = i + 5) {
+            setTimeout(() => {
+                this.grupos = this.grupos.concat(grupos[this.year].slice(i, i + 5));
+                console.log(this.grupos.length);
+            }, 0);
+        }
+
+
       this.audios = audios[this.year];
 
-      [1, 2, /*3,*/ 4, 5, 6, 7, 8, 9, 10]
+      /*
+      [1, 2, 4, 5, 6, 7, 8, 9, 10]
         .forEach(n => {
           doTextQuery(
             groupContentQuery(this.year,n),
@@ -76,6 +77,7 @@ export default {
             }
           );
         });
+      */
     }
 
     render() {
@@ -110,7 +112,7 @@ export default {
         `: ''}
         
           ${repeat(this.grupos, grupo => grupo.id, grupo => html`
-            <ftt-grupo-section id="grupo-${grupo.id}" .year="${this.year}" .grupo="${grupo}" .content="${this.content[grupo.id]}" .audio="https://github.com/Programania/ftt/blob/master/2018/audio/${grupo.id}.mp3?raw=true"></ftt-grupo-section>
+            <ftt-grupo-section id="grupo-${grupo.id}" .year="${this.year}" .grupo="${grupo}" .content="${this.content[grupo.id]}" .audio="https://github.com/Programania/ftt/blob/master/${this.year}/audio/${grupo.id}.mp3?raw=true"></ftt-grupo-section>
           `)}
 		  `;
     }

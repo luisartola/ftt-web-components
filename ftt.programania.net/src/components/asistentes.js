@@ -3,7 +3,7 @@ import a2018 from '../../data/2018/asistentes.json';
 import a2019 from '../../data/2019/asistentes.json';
 import {html, LitElement} from 'lit-element';
 import {repeat} from 'lit-html/directives/repeat';
-import {limiteCapturas, estaCapturado, liberar, capturar, dispatch, subscribe} from './state';
+import {capturar, dispatch, estaCapturado, liberar, limiteCapturas, subscribe} from './state';
 
 const data = {
   2018: a2018,
@@ -33,11 +33,22 @@ export default {
     connectedCallback() {
       super.connectedCallback();
       this.year = this.location.params.year;
-      this.asistentes = data[this.year];
       this.todos = data[this.year];
+
+        this.asistentes = data[this.year].slice(0,  10);
+
+        for(let i = 1; i < (data[this.year].length - 10); i = i + 10){
+          setTimeout(() => {
+              this.asistentes = this.asistentes.concat(data[this.year].slice(i, i + 10));
+              console.log(this.asistentes.length);
+          }, 0);
+      }
+
+
       this.unsubscribe = subscribe(state => {
         this.capturados = state.capturados;
       });
+
     }
 
     filter(e) {
@@ -94,6 +105,8 @@ export default {
               </div>
               ` : ''}
               
+              ${ this.capturados.length > 0 ? html`
+              
               <table class="table is-striped is-fullwidth">
               <thead>
                 <tr>
@@ -108,8 +121,10 @@ export default {
                   <td><a class="delete" @click="${(e) => { e.stopPropagation(); dispatch(liberar(capturado));}}"></a></td>
                   </tr>
                 `)}
-            </tbody>
+                </tbody>
               </table>
+              
+              `:'' }
         </ftt-collapse>
          
            
@@ -152,9 +167,15 @@ export default {
               </div>
             
             </nav>
-
-      <div class="columns is-multiline">
+            </div>
+            </section>
+            
+            
+            <section class="section">
+          <div class="container">
           
+
+      <div class="columns is-multiline">          
         ${repeat(this.asistentes, asistente => html`
           <div class="column is-one-third">
             <div class="card">
@@ -166,7 +187,7 @@ export default {
                       <img src="${asistente.foto}" alt="No disponible">
                     </figure>
                   </div>
-                  <div class="media-content">
+                  <div>
                     <p style="font-size: 0.9em" class="title">${asistente.nombre}</p>
                     <p style="font-size: 0.8em" class="subtitle">
                     <a style="color:#757763" target="_blank" href="https://twitter.com/@${asistente.twitter}">
@@ -191,8 +212,11 @@ export default {
         </div>
         `)}
       </div>
-  </div>
-  </section>
+      
+      </div>
+      </section>
+      
+  
     `;
     }
   }
