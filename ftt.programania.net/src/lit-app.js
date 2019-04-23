@@ -20,6 +20,7 @@ import horarioComponent from './components/horario.js';
 import sectionTitle from './components/ftt-section-title.js';
 
 
+debugger;
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js').then(registration => {

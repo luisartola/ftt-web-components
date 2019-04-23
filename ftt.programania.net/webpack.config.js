@@ -136,7 +136,12 @@ const developmentConfig = merge([
       new CopyWebpackPlugin(polyfills),
       new HtmlWebpackPlugin({
         template: INDEX_TEMPLATE
-      })
+      }),
+        new workboxPlugin.GenerateSW({
+            swDest: 'sw.js',
+            clientsClaim: true,
+            skipWaiting: true,
+        })
     ],
 
     devServer: {
@@ -181,6 +186,7 @@ const productionConfig = merge([
             clientsClaim: true,
             skipWaiting: true,
         })
+
 
       // new WebpackPwaManifest({
       //   filename: 'manifest.json',
