@@ -41,8 +41,26 @@ export default {
 
     }
 
+
+
+
+
+    
     connectedCallback() {
       super.connectedCallback();
+
+
+
+
+
+
+
+
+
+
+
+
+
       this.year = this.location.params.year;
       this.grupos = grupos[this.year];
       this.audios = audios[this.year];
