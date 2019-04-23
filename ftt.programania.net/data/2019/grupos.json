@@ -1697,7 +1697,17 @@
         "foto": "https://pbs.twimg.com/profile_images/898278619428081668/y9cCjW5y_400x400.jpg",
         "twitter": "aitoraznara",
         "vienede": null,
-        "experiencia": {}
+        "experiencia": {
+          "title": "Espiral del caos",
+          "why": "En el día a día nos vemos inmersos en el múltiples tareas. Normalmente cuando nos enfocamos en sacar una adelante nos olvidamos del resto y solo reaccionamos cuando estamos cerca del límite (o ya nos lo hemos pasado). La no organización, tiempos ajustados, intentar quedar bien con el cliente, el no pararse a (re)evaluar la situación, etc es lo que provoca el estado en el que estamos inmersos y que provoca esta espiral.\nLa agilidad convertida en un salvase quien pueda.\nLa razón es poder compartir experiencias para salir de esta situación que solo genera estrés, malos rollos y quedar mal con el cliente.",
+          "when": "El contexto en concreto es una empresa de servicios con muchos proyectos muy diferentes en cuanto a tecnologías y organización, la gente pivota mucho de un proyecto a otro con deadlines imposibles. Gente sobrepasada que no hace más que crear deuda técnica que vuelve como boomerangs e influye en los siguientes desarrollos. ",
+          "how": null,
+          "links": [
+            null,
+            "",
+            ""
+          ]
+        }
       },
       {
         "id": 1551605640000,

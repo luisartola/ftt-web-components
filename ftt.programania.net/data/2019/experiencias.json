@@ -1584,6 +1584,28 @@
     }
   },
   {
+    "title": "Espiral del caos",
+    "why": "En el día a día nos vemos inmersos en el múltiples tareas. Normalmente cuando nos enfocamos en sacar una adelante nos olvidamos del resto y solo reaccionamos cuando estamos cerca del límite (o ya nos lo hemos pasado). La no organización, tiempos ajustados, intentar quedar bien con el cliente, el no pararse a (re)evaluar la situación, etc es lo que provoca el estado en el que estamos inmersos y que provoca esta espiral.\nLa agilidad convertida en un salvase quien pueda.\nLa razón es poder compartir experiencias para salir de esta situación que solo genera estrés, malos rollos y quedar mal con el cliente.",
+    "when": "El contexto en concreto es una empresa de servicios con muchos proyectos muy diferentes en cuanto a tecnologías y organización, la gente pivota mucho de un proyecto a otro con deadlines imposibles. Gente sobrepasada que no hace más que crear deuda técnica que vuelve como boomerangs e influye en los siguientes desarrollos. ",
+    "how": null,
+    "links": [
+      null,
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1552209546000,
+      "nombre": "Aitor Aznar Álvarez",
+      "foto": "https://pbs.twimg.com/profile_images/898278619428081668/y9cCjW5y_400x400.jpg",
+      "twitter": "aitoraznara",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "19",
+      "name": "Experiencia no enviada 3"
+    }
+  },
+  {
     "title": "Soft skills. Ahora en remoto.",
     "why": "Qué importante es la comunicación en el óptimo desarrollo de un proyecto. También el sentirte responsable del proyecto y ser capaz de discernir qué tareas hay pendientes y cuál va a ser la carga de trabajo de estas.\n\nCiertas habilidades se potencian cuando no tienes a tu interlocutor a un metro de ti. O a tu equipo en tu misma oficina. Creo que es interesante compartir nuestras ideas sobre dos conceptos, uno de ellos crucial y habitualmente ignorado (soft skills) en relación con una metodología (trabajo en remoto) a la que tiende nuestro sector.",
     "when": "Los soft skills son necesario siempre. Incluso cuando escribimos código (naming, saber ordenar tareas, evaluar tu capacidad de concentración actual...) y el trabajo en remoto comprende ciertas habilidades que, siendo cruciales en remoto, también se deberían aplicar en trabajo presencial (escritura de emails, asincronía, iniciativa, product owning...)",
