@@ -52,7 +52,6 @@ export default {
                 
                 ${repeat(this.grupo.asistentes, asistente => asistente.id, asistente => {
                   
-                  console.log(asistente.id);
                   
           return html`
             <tr>

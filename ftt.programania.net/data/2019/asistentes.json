@@ -1217,7 +1217,7 @@
     "vienede": null,
     "experiencia": {
       "title": "De scrum a kanban",
-      "why": "(Pues no sé si estoy contestando a lo que debo... en el link anterior contaba algo m��s de contexto, pero era el link malo).\n\nDurante más de 13 años usamos SCRUM. No un SCRUM muy puro, seguro que muy adulterado. En ese tiempo nos \"optimizamos\" para ser productivos individualmente. No quiere decir que no trabajásemos como equipo, pero cada uno tenía su lista de tareas.\n\nCombatimos interrupciones, mejoramos estimaciones, reglas de biblioteca, silencio, pocas interrupciones, todo eso.\n\nY \"todo eso\" funcionaba, pero llegó un momento en el que pensamos: \"y si nos preocupásemos más de mover cosas todos juntos en lugar de mover nuestra lista?\" Y eso cambió todo.",
+      "why": "(Pues no sé si estoy contestando a lo que debo... en el link anterior contaba algo más de contexto, pero era el link malo).\n\nDurante más de 13 años usamos SCRUM. No un SCRUM muy puro, seguro que muy adulterado. En ese tiempo nos \"optimizamos\" para ser productivos individualmente. No quiere decir que no trabajásemos como equipo, pero cada uno tenía su lista de tareas.\n\nCombatimos interrupciones, mejoramos estimaciones, reglas de biblioteca, silencio, pocas interrupciones, todo eso.\n\nY \"todo eso\" funcionaba, pero llegó un momento en el que pensamos: \"y si nos preocupásemos más de mover cosas todos juntos en lugar de mover nuestra lista?\" Y eso cambió todo.",
       "when": "(Sigo sin saber si estoy contestando lo que debo).\n\nPues esto aplica a equipos que quieren eliminar burocracia y sacar más trabajo adelante.",
       "how": null,
       "links": [
@@ -1496,35 +1496,13 @@
     }
   },
   {
-    "id": 1549178229000,
-    "nombre": "Diana Aceves",
-    "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
-    "twitter": "diana_aceves_",
-    "vienede": null,
-    "experiencia": {
-      "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
-      "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
-      "when": "Pues cuando tocaba evento.",
-      "how": null,
-      "links": [
-        null,
-        "",
-        ""
-      ]
-    },
-    "grupo": {
-      "id": "12",
-      "name": "La gente de Kini"
-    }
-  },
-  {
     "id": 1554127309000,
     "nombre": "Pilar Barbero Iriarte",
     "foto": "https://pbs.twimg.com/profile_images/1068981883114004483/f_F7Iqv0_400x400.jpg",
     "twitter": "yayaqueprograma",
     "vienede": null,
     "experiencia": {
-      "title": "Diario de una técnica: a mí no me preguntes soy solo una chica ",
+      "title": "Diario de una técnica: a m�� no me preguntes soy solo una chica ",
       "why": "Mi experiencia es acerca de como ir adquiriendo un rol de Tech lead como mujer en un ambiente principalmente masculino ",
       "when": "",
       "how": null,
