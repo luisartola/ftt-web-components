@@ -924,14 +924,14 @@
     }
   },
   {
-    "title": "Construir un nuevo producto sobre una base de código legada (un ETL, concretamente)",
+    "title": "Construir un nuevo producto (MVT API con Node, PostgreSQL y PostGIS) sobre una base de código legada (un ETL con Python y Luigi, concretamente)",
     "why": "Teníamos que construir un nuevo producto y parte de la funcionalidad y los datos se solapaban con otro producto que ya teníamos. Ante la disyuntiva de construir de cero o aprovechar la base de código existente elegimos lo segundo para coger ownership de ello, continuar iterando, y reutilizar esfuerzos existentes.",
     "when": "Cuando ya tienes herramientas propias que puedes reutilizar y el coste compensa (spoiler: al menos en teoría).",
     "how": null,
     "links": [
       null,
       "https://docs.mapbox.com/vector-tiles/reference/",
-      ""
+      "https://github.com/spotify/luigi"
     ],
     "asistente": {
       "id": 1549187812000,
