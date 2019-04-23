@@ -1,12 +1,12 @@
 import {html, LitElement} from 'lit-element';
-import g2018 from "../../data/2018/grupos.json";
-import g2019 from "../../data/2019/grupos.json";
-import a2018 from "../../data/2018/audio.js";
-import a2019 from "../../data/2019/audio.js";
+import g2018 from '../../data/2018/grupos.json';
+import g2019 from '../../data/2019/grupos.json';
+import a2018 from '../../data/2018/audio.js';
+import a2019 from '../../data/2019/audio.js';
 
-import {repeat} from "../../node_modules/lit-html/directives/repeat";
+import {repeat} from '../../node_modules/lit-html/directives/repeat';
 import css from '../mystyles.scss';
-import {doTextQuery, groupContentQuery} from "./api";
+import {doTextQuery, groupContentQuery} from './api';
 import mdFactory from 'markdown-it';
 
 const grupos = {
@@ -31,7 +31,7 @@ export default {
         content: Array,
         grupos: Array,
         year: Number
-      }
+      };
     }
 
     constructor() {
@@ -47,7 +47,7 @@ export default {
       this.grupos = grupos[this.year];
       this.audios = audios[this.year];
 
-      [1, 2, /*3*/, 4, 5, 6, 7, 8, 9, 10]
+      [1, 2, /*3,*/ 4, 5, 6, 7, 8, 9, 10]
         .forEach(n => {
           doTextQuery(
             groupContentQuery(this.year,n),
@@ -57,7 +57,7 @@ export default {
               this.content = aux;
             }
           );
-        })
+        });
     }
 
     render() {
@@ -89,12 +89,12 @@ export default {
           </div>
           </div>
           </section>
-        `: ``}
+        `: ''}
         
-          ${repeat(this.grupos, grupo => html`
+          ${repeat(this.grupos, grupo => grupo.id, grupo => html`
             <ftt-grupo-section id="grupo-${grupo.id}" .year="${this.year}" .grupo="${grupo}" .content="${this.content[grupo.id]}" .audio="https://github.com/Programania/ftt/blob/master/2018/audio/${grupo.id}.mp3?raw=true"></ftt-grupo-section>
           `)}
 		  `;
     }
   }
-}
+};
