@@ -28,7 +28,15 @@ export default {
     connectedCallback() {
       super.connectedCallback();
       this.year = this.location.params.year;
-      this.experiencias = data[this.year];
+
+        this.experiencias = data[this.year].slice(0,  10);
+
+        for(let i = 1; i < (data[this.year].length - 10); i = i + 10){
+            setTimeout(() => {
+                this.experiencias = this.experiencias.concat(data[this.year].slice(i, i + 10));
+                console.log(this.experiencias.length);
+            }, 0);
+        }
     }
 
     render() {

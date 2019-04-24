@@ -35,13 +35,13 @@ export default {
       this.year = this.location.params.year;
       this.todos = data[this.year];
 
-        this.asistentes = data[this.year].slice(0,  10);
+      this.asistentes = data[this.year].slice(0,  10);
 
-        for(let i = 1; i < (data[this.year].length - 10); i = i + 10){
-          setTimeout(() => {
-              this.asistentes = this.asistentes.concat(data[this.year].slice(i, i + 10));
-              console.log(this.asistentes.length);
-          }, 0);
+      for(let i = 1; i < (data[this.year].length - 10); i = i + 10){
+        setTimeout(() => {
+            this.asistentes = this.asistentes.concat(data[this.year].slice(i, i + 10));
+            console.log(this.asistentes.length);
+        }, 0);
       }
 
 
