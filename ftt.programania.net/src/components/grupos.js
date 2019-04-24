@@ -55,7 +55,7 @@ export default {
 
         this.grupos = grupos[this.year].slice(0,  5);
 
-        for(let i = 1; i < (grupos[this.year].length - 5); i = i + 5) {
+        for(let i = 1; i < (grupos[this.year].length); i = i + 5) {
             setTimeout(() => {
                 this.grupos = this.grupos.concat(grupos[this.year].slice(i, i + 5));
                 console.log(this.grupos.length);
