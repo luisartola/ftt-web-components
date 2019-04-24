@@ -61,8 +61,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "11",
-      "name": "Techniques 2"
+      "id": "17",
+      "name": "Devops"
     }
   },
   {
@@ -193,8 +193,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "18",
+      "name": "Mobile"
     }
   },
   {
@@ -530,7 +530,7 @@
   {
     "title": "Convertir unas aplicaciones (casi CRUD) interconectadas en un \"sistema\" ",
     "why": "Las operaciones se van sofisticando, con lo cual el software donde eso ocurre (aplicaciones para usuarios, servicios de lógica de negocio, almacenamiento de datos) que son desarrolladas ad-hoc para nuestra empresa comienzan a ser mucho más complejas y soportan muy mal los cambios en el negocio y sufren las integraciones.\n\nSe necesita un enfoque más sistémico, donde cada área sea más autónoma, pero conviva mejor con sus vecinos. Ya no es posible tener un modelo centralizado que soporte a todo y todos.",
-    "when": "Había que pasar de ser una startup buscando modelo de negocio (mucho MVP) a una empresa con un crecimiento bestial, nuevos servicios a clientes, y más operaciones (que son locales) en más países requieren escalar el equipo y obtener ventajas claras del software para hacerlo.",
+    "when": "Había que pasar de ser una startup buscando modelo de negocio (mucho MVP) a una empresa con un crecimiento bestial, nuevos servicios a clientes, y más operaciones (que son locales) en m��s países requieren escalar el equipo y obtener ventajas claras del software para hacerlo.",
     "how": null,
     "links": [
       null,
@@ -1183,8 +1183,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "18",
+      "name": "Mobile"
     }
   },
   {
@@ -1579,8 +1579,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "19",
+      "name": "Sin asignar, pendiente"
     }
   },
   {
@@ -1799,8 +1799,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "13",
+      "name": "Agile 1"
     }
   },
   {
@@ -1821,8 +1821,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "11",
+      "name": "Techniques 2"
     }
   },
   {
@@ -1888,7 +1888,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "name": "Devops"
     }
   },
   {
@@ -2086,7 +2086,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "name": "Devops"
     }
   },
   {
@@ -2108,7 +2108,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "name": "Devops"
     }
   },
   {
@@ -2153,6 +2153,28 @@
     "grupo": {
       "id": "8",
       "name": "Dame datos"
+    }
+  },
+  {
+    "title": "Escalar/montar un equipo siendo freelance mobile ¿Por dónde c*** empiezo?",
+    "why": "Tras unos cuantos años en la jungla freelance mobile, me gustaría dar el paso de crear mi propio equipo. Los motivos son varios; a nivel profesional, me gustaría probar otros roles que estén menos en contacto con el desarrollo puro (producto, cliente). Además, como freelance ofreciendo servicios de programación, tu actividad sólo puede crecer lo que permiten las horas de un día de trabajo, tengo que decir que NO a muchas ofertas interesantes, y por tanto perder negocio. \n\nMe gustaría charlar/debatir con gente que haya pasado por una situación similar, y tratar temas como: ¿contrato antes a la gente, o primero vendo un proyecto al cliente? Pero, ¿cómo le voy a vender que tengo un equipo si aún no lo tengo? ¿Empiezo contratando aprendices, o me arriesgo a contratar a un socio con más experiencia?...",
+    "when": "Cuando tienes un negocio freelance y no tienes ni pajolera de cómo hacerlo crecer.",
+    "how": null,
+    "links": [
+      null,
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1549724614000,
+      "nombre": "Roberto Garrido",
+      "foto": "https://pbs.twimg.com/profile_images/1003077988366278656/EU_skpfK_400x400.jpg",
+      "twitter": "che1404",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "18",
+      "name": "Mobile"
     }
   }
 ]

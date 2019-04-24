@@ -858,7 +858,7 @@
         "experiencia": {
           "title": "Convertir unas aplicaciones (casi CRUD) interconectadas en un \"sistema\" ",
           "why": "Las operaciones se van sofisticando, con lo cual el software donde eso ocurre (aplicaciones para usuarios, servicios de lógica de negocio, almacenamiento de datos) que son desarrolladas ad-hoc para nuestra empresa comienzan a ser mucho más complejas y soportan muy mal los cambios en el negocio y sufren las integraciones.\n\nSe necesita un enfoque más sistémico, donde cada área sea más autónoma, pero conviva mejor con sus vecinos. Ya no es posible tener un modelo centralizado que soporte a todo y todos.",
-          "when": "Había que pasar de ser una startup buscando modelo de negocio (mucho MVP) a una empresa con un crecimiento bestial, nuevos servicios a clientes, y más operaciones (que son locales) en más países requieren escalar el equipo y obtener ventajas claras del software para hacerlo.",
+          "when": "Había que pasar de ser una startup buscando modelo de negocio (mucho MVP) a una empresa con un crecimiento bestial, nuevos servicios a clientes, y más operaciones (que son locales) en m��s países requieren escalar el equipo y obtener ventajas claras del software para hacerlo.",
           "how": null,
           "links": [
             null,
@@ -946,24 +946,6 @@
         }
       },
       {
-        "id": 1549747652000,
-        "nombre": "Agustín Herranz Cecilia",
-        "foto": "https://pbs.twimg.com/profile_images/1111020754068484099/DYbvK35l_400x400.png",
-        "twitter": "tinproject",
-        "vienede": null,
-        "experiencia": {
-          "title": "Olvidate del repo! Hackeando cultura usando artefactos.",
-          "why": "Usar artefactos para favorecer la entrega continua. En origen partíamos de un proceso de despliegue manual en base a gitflow y git pull, que generaba ataques de ansiedad (hasta que no lo vi por mis propios ojos no me creía que fuera posible).\nSe implantaron pipelines de CI con un único requisito 'duro': una vez pasados las comprobaciones necesarias se generan un artefacto auto-contenido (tar.gz) con lo necesario para ser desplegado, no se despliegan repositorios.\nEsto estandariza y desacopla completamente el proceso de despliegue de forma que el repositorio y su estado dejan de ser una vaca sagrada, y nos podemos centrar más en aportar valor que en masajear el ego del repositorio y de los devs.",
-          "when": "Cuando se quiere ir hacia un esquema de entrega continua. Centrar la importancia en lo desplegado en producción en lugar del estado del repositorio (es una manera sutil de ayudar a dejar de mirar el ombligo al código y centrar la vista en lo que aporta valor). Usar Trunk Base Development o cualquier otro esquema que acelere la entrega continua.",
-          "how": null,
-          "links": [
-            null,
-            "https://continuousdelivery.com/implementing/patterns/",
-            "https://www.michielrook.nl/2018/01/typical-ci-cd-pipeline-explained/"
-          ]
-        }
-      },
-      {
         "id": 1550483378000,
         "nombre": "Sergio Sáenz Romero",
         "foto": "https://pbs.twimg.com/profile_images/668697242589601792/EdIa-P9y_400x400.jpg",
@@ -1013,6 +995,24 @@
           "links": [
             null,
             "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1551108307000,
+        "nombre": "Abel Rincón",
+        "foto": "https://pbs.twimg.com/profile_images/3164466478/b46f0380961a9c51c656a04b129a31ca_400x400.png",
+        "twitter": "ganger85",
+        "vienede": null,
+        "experiencia": {
+          "title": "Web API en Scala",
+          "why": "Durante los últimos años he tenido Scala como lenguaje principal, y en todos los proyectos cae alguna API sobre HTTP, y siempre me hago la misma pregunta, ¿qué framework uso esta vez?, asi que Akka Http, Finch o Play son respuestas habituales.",
+          "when": "Básicamente la selección de framework limita o decide el stack del servicio, así que si hay componentes de streaming y actores pues Akka parece ser una buena opción, si tenemos un stack más “puramente” funcional typelevel, Finch tendrá más papeletas, o si necesitamos un framework más completo deberíamos mirar Lagom o Play! .",
+          "how": null,
+          "links": [
+            null,
+            "https://doc.akka.io/docs/akka-http/current/index.html",
             ""
           ]
         }
@@ -1206,6 +1206,24 @@
             null,
             "https://medium.freecodecamp.org/the-five-mentors-every-software-developer-needs-and-how-to-find-them-4f9bbd410d29",
             "https://dev.to/davidsteveen/peer-mentoring---can-benefit-the-student-4g55"
+          ]
+        }
+      },
+      {
+        "id": 1554120512000,
+        "nombre": "JULIA OLCOZ",
+        "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
+        "twitter": "Julia_Olcoz",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollando Scrum Masters",
+          "why": "Sea por la necesidad del negocio o por la saturación del mercado, entre otros, en ocasiones, el Scrum Master de un equipo Scrum, surge del propio equipo de desarrollo, como resultado de un experimento.\n\nSe trata de una transformación, de un cambio de rol iteración tras iteración, del que todo el equipo Scrum, en primera instancia, así como la Organización en sí, son partícipes. La dualidad de rol suele ser factible al comienzo, cuando el conocimiento y la especialización en uno de los roles prepondera sobre el otro. Sin embargo, a medida que los sprints se suceden, pueden darse situaciones que habitualmente se gestionan mediante un cambio de sombrero (\"ahora desarrollador\", \"ahora Scrum Master\"). El desempeño de múltiples funciones en paralelo puede llegar a ser enriquecedor, pero lograr aportar el máximo valor al equipo desde todas las perspectivas, no suele ser sencillo.\n\nAsí como al principio del experimento nos identificábamos e identificaban como desarrolladores, porque contribuíamos al objetivo común del equipo implementando funcionalidades en código, al final, suele optarse por uno u otro rol, es decir, seguir siendo miembro del equipo de desarrollo, o bien, ser el Scrum Master del equipo, si creemos que así aportamos más. Si bien, la cantidad de valor aportado generalmente suele estar relacionada con la dedicación, sin interrupciones, a las funciones del rol desempeñado.",
+          "when": "Equipo de 6-8 personas comenzando a trabajar con metodología Scrum (sin Scrum Master dedicado).",
+          "how": null,
+          "links": [
+            null,
+            "",
+            ""
           ]
         }
       }
@@ -1501,59 +1519,23 @@
   },
   {
     "id": "17",
-    "name": "Experiencia enviada, grupo sin asignar",
+    "name": "Devops",
     "asistentes": [
       {
-        "id": 1552172274000,
-        "nombre": "Alex Barrero Escalante",
-        "foto": "https://pbs.twimg.com/profile_images/958313676125212672/jwQYUk41_400x400.jpg",
-        "twitter": "alexbrrsclnt",
+        "id": 1549747652000,
+        "nombre": "Agustín Herranz Cecilia",
+        "foto": "https://pbs.twimg.com/profile_images/1111020754068484099/DYbvK35l_400x400.png",
+        "twitter": "tinproject",
         "vienede": null,
         "experiencia": {
-          "title": " Flutter",
-          "why": "Desarrollo de una app móvil para android/ios",
-          "when": "Poder desarrollar una app nativa para android e iOS utilizando un código fuente común",
+          "title": "Olvidate del repo! Hackeando cultura usando artefactos.",
+          "why": "Usar artefactos para favorecer la entrega continua. En origen partíamos de un proceso de despliegue manual en base a gitflow y git pull, que generaba ataques de ansiedad (hasta que no lo vi por mis propios ojos no me creía que fuera posible).\nSe implantaron pipelines de CI con un único requisito 'duro': una vez pasados las comprobaciones necesarias se generan un artefacto auto-contenido (tar.gz) con lo necesario para ser desplegado, no se despliegan repositorios.\nEsto estandariza y desacopla completamente el proceso de despliegue de forma que el repositorio y su estado dejan de ser una vaca sagrada, y nos podemos centrar más en aportar valor que en masajear el ego del repositorio y de los devs.",
+          "when": "Cuando se quiere ir hacia un esquema de entrega continua. Centrar la importancia en lo desplegado en producción en lugar del estado del repositorio (es una manera sutil de ayudar a dejar de mirar el ombligo al código y centrar la vista en lo que aporta valor). Usar Trunk Base Development o cualquier otro esquema que acelere la entrega continua.",
           "how": null,
           "links": [
             null,
-            "",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1552286517000,
-        "nombre": "Oscar Teixeira Martín",
-        "foto": "https://pbs.twimg.com/profile_images/808253933063913473/tQuQJsON_400x400.jpg",
-        "twitter": "oskarbi",
-        "vienede": null,
-        "experiencia": {
-          "title": "Desarrollo móvil con Flutter",
-          "why": "Desarrollo móvil con Flutter. Tras pocos meses usándolo, parece consolidarse como nuestro framework de cabecera para desarrollo móvil. En este tiempo nos ha facilitado bastante la vida en varios proyectos, pero también nos ha dado algún susto que valdría la pena contar a quien se plantee adoptarlo.",
-          "when": "Para desarrollos Android/iOS compilando a nativo para cada plataforma.\nTambién interesante sin el factor multiplataforma por la baja curva de aprendizaje y el buen rendimiento.\nOtro factor, cuando el equipo es más fuerte en back que en front, es que su librería de componentes basados en Material Design facilita la construcción de interfaces sin grandes dolores de cabeza y sin depender de un maquetador (para nosotros esto es un win muy claro).",
-          "how": null,
-          "links": [
-            null,
-            "https://flutter.dev/",
-            "https://material.io/design/"
-          ]
-        }
-      },
-      {
-        "id": 1551108307000,
-        "nombre": "Abel Rincón",
-        "foto": "https://pbs.twimg.com/profile_images/3164466478/b46f0380961a9c51c656a04b129a31ca_400x400.png",
-        "twitter": "ganger85",
-        "vienede": null,
-        "experiencia": {
-          "title": "Web API en Scala",
-          "why": "Durante los últimos años he tenido Scala como lenguaje principal, y en todos los proyectos cae alguna API sobre HTTP, y siempre me hago la misma pregunta, ¿qué framework uso esta vez?, asi que Akka Http, Finch o Play son respuestas habituales.",
-          "when": "Básicamente la selección de framework limita o decide el stack del servicio, así que si hay componentes de streaming y actores pues Akka parece ser una buena opción, si tenemos un stack más “puramente” funcional typelevel, Finch tendrá más papeletas, o si necesitamos un framework más completo deberíamos mirar Lagom o Play! .",
-          "how": null,
-          "links": [
-            null,
-            "https://doc.akka.io/docs/akka-http/current/index.html",
-            ""
+            "https://continuousdelivery.com/implementing/patterns/",
+            "https://www.michielrook.nl/2018/01/typical-ci-cd-pipeline-explained/"
           ]
         }
       },
@@ -1571,24 +1553,6 @@
           "links": [
             null,
             "https://github.com/sstephenson/bats",
-            ""
-          ]
-        }
-      },
-      {
-        "id": 1554120512000,
-        "nombre": "JULIA OLCOZ",
-        "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
-        "twitter": "Julia_Olcoz",
-        "vienede": null,
-        "experiencia": {
-          "title": "Desarrollando Scrum Masters",
-          "why": "Sea por la necesidad del negocio o por la saturación del mercado, entre otros, en ocasiones, el Scrum Master de un equipo Scrum, surge del propio equipo de desarrollo, como resultado de un experimento.\n\nSe trata de una transformación, de un cambio de rol iteración tras iteración, del que todo el equipo Scrum, en primera instancia, así como la Organización en sí, son partícipes. La dualidad de rol suele ser factible al comienzo, cuando el conocimiento y la especialización en uno de los roles prepondera sobre el otro. Sin embargo, a medida que los sprints se suceden, pueden darse situaciones que habitualmente se gestionan mediante un cambio de sombrero (\"ahora desarrollador\", \"ahora Scrum Master\"). El desempeño de múltiples funciones en paralelo puede llegar a ser enriquecedor, pero lograr aportar el máximo valor al equipo desde todas las perspectivas, no suele ser sencillo.\n\nAsí como al principio del experimento nos identificábamos e identificaban como desarrolladores, porque contribuíamos al objetivo común del equipo implementando funcionalidades en código, al final, suele optarse por uno u otro rol, es decir, seguir siendo miembro del equipo de desarrollo, o bien, ser el Scrum Master del equipo, si creemos que así aportamos más. Si bien, la cantidad de valor aportado generalmente suele estar relacionada con la dedicación, sin interrupciones, a las funciones del rol desempeñado.",
-          "when": "Equipo de 6-8 personas comenzando a trabajar con metodología Scrum (sin Scrum Master dedicado).",
-          "how": null,
-          "links": [
-            null,
-            "",
             ""
           ]
         }
@@ -1628,6 +1592,96 @@
             ""
           ]
         }
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Mobile",
+    "asistentes": [
+      {
+        "id": 1552172274000,
+        "nombre": "Alex Barrero Escalante",
+        "foto": "https://pbs.twimg.com/profile_images/958313676125212672/jwQYUk41_400x400.jpg",
+        "twitter": "alexbrrsclnt",
+        "vienede": null,
+        "experiencia": {
+          "title": " Flutter",
+          "why": "Desarrollo de una app móvil para android/ios",
+          "when": "Poder desarrollar una app nativa para android e iOS utilizando un código fuente común",
+          "how": null,
+          "links": [
+            null,
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1552286517000,
+        "nombre": "Oscar Teixeira Martín",
+        "foto": "https://pbs.twimg.com/profile_images/808253933063913473/tQuQJsON_400x400.jpg",
+        "twitter": "oskarbi",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollo móvil con Flutter",
+          "why": "Desarrollo móvil con Flutter. Tras pocos meses usándolo, parece consolidarse como nuestro framework de cabecera para desarrollo móvil. En este tiempo nos ha facilitado bastante la vida en varios proyectos, pero también nos ha dado algún susto que valdría la pena contar a quien se plantee adoptarlo.",
+          "when": "Para desarrollos Android/iOS compilando a nativo para cada plataforma.\nTambién interesante sin el factor multiplataforma por la baja curva de aprendizaje y el buen rendimiento.\nOtro factor, cuando el equipo es más fuerte en back que en front, es que su librería de componentes basados en Material Design facilita la construcción de interfaces sin grandes dolores de cabeza y sin depender de un maquetador (para nosotros esto es un win muy claro).",
+          "how": null,
+          "links": [
+            null,
+            "https://flutter.dev/",
+            "https://material.io/design/"
+          ]
+        }
+      },
+      {
+        "id": 1549724614000,
+        "nombre": "Roberto Garrido",
+        "foto": "https://pbs.twimg.com/profile_images/1003077988366278656/EU_skpfK_400x400.jpg",
+        "twitter": "che1404",
+        "vienede": null,
+        "experiencia": {
+          "title": "Escalar/montar un equipo siendo freelance mobile ¿Por dónde c*** empiezo?",
+          "why": "Tras unos cuantos años en la jungla freelance mobile, me gustaría dar el paso de crear mi propio equipo. Los motivos son varios; a nivel profesional, me gustaría probar otros roles que estén menos en contacto con el desarrollo puro (producto, cliente). Además, como freelance ofreciendo servicios de programación, tu actividad sólo puede crecer lo que permiten las horas de un día de trabajo, tengo que decir que NO a muchas ofertas interesantes, y por tanto perder negocio. \n\nMe gustaría charlar/debatir con gente que haya pasado por una situación similar, y tratar temas como: ¿contrato antes a la gente, o primero vendo un proyecto al cliente? Pero, ¿cómo le voy a vender que tengo un equipo si aún no lo tengo? ¿Empiezo contratando aprendices, o me arriesgo a contratar a un socio con más experiencia?...",
+          "when": "Cuando tienes un negocio freelance y no tienes ni pajolera de cómo hacerlo crecer.",
+          "how": null,
+          "links": [
+            null,
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1550833795000,
+        "nombre": "Jorge Juan Barroso Carmona",
+        "foto": "https://pbs.twimg.com/profile_images/905364975149047809/z0fkj2mp_400x400.jpg",
+        "twitter": "flipper83",
+        "vienede": null,
+        "experiencia": {}
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Sin asignar, pendiente",
+    "asistentes": [
+      {
+        "id": 1549701097000,
+        "nombre": "Borja Reinares Ruiz Navarro",
+        "foto": "https://pbs.twimg.com/profile_images/607930537848602625/qfaocmyA_400x400.jpg",
+        "twitter": "borjareinares",
+        "vienede": null,
+        "experiencia": {}
+      },
+      {
+        "id": 1551108247000,
+        "nombre": "Alfredo Fernández",
+        "foto": "https://pbs.twimg.com/profile_images/834136216/6a0120a85dcdae970b01287798c31e970c-800wi_400x400.png",
+        "twitter": "alfredodev",
+        "vienede": null,
+        "experiencia": {}
       },
       {
         "id": 1552209546000,
@@ -1646,51 +1700,7 @@
             ""
           ]
         }
-      }
-    ]
-  },
-  {
-    "id": "18",
-    "name": "Experiencia no enviada 2",
-    "asistentes": [
-      {
-        "id": 1549701097000,
-        "nombre": "Borja Reinares Ruiz Navarro",
-        "foto": "https://pbs.twimg.com/profile_images/607930537848602625/qfaocmyA_400x400.jpg",
-        "twitter": "borjareinares",
-        "vienede": null,
-        "experiencia": {}
       },
-      {
-        "id": 1549724614000,
-        "nombre": "Roberto Garrido",
-        "foto": "https://pbs.twimg.com/profile_images/1003077988366278656/EU_skpfK_400x400.jpg",
-        "twitter": "che1404",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1550833795000,
-        "nombre": "Jorge Juan Barroso Carmona",
-        "foto": "https://pbs.twimg.com/profile_images/905364975149047809/z0fkj2mp_400x400.jpg",
-        "twitter": "flipper83",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1551108247000,
-        "nombre": "Alfredo Fernández",
-        "foto": "https://pbs.twimg.com/profile_images/834136216/6a0120a85dcdae970b01287798c31e970c-800wi_400x400.png",
-        "twitter": "alfredodev",
-        "vienede": null,
-        "experiencia": {}
-      }
-    ]
-  },
-  {
-    "id": "19",
-    "name": "Experiencia no enviada 3",
-    "asistentes": [
       {
         "id": 1551605640000,
         "nombre": "Álex Dolara",
