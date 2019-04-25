@@ -1,3 +1,6 @@
+
+// https://medium.com/@webmaxru/workbox-4-implementing-refresh-to-update-version-flow-using-the-workbox-window-module-41284967e79c
+
 const {injectManifest} = require('workbox-build');
 
 let workboxConfig = {

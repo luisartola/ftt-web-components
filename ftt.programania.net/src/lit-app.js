@@ -85,7 +85,17 @@ customElements.define('lit-app', class extends LitElement {
 
 );
 
+//https://medium.com/@webmaxru/workbox-4-implementing-refresh-to-update-version-flow-using-the-workbox-window-module-41284967e79c
 if ('serviceWorker' in navigator) {
     const wb = new Workbox('sw.js');
+
+    wb.addEventListener('installed', event => {
+        if (event.isUpdate) {
+            if (confirm('New content is available!. Click OK to refresh')) {
+                window.location.reload();
+            }
+        }
+    });
+
     wb.register();
 }
