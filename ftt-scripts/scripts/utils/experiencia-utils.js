@@ -15,7 +15,7 @@ const excelToExperienciaModel2019 = experiencia => {
     when: experiencia.gsx$when.$t,
     how: null,
     links: [
-      getUrls(experiencia.gsx$link1.$t)[0],
+      experiencia.gsx$link1.$t,
       experiencia.gsx$link2.$t,
       experiencia.gsx$link3.$t
     ]
