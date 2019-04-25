@@ -61,8 +61,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "11",
-      "name": "Techniques 2"
+      "id": "17",
+      "name": "Devops"
     }
   },
   {
@@ -193,8 +193,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "18",
+      "name": "Mobile"
     }
   },
   {
@@ -327,28 +327,6 @@
     "grupo": {
       "id": "3",
       "name": "Arquitectura"
-    }
-  },
-  {
-    "title": "Mi irrupción en el mundo de las charlas (no lo he utilizado en el día a día, pero entendía que podía valer una experiencia del último año, si no vale, me lo decís y pienso otra cosa)",
-    "why": "Pues el objetivo ha sido ser capaz de dar charlas en eventos técnicos sin morir en el intento.\nMe sobran 8 líneas, así que os voy a contar la vez que estaba fregando una jarra de cerveza y la puse boca abajo en el escurridor, que estaba en alto, y al retirar la mano di a la jarra sin querer y se me cayó en la cabeza de pie, la hijaputa, con todo el culo de vidrio gordísimo de plano, y como cayó tan tiesa explotó en mil cristalitos, como escamas de pescao, que se me quedaron por todo el cuerpo y el pelo y la hostia...y como no sabía qué hacer, me metí en la ducha, porque si me intentaba quitar yo los cristales con la mano o con un trapo o algo, pues me los clavaba más y me cortaba.\nY en la ducha, aunque fue bastante bien porque el agua se llevó la mayoría, era muy raro porque salían chorrititos pequeños de sangre, de los cristalitos que, inevitablemente, tenía clavados por todo el cuerpo y la cabeza.\nFin.",
-    "when": "Pues cuando tocaba evento.",
-    "how": null,
-    "links": [
-      null,
-      "",
-      ""
-    ],
-    "asistente": {
-      "id": 1549178229000,
-      "nombre": "Diana Aceves",
-      "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
-      "twitter": "diana_aceves_",
-      "vienede": null
-    },
-    "grupo": {
-      "id": "12",
-      "name": "La gente de Kini"
     }
   },
   {
@@ -924,7 +902,7 @@
     }
   },
   {
-    "title": "Construir un nuevo producto sobre una base de código legada (un ETL, concretamente)",
+    "title": "Construir un nuevo producto (MVT API con Node, PostgreSQL y PostGIS) sobre una base de código legada (un ETL con Python y Luigi, concretamente)",
     "why": "Teníamos que construir un nuevo producto y parte de la funcionalidad y los datos se solapaban con otro producto que ya teníamos. Ante la disyuntiva de construir de cero o aprovechar la base de código existente elegimos lo segundo para coger ownership de ello, continuar iterando, y reutilizar esfuerzos existentes.",
     "when": "Cuando ya tienes herramientas propias que puedes reutilizar y el coste compensa (spoiler: al menos en teoría).",
     "how": null,
@@ -1106,7 +1084,7 @@
     "how": null,
     "links": [
       null,
-      "",
+      "https://ronjeffries.com/articles/019-01ff/self-org-not-enough/",
       ""
     ],
     "asistente": {
@@ -1205,8 +1183,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "18",
+      "name": "Mobile"
     }
   },
   {
@@ -1255,7 +1233,7 @@
   },
   {
     "title": "De scrum a kanban",
-    "why": "(Pues no sé si estoy contestando a lo que debo... en el link anterior contaba algo m��s de contexto, pero era el link malo).\n\nDurante más de 13 años usamos SCRUM. No un SCRUM muy puro, seguro que muy adulterado. En ese tiempo nos \"optimizamos\" para ser productivos individualmente. No quiere decir que no trabajásemos como equipo, pero cada uno tenía su lista de tareas.\n\nCombatimos interrupciones, mejoramos estimaciones, reglas de biblioteca, silencio, pocas interrupciones, todo eso.\n\nY \"todo eso\" funcionaba, pero llegó un momento en el que pensamos: \"y si nos preocupásemos más de mover cosas todos juntos en lugar de mover nuestra lista?\" Y eso cambió todo.",
+    "why": "(Pues no sé si estoy contestando a lo que debo... en el link anterior contaba algo más de contexto, pero era el link malo).\n\nDurante más de 13 años usamos SCRUM. No un SCRUM muy puro, seguro que muy adulterado. En ese tiempo nos \"optimizamos\" para ser productivos individualmente. No quiere decir que no trabajásemos como equipo, pero cada uno tenía su lista de tareas.\n\nCombatimos interrupciones, mejoramos estimaciones, reglas de biblioteca, silencio, pocas interrupciones, todo eso.\n\nY \"todo eso\" funcionaba, pero llegó un momento en el que pensamos: \"y si nos preocupásemos más de mover cosas todos juntos en lugar de mover nuestra lista?\" Y eso cambió todo.",
     "when": "(Sigo sin saber si estoy contestando lo que debo).\n\nPues esto aplica a equipos que quieren eliminar burocracia y sacar más trabajo adelante.",
     "how": null,
     "links": [
@@ -1584,6 +1562,28 @@
     }
   },
   {
+    "title": "Espiral del caos",
+    "why": "En el día a día nos vemos inmersos en el múltiples tareas. Normalmente cuando nos enfocamos en sacar una adelante nos olvidamos del resto y solo reaccionamos cuando estamos cerca del límite (o ya nos lo hemos pasado). La no organización, tiempos ajustados, intentar quedar bien con el cliente, el no pararse a (re)evaluar la situación, etc es lo que provoca el estado en el que estamos inmersos y que provoca esta espiral.\nLa agilidad convertida en un salvase quien pueda.\nLa razón es poder compartir experiencias para salir de esta situación que solo genera estrés, malos rollos y quedar mal con el cliente.",
+    "when": "El contexto en concreto es una empresa de servicios con muchos proyectos muy diferentes en cuanto a tecnologías y organización, la gente pivota mucho de un proyecto a otro con deadlines imposibles. Gente sobrepasada que no hace más que crear deuda técnica que vuelve como boomerangs e influye en los siguientes desarrollos. ",
+    "how": null,
+    "links": [
+      null,
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1552209546000,
+      "nombre": "Aitor Aznar Álvarez",
+      "foto": "https://pbs.twimg.com/profile_images/898278619428081668/y9cCjW5y_400x400.jpg",
+      "twitter": "aitoraznara",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "19",
+      "name": "Sin asignar, pendiente"
+    }
+  },
+  {
     "title": "Soft skills. Ahora en remoto.",
     "why": "Qué importante es la comunicación en el óptimo desarrollo de un proyecto. También el sentirte responsable del proyecto y ser capaz de discernir qué tareas hay pendientes y cuál va a ser la carga de trabajo de estas.\n\nCiertas habilidades se potencian cuando no tienes a tu interlocutor a un metro de ti. O a tu equipo en tu misma oficina. Creo que es interesante compartir nuestras ideas sobre dos conceptos, uno de ellos crucial y habitualmente ignorado (soft skills) en relación con una metodología (trabajo en remoto) a la que tiende nuestro sector.",
     "when": "Los soft skills son necesario siempre. Incluso cuando escribimos código (naming, saber ordenar tareas, evaluar tu capacidad de concentración actual...) y el trabajo en remoto comprende ciertas habilidades que, siendo cruciales en remoto, también se deberían aplicar en trabajo presencial (escritura de emails, asincronía, iniciativa, product owning...)",
@@ -1799,8 +1799,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "13",
+      "name": "Agile 1"
     }
   },
   {
@@ -1821,8 +1821,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "id": "11",
+      "name": "Techniques 2"
     }
   },
   {
@@ -1888,7 +1888,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "name": "Devops"
     }
   },
   {
@@ -2086,7 +2086,7 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "name": "Devops"
     }
   },
   {
@@ -2108,12 +2108,12 @@
     },
     "grupo": {
       "id": "17",
-      "name": "Experiencia enviada, grupo sin asignar"
+      "name": "Devops"
     }
   },
   {
     "title": "Qué significa ser \"responsable de tecnología\" en una empresa que nunca tuvo un@",
-    "why": "La organización crece, escala y se da cuenta (mentira, la hacemos darse cuenta) de que algo tan evidente como que \"nos dedicamos ha crear los productos tecnológicos de nuestros clientes\", osea, a hacer software, implica tener personas que dedican parte de su tiempo a ayudar y dar soporte a los equipos en post de una mejor calidad, de trabajar a que de ellos emerjan conceptos como XP, devops .... \n\nPero claro, ni la organización ni tú mismo (en mi caso) tiene ni idea de qué hace un responsable de tecnología. Qué implica y dónde poner las primeras piedras y cómo crear esos roles que ayuden crecer a los equipos (tech leads, ...)\n\nCreo que se me da bien resolver problemas. La visión sistémica es una de mis aptitudes y esto me ayuda a ponerlo foco a lo importante en cada momento. Además, soy de esas personas que aporta mucho más por versatilidad que por especialización, así que eso más que soy de lo más terco que te puedes echar al cuerpo (pero sé negociar, eh xD) y que hace muchos años y gracias a un CEO muy muy tiburón aprendí a no decir que sí a los \"jefes\" de una empresa, me hacían un buen (o único xD) candidato para ser ese nuestro primer responsable de tecnología.\n\nEl resto está siendo mucho de: \n- descubrir qué hace un manager de este tipo, de quién se rodea, cómo ... composición de lugar\n- descubrir qué acciones concretas implican \"quick wins\" que nos demuestren que \"esa es la manera\"\n- ser terriblemente cabezota en la visión y super flexible en la implementación ..... y a aveces no tanto, porque recordemos que hablamos de una organización que culturalmente no se cree todo lo  que algun@s promulgamos a bombo y platillo.\n- cómo haces todo esto sostenible\n- cómo compartir las riendas y a quién",
+    "why": "La organización crece, escala y se da cuenta (o la ayudamos a darse cuenta entre vari@s) de que algo tan evidente como que \"nos dedicamos ha crear los productos tecnológicos de nuestros clientes\", es decir: a hacer software, implica tener personas que dedican parte de su tiempo a ayudar y dar soporte a los equipos en post de una mejor calidad, de trabajar a que de ellos emerjan conceptos como XP, devops .... \n\nPero claro, ni la organización ni esas personas tienen mucha idea de qué hace un lead, manager o un responsable de tecnología. Qué implica y dónde poner las primeras piedras y cómo crear esos roles que ayuden crecer a los equipos. \n\nY ahí ando metido yo: responsable de tecnología de una empresa que no tiene claro qué y cómo, como yo mismo vamos.\n\nMi reto:\n \n- descubrir qué hace un manager de este tipo, de quién se rodea, cómo ... composición de lugar \n- descubrir qué acciones concretas implican \"quick wins\" que nos demuestren que \"esa es la manera\"\n- ser terriblemente cabezota en la visión y super flexible en la implementación ..... y a aveces no tanto, porque recordemos que hablamos de una organización que culturalmente no se cree todo lo que algun@s promulgamos a bombo y platillo. \n- cómo haces todo esto sostenible \n- cómo compartir las riendas y a quién\n- ... y mil cosas más ^^",
     "when": "La verdad es que no lo sé xD Supongo que en nuestro caso ha sido el crecer de ser una empresa de 20 personas a serlo de 60, con 5 equipos dedicados a diferentes tecnologías y clientes, donde empezábamos a ver que que cada uno fuese haciendo su propio camino sin tener una cultura técnica (para empezar, aunque también me meto en cómo hacemos producto digital, cómo vendemos etc ....) compartida que nos permitiese hacerlo con seguridad de que ese crecimiento estuviese alineado con la \"visión\" de la empresa (truco para negocio: transmitir la visión es mágico! ¬¬) era peligroso. Los equipos no son maduros como para dejarlos \"ir solos\", pero que lo hagan a medio plazo es la única manera de sobrevivir, así que hemos creado ese rol de responsable un poco (o yo lo veo así) en modo paliativo y por urgencia.",
     "how": null,
     "links": [
@@ -2153,6 +2153,28 @@
     "grupo": {
       "id": "8",
       "name": "Dame datos"
+    }
+  },
+  {
+    "title": "Escalar/montar un equipo siendo freelance mobile ¿Por dónde c*** empiezo?",
+    "why": "Tras unos cuantos años en la jungla freelance mobile, me gustaría dar el paso de crear mi propio equipo. Los motivos son varios; a nivel profesional, me gustaría probar otros roles que estén menos en contacto con el desarrollo puro (producto, cliente). Además, como freelance ofreciendo servicios de programación, tu actividad sólo puede crecer lo que permiten las horas de un día de trabajo, tengo que decir que NO a muchas ofertas interesantes, y por tanto perder negocio. \n\nMe gustaría charlar/debatir con gente que haya pasado por una situación similar, y tratar temas como: ¿contrato antes a la gente, o primero vendo un proyecto al cliente? Pero, ¿cómo le voy a vender que tengo un equipo si aún no lo tengo? ¿Empiezo contratando aprendices, o me arriesgo a contratar a un socio con más experiencia?...",
+    "when": "Cuando tienes un negocio freelance y no tienes ni pajolera de cómo hacerlo crecer.",
+    "how": null,
+    "links": [
+      null,
+      "",
+      ""
+    ],
+    "asistente": {
+      "id": 1549724614000,
+      "nombre": "Roberto Garrido",
+      "foto": "https://pbs.twimg.com/profile_images/1003077988366278656/EU_skpfK_400x400.jpg",
+      "twitter": "che1404",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "18",
+      "name": "Mobile"
     }
   }
 ]

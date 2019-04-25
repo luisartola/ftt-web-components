@@ -18,18 +18,7 @@ import asistentesComponent from './components/asistentes.js';
 import galeriaComponent from './components/galeria.js';
 import horarioComponent from './components/horario.js';
 import sectionTitle from './components/ftt-section-title.js';
-
-
-debugger;
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').then(registration => {
-            console.log('SW registered: ', registration);
-        }).catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
-        });
-    });
-}
+import { Workbox } from 'workbox-window';
 
 [
   sectionTitle,
@@ -91,4 +80,12 @@ customElements.define('lit-app', class extends LitElement {
       `;
     }
   }
+
+
+
 );
+
+if ('serviceWorker' in navigator) {
+    const wb = new Workbox('sw.js');
+    wb.register();
+}
