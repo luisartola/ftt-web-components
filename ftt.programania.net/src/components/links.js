@@ -56,7 +56,7 @@ export default {
         ` : ''}
 
         
-        <section class="section is-paddingless">
+        <section class="section">
           <div class="container content" style="overflow: hidden;">
              ${this.asistentes
                     .filter(asistente => asistente.links.filter(link => !!link).length > 0)

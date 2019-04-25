@@ -5,7 +5,7 @@
     "when": "El contexto, realmente no es esencial, puesto que más que \"un espacio\", se tiene que dar una conexión entre 2 personas que pueda generar una mejora en ambas.",
     "how": null,
     "links": [
-      null,
+      "https://dev.to/d_ir/how-to-mentor-developers",
       "https://medium.freecodecamp.org/the-five-mentors-every-software-developer-needs-and-how-to-find-them-4f9bbd410d29",
       "https://dev.to/davidsteveen/peer-mentoring---can-benefit-the-student-4g55"
     ],
@@ -27,7 +27,7 @@
     "when": "Las técnicas aplican a cualquier producto con frontend que aspire a vivir muchos años. \nEs imprescindible contar con la confianza plena de stakeholders que permitan dedicar ancho de banda al pago de deuda técnica y a compartir conocimiento. \nMi caso fue más fácil al tratarse de un producto interno con feedback más rápido y menos riesgo en caso de cagadas.\nTambién hace falta plena confianza del equipo técnico porque el refactoring en paralelo puede complicar aún más el diseño durante ciertas etapas.",
     "how": null,
     "links": [
-      null,
+      "https://www.cypress.io/ ",
       "https://kentcdodds.com/blog/write-tests",
       "https://www.youtube.com/watch?v=EZ05e7EMOLM"
     ],
@@ -49,7 +49,7 @@
     "when": "Cuando se quiere ir hacia un esquema de entrega continua. Centrar la importancia en lo desplegado en producción en lugar del estado del repositorio (es una manera sutil de ayudar a dejar de mirar el ombligo al código y centrar la vista en lo que aporta valor). Usar Trunk Base Development o cualquier otro esquema que acelere la entrega continua.",
     "how": null,
     "links": [
-      null,
+      "Crear artefactos en nuestra pipeline de CI (tar.gz, jar, wheel, docker, etc.) con lo necesario para asegurar un despliegue repetible. ",
       "https://continuousdelivery.com/implementing/patterns/",
       "https://www.michielrook.nl/2018/01/typical-ci-cd-pipeline-explained/"
     ],
@@ -71,7 +71,7 @@
     "when": "Todo el rato, continuamente tengo dudas que necesito resolver. Y aún creo que nos queda bastante. Especialmente cuando necesitas coordinación entre varios miembros del equipo (casi siempre) o con otros equipos.",
     "how": null,
     "links": [
-      null,
+      "No tengo ningún link al respecto, y probablemente esto es un poco meh",
       "http://Tampoco_es_una_técnica_o_tecnología.com",
       "http://Pero_bueno_es_lo_que_hay_sorry.com"
     ],
@@ -93,7 +93,7 @@
     "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la información y con lo mínimo, podemos aplazar esta decisión",
     "how": null,
     "links": [
-      null,
+      "https://deviq.com/repository-pattern/",
       "",
       ""
     ],
@@ -115,7 +115,7 @@
     "when": "Si aterrizas en un proyecto con un montón de código legado, sin una arquitectura clara, acoplado al framework. Cuando salir de ese agujero parece complicado. Si ves a otros hablar de DDD, IDD, arquitecturas limpias, etc, y piensas “ya me gustaría a mí verte con esto entre manos”.",
     "how": null,
     "links": [
-      null,
+      "No tengo un enlace que lo explique exactamente porque es un poco cosecha propia, un refrito de ideas, una suerte IDD simplificado desacoplando de la capa de delivery, no tan estricto en otras cosas. Basado principalmente en convenciones (organización por features, interactors como punto de entrada a tu “core”, query objects, callable objects).",
       "https://codurance.com/2017/12/08/introducing-idd/",
       "https://vimeo.com/130256611"
     ],
@@ -137,7 +137,7 @@
     "when": "Si tienes frameworks o librerías desactualizadas, la actualización no es trivial y no puedes parar el mundo mientras actualizas, te puedo contar mi experiencia pasando en un año de Rails 4.2 a 5.0, 5.1 y 5.2 en una base de código de tamaño considerable.",
     "how": null,
     "links": [
-      null,
+      "¿Cómo? De a pocos y sin que se note. :D Lava los platos todos los días.\nBusca aliados (si puedes).\nCambios en paralelo en master. Feature toggles.\nMantén un diario\nIgual no estás descubriendo América, sigue el rastro dejado por otros que pasaron antes que tú\nHaz limpieza antes de mudarte\nGoogle es tu amigo (stackoverflow, github issues generalmente son tu destino)\nUsa la maña, Luke. Soluciones creativas. Cinta americana, tu gran aliado\nTodo el mundo miente (los warnings también)\nAfeita a ese yak\nControla el entorno, haz que otros testeen por tí\nLlegó el momento de saltar al vacío",
       "https://github.blog/2018-09-28-upgrading-github-from-rails-3-2-to-5-2/",
       "https://www.youtube.com/watch?v=6aCfc0DkSFo"
     ],
@@ -159,7 +159,7 @@
     "when": "Si trabajas en equipos multidisciplinares, enfocados en una parte de tu producto/proyecto",
     "how": null,
     "links": [
-      null,
+      "Algunas cosas que hemos usado (mejor o peor):\n- Reuniones globales\n- Reuniones de área\n- Operaciones encubiertas (magic time!)\n- Operaciones especiales (equipos ad-hoc)\n- Electrones libres (y sus pitfalls)\n- Slack time",
       "",
       ""
     ],
@@ -181,7 +181,7 @@
     "when": "Poder desarrollar una app nativa para android e iOS utilizando un código fuente común",
     "how": null,
     "links": [
-      null,
+      "En lugar de manejar código nativo Java/kotlin en android, y Swift en iOS, poder desarrollar de manera conjunta es una gran ventaja y ahorro de tiempo",
       "",
       ""
     ],
@@ -203,7 +203,7 @@
     "when": "El Menú de Conversación es una lista de preguntas abiertas a ser elegidas por los participantes y puede ser aplicada en un kick-off de un equipo, una Retrospectiva, una comida,  un evento de la empresa, etc. ",
     "how": null,
     "links": [
-      null,
+      "https://www.oxfordmuse.com/?q=conversation-dinners#conversation-menu",
       "https://coactive.com/learning-hub/fundamentals/res/FUN-Topics/FUN-Co-Active-Coaching-Skills-Listening.pdf",
       ""
     ],
@@ -225,7 +225,7 @@
     "when": "Cuando trabajas en una plataforma que no desintegra el átomo en términos de negocio pero cada vez necesitas más y más developers. Cuando una feature de negocio te impacta directamente en la evolución técnica de la plataforma. Cuando acometer esa necesaria evolución técnica es tan arriesgada ya que puede generar efectos colaterales en tu negocio. Para esto y mucho más, las arquitecturas hexagonales pueden sernos de gran ayuda.",
     "how": null,
     "links": [
-      null,
+      "Clean Architecture by Uncle Bob --> https://www.amazon.es/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/\n\nEn el Link 2 está mi resumen sobre el libro :)",
       "https://github.com/benatespina/book-notes/blob/master/clean_architecture.md",
       ""
     ],
@@ -247,7 +247,7 @@
     "when": "Sentarme con alguien de CS y ver en vivo y en directo los problemas que tus usuarios intentan resolver y recordar que lo que programas no es para ti sino para facilitar la vida de los demás. A nivel técnico me entretiene mucho intentar implementar servicios de terceros en nuestro POD y que los de Seguridad se queden tranquilos :)",
     "how": null,
     "links": [
-      null,
+      "https://nodejs.org/en/docs/guides/nodejs-docker-webapp/ Para mi el más intuitivo 101 para empezar con docker",
       "",
       ""
     ],
@@ -269,7 +269,7 @@
     "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va a��adiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
     "how": null,
     "links": [
-      null,
+      "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
       "",
       ""
     ],
@@ -291,7 +291,7 @@
     "when": "Ya explicado: Google empieza a cobrarnos por un servicio que antes nos daba de forma ilimitada y no tienes alternativa de servicio que te de (a precio razonable) cientos de miles de peticiones de geocoding al día.",
     "how": null,
     "links": [
-      null,
+      "La solución ha sido instalarnos nuestro propio servidor de geocoding mediante una máquina potente (8Gb de RAM y discos rapidos y grandes) y un nominatim, con los datos de georeferenciación de todo el mundo disponibles de forma libre a través de openstreetmap. Al final del proceso tenemos todo el geocoding mundial en una bbdd postgres (algo mas de 500GB). \nPor encima tenemos el proceso de nominatim que sirve las peticiones de geocoding y por encima de éste un proceso de squid para cachear las peticiones (tenemos en torno a un 70% de repeticiones)\nComo bola extra tambien es posible bajarse los tiles de cartografia de todo el mundo (o del pais que quieras) y hacerte un servidor de cartografia openstreetmap.",
       "https://github.com/openstreetmap/Nominatim/releases",
       "https://nominatim.org/release-docs/latest/admin/Installation/"
     ],
@@ -313,7 +313,7 @@
     "when": "No hay recursos para desarrollar un GUI ad hoc solo para esto.\nLa solucion ha sido influx (para almacenamiento) + grafana (para visualizar). 2 grandisimas soluciones, con un rendimiento espectacular y que son ademas open source. Influx lo usamos con influx-relay (para tener alta disponibilidad) y en modo UDP (para poner enchufarle datos a-saco-paco sin ningun temor.\nExploramos usar telegraf para la recogida de datos (sobretodo en monitorización de sistemas) pero la descartamos pq nos consumia más recursos que los propios procesos nuestros que teniamos en ejecucion :). Para monitorizar los sistemas usamos excusivamente Nagios (y pnp4nagios para las graficas). ",
     "how": null,
     "links": [
-      null,
+      "Cuando la logica de negocio del producto que se desarrolla tienen relación con muchos datos que están ademas fuertemente vinculados con marcas de tiempo",
       "",
       ""
     ],
@@ -335,7 +335,7 @@
     "when": "Aplica siempre y cuando tengas una vision mas alla del negocio , cierto es que habra que hacer cosas relacionadas con el trabajo pero una mente y corazon sano hace mucho , imaginate la de 5 o 6 o 7 personas juntas con el mismosentimiento.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -357,7 +357,7 @@
     "when": "Si quieres empezar a contratar mañana, el momento para empezar a buscar talento no es hoy sino... hace seis meses, pero la mayoría de las empresas no cuentan con esos seis meses, ni siquiera con seis semanas. Ese es el contexto en el que normalmente hay que trabajar.",
     "how": null,
     "links": [
-      null,
+      "https://us2.campaign-archive.com/?u=374c664073e1a1fa3deca53b4&id=539364dde4",
       "https://speakerdeck.com/davidbonilla/deconstructing-technical-recruitment",
       ""
     ],
@@ -379,7 +379,7 @@
     "when": "Era un proyecto de Analytics as a Service para una startup de Londres. En la fase de CRUDs el cliente (CTO y tambien desarrollador junto a nosotros) levantó la mano: Tenemos muchos CRUDs por hacer aún, quiero un framework sobre el framework (ASP.NET Core + Angular en este caso) para hacer CRUDs como churros. Tras advertirle de los contras de hacerlo y tras insistir el muchïsimo, se hizo.\n\nFue un antes y un después en el proyecto ya que desde entonces nuestro rol cambió. Nosotros creabamos framework para que el desarrollara facilmente, lo que nos empezó a alejar del negocio. Cuando llegamos al core del negocio (eso que cuento en mi otra experiencia) ocurrió lo mismo, implementamos la infraestructura necesaria para que el pudiera ejecutar su código core. \n\nLos problemas llegaron cuando esa parte no escalaba bien, se quería una ejecución rápida pero no la teníamos. Optimizamos todo por nuestra parte pero llegó el punto en el que necesitábamos entrar a su código y entenderlo para poder optimizarlo. Lo hicimos y conseguimos mejorar el rendimiento, pero mi sensación es que no pudimos mejorarlo todo lo que podríamos precisamente por ese desconocimiento que arrastrabamos (ojo, porque así empujó el cliente) desde el principio del proyecto. \n\nMi sensación final fue agridulce: Lo hicimos, pero el cliente apretaba para mejorarlo más aún y nosotros en muchas partes nos enfrentabamos a una caja negra, so frustrating.\n\nMoraleja: No te abstraigas del negocio más de lo que necesites en cada caso/proyecto.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -401,7 +401,7 @@
     "when": "Empresa de producto y que sea tecnológica (quiero recordar que hay una gran tendencia general de pasar de proyectos a productos y que hoy por hoy las empresas que no se consideran tecnológicas tienen un futuro muy limitado).\nRespecto a cuando, para mi es un ideal a perseguir como target condition y guia. Pueden existir momentos concretos en el que desactivar este objetivo, pero como excepción y no como regla. Y por otro lado si no tienes la experiencia de hacer entrega continua, tampoco tienes el criterio de saber cuando desactivar algunas partes.  Esto es como pilotar barcos grandes, los movimientos son lentos y dificiles...",
     "how": null,
     "links": [
-      null,
+      "Las compañías que dominan los medios de producción son las que son capaces de florecer y dirigir las revoluciones. Estamos justo en el punto de inflexión de la revolución del software así que las empresas que lo petan son las que dominan el desarrollo sostenido de software (medio de producción). Estas élites son capaces de entregar varias veces al día, con un tiempo de puesta en marcha de menos de una hora y con una muy buena estabilidad (MTTR menor de una hora y un porcentaje de fallos de lo puesto en producción <10%). Vamos, la élite de esta revolución hace Entrega Continua (excelencia técnica y calidad en todo el proceso).",
       "https://cloudplatformonline.com/2018-state-of-devops.html",
       "https://agilemanifesto.org/iso/es/principles.html"
     ],
@@ -423,7 +423,7 @@
     "when": "El encaje cultural, siempre. \nUn sistema tipo Spotify, cuando somos más o menos 15 personas a coordinarnos.\nCuando son personas trabajando para un producto propio, en empresas con clientes diferentes habría que adaptar ciertos puntos supongo.",
     "how": null,
     "links": [
-      null,
+      "",
       "https://vimeo.com/85490944",
       "https://vimeo.com/94950270"
     ],
@@ -445,7 +445,7 @@
     "when": "Aplica cuando desarrollas una App que ofrece un servicio, que puede ser de interés para otras empresas, y te planteas ofrecer la misma solución, a empresas de tu mismo negocio, bajo su marca, cuando necesitas ofrecer una misma solución en contextos diferentes o cuando dispones de un producto que requiera de una personalización específica para cada nuevo cliente.",
     "how": null,
     "links": [
-      null,
+      "https://developer.android.com/studio/build/build-variants?hl=es-419",
       "",
       ""
     ],
@@ -467,7 +467,7 @@
     "when": "A partir de este año",
     "how": null,
     "links": [
-      null,
+      "https://twitter.com/jmbeas/status/1106242107705044993",
       "https://twitter.com/CoralineAda/status/1110699191532220416",
       "https://twitter.com/flowchainsensei"
     ],
@@ -489,7 +489,7 @@
     "when": "",
     "how": null,
     "links": [
-      null,
+      "https://eu.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
       "https://flutter.dev/docs/cookbook",
       ""
     ],
@@ -511,7 +511,7 @@
     "when": "En código poco habitable en el que probablemente el equipo esté frustrado pero el software genera pasta y produce algo de valor a los usuarios.",
     "how": null,
     "links": [
-      null,
+      "Teniendo en cuenta los anti-patrones para no caer en ellos. Están basados en la experiencia. Prácticas y técnicas hay muchas en los diferentes planos.",
       "",
       ""
     ],
@@ -533,7 +533,7 @@
     "when": "Había que pasar de ser una startup buscando modelo de negocio (mucho MVP) a una empresa con un crecimiento bestial, nuevos servicios a clientes, y más operaciones (que son locales) en más países requieren escalar el equipo y obtener ventajas claras del software para hacerlo.",
     "how": null,
     "links": [
-      null,
+      "https://en.wikipedia.org/wiki/Domain-driven_design",
       "https://www.amazon.es/Object-Oriented-Software-Engineering-Approach/dp/0201544350",
       ""
     ],
@@ -555,7 +555,7 @@
     "when": "Por mi experiencia de los últimos años manteniendo proyectos de código legado, todo va mejor cuando los cambios de corto alcance se alinean a nivel general con objetivos a largo plazo. \n\nCuando esto no ocurre, se incurre en rework y se da marcha atrás, lo que tiene un impacto negativo no solo en el equipo, sino en los usuarios.\n\nTodo esto es controvertido porque a veces da la sensación de estar entrando en un Big Upfront Design para poder guiar los pasos en corto de manera efectiva. ",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -577,7 +577,7 @@
     "when": "1) Equipos consolidados  2) Entorno de producción con muchos componentes ya funcionando y algún que otro nuevo. ¿Lo migramos todo? ¿Nos hemos vuelto locos? 3) Desarrollo de front con unos requisitos de ciclo de vida de aplicaciones altos ¿Qué framework estará de moda dentro de 5 años?",
     "how": null,
     "links": [
-      null,
+      "https://openui5.hana.ondemand.com/",
       "https://ui5lab.io/",
       "https://sap.github.io/ui5-webcomponents/"
     ],
@@ -599,7 +599,7 @@
     "when": "Cuando un equipo pequeño/mediano empieza a crecer. Y pasas de ser un grupo pequeño cohesionado y alineado tener nuevas personas que deben encajar.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -621,7 +621,7 @@
     "when": "* Proyectos estables con una esperanza de vida larga (mantenibilidad)\n* Proyectos grandes que necesita adaptarse bien al cambio (alta tolerancia al cambio)",
     "how": null,
     "links": [
-      null,
+      "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
       "https://pro.codely.tv/library/arquitectura-hexagonal/about/",
       ""
     ],
@@ -643,7 +643,7 @@
     "when": "La pregunta del millón :D En mi opinión cuando una empresa deja de ser los 3 amigos y empiezas a contratar. Necesitas tener algo para organizarte, para cuidar a la gente, etc\n",
     "how": null,
     "links": [
-      null,
+      "https://www.amazon.co.uk/Manager%60s-Path-Camille-Fournier/dp/1491973897",
       "https://www.youtube.com/watch?v=4yODalLQ2lM",
       ""
     ],
@@ -665,7 +665,7 @@
     "when": "Ha día de hoy, no me imagino haciendo un front de una aplicación web sin usar un Framework JS. Si bien puede tener un costo un poco mayor en cuanto a tiempo (y por lo tanto a dinero) respecto a utilizar un Framework MVC con templates (sobre todo si no tienes cierta experiencia), la diferencia en experiencia de usuario creo que lo justifica con creces.",
     "how": null,
     "links": [
-      null,
+      "https://ultimatecourses.com/angular",
       "https://www.baeldung.com/",
       ""
     ],
@@ -687,7 +687,7 @@
     "when": "Se aplica en el día a día y lo veo mas como una cuestion filosófica",
     "how": null,
     "links": [
-      null,
+      "Vi algún retazo de esto en el libro de TDD de Kent Beck, creo recordar, o en el de Clean Code (no recuerdo)",
       "",
       ""
     ],
@@ -709,7 +709,7 @@
     "when": "En sistemas complejos y muy específicos. Con varios equipos pequeños que saben trabajar en equipo y junto al resto de equipos. La buena comunicación con el resto de equipos es imprescindible.",
     "how": null,
     "links": [
-      null,
+      "https://eng.uber.com/reliable-reprocessing/",
       "",
       ""
     ],
@@ -731,7 +731,7 @@
     "when": "Cuando estás en una compañía grande y burocrática, cuando tienes jefes old school, cuando hay que hacer Scrum, cuando hay desconfianza jerárquica...",
     "how": null,
     "links": [
-      null,
+      "No he leído nada de literatura al respecto. Lo que me gustaría aportar se basa en la experiencia (en el politiqueo, la guerrilla, la desobediencia...)",
       "",
       ""
     ],
@@ -753,7 +753,7 @@
     "when": "Todo lo que habíamos hecho en años anteriores ha estado bien, pero este año gracias a un proyecto de innovación educativa en la UVa, estamos implicando a profesores y alumnos de la Escuela de Informática, para introducir en las asignaturas principios y valores ágiles, y esta resultando muy positivo. ",
     "how": null,
     "links": [
-      null,
+      "Lo hemos hecho a través de:\n- Talleres\n- Charlas\n- Eventos como AOS o Hackerfest\n- Proyectos de innovacion educativa",
       "http://www.eui.uva.es/?q=node/644",
       "http://www.eui.uva.es/?q=node/633"
     ],
@@ -775,7 +775,7 @@
     "when": "Os hackeo el formulario para contar que he seguido investigando sobre temas de rendimiento y cómo aprendiendo a usar bien las estructuras de datos o creando nuevas estructuras de datos con otra implementación (pero manteniendo una abstracción que no exponga detalles de implementación y condicione nuestro código) podemos mejorar el rendimiento de nuestra aplicación, sin necesidad de ofuscar tu código buscando mejorar un ciclo de reloj o un byte de memoria.\n¿En qué momento dejas de aplicar la fuerza bruta y te preocupas por la complejidad de tu código y tus datos? ",
     "how": null,
     "links": [
-      null,
+      "https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
       "",
       ""
     ],
@@ -797,7 +797,7 @@
     "when": "En cualquier momento que necesitemos comunicarnos de forma efectiva -> Comunicación empática\nCuando queramos solucionar un conflicto -> Negociación\nCuando queremos conseguir un proyecto / cliente - > Persuasión\nCuando tenemos que recoger requisitos / historias de usuario -> Escucha activa",
     "how": null,
     "links": [
-      null,
+      "https://marketingaholic.com/principios-de-la-persuasion-robert-cialdini/2274/",
       "https://cefne.com/metodo-harvard-negociacion",
       "https://es.scribd.com/document/254483624/No-Hay-Personas-Dificiles-Bolton-Robert-Grover-Bolton-Dorothy"
     ],
@@ -819,7 +819,7 @@
     "when": "En una empresa con muchos equipos, en los que cada uno elige sus propias herramientas, y hay solapamiento en los problemas a resolver. Puede parecer que si cada equipo resuelve problemas independientes, no es tan necesaria esa convergencia, pero aunque se resuelven problemas de negocio distintos, hay mucha problemática común hoy en día entre servicios: despliegue, monitorización, etc. Para qué vas a tener un equipo desplegando en Kubernetes y otro en Mesos?",
     "how": null,
     "links": [
-      null,
+      "Cuanto espacio tengo para esto? xDD Con lo que me digáis, os pongo aquí más o menos cómo lo enfocamos.",
       "",
       ""
     ],
@@ -841,7 +841,7 @@
     "when": "Si cada equipo se crea su propio sistema de despliegue, será difícil aplicar ciertas políticas a nivel global de la empresa, ya que cambiar algo implica cambiar un montón de sistemas distintos. Kubernetes nos ofrece una manera común de desplegar, consiguiendo ahorro de costes con mejor utilización del hardware. Y aunque utilizar Kubernetes \"a pelo\" es una opción, hacer que cientos de developers tengan que pelearse con Kubernetes no es la solución más óptima. En ese caso, es bueno dar una versión fácil de Kubernetes.",
     "how": null,
     "links": [
-      null,
+      "Airbnb ha hecho algo muy parecido https://www.infoq.com/news/2019/03/airbnb-kubernetes-workflow",
       "https://github.com/fiaas/fiaas-deploy-daemon",
       ""
     ],
@@ -863,7 +863,7 @@
     "when": "Esta herramienta ayuda cuando hay un desacople entre los equipos que desarrollan la aplicación y los equipos que se encargan del aseguramiento de la calidad, poniendo a disposición todo el contexto de la ejecución. De este modo se reducen los tiempos de análisis de los problemas, facilitando la comunicación entre equipos. Conseguimos reducir el time to market.",
     "how": null,
     "links": [
-      null,
+      "https://elastest.io/",
       "https://www.youtube.com/watch?v=8l0paDOS9Ks",
       "https://www.youtube.com/watch?v=q2kdFUx-xeo&t=3s"
     ],
@@ -885,7 +885,7 @@
     "when": "Aplica en organizaciones que quieren entender la situación de sus equipos respecto a \"lo ágil\", y evolucionar y mejorar.",
     "how": null,
     "links": [
-      null,
+      "https://www.agilefluency.org/",
       "https://www.ynspira.com/modelo-de-fluidez-agil/",
       ""
     ],
@@ -907,7 +907,7 @@
     "when": "Cuando ya tienes herramientas propias que puedes reutilizar y el coste compensa (spoiler: al menos en teoría).",
     "how": null,
     "links": [
-      null,
+      "https://github.com/spotify/luigi",
       "https://docs.mapbox.com/vector-tiles/reference/",
       ""
     ],
@@ -929,7 +929,7 @@
     "when": "La creación de software para asistentes de voz se puede aplicar en muchos contextos, ya sea cubriendo necesidades que no estaba cubiertas por otro software hasta ahora, mejorando soluciones existentes o, simplemente, creado utilidades aleatorias. \nAdemás, para llevar a cabo ciertos desarrollos para estos asistentes tiene una barrera de entrada bastante baja y, de momento, hay mucho movimiento a nivel individual y sin ánimo de lucro que a nivel corporativo. ",
     "how": null,
     "links": [
-      null,
+      "https://developer.amazon.com/alexa",
       "https://dialogflow.com/",
       "https://www.luis.ai/home"
     ],
@@ -951,7 +951,7 @@
     "when": "Al no ser una técnica en concreto no es fácil indicar el contexto. Digamos que una solución de interfaz de voz sería aplicable en muchos escenarios que, o bien a día de hoy existe y se pueden mejorar, o bien no existía hasta ahora una solución pero con la voz se abren caminos. Imaginemos casos de uso donde sólo la voz se puede usar o sería lo más adecuado. Pero claro, ¿cómo se diseña una interfaz de voz? ¿Es como una visual pero listado opciones y acciones? ¿Hay que pensar igual que si tratarías con una persona? ",
     "how": null,
     "links": [
-      null,
+      "https://kinisoftware.com/tag/alexa/",
       "https://developer.amazon.com/alexa",
       "https://dialogflow.com/"
     ],
@@ -973,7 +973,7 @@
     "when": "El principio se puede aplicar a casi todo, aunque nosotros principalmente lo aplicamos software, stocks, y gestión de incidencias con clientes",
     "how": null,
     "links": [
-      null,
+      "https://es.wikipedia.org/wiki/Principio_de_Pareto",
       "",
       ""
     ],
@@ -995,7 +995,7 @@
     "when": "Trato de llevar esta filosofía a todos los aspectos de mi vida tanto personal como laboral.",
     "how": null,
     "links": [
-      null,
+      "http://humanetech.com/",
       "",
       ""
     ],
@@ -1017,7 +1017,7 @@
     "when": "Si tienes ilusión por participar en el cambio y alguna esperanza de mejorar las cosas. En ese caso es mejor para todos/as que una de las pocas personas con energía para empujar no se queme",
     "how": null,
     "links": [
-      null,
+      "https://blog.crisp.se/2018/09/26/henrikkniberg/confessions-of-a-change-agent-my-keynote-from-agile-rock-kiev",
       "",
       ""
     ],
@@ -1039,7 +1039,7 @@
     "when": "Estas técnicas podrían aplicarse para cualquier equipo ágil, pero son especialmente eficaces para solventar muchos problemas típicos de equipos en remoto.",
     "how": null,
     "links": [
-      null,
+      "https://en.wikipedia.org/wiki/Code_review",
       "https://medium.freecodecamp.org/how-remote-pair-programming-works-and-why-it-can-change-your-life-cd7b767dc60f",
       "https://www.scrum.org/resources/what-is-a-daily-scrum"
     ],
@@ -1061,7 +1061,7 @@
     "when": "Como decía, jugar para transmitir un aprendizaje, no sólo \"porque sí\"\nCuando haces onboarding de personas a equipos de desarrollo, un juego es una buena forma de contar cómo funciona el equipo, y de integrarse con los demás.\nTambién los uso cuando quiero introducir una nueva técnica o concepto\nComo parte de espacios colaborativos donde gente de distintos equipos trabajan juntos\nY podría seguir...",
     "how": null,
     "links": [
-      null,
+      "http://www.onseriousgames.com/",
       "http://play4agile.org/",
       ""
     ],
@@ -1083,7 +1083,7 @@
     "when": "Cuando somos \"muy ágiles\", pero la realidad es que acabas haciendo cascada creyendo que haces agile y metes gente a cholón porque no llegas a fechas.",
     "how": null,
     "links": [
-      null,
+      "https://ronjeffries.com/articles/016-09ff/defense/",
       "https://ronjeffries.com/articles/019-01ff/self-org-not-enough/",
       ""
     ],
@@ -1105,7 +1105,7 @@
     "when": "Aplica cuando se da alguna de estas circunstancias: procesos complejos, procesos con complejidad accidental, equipos que necesitan poner en común conocimiento, etc.",
     "how": null,
     "links": [
-      null,
+      "https://www.eventstorming.com/",
       "https://speakerdeck.com/tastapod/event-storming-for-fun-and-profit",
       "https://www.thoughtworks.com/radar/techniques/event-storming"
     ],
@@ -1127,7 +1127,7 @@
     "when": "Nuevo líder de equipo, incorporación a un nuevo equipo en el que hay baja confianza.",
     "how": null,
     "links": [
-      null,
+      "Básicamente: ser transparente, seguir followups...",
       "",
       ""
     ],
@@ -1149,7 +1149,7 @@
     "when": "Sabes que hay una oportunidad de mercado para un producto, tienes la propuesta de valor, clientess/usuarios objetivos claros y quieres visibilizarlo para que todo el equipo de producto y stakeholders sepa de qué va la mandanga.",
     "how": null,
     "links": [
-      null,
+      "http://leanstartup.co/2018-conference/wp-content/uploads/sites/17/2017/11/Lean-Product-Roadmaps-Setting-Direction-While-Embracing-Uncertainty.pdf",
       "https://medium.com/@maa1/no-more-features-on-product-roadmaps-have-themes-or-goals-instead-484bde68a990",
       "https://www.producttalk.org/2018/10/continuous-discovery-mindsets/"
     ],
@@ -1171,7 +1171,7 @@
     "when": "Para desarrollos Android/iOS compilando a nativo para cada plataforma.\nTambién interesante sin el factor multiplataforma por la baja curva de aprendizaje y el buen rendimiento.\nOtro factor, cuando el equipo es más fuerte en back que en front, es que su librería de componentes basados en Material Design facilita la construcción de interfaces sin grandes dolores de cabeza y sin depender de un maquetador (para nosotros esto es un win muy claro).",
     "how": null,
     "links": [
-      null,
+      "https://link.medium.com/Ka83lxNFvV",
       "https://flutter.dev/",
       "https://material.io/design/"
     ],
@@ -1193,7 +1193,7 @@
     "when": "A esta pregunta busco respuesta yo también 😂\nHay partes que son aplicables en cualquier contexto, trasladables a lenguajes que no son de base funcional.\nOtro punto importante a debatir es el contexto de la aplicación a nivel de empresa/equipo: ¿cómo podemos introducir conceptos o un paradigma funcional en nuestra empresa sin hacer una PR que asuste?",
     "how": null,
     "links": [
-      null,
+      "No sé si aplica link aquí :/",
       "",
       ""
     ],
@@ -1215,7 +1215,7 @@
     "when": "",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -1237,7 +1237,7 @@
     "when": "(Sigo sin saber si estoy contestando lo que debo).\n\nPues esto aplica a equipos que quieren eliminar burocracia y sacar más trabajo adelante.",
     "how": null,
     "links": [
-      null,
+      "https://www.amazon.es/Agile-Project-Management-Kanban-Practices/dp/0735698953",
       "https://medium.com/@psluaces/scrum-a-kanban-2-veces-mas-rapido-f6c0802d93f1?source=---------3------------------",
       ""
     ],
@@ -1259,7 +1259,7 @@
     "when": "El contexto sería el de equipos que den relevancia al modelo de dominio y que teniendo experiencia previa con DDD, pretendan llevar ese compromiso al siguiente nivel. \n\nAdemás, para que sea viable es necesario que el desarrollo de extensiones suponga un esfuerzo/coste asumible. Por ejemplo, en nuestro caso (Pharo Smalltalk) una extensión del inspector de objetos supone una media de 9 líneas de código. Esto es posible cuando las herramientas de desarrollo se han diseñado como herramientas extensibles por medio de un DSL interno (moldable tools).",
     "how": null,
     "links": [
-      null,
+      "http://scg.unibe.ch/archive/phd/chis-phd.pdf",
       "https://medium.com/@Chis_Andrei/playing-with-face-detection-in-pharo-e6dd297e0ca3",
       "https://futureofcoding.org/episodes/036.html"
     ],
@@ -1281,7 +1281,7 @@
     "when": "* Capacidad para elección de tecnologías.\n* Convencimiento de que estamos haciendo las cosas profundamente mal en el sector y que existen alternativas mucho más acertadas, aunque no sean mainstream.\n* Estar dispuestos, como equipo/organización, a ignorar lo que están haciendo los demás y considerar sólo lo que crees que funcionará mejor.\n\nAdemás, hay varios casos descritos sobre la confluencia de lenguajes/entornos potentes, pequeños equipos/organizaciones y productividad. Esto parecería indicar que es necesario que los equipos sean pequeños para que la técnica funcione, pero no tengo claro si es un caso de que \"correlación no implica causalidad\".",
     "how": null,
     "links": [
-      null,
+      "https://osoco.es/thoughts/2017/11/pharo-en-osoco-parte-1/",
       "https://osoco.es/thoughts/2017/12/pharo-en-osoco-parte-2/",
       "https://www.youtube.com/watch?v=SV_KU4u5mTA"
     ],
@@ -1303,7 +1303,7 @@
     "when": "* Cada vez que se trata de enfocar nuestra actividad como la de meros recursos intercambiables, ya sea por parte de un cliente, un empleador, un compañero o un profesor.\n* Cuando un cliente te ofrece participar en un proyecto en el que simplemente busca que aportes \"recursos\".\n* Cuando un cliente/jefe/compañero pretende que implementes unas especificaciones sin tener visibilidad del contexto de negocio, porque no lo considera necesario.\n* Cuando un cliente/jefe/compañero piensa que el código es el producto.\n",
     "how": null,
     "links": [
-      null,
+      "https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/",
       "https://es.wikipedia.org/wiki/Taylorismo_digital",
       ""
     ],
@@ -1325,7 +1325,7 @@
     "when": "Cuando se implementa un servicio que usa un repositorio haciendo TDD",
     "how": null,
     "links": [
-      null,
+      "No hay links jeje ",
       "",
       ""
     ],
@@ -1347,7 +1347,7 @@
     "when": ") Codificar tareas para actividades que se repiten mas de una vez. Delegar para que cualquier miembro del equipo puede efectuar cualquier tarea. Comunicar nuevos procesos. Transparencia. Automatizar cuando se pueda. 2) Cuando tienes demasiado CSS con poco reuso. Cuando no paras de \"tabulear\" entre el HTML y el CSS porque no te enteras de lo que pasa. Porque escribir una linea de CSS para invalidarla dos mas abajo no es bueno para tu salud.",
     "how": null,
     "links": [
-      null,
+      "https://en.wikipedia.org/wiki/Standard_operating_procedure",
       "http://tachyons.io/",
       ""
     ],
@@ -1369,7 +1369,7 @@
     "when": "Creo que en general, esta cultura de equipo aplica a desarrollo de producto. O al menos es más fácil implementarla por la propia organización de este tipo de empresas.\nCreo que hay empresas de servicios que también son capaces de aplicar esta forma de organización y trabajo, pero es más difícil encontrar clientes que quieran trabajar así con sus proveedores. ",
     "how": null,
     "links": [
-      null,
+      "Me encanta todo lo que cuenta Eduardo Ferro en su blog. Está super metido en la cultura devops y para mi es un referente.\nTambién creo que es muy recomendable Luis Artola y su pedazo de libro sobre economía del software (conste que no es peloteo, es culpa de David que me ha hackeado el cerebro). Creo que está haciendo un esfuerzo muy necesario para estrechar barreras entre desarrollo y negocio.",
       "http://www.eferro.net/",
       "https://leanpub.com/software-economics"
     ],
@@ -1391,7 +1391,7 @@
     "when": "Los casos pueden ser inmensos, sobre todo cuando queremos coger datos de varias fuentes, estudios de mercado, modelos de predicción de precios,... ",
     "how": null,
     "links": [
-      null,
+      "https://en.wikipedia.org/wiki/Data_quality",
       "https://www.bmc.com/blogs/data-integrity-vs-data-quality/",
       ""
     ],
@@ -1413,7 +1413,7 @@
     "when": "SPAs legacy con pocos tests y pobre separación de responsabilidades que mantienen equipos con poca cultura de testing y diseño en una organización que presiona para que nunca pare la fábrica de features.",
     "how": null,
     "links": [
-      null,
+      "Nos dimos cuenta de que no podíamos seguir atacando síntomas y pretendiendo que el equipo testeara en condiciones muy adversas porque no tenía la pericia suficiente, y decidimos atacar el problema de fondo por el que la base de código no se beneficiaba de usar un lenguaje funcional: pobre separación de concrens y programación imperativa. Por eso empezamos a introducir una arquitectura funcional (functional core, imperative shell) con efectos y coefectos (effects as data pattern or declarative effects pattern) que impone constraints muy fuertes sobre cómo hacer código y facilita muchísimo el testing. Lo hicimos de forma progresiva siguiendo un strangler application pattern. Hubo muchos obstáculos sobre todo al principio y lleva tiempo entender el concepto, pero a medio plazo ha tenido un impacto muy bueno en la habitabilidad del código y estamos bastante satisfechos con los resultados.\nGiving new life to existing Om legacy SPAs with re-om https://codesai.com/2018/10/re-om",
       "https://github.com/GreenPowerMonitor/re-om",
       "https://www.youtube.com/watch?v=6EdXaWfoslc"
     ],
@@ -1435,7 +1435,7 @@
     "when": "Se deberia aplicar siempre, pero en los casos extremos es cuando mas necesario es aplicarlo y no siempre es facil aplicar una tecnica que pueda hacer convivir el nuevo codigo que sustituya al antiguo",
     "how": null,
     "links": [
-      null,
+      "",
       "https://www.michielrook.nl/2016/11/strangler-pattern-practice/",
       ""
     ],
@@ -1457,7 +1457,7 @@
     "when": "Como desarrolladores estamos demasiado acostumbrados a preocuparnos de nuestro código hasta que pasa QA. Pero producción es un mundo aparte con unos sitemas celulares capaz de romperlo todo: los usuarios. Desdeñar el aprendizaje y las consecuencias de tener algo en producción es un lujo que ningún equipo se puede permitir.",
     "how": null,
     "links": [
-      null,
+      "Preparar nuestro software para fallos, tener una buena monitorización, prepararnos en caso de que algo falle, tener buenos playbooks, etc.",
       "https://medium.com/aws-enterprise-collection/part-3-in-the-enterprise-devops-series-why-you-should-run-what-you-build-c62f0990f4c3",
       ""
     ],
@@ -1479,7 +1479,7 @@
     "when": "Para aplicar esta cultura los requisitos basicos son 2:\n1.- Trabajadores responsables\n2.- Trabajadores sin EGOs (lo pogo en mayuscula para resaltar el tamaño)\n\nProbablemente en empresas pequeñas es más fácil de aplicar que en empresas grandes, pero eso que se lo pregunten a Valve. ",
     "how": null,
     "links": [
-      null,
+      "Los principios básicos son:\n1.- Celulas \"autonomas\", los trabajadores se agrupan para un proyecto en concreto.\n2.- Todos actuan como dueños\n3.- Transparencia radical\n4.- Líderes (orgánicos), no jefes ",
       "https://good.co/blog/non-traditional-workplace-hierarchy/",
       "https://www.holacracy.org/"
     ],
@@ -1501,7 +1501,7 @@
     "when": "Cuando trabajas con legacy, o proyectos con tanto contenido que ni el equipo actual sabe lo que tiene entre manos.",
     "how": null,
     "links": [
-      null,
+      "No conozco nada curado /shrug",
       "",
       ""
     ],
@@ -1523,7 +1523,7 @@
     "when": "Cuando tu empresa empieza a escalar , cuando te das cuenta que impera la necesidad de tener equipos que puedan responder a diferentes áreas del negocio de forma autónoma...",
     "how": null,
     "links": [
-      null,
+      "https://rework.withgoogle.com/print/guides/5721312655835136/",
       "https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897",
       "https://dl.illwieckz.net/b/oreilly/free/www.oreilly.com/programming/free/files/designing-autonomous-teams-and-services.pdf"
     ],
@@ -1545,7 +1545,7 @@
     "when": "Aplica siempre que venga un jefecillo de proyecto que quiera aplicar una tecnología de la que ha oido hablar hace dos días sin haberla probado. Cuando viene el típico compañero que quiere hacer su trozo de código en Go aunque el 110% de la compañía sea Java ... también aplica.",
     "how": null,
     "links": [
-      null,
+      "https://duckduckgo.com/?q=microservices+are+not+so+good&t=ffab&ia=web",
       "https://duckduckgo.com/?q=blockchain+as+a+silverbullet&t=ffab&ia=web",
       ""
     ],
@@ -1567,7 +1567,7 @@
     "when": "El contexto en concreto es una empresa de servicios con muchos proyectos muy diferentes en cuanto a tecnologías y organización, la gente pivota mucho de un proyecto a otro con deadlines imposibles. Gente sobrepasada que no hace más que crear deuda técnica que vuelve como boomerangs e influye en los siguientes desarrollos. ",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -1589,7 +1589,7 @@
     "when": "Los soft skills son necesario siempre. Incluso cuando escribimos código (naming, saber ordenar tareas, evaluar tu capacidad de concentración actual...) y el trabajo en remoto comprende ciertas habilidades que, siendo cruciales en remoto, también se deberían aplicar en trabajo presencial (escritura de emails, asincronía, iniciativa, product owning...)",
     "how": null,
     "links": [
-      null,
+      "https://www.business2community.com/human-resources/essential-soft-skills-for-successful-remote-workers-02146160",
       "https://blog.devcenter.co/6-must-have-skills-for-remote-work-eb46e8e76bcb",
       ""
     ],
@@ -1611,7 +1611,7 @@
     "when": "Equipo multidisciplinar",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -1633,7 +1633,7 @@
     "when": "Siempre que expongas un api, pero sobre todo cuando es parte del core de tu producto/servicio.",
     "how": null,
     "links": [
-      null,
+      "https://docs.google.com/document/d/1hGR5ZmHbR8EBFYHoMo-WbKTLA1GZG-4iDocIgPK3Tno/edit?usp=sharing",
       "",
       ""
     ],
@@ -1655,7 +1655,7 @@
     "when": "La pregunta del millón, y  justamente donde cada uno puede tener una opinión muy distinta. En mi caso creo que empecé a hacerlo como mínimo un año más tarde de lo que debería haberlo hecho. Lo malo de esa velocidad inicial y poco sostenible, es que te acostumbras muy fácilmente a ella. ",
     "how": null,
     "links": [
-      null,
+      "https://martinfowler.com/articles/break-monolith-into-microservices.html",
       "",
       ""
     ],
@@ -1677,7 +1677,7 @@
     "when": "Cuando existe una diferencia tan grande entre los objetivos/plazos del cliente y del equipo de desarrollo, en este caso el equipo de desarrollo era externo al completo, y necesitas que todo el mundo esté lo más alineado posible.\n\nCuando tienes unos plazos de tiempo ajustados, y los objetivos de negocio son cambiantes en un periodo de tiempo corto.",
     "how": null,
     "links": [
-      null,
+      "https://agilemanifesto.org/iso/es/principles.html",
       "https://martinfowler.com/bliki/ExtremeProgramming.html",
       ""
     ],
@@ -1699,7 +1699,7 @@
     "when": "En algún punto de la carrera de un desarrollador, será tentado por el lado de la gestión de equipos. Es el momento de pensar si es la dirección que quieres darle a tu carrera o no… si vales para ello y por qué quieres hacerlo.",
     "how": null,
     "links": [
-      null,
+      "https://www.amazon.es/Programming-Beyond-Practices-More-Monkey-ebook/dp/B01LYRCGA8/ref=sr_1_fkmrnull_1?__mk_es_ES=ÅMÅŽÕÑ&keywords=more+than+a+code+monkey&qid=1555156240&s=gateway&sr=8-1-fkmrnull",
       "https://www.amazon.es/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?__mk_es_ES=ÅMÅŽÕÑ&keywords=managers+path&qid=1555156266&s=gateway&sr=8-1",
       ""
     ],
@@ -1721,7 +1721,7 @@
     "when": "Puedes aplicarlo si no inicializas los objetos con diferences dependencias. Interfaz comun a un legacy existente.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -1743,7 +1743,7 @@
     "when": "El contexto es que la gente que viene de DS no está acostumbrada a practicas los devs tenemos ya muy asimiladas y si los algoritmos de DS no es que sean rápidos si encima le metes pasos extra como tocar la BD pues...",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -1765,7 +1765,7 @@
     "when": "Poder evolucionar/cambiar/mantener sin morir en el intento cualquier sistema con cierta complejidad.",
     "how": null,
     "links": [
-      null,
+      "https://opentracing.io/",
       "https://www.datadoghq.com/apm/",
       ""
     ],
@@ -1787,7 +1787,7 @@
     "when": "Equipo de 6-8 personas comenzando a trabajar con metodología Scrum (sin Scrum Master dedicado).",
     "how": null,
     "links": [
-      null,
+      "https://www.scrumguides.org/",
       "",
       ""
     ],
@@ -1809,7 +1809,7 @@
     "when": "Básicamente la selección de framework limita o decide el stack del servicio, así que si hay componentes de streaming y actores pues Akka parece ser una buena opción, si tenemos un stack más “puramente” funcional typelevel, Finch tendrá más papeletas, o si necesitamos un framework más completo deberíamos mirar Lagom o Play! .",
     "how": null,
     "links": [
-      null,
+      "https://typelevel.org/",
       "https://doc.akka.io/docs/akka-http/current/index.html",
       ""
     ],
@@ -1831,7 +1831,7 @@
     "when": "Siempre que tengas datos nuevos. Dependiendo de su veracidad aplicarás más o menos técnicas. Además cada vez que te tengan un hipótesis por seguros que estén necesitaras alguna herramienta que compruebe que esta sea cierta. ",
     "how": null,
     "links": [
-      null,
+      "https://github.com/pandas-profiling/pandas-profiling",
       "https://scikit-learn.org/stable/modules/feature_selection.html",
       ""
     ],
@@ -1853,7 +1853,7 @@
     "when": "La mayoría de bibliografía que he leído considera que una clase esta imbalanceada cuando su tamaño menor que el 10% del total. Hay diversas técnicas que se aplicarán dependiendo del número total de datos de los que se disponga. \n",
     "how": null,
     "links": [
-      null,
+      "https://imbalanced-learn.readthedocs.io/en/stable/api.html",
       "",
       ""
     ],
@@ -1875,7 +1875,7 @@
     "when": "En una plataforma con varios servicios cloud native acabas usando bash como pegamento y normalmente se convierte en una parte propensa a fallos. ",
     "how": null,
     "links": [
-      null,
+      "https://github.com/progrium/bashstyle",
       "https://github.com/sstephenson/bats",
       ""
     ],
@@ -1897,7 +1897,7 @@
     "when": "Cuando tus datos no quieren obedecer a una regla de tres, ni a una de diez: No es lo mismo un martes que un domingo, ni verano que invierno. Tampoco se parece un martes de invierno a un martes de verano, especialmente en Marina D'Or.\n\nNo aplicar a series temporales con poco historial ya que, como sutilmente indicó un compañero un poco c****,  puede dar lugar a predicciones \"demasiado buenas\" (alerta spoiler: muy malas).",
     "how": null,
     "links": [
-      null,
+      "https://keras.rstudio.com/",
       "https://en.wikipedia.org/wiki/Artificial_neural_network",
       ""
     ],
@@ -1919,7 +1919,7 @@
     "when": "Mi experiencia puede interesar a los informáticos que queráis desarrollar una herramienta que, básicamente, hace matemáticas. Y, sobre todo, a algún matemático que se haya visto forzado u obligado a trabajar entre informáticos para lo mismo.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -1941,7 +1941,7 @@
     "when": "Proyectos qur siguen un ciclo de dsarrollo ágil y donde se requieres subidas a producción frecuentes. En este tipo de proyectos es importante aplicar enfoques como \"Shift-left Testing\" y \"Context Driven Testing\".",
     "how": null,
     "links": [
-      null,
+      "http://context-driven-testing.com/",
       "https://docs.google.com/presentation/d/1iD_xbRBvHbWD2TRhK4Rmwr9BsWBoJ5pAoWEy1oigeRQ/edit?usp=sharing",
       ""
     ],
@@ -1963,7 +1963,7 @@
     "when": "En Buntplanet desarrollamos Buntbrain. Un sistema de análisis de redes de agua y contadores que permite hacer mantenimiento predictivo de la red y detectar fugas de agua antes de que ocurra un desastre. En cada licitación de cada ciudad, competimos con softwares similares al nuestro, algunos de ellos con bastantes más años en el mercado. Nuestros rivales más fuertes tienen mejor red comercial y mejores referencias, pero nosotros demostramos mucha más flexibilidad y adaptabilidad y respondemos a sus necesidades específicas mucho más rápido: en algunos casos respondemos en una semana a lo que la competencia no responde en meses. ",
     "how": null,
     "links": [
-      null,
+      "https://continuousdelivery.com/",
       "https://martinfowler.com/articles/feature-toggles.html",
       ""
     ],
@@ -1985,7 +1985,7 @@
     "when": "Equipos que van a empezar un proyecto y necesitan un acompañamiento para establecer las bases del desarrollo, buenas practicas, CI/CD, ...\n\nEmpresas con un equipo funcionando pero que el códgio no ha sido cuidado y les cuesta seguir aportando valor a l negocio por le coste de trabajar con ese código\n\nY ahora el como porque los links...\n\nHabrá mucha info por el intenete, en nuestro caso el cómo lo tenemos a raíz de leer diferentes referencias sobre conocimiento más transversal y sobre todo con la experience que hemos ido adquiriendo con diferentes clientes. Para nosotros la clave es fijarse bien en cómo trabaja ahora mismo el equipo con el que vas a trabajar, qué tipos de perfiles hay, cómo se organizan y entender qué tipos de problemas tienen. Una vez vamos viendo estas cosillas, establecemos una serie de objetivos con el equipo tanto a nivel de negocio como a nivel de equipo y personas. Y luego empezamos a trabajar. Normalmente acotumbramos a empezar haciendo metiendo tema de PRs para el equipo empiece a compartir, hablar, conocerse y a crear un \"Team code\", así nosotros también empezamos a comprender el proyecto, el contexto e identificamos necesidades y problemas. Esto lo unimos con pair programming y mobs si interesa. A partir de aquí, ya es ir viendo, e ir ajustándonos a las necesidades que vayamos viendo. Siempre intentando marcar unos objetivos y unas pautas para que en medida que pasa el tiempo podamos medir cómo avanzamos y analizar el porqué de lo que estamos haciendo y los resultados que obtenemos.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -2007,7 +2007,7 @@
     "when": "Me gustaría debatir sobre cómo \"lidiar\" con los fundadores (no son perfiles técnicos) convenciendo de que las metodologías ágiles, pair programming, etc... es la mejor forma de ir aportando valor y crecer a nivel de producto y empresa.\n\nMe preocupa los \"silos de conocimiento\" creados en nuestro pequeño equipo (1 CMO + Tech Lead + 2 developers) y el enfoque que el CEO está intentando dar a la empresa. Tenemos varios productos propios, la idea de negocio validada pero falta \"chicha\" para pivotar y crear una nueva versión de los desarrollos que se ajusten al mercado.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -2029,7 +2029,7 @@
     "when": "Aplica para un producto con necesidad de ser multimarca y con instalaciones heterogéneas a nivel de funcionalidades.\nOrganizar todo lo necesario en un repositorío único con recetas de Ansible (https://www.ansible.com/) para automatizar los despliegues, construir todos los artefactos con un solo instrucción de Maven (https://maven.apache.org/) y los artefactos de backend son especificos de cada cliente mientras la web se despliega con un \"bundle\" especifico para cada cliente que se optiene con Webpack (https://webpack.js.org/)",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],
@@ -2051,7 +2051,7 @@
     "when": "En nuestro caso era un proyecto con un equipo pequeño en el que una persona se encargaba del backend en symphony, otras dos del desarrollo javascritp en react y otra en la parte de componetización/maquetación. Creo que en frameworks como react, la brecha entre los font-enders debería ser mínima ya que a la hora de crear un componente necesitas tener tanto conocimiento HTML/CSS como Javascript para darle funcionalidad. Opino que los perfiles de front end deberían estar especializados en una cosa (por ejemplo, maquetación) pero que esa misma persona fuese capaz de darle funcionalidad al componente en caso de que la necesite. Nuestra experiencia nos dice que crear un componente solamente con la parte de HTML/CSS y que luego otra persona le dé funcionalidad es muy complicado, se pierde mucho tiempo e información por el camino.",
     "how": null,
     "links": [
-      null,
+      "https://www.ivoox.com/gran-brecha-del-frontend-hay-crisis-audios-mp3_rf_32624113_1.html",
       "https://css-tricks.com/the-great-divide/",
       ""
     ],
@@ -2073,7 +2073,7 @@
     "when": "Es mi caso es un poco enfermizo, poco a poco he ido incorporando los contenedores a mi vida y ya los uso para casi cualquier cosa, automatización de pruebas, creación de entornos de desarrollo, distribución de pequeñas utilidades, despliegue de monolitos... lo que sea.\n\nSiempre que hay que instalar un software nuevo en una máquina me planteo si no se puede hacer con un contenedor.",
     "how": null,
     "links": [
-      null,
+      "https://docs.docker.com/engine/reference/builder/",
       "https://github.com/GoogleContainerTools/jib",
       ""
     ],
@@ -2095,7 +2095,7 @@
     "when": "Cuando haya más de tres equipos trabajando en común y más de tres entornos productivos.",
     "how": null,
     "links": [
-      null,
+      "https://youtu.be/uTEL8Ff1Zvk",
       "",
       ""
     ],
@@ -2117,7 +2117,7 @@
     "when": "La verdad es que no lo sé xD Supongo que en nuestro caso ha sido el crecer de ser una empresa de 20 personas a serlo de 60, con 5 equipos dedicados a diferentes tecnologías y clientes, donde empezábamos a ver que que cada uno fuese haciendo su propio camino sin tener una cultura técnica (para empezar, aunque también me meto en cómo hacemos producto digital, cómo vendemos etc ....) compartida que nos permitiese hacerlo con seguridad de que ese crecimiento estuviese alineado con la \"visión\" de la empresa (truco para negocio: transmitir la visión es mágico! ¬¬) era peligroso. Los equipos no son maduros como para dejarlos \"ir solos\", pero que lo hagan a medio plazo es la única manera de sobrevivir, así que hemos creado ese rol de responsable un poco (o yo lo veo así) en modo paliativo y por urgencia.",
     "how": null,
     "links": [
-      null,
+      "https://www.amazon.es/Manager%60s-Path-Camille-Fournier/dp/1491973897",
       "https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a",
       ""
     ],
@@ -2139,7 +2139,7 @@
     "when": "Cuando el contexto no da un origen de datos que no está en un formato que ayude a quien vaya a realizar el análisis de datos a trabajar con los datos. Cuando disponemos de múltiples orígenes de datos que necesitamos poder cruzar de una manera cómoda. En esencia cuando nos dan un montón de datos y necesitamos prepararnos el trabajo para empezar a trabajar con ellos de cara a sacar información.\nLa base de a que me refiero con preparar datos para el análisis de datos:\nhttps://www.coursera.org/learn/data-cleaning",
     "how": null,
     "links": [
-      null,
+      "https://www.datascienceatthecommandline.com/",
       "https://www.postgresql.org/docs/9.4/sql-copy.html",
       ""
     ],
@@ -2161,7 +2161,7 @@
     "when": "Cuando tienes un negocio freelance y no tienes ni pajolera de cómo hacerlo crecer.",
     "how": null,
     "links": [
-      null,
+      "",
       "",
       ""
     ],

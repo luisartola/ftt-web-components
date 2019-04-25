@@ -3,62 +3,72 @@ import a2018 from '../../data/2018/asistentes.json';
 import a2019 from '../../data/2019/asistentes.json';
 import {html, LitElement} from 'lit-element';
 import {repeat} from 'lit-html/directives/repeat';
-import {limiteCapturas, estaCapturado, liberar, capturar, dispatch, subscribe} from './state';
+import {capturar, dispatch, estaCapturado, liberar, limiteCapturas, subscribe} from './state';
 
 const data = {
-  2018: a2018,
-  2019: a2019
+    2018: a2018,
+    2019: a2019
 };
 
 export default {
-  name: 'ftt-asistentes',
-  element: class extends LitElement {
+    name: 'ftt-asistentes',
+    element: class extends LitElement {
 
-    static get properties() {
-      return {
-        capturados: {type: Array},
-        year: {type: Number},
-        asistentes: {type: Array},
-      };
-    }
+        static get properties() {
+            return {
+                capturados: {type: Array},
+                year: {type: Number},
+                asistentes: {type: Array},
+            };
+        }
 
-    constructor() {
-      super();
-      this.unsubscribe = null;
-      this.asistentes = [];
-      this.todos = [];
-      this.capturados = [];
-    }
+        constructor() {
+            super();
+            this.unsubscribe = null;
+            this.asistentes = [];
+            this.todos = [];
+            this.capturados = [];
+        }
 
-    connectedCallback() {
-      super.connectedCallback();
-      this.year = this.location.params.year;
-      this.asistentes = data[this.year];
-      this.todos = data[this.year];
-      this.unsubscribe = subscribe(state => {
-        this.capturados = state.capturados;
-      });
-    }
+        connectedCallback() {
+            super.connectedCallback();
+            this.year = this.location.params.year;
+            this.todos = list;
 
-    filter(e) {
-      this.asistentes = this.todos
-          .filter(entry => entry.nombre.toLowerCase().includes(e.target.value.toLowerCase()));
-    }
+            const list = data[this.year];
+            const chunckSize = 10;
 
-    disconnectedCallback() {
-      super.disconnectedCallback();
-      this.unsubscribe();
-    }
+            this.asistentes = list.slice(0, chunckSize);
+            for (let i = chunckSize; i < list.length; i = i + chunckSize) {
+                setTimeout(() => {
+                    this.asistentes = this.asistentes.concat(list.slice(i, i + chunckSize));
+                }, 0);
+            }
 
-    shortVersion(title = '') {
-      if (title.length < 30)
-        return title.replace('"', '');
-      return title.replace(/"/g, '').substring(0, 30) + '...';
-    }
+            this.unsubscribe = subscribe(state => {
+                this.capturados = state.capturados;
+            });
+        }
 
-    render() {
-      // language=HTML
-      return html`
+        filter(e) {
+            this.asistentes = this.todos
+                .filter(entry => entry.nombre.toLowerCase().includes(e.target.value.toLowerCase()));
+        }
+
+        disconnectedCallback() {
+            super.disconnectedCallback();
+            this.unsubscribe();
+        }
+
+        shortVersion(title = '') {
+            if (title.length < 30)
+                return title.replace('"', '');
+            return title.replace(/"/g, '').substring(0, 30) + '...';
+        }
+
+        render() {
+            // language=HTML
+            return html`
         
         <style>
           ${css}
@@ -67,7 +77,7 @@ export default {
         <ftt-section-title 
             title="Asistentes" 
             subtitle="${this.asistentes.length === 0 ? 'Todavía no hay asistentes para ésta edición' :
-          `Ésta edición cuenta con ${data[this.year].length} deslumbrantes asistentes`}">
+                `Ésta edición cuenta con ${data[this.year].length} deslumbrantes asistentes`}">
         </ftt-section-title>
         
         <section class="section">
@@ -94,7 +104,9 @@ export default {
               </div>
               ` : ''}
               
-              <table class="table is-striped is-fullwidth">
+              ${ this.capturados.length > 0 ? html`
+              
+              <table class="table is-striped is-fullwidth is-unselectable">
               <thead>
                 <tr>
                 <th>Capturado</th>
@@ -105,11 +117,16 @@ export default {
                 ${repeat(this.capturados, capturado => capturado.id, capturado => html` 
                   <tr>
                   <td>${capturado.nombre}</td>
-                  <td><a class="delete" @click="${(e) => { e.stopPropagation(); dispatch(liberar(capturado));}}"></a></td>
+                  <td><a class="delete" @click="${(e) => {
+                e.stopPropagation();
+                dispatch(liberar(capturado));
+            }}"></a></td>
                   </tr>
                 `)}
-            </tbody>
+                </tbody>
               </table>
+              
+              ` : '' }
         </ftt-collapse>
          
            
@@ -139,7 +156,9 @@ export default {
                 <div class="level-item">
                   <div class="field has-addons">
                     <p class="control">
-                      <input @keyup="${e => { this.filter(e); }}" 
+                      <input @keyup="${e => {
+                this.filter(e);
+            }}" 
                           class="input" type="text" placeholder="Encuentra un asistente">
                     </p>
                     <p class="control">
@@ -152,9 +171,15 @@ export default {
               </div>
             
             </nav>
-
-      <div class="columns is-multiline">
+            </div>
+            </section>
+            
+            
+            <section class="section">
+          <div class="container">
           
+
+      <div class="columns is-multiline">          
         ${repeat(this.asistentes, asistente => html`
           <div class="column is-one-third">
             <div class="card">
@@ -166,7 +191,7 @@ export default {
                       <img src="${asistente.foto}" alt="No disponible">
                     </figure>
                   </div>
-                  <div class="media-content">
+                  <div>
                     <p style="font-size: 0.9em" class="title">${asistente.nombre}</p>
                     <p style="font-size: 0.8em" class="subtitle">
                     <a style="color:#757763" target="_blank" href="https://twitter.com/@${asistente.twitter}">
@@ -184,16 +209,21 @@ export default {
                   
                 </div>
                       <button ?disabled="${limiteCapturas() || estaCapturado(asistente)}" class="button is-small" 
-                                 @click="${() => {dispatch(capturar(asistente));}}">Capturarlo</button>
+                                 @click="${() => {
+                dispatch(capturar(asistente));
+            }}">Capturarlo</button>
                 
               </div>
             </div>
         </div>
         `)}
       </div>
-  </div>
-  </section>
+      
+      </div>
+      </section>
+      
+  
     `;
+        }
     }
-  }
 };

@@ -1,6 +1,6 @@
 import {html, LitElement} from 'lit-element';
-import {unsafeHTML} from "../../node_modules/lit-html/directives/unsafe-html";
-import {repeat} from "lit-html/directives/repeat";
+import {unsafeHTML} from '../../node_modules/lit-html/directives/unsafe-html';
+import {repeat} from 'lit-html/directives/repeat';
 
 import css from '../mystyles.scss';
 import mdFactory from 'markdown-it';
@@ -18,7 +18,7 @@ export default {
         content: Object,
         grupo: Object,
         audio: String,
-      }
+      };
     }
 
     toggle() {
@@ -50,19 +50,23 @@ export default {
                 </thead>
                 <tbody>
                 
-                ${repeat(this.grupo.asistentes, asistente => html`
-                  <tr>
-                  <td>
+                ${repeat(this.grupo.asistentes, asistente => asistente.id, asistente => {
                   
+                  
+          return html`
+            <tr>
+            <td>
+            
 
-                  <a target="_blank" href="https://twitter.com/${asistente.twitter}"><i class="fa fa-twitter"></i></a>
-                  </td>
-                    <td>
-                      ${asistente.nombre}
-                      </td>
-                    <td><a href="/${this.year}/experiencia/${asistente.id}">${asistente.experiencia.title}</a></td>
-                  </tr>
-                `)}
+            <a target="_blank" href="https://twitter.com/${asistente.twitter}"><i class="fa fa-twitter"></i></a>
+            </td>
+              <td>
+                ${asistente.nombre}
+                </td>
+              <td><a href="/${this.year}/experiencia/${asistente.id}">${asistente.experiencia.title}</a></td>
+            </tr>
+          `;
+      })}
                 
                 </tbody>
               </table>
@@ -103,4 +107,4 @@ export default {
 		  `;
     }
   }
-}
+};

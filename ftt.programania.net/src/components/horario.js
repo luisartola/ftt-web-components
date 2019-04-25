@@ -28,7 +28,7 @@ export default {
             </thead>
             <tbody>
             <tr>
-              <td>19:30</td>
+              <td style="width:20%">19:30</td>
               <td>Birras previas en el <a target="_blank" href="https://goo.gl/maps/gQ1v5Vk28kJGWDY5A">Drop</a></td>
             </tr>
           </table>
@@ -47,7 +47,7 @@ export default {
             </thead>
             <tbody>
             <tr>
-              <td>8:40</td>
+              <td style="width:20%">8:40</td>
               <td>
               Sale el bus de la 
               <a target="_blank" href="https://goo.gl/maps/pB6du1TQW6GF36qk7">Estación de autobuses</a>
@@ -55,34 +55,34 @@ export default {
               </td>
             </tr>
           <tr>
-              <td>9:30</td>
+              <td style="width:20%">9:30</td>
               <td>Primera iteración: mejora tu experiencia</td>
             </tr>
           <tr>
-              <td>10:45</td>
+              <td style="width:20%">10:45</td>
               <td>Segunda iteración: qué nos une como grupo</td>
             </tr>
           <tr>
-              <td>11:30</td>
+              <td style="width:20%">11:30</td>
               <td>Hamaiketako: recuperando fuerzas</td>
           </tr>
           <tr>
-              <td>12:00</td>
+              <td style="width:20%">12:00</td>
               <td>Tercera iteración: preparando exposición pública</td>
           </tr>
           
           <tr>
-              <td>13:00</td>
+              <td style="width:20%">13:00</td>
               <td>Círculo y conclusiones de cada grupo</td>
           </tr>
           
           <tr>
-              <td>14:30</td>
+              <td style="width:20%">14:30</td>
               <td>Comer Txuleta y beber sidra</td>
           </tr>
           
           <tr>
-              <td>19:30</td>
+              <td style="width:20%">19:30</td>
               <td>
                 Sale el bus de vuelta. 
                 Networking en <a target="_blank" href="https://goo.gl/maps/CdRXCzWPsX5U18476">Plaza de la constitución</a>
@@ -105,7 +105,7 @@ export default {
             </thead>
             <tbody>
             <tr>
-              <td>11:00</td>
+              <td style="width:20%">11:00</td>
               <td>Desayunaco</td>
             </tr>
           </table>
