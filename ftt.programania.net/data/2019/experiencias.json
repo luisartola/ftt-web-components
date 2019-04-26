@@ -90,7 +90,7 @@
   {
     "title": "De las tablas también se sale (ó no sin mis tablas)",
     "why": "Me he encontrado con muchas personas que \"aprietan el culo\" si les digo de salir a producción persistiendo la información en ficheros. Acaban poniendo cara de que no es serio/profesional.\nEl objetivo es demostrar que se puede vivir sin tablas y salir a producción con repositorios que persistan en ficheros normalicos (texto plano sería ideal)",
-    "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la información y con lo mínimo, podemos aplazar esta decisión",
+    "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la informaci��n y con lo mínimo, podemos aplazar esta decisión",
     "how": null,
     "links": [
       "https://deviq.com/repository-pattern/",
@@ -266,7 +266,7 @@
   {
     "title": "Concepto de microservicios en la capa de persistencia",
     "why": "Trabajo en un producto con >15 años en sus espaldas. Los últimos años hemos ido dandole mordiscos para adelgazar el monolito e ir construyendo una arquitectura basada en microservicios.\n\nDurante este tiempo la capa de persistencia (la base de datos, vaya...MySQL en nuestro caso) se ha ido manteniendo en un monolito que ha ido creciendo y creciendo ... recibimos muchos datos (millones de mensajes diarios) que nuestros jefes nunca quieren borrar (síndrome de Diógenes digital).\n\nSobre esa base de datos monolítica hemos ido aplicando distintas técnicas para poder ir sobreviviendo con ella (replica master-slave, sharding, etc) pero ha llegado un punto en el que los backups son inmanejables y las operaciones cada vez más lentas, debido a un modelo de datos agotado y un volumen monstruoso (decenas de gigas).\n \nAplicando una filosofía similar a la de los microservicios hemos diversificado nuestra capa de persistencia por funcionalidad y eligiendo el tipo de base de datos más adecuada a cada caso concreto. De esta forma ahora mismo trabajamos con 4 bases de datos de naturalezas muy diversas (MySQL, mongoDB, InfluxDB y Redis) y nos estamos planteando incluir una 5ª (Cassandra)\n\nLas pegas de esto son principalmente 2: el trabajo de IT se multiplica y hay que tener cuidado con la sincronización de datos comunes en bases de datos diferentes.\nLas ventajas: TODO lo demás: backups mas sencillos y seguros, mayor tolerancia a fallos y, sobretodo, poder aprovechar las bondades de cada motor de base de datos concreto en su ámbito de actuación (ejemplo: influx es muy bueno para almacenar series temporales, Redis para frecuencias de consultas muy elevadas, mongo para datos no estructurados, etc)\n",
-    "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va a��adiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
+    "when": "Cuando tienes una capa de persistencia con un modelo de datos agotado, es decir, que ha ido creciendo en tablas y relaciones cada vez más complejas a medida que se va añadiendo funcionalidad a tu producto. También cuando el volumen de datos se dispara. (en nuestro caso tenéamos los 2 problemas a la vez :)",
     "how": null,
     "links": [
       "Poco que decir aqui... la técnica no es un arco de iglesia, se trata de identificar el motor de persistencia más adecuado a la funcionalidad(es) concreta(s) de tu producto",
@@ -693,14 +693,14 @@
     ],
     "asistente": {
       "id": 1552032105000,
-      "nombre": "Inigo Delgado ",
+      "nombre": "Iñigo Delgado ",
       "foto": "https://pbs.twimg.com/profile_images/1005732733988036609/Ut3rf6O8_400x400.jpg",
       "twitter": "eddieferetro",
       "vienede": null
     },
     "grupo": {
-      "id": "4",
-      "name": "Organizaciones / escalabilidad"
+      "id": "5",
+      "name": "Seamos adultos"
     }
   },
   {
@@ -1579,8 +1579,8 @@
       "vienede": null
     },
     "grupo": {
-      "id": "19",
-      "name": "Sin asignar, pendiente"
+      "id": "4",
+      "name": "Organizaciones / escalabilidad"
     }
   },
   {
@@ -2170,6 +2170,28 @@
       "nombre": "Roberto Garrido",
       "foto": "https://pbs.twimg.com/profile_images/1003077988366278656/EU_skpfK_400x400.jpg",
       "twitter": "che1404",
+      "vienede": null
+    },
+    "grupo": {
+      "id": "18",
+      "name": "Mobile"
+    }
+  },
+  {
+    "title": "Paso a paso. Que es esto de la ingenieria del software?",
+    "why": "llegar a un equipo que llevan años trabajando solos y en un block de notas. La mayoria de ellos no valoraba el trabajo bien hecho, o el continous delivery o ni siquiera sabian que es un control de versiones. Convertirlos en tus aliados y no en tus enemigos es la mejor opción.",
+    "when": "",
+    "how": null,
+    "links": [
+      "https://www.youtube.com/watch?v=9wVJHZEeTY0",
+      "https://www.martinfowler.com/articles/agileFluency.html",
+      ""
+    ],
+    "asistente": {
+      "id": 1550833795000,
+      "nombre": "Jorge Juan Barroso Carmona",
+      "foto": "https://pbs.twimg.com/profile_images/905364975149047809/z0fkj2mp_400x400.jpg",
+      "twitter": "flipper83",
       "vienede": null
     },
     "grupo": {
