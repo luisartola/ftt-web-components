@@ -11,6 +11,7 @@
 ## Form validation
 
 - [final-form](https://github.com/final-form/final-form) + [jjv](https://github.com/acornejo/jjv)
+- [Spike funcionando](https://github.com/luisartola/ftt-web-components/blob/final-form/ftt.programania.net/src/components/form.js)
 
 ### Otras opciones
 
