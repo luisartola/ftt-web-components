@@ -17,55 +17,58 @@ import fichaComponent from './components/ficha-experiencia.js';
 import asistentesComponent from './components/asistentes.js';
 import galeriaComponent from './components/galeria.js';
 import horarioComponent from './components/horario.js';
+import formComponent from './components/form.js';
 import sectionTitle from './components/ftt-section-title.js';
-import { Workbox } from 'workbox-window';
+import {Workbox} from 'workbox-window';
 
 [
-  sectionTitle,
-  collapse,
-  fttFooter,
-  gruposComponent,
-  grupoComponent,
-  grupoSectionComponent,
-  conceptoComponent,
-  portadaComponent,
-  fichaComponent,
-  linksComponent,
-  asistentesComponent,
-  galeriaComponent,
-  horarioComponent,
-  experienciasComponent,
-  experienciaComponent,
-  notFoundComponent,
-  fttNavBar
+    formComponent,
+    sectionTitle,
+    collapse,
+    fttFooter,
+    gruposComponent,
+    grupoComponent,
+    grupoSectionComponent,
+    conceptoComponent,
+    portadaComponent,
+    fichaComponent,
+    linksComponent,
+    asistentesComponent,
+    galeriaComponent,
+    horarioComponent,
+    experienciasComponent,
+    experienciaComponent,
+    notFoundComponent,
+    fttNavBar
 ].forEach(component => {
-  customElements.define(component.name, component.element);
+    customElements.define(component.name, component.element);
 });
 
 customElements.define('lit-app', class extends LitElement {
 
-    firstUpdated() {
-      const router = new Router(this.shadowRoot.querySelector('#outlet'));
-      router.setRoutes([
+        firstUpdated() {
+            const router = new Router(this.shadowRoot.querySelector('#outlet'));
+            router.setRoutes([
 
-        {path: '/', component: portadaComponent.name},
-        {path: '/concepto', component: conceptoComponent.name},
-        {path: '/horario', component: horarioComponent.name},
+                {path: '/', component: portadaComponent.name},
+                {path: '/concepto', component: conceptoComponent.name},
+                {path: '/horario', component: horarioComponent.name},
+                {path: '/form', component: formComponent.name},
 
-        {path: '/:year/grupos', component: gruposComponent.name},
-        {path: '/:year/grupo/:id', component: grupoComponent.name},
-        {path: '/:year/experiencias', component: experienciasComponent.name},
-        {path: '/:year/experiencia/:id', component: fichaComponent.name},
-        {path: '/:year/asistentes', component: asistentesComponent.name},
-        {path: '/:year/links', component: linksComponent.name},
+                {path: '/:year/grupos', component: gruposComponent.name},
+                {path: '/:year/grupo/:id', component: grupoComponent.name},
+                {path: '/:year/experiencias', component: experienciasComponent.name},
+                {path: '/:year/experiencia/:id', component: fichaComponent.name},
+                {path: '/:year/asistentes', component: asistentesComponent.name},
+                {path: '/:year/links', component: linksComponent.name},
 
-        {path: '(.*)', component: notFoundComponent.name}
-      ]);
-    }
+                {path: '(.*)', component: notFoundComponent.name}
+            ]);
+        }
 
-    render() {
-      // language=HTML
-      return html`
+        render() {
+            // language=HTML
+            return html`
         
         <style>
           ${css}
@@ -78,11 +81,8 @@ customElements.define('lit-app', class extends LitElement {
         <ftt-footer></ftt-footer>
 
       `;
+        }
     }
-  }
-
-
-
 );
 
 //https://medium.com/@webmaxru/workbox-4-implementing-refresh-to-update-version-flow-using-the-workbox-window-module-41284967e79c
