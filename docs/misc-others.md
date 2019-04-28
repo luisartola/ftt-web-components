@@ -10,20 +10,15 @@
 
 ## Form validation
 
-### Mejor pinta
+- [final-form](https://github.com/final-form/final-form) + [jjv](https://github.com/acornejo/jjv)
+- [Spike funcionando](https://github.com/luisartola/ftt-web-components/blob/final-form/ftt.programania.net/src/components/form.js)
+
+### Otras opciones
 
 - [Bouncer: librería vanilla](https://github.com/cferdinandi/bouncer)
 - [Mozilla: forma estandar](https://developer.mozilla.org/es/docs/Learn/HTML/Forms/Validacion_formulario_datos)
-- [Librería beñat](https://github.com/FriendsOfECMAScript/Validatory)
-
-
-### No específico de formularios
-
-- con json schema
-- o https://github.com/ianstormtaylor/superstruct
-
-### El resto
-
+- [Validatory](https://github.com/FriendsOfECMAScript/Validatory)
+- https://github.com/ianstormtaylor/superstruct
 - https://formvalidation.io/guide/plugins/bulma/
 - https://github.com/Mevrael/bunny
 - http://parsleyjs.org/
