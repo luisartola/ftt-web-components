@@ -1,0 +1,859 @@
+[
+  {
+    "id": "1",
+    "name": "Trolleando microservicios",
+    "asistentes": [
+      {
+        "id": 2018001,
+        "twitter": "uthopiko",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/971153364376588289/Ebl9mPp4_400x400.jpg",
+        "nombre": "Asier Ramos",
+        "experiencia": {
+          "title": "\"Microservicios\"",
+          "why": "Supongo que cuando se planteo fue una buena idea, pero que acabo en un caos de microservicios con un acoplamiento muy bestia entre todos. No se deberia aplicar tecnicas de un alto nivel tecnico a equipos sin un buen nivel tecnico o sera un infierno...",
+          "when": "Equipo de mas de 200 desarrolladores, era inevitable ir a esta opción",
+          "how": "https://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/\nhttps://martinfowler.com/articles/microservices.html",
+          "links": [
+            "https://dwmkerr.com/the-death-of-microservice-madness-in-2018",
+            "https://martinfowler.com/articles/microservices.html"
+          ]
+        }
+      },
+      {
+        "id": 2018011,
+        "twitter": "kinisoftware",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg",
+        "nombre": "Joaquin Engelmo Moriche",
+        "experiencia": {
+          "title": "¿De verdad eran necesarios los microservicios?",
+          "why": "Llevo cuatro años metido en los microservicios, antes incluso de saber que así le llamaba la gente. Cuatro años con experiencias positivas y negativas de un trending topic que no se puede tomar a la ligera para tampoco se debe criticar a lo loco. Mi objetivo es compartir con los demás mis experiencias usando esta solución en un producto que usan millones de personas y una base de código de más de 7 años con un monolito bastante tocho que se ha ido, y se sigue, migrando a microservicios. Incluso, locura máxima, hemos sacado microservicios de un microservicio, wait for it :D ",
+          "when": "¿Tienes una base de código inmensa donde trabajan a la vez bastantes desarrolladores ( > 50)? ¿Qué tal la gestión de ramas? ¿Qué tal el continuous delivery? ¿Cuánto tarda? ¿Y los hotfix? Además por motivos organizativos, ¿te gustaría tener equipos \"dueños de componentes\" o \"áreas/features\" de tu producto? ¿Te gustaría introducir lenguajes/tecnologías distintas dependiendo del problema a solucionar y que todo conviva en un \"mismo sistema\"? \n\nLa respuesta a todas esas preguntas podría llevar la palabra microservicio como opción y se podrían aplicar.",
+          "how": "- Mega must => https://martinfowler.com/microservices/\n- Book => Building Microservices: Designing Fine-Grained Systems\n",
+          "links": [
+            "https://martinfowler.com/microservices"
+          ]
+        }
+      },
+      {
+        "id": 2018013,
+        "twitter": "pahint",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/471751879056031744/H88Z2_0V_400x400.jpeg",
+        "nombre": "Imanol Pinto",
+        "experiencia": {
+          "title": "Kafka y kafka streams",
+          "why": "Estamos montando el sistema de notificaciones de nuestra empresa, donde cada notificación (sms, email, chat, push notif. etc) va a pasar por nosotros. Por cada petición vamos a tener que enriquecer/completar los datos, tener en cuenta las preferencias del usuario, compilar la notificación si aplica (con su plantilla), enviarlos por el sistema que corresponda y almacenar todas las comunicaciones y sus actualizaciones de estado.\nTeniendo en cuenta este escenario y que manejaremos una gran cantidad de mensajes, kafka nos viene como anillo al dedo.\nTambién estamos aprovechando kafka-streams (para el enriquecimiento) y exactly once (incluídos en kafka 0.11).\n\nPuedo enseñar la arquitectura que hemos montado y explicar por qué hemos decidido hacerlo de esa manera. Por otro lado, me he pegado un poco con kafka, y es bastante probable (o no xD) que pueda resolver dudas.",
+          "when": "Creo que he respondido a esta pregunta en la anterior también... ",
+          "how": "- Doc oficial kafka: https://kafka.apache.org/documentation.html\n- Exactly once explained: https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/\n- Cómo usa kafka Uber: https://eng.uber.com/reliable-reprocessing/\n- Cómo usar spring-cloud-streams: https://docs.spring.io/spring-cloud-stream/docs/Chelsea.BUILD-SNAPSHOT/reference/htmlsingle/index.html",
+          "links": [
+            "https://kafka.apache.org/documentation.html",
+            "https://confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it",
+            "https://eng.uber.com/reliable-reprocessing",
+            "https://docs.spring.io/spring-cloud-stream/docs/Chelsea.BUILD-SNAPSHOT/reference/htmlsingle/index.html"
+          ]
+        }
+      },
+      {
+        "id": 2018015,
+        "twitter": "ydarias",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/801075848958844929/3ymeY1Gg_400x400.jpg",
+        "nombre": "Yeray Darias ",
+        "experiencia": {
+          "title": "No somos el puto Netflix!!!  ",
+          "why": "Hoy en día el diseño de referencia cuando se crea una nueva plataforma, sistema, whatever son los microservicios. Se ha convertido en el standard de facto, y los monolitos ahora sólo son meros ciudadanos de segunda que la gente mira mal cuando pasan por delante. ¿Pero de verdad necesitas microservicios? ¿Sabes cuánto cuesta construir una plataforma de este tipo? ¿Crees que escala chascando los dedos y no cuesta nada?",
+          "when": "Esta técnica se aplica cuando te viene la gestión que la última línea de código que escribió lo hizo con Java 1.2 y te pide que hay que hacer microservicios.",
+          "how": "No tengo links ... por ahora, pero hay muchas referencias a esta técnica.",
+          "links": []
+        }
+      },
+      {
+        "id": 2018029,
+        "twitter": "xala3pa",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/971487175907913728/jYZ3eOYD_400x400.jpg",
+        "nombre": "Alvaro Salazar",
+        "experiencia": {
+          "title": "Kafka, Cloud Foundry and Concourse",
+          "why": "Kafka crear asincronía entre servicios. CF y Concourse para mejorar la productividad del equipo.",
+          "when": "Aplicación legacy con \"microservicios\" acoplados al compartir la BBDD",
+          "how": "https://kafka.apache.org/\nhttps://www.cloudfoundry.org/\nhttp://www.kennybastani.com/2016/04/event-sourcing-microservices-spring-cloud.html",
+          "links": [
+            "https://kafka.apache.org",
+            "https://cloudfoundry.org",
+            "http://kennybastani.com/2016/04/event-sourcing-microservices-spring-cloud.html"
+          ]
+        }
+      },
+      {
+        "id": 2018030,
+        "twitter": "sjimenezmateo",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/900031410542706688/T7TWINaJ_400x400.jpg",
+        "nombre": "Sergio Jiménez Mateo",
+        "experiencia": {
+          "title": "Back to the future: no siempre estar con las últimas tecnologías da la felicidad. Usando Java (Backend y Restfull), Mysql, Mongo, etc... aplicado a la Industria 4.0",
+          "why": "El objetivo es que funcione todo y ser eficiente y controlar todo todo, cosa que con tecnologías últimas y siempre \"evolucionando\" no lo podríamos tener. Al estar cerca de la industria tenemos que poder \"hablar\" con toda su infraestructura y bastante de ello tiene tecnología antigua pero robusta y nos tenemos que amoldar. También la fiabilidad que nos da lo que usamos es extrema.",
+          "when": "Como comentaba, el contexto es fácil : Industria 4.0. No necesitamos tener las últimas tecnologías, lo que es necesario es robustez y que todo funciona 365 días sin cortes. Además, tenemos 2 partes: hardware con firmware y web. En la primera no es necesario lo último porque a veces no tienen soporte para el hardware y en la segunda hay algo más de \"últimas tecnologías\" pero sin pasarse.",
+          "how": "No hay links clave. Las tecnologías descritas tienen mil enlaces.",
+          "links": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Product owning",
+    "asistentes": [
+      {
+        "id": 2018006,
+        "twitter": "ladypain",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/937787824010612736/iYyD3tIz_400x400.jpg",
+        "nombre": "Marta Manso de las Heras",
+        "experiencia": {
+          "title": "Badass Product Owning",
+          "why": "He visto a gente flaquearle las piernas hablando con el cliente, como si fuera un ente superior… no sé por qué. En mi curro anterior era developer pero trataba con cliente. Un cliente tocho y con motivos pérdidas de millones por los que quejarse si algo no funcionaba. Así que… eran intensitos. Como desarrolladora es fácil que el cliente te toque los pies con peticiones absurdas... así que te apetecía ponerte un poco badass con ellos cuando no era lógico lo que pedían… Nunca vi al cliente como un ente intocable si como a un compañero a veces complicado de gestionar. Y me ha ido realmente bien… soy super paciente, super respetuosa y educada… pero si juntas eso con no dejar que traspasen tus límites, en mi experiencia te respetan aún más y la relación mejora muchísimo. Así que por si alguien aún no lo hace así... os puedo contar mis formas :) \n",
+          "when": "Aplica si hablas mucho con el cliente... Si eres parte de la decisión de qué es más importante que qué o qué debe salir antes o en qué hay que invertir esfuerzo. Aplica si el cliente a veces se sale con la suya y acabas comprometiendo a tu equipo a hacer algo que no querías o en un tiempo que tú no hubieras puesto o de una manera que no os hace sentir orgullosos.",
+          "how": "Es de cosecha propia :) Pero una buena educación sobre lo que hace o cómo prioriza un product owner también puede aplicar. https://vanesatejada.com/2015/03/22/herramientas-de-priorizacion-no-porque-entonces/",
+          "links": [
+            "https://vanesatejada.com/2015/03/22/herramientas-de-priorizacion-no-porque-entonces"
+          ]
+        }
+      },
+      {
+        "id": 2018017,
+        "twitter": "jorgeuriarte",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/465627689316278273/IwNqQH3D_400x400.png",
+        "nombre": "Jorge Uriarte",
+        "experiencia": {}
+      },
+      {
+        "id": 2018022,
+        "twitter": "itortv",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/908728872769908737/MkqSb991_400x400.jpg",
+        "nombre": "Jordi Marti",
+        "experiencia": {
+          "title": "(1) Cómo hacer apps conversacionales para Google Assistant - RIC Escape (2) Cómo hacer que un equipo trabaje con TDD (3) Aprendiendo a trabajar en un equipo desde cero (4) Tooché - Montando un side project pero tomándomelo en serio ",
+          "why": "(1) Quería hacer un piloto sobre qué posibilidades trae Google Assistant: ¿Qué se puede hacer con Google Home? \n(2) Creo que realmente hacer TDD es complicado. Mi propio viaje personal me ha ayudado a reflexionar sobre cómo ayudar a otros equipos a hacerlo (lo he aplicado con dos equipos en la empresa, pero no significa que lo haya conseguido XD)\n(3) En los últimos años hemos tenido bastantes rotaciones, y en el último año he tenido la oportunidad de enfocarme en sacar adelante, junto a otros compañeros, un equipo. Muchas reflexiones y aprendizajes en el camino.\n(4) Quería hacer un side project que involucrara a mis sobrinos y además me enseñara a enfocar un producto desde cero con total independencia, y además, quería experimentar qué tracción conseguía si abría el proceso de desarrollo al mundo  desde el principo.",
+          "when": "(1) No tenía ni idea de qué se podía hacer. Quería experimentar y hacer algo útil con Google Assistant.\n(2) Si se quiere empezar a hacer TDD; pero no sabes cómo empezar.\n(3) Cuando necesitas montar el equipo, varios sois nuevos y tenéis la posibilidad de auto organizaros. \n(4) Un desarrollador web que quiere probar a hacer un juego y compartir el proceso",
+          "how": "(1) https://developers.google.com/actions/dialogflow/first-app\n(2) https://drive.google.com/drive/u/0/folders/0B5V6zjUzJ7TDZkZNQUd2eUFVQ0U\n(3) No sé muy bien para qué es el link, pero en teoría es privado -> https://medium.com/@itortv/a-team-journey-ep-1-un-nuevo-comienzo-ccc552ef6b21\n(4) https://twitter.com/itortv/status/961715774753857536",
+          "links": [
+            "https://developers.google.com/actions/dialogflow/first-app",
+            "https://drive.google.com/drive/u/0/folders/0B5V6zjUzJ7TDZkZNQUd2eUFVQ0U",
+            "https://medium.com/@itortv/a-team-journey-ep-1-un-nuevo-comienzo-ccc552ef6b21",
+            "https://twitter.com/itortv/status/961715774753857536"
+          ]
+        }
+      },
+      {
+        "id": 2018051,
+        "twitter": "JimenaMramos",
+        "vienede": "",
+        "foto": "https://pbs.twimg.com/profile_images/378800000858447725/YqAFNvCr_400x400.jpeg",
+        "nombre": "Jimena Martínez",
+        "experiencia": {
+          "title": "\"De la necesidad del usuario a la feature request\"",
+          "why": "Durante los últimos años en mi vida profesional siempre he tenido presente la problemática de \"entender realmente lo que necesita el usuario\", con el objetivo de trasladarlo al equipo de producto, de encontrar oportunidades de negocio o de mejorar los procesos internos de la empresa. En mi actual trabajo, parte de mi cometido es buscar soluciones que hagan ese \"camino de la información\" más fácil, sencillo y entendible por todos: desde cómo obtener la información adecuada del usuario, hasta cómo el equipo de desarrollo interpreta esa información, pasando por cómo se comunica y transfiere internamente (equipos de soporte, soluciones, customer success, etc.) Esto requiere coordinar y alinear las perspectivas de diferentes personas con una visión muy diferente del mismo producto, de las necesidades y experiencia del usuario y de las potenciales oportunidades de negocio.",
+          "when": "Esta \"idea\" es algo que está presente durante todo el ciclo de venta (incluyendo pre y post venta) y asimilación posterior en el roadmap de producto. Creo que debería ser un proceso transversal que estuviera presente en cada deal, release o modificación de un producto que interactúe con usuarios. Ahorraría recursos, mediocre UX y churn.",
+          "how": "De momento estamos explorando con una combinación de Salesforce, Supportbee, GitHub, GDrive. También este link interesante:\nhttps://m.signalvnoise.com/a-new-approach-to-feature-requests-21bea562c083\nPero aún estoy en ello ;)",
+          "links": [
+            "https://m.signalvnoise.com/a-new-approach-to-feature-requests-21bea562c083"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Personas y equipos",
+    "asistentes": [
+      {
+        "id": 2018007,
+        "twitter": "fran_mosteiro",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/960181039799918592/XhrHGDf7_400x400.jpg",
+        "nombre": "Fran Mosteiro",
+        "experiencia": {
+          "title": "Empoderar a tu equipo técnico. El \"Método Hulk\"",
+          "why": "Trabajas en un equipo eminentemente técnico. Sus capacidades como desarrolladores de software, son muy buenas, sobresalientes, incluso. Dominan el backend, el frontend y no tienen mayor problema por enfrentarse a nuevos retos técnicos cada día. Pero ….. necesitan “que les den permiso” o que les marquen la dirección en cuanto a tomar decisiones de negocio, de arquitectura o incluso “personales” se refiere.\n\n¿Cómo deshacer ese nudo gordiano?\n¿Cómo conseguir que todo el equipo tenga una responsabilidad común sobre?\n- El producto que desarrollan\n- La infraestructura que los soporta\n- Los problemas (incluso personales) del equipo\n- Decir que sí y decir que no ante debates internos importantes para el equipo/negocio \n- Participar de las decisiones del equipo como si el negocio fuese suyo \n- Verse cómo algo más que músculo técnico\n\nEn definitiva,  cómo hacer que desarrolladores con experiencia pero con sesgos/prejuicios y experiencias en consultoras al uso, consigan verse como un equipo y empoderarlos para que actúen como algo más que programadores.\n\nTarea ardua y complicada ... si no fuese porque es el \"Método Hulk\" =)",
+          "when": "- Ante una situación en la que tu empresa pretende que su equipo técnico se convierta o simplemente sea parte core o importante de tu negocio.\n- Si pretendes que tu equipo técnico de un paso más allá a lo meramente técnicos se imbuya también en el negocio. Se implique en el día a día de la toma de decisiones relevantes y se sienta parte de ellas.\n- Si crees que cuanta más gente aporta a tu negocio (contextualizado cuando corresponda) mejor será la solución que portas al mercado. Menos sesgada.",
+          "how": "https://www.youtube.com/watch?v=t_z_-aHIFWI&t=26s&index=7&list=PLKxa4AIfm4pVVRXkUvrYNB_eYn0wWAa3r\nhttps://www.youtube.com/watch?v=xCu_T0iRvsA",
+          "links": [
+            "https://youtube.com/watch?index=7&list=PLKxa4AIfm4pVVRXkUvrYNB_eYn0wWAa3r&t=26s&v=t_z_-aHIFWI",
+            "https://youtube.com/watch?v=xCu_T0iRvsA"
+          ]
+        }
+      },
+      {
+        "id": 2018019,
+        "twitter": "ziraco",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/969526453950930944/14BuJ2Oo_400x400.jpg",
+        "nombre": "Xabier Sáez de Ocáriz",
+        "experiencia": {
+          "title": "Matriz de competencias",
+          "why": "Visualizar:\n-  Qué capacidades tiene que tener el equipo en su conjunto en base a los servicios que ofrece hacia afuera (Ej: Desarrollo, gestión de infraestructuras, soporte, gestión de proveedores, etc) \n- Cómo están distribuido el conocimiento y las capacidades (y, por tanto, la carga de responsabilidad) dentro del equipo. \n\nCon este trabajo en común detectamos áreas de aprendizaje, riesgos de silos de aprendizaje. \n\nAlineamiento entre las diferentes visiones.",
+          "when": "Equipo pequeño (1 PO + 3 Desarrolladores), recién formado (1 mes) con diferentes perfiles de \"veteranía en el producto\", desde 3 años a 1 mes. \nImportante un ambiente de \"ausencia de juicio\" (No sé cómo expresarlo mejor) ",
+          "how": "- https://theitriskmanager.wordpress.com/2013/11/24/introducing-staff-liquidity-1-of-n/\n- https://www.linkedin.com/pulse/20141020101636-18398652-why-your-teams-competency-matrix-may-not-match-reality-and-how-to-fix-it/\n- https://management30.com/practice/competency-matrix/\n",
+          "links": [
+            "https://theitriskmanager.wordpress.com/2013/11/24/introducing-staff-liquidity-1-of-n",
+            "https://linkedin.com/pulse/20141020101636-18398652-why-your-teams-competency-matrix-may-not-match-reality-and-how-to-fix-it",
+            "https://management30.com/practice/competency-matrix"
+          ]
+        }
+      },
+      {
+        "id": 2018024,
+        "twitter": "diana_aceves_",
+        "vienede": "Valladolid",
+        "foto": "https://pbs.twimg.com/profile_images/3653485339/9b55064607e837f5bd3a4a5a8763a725_400x400.jpeg",
+        "nombre": "Diana Aceves",
+        "experiencia": {
+          "title": "Trabajo en remoto desde casa",
+          "why": "Ai dont nou güat tu sei hier",
+          "when": "Ai dont nou güat tu sei hier",
+          "how": "Ai dont nou güat tu sei hier (jajajaja! sorry) :-/",
+          "links": []
+        }
+      },
+      {
+        "id": 2018034,
+        "twitter": "joserobleda",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/865543068845449216/1D13ftZ1_400x400.jpg",
+        "nombre": "Jose Ignacio Andrés",
+        "experiencia": {
+          "title": "scrum + añadidos",
+          "why": "Mejorar nuestro workflow",
+          "when": "Trabajo en equipo, especialmente en equipos de desarrollo",
+          "how": "paso 1: leer los capítulos que más te interesen de \"scrum: the field guide\"\npaso 2: poner en práctica desde el día 0 lo aprendido\npaso 3: iterar",
+          "links": []
+        }
+      },
+      {
+        "id": 2018038,
+        "twitter": "eferro",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/378800000201347202/03bef1fe4f818c98f4d637d9f949dae9_400x400.jpeg",
+        "nombre": "Eduardo ferro",
+        "experiencia": {
+          "title": "Ultimamente estoy usando (no se si correctamente) A3 thinking de Toyota",
+          "why": "Al entrar a Nextail (y al final de la época de TheMotion) tenia que realizar cambios, mejoras, eliminar problemas que eran dificiles de planificar y que eran de larga duración (eliminar un bottleneck en el sistema, mejorar una práctica, motivación, etc) y los A3 me ayudan a poder tener una visión clara mientras voy dando pasos pequeños. Dejando muy claro en el proceso que NO tenemos ni puta idea y que todo son experimentos.",
+          "when": "Cambio grande en duración / trasversal / difuso y dificil de medir. Artefacto alineado con Lean / systerm thinking / Lean startup y con el craftmanship.",
+          "how": "https://www.crisp.se/gratis-material-och-guider/a3-template https://en.wikipedia.org/wiki/A3_problem_solving https://www.toolshero.com/problem-solving/a3-thinking/",
+          "links": [
+            "https://crisp.se/gratis-material-och-guider/a3-template",
+            "https://en.wikipedia.org/wiki/A3_problem_solving",
+            "https://toolshero.com/problem-solving/a3-thinking"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Coding 1",
+    "asistentes": [
+      {
+        "id": 2018018,
+        "twitter": "regiluze",
+        "vienede": "La Rioja",
+        "foto": "https://pbs.twimg.com/profile_images/849605137551286272/1ZJ2cvmj_400x400.jpg",
+        "nombre": "Rubén Eguiluz",
+        "experiencia": {
+          "title": "Interaction driven design (IDD)",
+          "why": "En el equipo habíamos oído sobre esta arquitectura, y nos llamó mucho la atención. Hace un par de años empezamos un nuevo proyecto y decidimos probar esta técnica. La verdad es que la experiencia ha sido muy positiva y estamos muy contentos con esta decisión.",
+          "when": "Esta técnica creo que aplicaría en cualquier proyecto backend con cierta envergadura",
+          "how": "https://codurance.com/2017/12/08/introducing-idd/\nhttps://www.youtube.com/watch?v=n3hOS0Cj5Mc",
+          "links": [
+            "https://codurance.com/2017/12/08/introducing-idd",
+            "https://youtube.com/watch?v=n3hOS0Cj5Mc"
+          ]
+        }
+      },
+      {
+        "id": 2018027,
+        "twitter": "wricka69",
+        "vienede": "Pamplona",
+        "foto": "https://pbs.twimg.com/profile_images/907347484158119936/900GL8lu_400x400.jpg",
+        "nombre": "Iker Mariñelarena ",
+        "experiencia": {
+          "title": "Unit testing",
+          "why": "Por conseguir un  código más flexible en el que realizar cambios no sea un problema. Por velocidad. Porque me ayuda a desacoplarme. Porque me ayuda a pensar lo que estoy haciendo. ",
+          "when": "Unit testing en mi casa en prácticamente todo lo que programo. A no ser que sea alguna prueba o experimento. ",
+          "how": "Uuumm...lo dicho anteriormente en prácticamente cualquier caso... Pero por poner un ejemplo: http://codingdojo.org/kata/FizzBuzz/ :) ",
+          "links": [
+            "http://codingdojo.org/kata/FizzBuzz"
+          ]
+        }
+      },
+      {
+        "id": 2018035,
+        "twitter": "rodri_rod",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/583224365912854528/UIYLAs3B_400x400.jpg",
+        "nombre": "Rodrigo Gómez",
+        "experiencia": {
+          "title": "Metodología: Implantación de DDD a nivel de toda la empresa",
+          "why": "Me parece interesante el resultado que se llega a obtener en empresas de producto, ya que viene a resolver la desconexión que se va produciendo en los distintos departamentos de las empresas a lo largo que los mismos van evolucionando/creciendo.\nTambién a nivel técnico, aunque no es totalmente necesario, suele ir ligado de metodologías y patrones de diseño que implican que el código y el lenguaje usado en la empresa, se exprese de la misma manera.",
+          "when": "El momento de aplicar estas técnicas diría que es en el momento que empieza a ser clave, y es, el momento que la empresa/departamentos van creciendo y evolucionando, para que con el paso del tiempo no se produzcan desconexiones.",
+          "how": "Lo más conocido los dos libros, que más desarrollan este tema:\nhttps://www.amazon.es/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577\nhttps://www.amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215",
+          "links": [
+            "https://amazon.es/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577",
+            "https://amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215"
+          ]
+        }
+      },
+      {
+        "id": 2018043,
+        "twitter": "dani_latorre",
+        "vienede": "Zaragoza",
+        "foto": "https://pbs.twimg.com/profile_images/937776489797423105/FdUGhAeA_400x400.jpg",
+        "nombre": "Dani Latorre",
+        "experiencia": {
+          "title": "IDD con arquitecturas limpias / Cucumber como herramienta de colaboración / Desacoplando de tu framework JS favorito ",
+          "why": "Las 3 cosas son básicamente para hacer mejor software y software mejor.",
+          "when": "En proyectos hechos \"para que duren\". Que requieran mantenimiento en el tiempo, flexibilidad/cambiabilidad... Supongo que en \"cualquiera\" de cierta envergadura o prototipos rápidos",
+          "how": "No tengo muy claro qué links poner, así que aquí van un par sobre el que se sustentan los 2 primeros temas.\nhttp://www.ustream.tv/recorded/61480606\nhttps://gojko.net/books/specification-by-example/\n\nDel tercero no sé, más allá de las charlas que hicimos con Néstor y Gualis XD",
+          "links": [
+            "http://ustream.tv/recorded/61480606",
+            "https://gojko.net/books/specification-by-example"
+          ]
+        }
+      },
+      {
+        "id": 2018016,
+        "twitter": "juanignaciosl",
+        "vienede": "Valladolid",
+        "foto": "https://pbs.twimg.com/profile_images/671303301816799232/gkX7Tnw9_400x400.png",
+        "nombre": "Juan Ignacio Sánchez Lara",
+        "experiencia": {
+          "title": "Testing sobre Ruby on Rails",
+          "why": "Porque no queda otro remedio xD. Mantenemos la aplicación central de CARTO, responsable de Builder. Esencialmente, APIs REST de metadatos sobre las visualizaciones. Ruby on Rails (y en parte Ruby) sin tests es algo inmantenible (incluso con ellos lo es).",
+          "when": "En básicamente todas las PRs, en general no damos de paso una pull request sin tests.",
+          "how": "Meh, es algo bastante estándar. Por destacar algo, usamos zeus para que arranque más rápido: https://github.com/burke/zeus",
+          "links": [
+            "https://github.com/burke/zeus"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Coding 2",
+    "asistentes": [
+      {
+        "id": 2018039,
+        "twitter": "benatespina",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/674974182988496896/prjrcUgC_400x400.png",
+        "nombre": "Beñat Espina",
+        "experiencia": {
+          "title": "Domain-Driven Design",
+          "why": "Es un conjunto de técnicas y patrones para hacer un mejor código muy alineado con los requisitos de negocio. Trabajo en una empresa muy orientada al marketing y trabajar bien alineados con los requisitos de negocio nos hace ser más ágiles.",
+          "when": "Este enfoque aplica cuando tenemos una alta carga de requisitos funcionales, si nuestro producto no contiene mucha lógica de negocio, Domain-Driven Design puede implicar una sobreingeniería injustificable.",
+          "how": "https://martinfowler.com/tags/domain%20driven%20design.html\nhttps://www.youtube.com/watch?v=dDofYAOkpts&t=6592s",
+          "links": [
+            "https://martinfowler.com/tags/domain%20driven%20design.html",
+            "https://youtube.com/watch?t=6592s&v=dDofYAOkpts"
+          ]
+        }
+      },
+      {
+        "id": 2018009,
+        "twitter": "nhpatt",
+        "vienede": "Valladolid",
+        "foto": "https://pbs.twimg.com/profile_images/1210256780/avatar_400x400.jpg",
+        "nombre": "Javier Gamarra",
+        "experiencia": {
+          "title": "Diseño de APIs públicas para librerías, funcional con java, hypermedia, kotlin... Me quedo con diseño de APIs -> API-Tradeoffs",
+          "why": "API-Tradeoffs -> crear una librería fácil de usar por desarrolladores, tipada, guiada y que no exponga internals pero al mismo tiempo sea expresiva y me permita crear APIs hypermedia. El objetivo es balancear economics: que el desarrollo de la librería sea rápido y reaccione a cambios de prioridad y necesidades de equipos pero al mismo tiempo sea fácil de usar y tipada. Con restricciones: soportar APIs existentes, Java...",
+          "when": "Aplica a la hora de diseñar una librerías/APIs.",
+          "how": "Pasapalabra :)",
+          "links": []
+        }
+      },
+      {
+        "id": 2018020,
+        "twitter": "pabloalbizu",
+        "vienede": "Pamplona",
+        "foto": "https://pbs.twimg.com/profile_images/874041840005255169/dlZ84a18_400x400.jpg",
+        "nombre": "Pablo Albizu",
+        "experiencia": {
+          "title": "Cómo trabajar con un código/equipo legado",
+          "why": "El objetivo era trabajar y acompañar a un equipo con un proyecto ya construido y que generaba pasta para ayudarles a mejorar la forma que tenían de construir software. Ese proceso implicaba reducir la deuda, formar a las personas del equipo sin olvidar el lanzar nuevas funcionalidades.",
+          "when": "Principales técnicas de trabajo con código legado recogidas mayoritariamente en el libro Working With Legacy Code así cómo parallel change, técnicas generales de refactoring, clean code, buenas prácticas, TDD, testing, etc.",
+          "how": "https://www.amazon.es/dp/B005OYHF0A/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1\nhttps://www.youtube.com/watch?v=aKcmbOZV9mA",
+          "links": [
+            "https://amazon.es/dp/B005OYHF0A/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
+            "https://youtube.com/watch?v=aKcmbOZV9mA"
+          ]
+        }
+      },
+      {
+        "id": 2018023,
+        "twitter": "jacegu",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/628125898001113088/-V8rbhO2_400x400.jpg",
+        "nombre": "Javier Acero",
+        "experiencia": {
+          "title": "(Parallel change), de Chargify a Stripe sin perder un céntimo",
+          "why": "Cambiar de un proveedor de pagos a otro y seguir cobrando todos los días",
+          "when": "A aplicar cuando quieres cambiar la interfaz de una clase o sistema que tiene clientes actualmente y estos cambios no son compatibles con la interfaz actual del sistema. Necesitas una manera estructurada y segura para migrar los clientes de una versión de la interfaz a la siguiente y parallel change es una manera de conseguirlo.",
+          "how": "https://martinfowler.com/bliki/ParallelChange.html, http://www.tddfellow.com/blog/2016/07/31/parallel-change-refactoring/",
+          "links": [
+            "https://martinfowler.com/bliki/ParallelChange.html,",
+            "http://tddfellow.com/blog/2016/07/31/parallel-change-refactoring"
+          ]
+        }
+      },
+      {
+        "id": 2018042,
+        "twitter": "nestorsalceda",
+        "vienede": "Zaragoza",
+        "foto": "https://pbs.twimg.com/profile_images/894206073883721728/l_t7xMK5_400x400.jpg",
+        "nombre": "Nestor Salceda",
+        "experiencia": {
+          "title": "Arquitectura Hexagonal + Outside In",
+          "why": "Huir del framework. \n\nLa velocidad con la que cambia la tecnología es diferente a la velocidad a la que cambian los negocios. ¿Recuerdas cuando salió el último framework Javascript? Compáralo ahora con cuando cambió el IVA en este país.\n\nMuchas veces nos vemos forzados a rehacer trabajo por tener que estar a la último con un determinado framework web.  ¿Recuerdas todo el valor aportaste al migrar de Rails 2 a Rails 3? \n\nEmpezar por el valor de negocio, y después conectarlo a los mecanismos de entrega.",
+          "when": "Desarrollo de aplicaciones en general.",
+          "how": "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/",
+          "links": [
+            "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together"
+          ]
+        }
+      },
+      {
+        "id": 2018044,
+        "twitter": "apa42",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/979679562647920640/JMfdwpsw_400x400.jpg",
+        "nombre": "Alberto (APA)",
+        "experiencia": {
+          "title": "Practica con katas enfocadas a tus necesidades",
+          "why": "Para practicar python + TDD con dobles\nAdemás, generas una utilidad para al equipo",
+          "when": "Usadas cuando los nuevos miembros del equipo no están en pair con otros miembros.",
+          "how": "Se puede hacer en solitario o en parejas.\nDamos tiempo en el horario laboral para realizarlo, aunque se empezó como un extra de las vacaciones :-)",
+          "links": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Cloud",
+    "asistentes": [
+      {
+        "id": 2018004,
+        "twitter": "aloaisa",
+        "vienede": "Valladolid/Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/378800000419113837/bdbf19ad7150001b78aedeccce5010d3_400x400.jpeg",
+        "nombre": "Álvaro García Loaisa",
+        "experiencia": {
+          "title": "Subcontratar servicios que te hacen la vida más fácil",
+          "why": "Definir una arquitectura que nos ayudase a solucionar un problema complejo de la manera más automatizada posible. \nTeníamos un API con unos datos que se actualizaban de una vez, con un preprocesamiento bastante pesado. Teníamos el requisito de mantener en modo backup las anteriores cargas de datos para tenerlas disponibles al momento por si la carga nueva tenía algún problema. Teníamos el añadido de que el tiempo de respuesta fuera ínfimo, cosa que solucionamos con una carga en memoria de todos los datos procesados (64GB de Ram de datos...)\n\nPara solucionar todo esto usamos varios servicios de AWS como Lambdas, ECS, Cloudformation, y el sdk para Java. Nos atamos muchísimo a AWS pero el cliente quedó encantado con la solución y su rendimiento.",
+          "when": "Cuando al cliente no le importe atarse a una tecnología concreta (AWS en este caso) y acepte el gasto de esta. Si el equipo es pequeño y los tiempos de entrega cortos.",
+          "how": "https://aws.amazon.com/es/\nhttps://cloud.google.com/\nhttps://azure.microsoft.com/es-es/",
+          "links": [
+            "https://aws.amazon.com/es",
+            "https://cloud.google.com",
+            "https://azure.microsoft.com/es-es"
+          ]
+        }
+      },
+      {
+        "id": 2018005,
+        "twitter": "tinproject",
+        "vienede": "Valladolid",
+        "foto": "https://pbs.twimg.com/profile_images/783306193133506561/OsUy99W2_400x400.jpg",
+        "nombre": "Agustín Herranz",
+        "experiencia": {
+          "title": "Pipeline para generar imáges (AMIs) de maquinas virtuales.",
+          "why": "Automatizar y hacer repetible, y testeado, la personalización de imágenes sobre las que crear maquinas virtuales. También el tardar menos y ser más agiles a la hora de actualizar dependencias y sistemas.\nEs la típica 'bakery' con packer. En mi caso en AWS con AMIs, usando Ansible u testinfra para el testing, pero también se puede hacer con otros provedores Cloud y/o hypervisores, y con otras maneras para hacer Configuration manegement.",
+          "when": "Si queremos usar infraestructura como código, y tratamos de acercarnos a una infraestructura inmutable necesitamos un pipeline que se encargue de construir y testear los artefactos necesarios, en este caso las imágenes (AMIs/plantillas) sobre las que inicializar máquinas virtuales.",
+          "how": "https://www.packer.io/guides/packer-on-cicd/index.html\nhttps://thenewstack.io/bakery-foundation-container-images-microservices/\nhttps://keithmsharp.wordpress.com/2017/06/12/devops-on-aws-building-an-ami-bakery/",
+          "links": [
+            "https://packer.io/guides/packer-on-cicd/index.html",
+            "https://thenewstack.io/bakery-foundation-container-images-microservices",
+            "https://keithmsharp.wordpress.com/2017/06/12/devops-on-aws-building-an-ami-bakery"
+          ]
+        }
+      },
+      {
+        "id": 2018012,
+        "twitter": "chewiebrian",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/2416367125/V3muY2M1_400x400",
+        "nombre": "Fernando Gil",
+        "experiencia": {
+          "title": "Todo tecnosexualidad: serverless, docker, devops",
+          "why": "Busco tecnologías que me faciliten la vida y si es posible que reduzcan costes de implantación/mantenimiento. Muchas veces un requisito oculto que tengo es reducir costes (y prácticamente siempre calendarios ajustados). También ocurre que necesito entornos reproducibles con un hardware muy cambiante.",
+          "when": "Mayormente desarrollos a medida donde yo pongo el stack (no suelo tener requisitos al respecto). Docker sobre todo en despliegues locales, para evaluar herramientas o en entornos de desarrollo o controlados. Hace poco tuve un caso de uso para la distribución de un software bastante complicado de compilar/instalar.",
+          "how": "Para serverless, los mismos quickstart que da Amazon en su docu son un punto de partida. Hay toolkits (que no he probado) como https://serverless.com/ o https://claudiajs.com/ que facilitan las cosas. Para dockerizar, siempre va todo a medida asi que es difícil concretar, pero suelo basarme en https://github.com/phusion/baseimage-docker . La docu oficial da mucha info extra.",
+          "links": [
+            "https://serverless.com",
+            "https://claudiajs.com",
+            "https://github.com/phusion/baseimage-docker"
+          ]
+        }
+      },
+      {
+        "id": 2018031,
+        "twitter": "patoroco",
+        "vienede": "Valladolid",
+        "foto": "https://pbs.twimg.com/profile_images/865883926182625282/Jkd9LGp8_400x400.jpg",
+        "nombre": "Jorge Maroto",
+        "experiencia": {
+          "title": "Hemos usado bastante docker, AWS y migramos a Google App Engine. Esto ha mejorado mucho mucho nuestra calidad de vida a la hora de desarrollar :)",
+          "why": "Sobre todo cambiar del modelo IaaS hacia un PaaS que nos permita centrarnos en el desarrollo de producto.",
+          "when": "Hubieron bastantes salidas en el equipo, y como la gente nueva necesitaba coger know how de todo, se decidió tratar de quitar complejidad a la infraestructura, ya que no contamos (ni nunca lo hemos tenido) con equipo de sistemas propiamente dicho.",
+          "how": "https://cloud.google.com/appengine/docs/flexible/",
+          "links": [
+            "https://cloud.google.com/appengine/docs/flexible"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Mobile",
+    "asistentes": [
+      {
+        "id": 2018010,
+        "twitter": "endikabatura",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/850375654155616260/D6W5bJxn_400x400.jpg",
+        "nombre": "Endika García",
+        "experiencia": {
+          "title": "Zeplin, o Demos",
+          "why": "En el caso de Zeplin, porque nos facilita muchísimo el paso del material de diseño al equipo de programación.\nEn el caso de las Demos, por muchos motivos, para aumentar la consciencia del equipo de lo que cuesta conseguir las cosas, trabajar la empatía con el cliente, con el comercial, etc, para poner en valor el trabajo realizado, dar visibilidad a las mejoras implementadas dentro de la empresa, tener más cuidado con los fallos y no dar por terminadas las cosas a la ligera, ...",
+          "when": "Zeplin, durante el desarrollo de una app (Al menos para móviles)\nDemo Al terminar un proyecto, o parte de un proyecto, presentable, que se pueda considerar terminado.",
+          "how": "https://zeplin.io/\nhttps://www.inc.com/geoffrey-james/give-a-great-product-demo-5-rules.html",
+          "links": [
+            "https://zeplin.io",
+            "https://inc.com/geoffrey-james/give-a-great-product-demo-5-rules.html"
+          ]
+        }
+      },
+      {
+        "id": 2018025,
+        "twitter": "xabiamu",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/860412518174511104/2d4cet8i_400x400.jpg",
+        "nombre": "Xabier Amutxastegi",
+        "experiencia": {
+          "title": "Nativescript: Desarrollo de apps para web developers",
+          "why": "Disclaimer: Este último año esta siendo muy raro y con bastantes cambios, por lo tanto hablaré con lo que mas tiempo he estado.\n\nEl objetivo era para un cliente con una plataforma web, con desarrolladores web y un sindios de aplicaciones nativas e hibridas para iOS y Android prácticamente todas externalizadas.  La idea era matar con un disparo varios pájaros: tener una base de código común para iOS y Android, que la aplicación pareciera nativa, que su equipo pudiera mantener y extender la app y poder realizar marcas blancas de la aplicación con la misma base de código.",
+          "when": "Cuando tienes conocimientos web y quieres \"reuitilizar' dichos conocimientos como Javascrpt, Typescript o Angular para hacer aplicaciones que luzcan como nativas en Android e iOS. Tengo que advertir que la vista (HTML+CSS) son conocimientos que no se pueden reciclar y hay que aprender la forma especifica con la que se hace la UI en Nativescript.",
+          "how": "https://www.nativescript.org/\nhttps://github.com/DeviantJS/awesome-nativescript",
+          "links": [
+            "https://nativescript.org",
+            "https://github.com/DeviantJS/awesome-nativescript"
+          ]
+        }
+      },
+      {
+        "id": 2018037,
+        "twitter": "",
+        "vienede": "Donosti",
+        "foto": "",
+        "nombre": "Sara Ortega Muñoz",
+        "experiencia": {
+          "title": "Swift en iOS",
+          "why": "Este último año ha sido muy raro. He estado prácticamente sin trabajo en la empresa hasta que lógicamente fui despedida. Cuando tenía trabajo principalmente desarrollaba aplicaciones web para clientes en un entorno LAMP y con un framework propio de la empresa (!). Ahora estoy en el paro y soy feliz aprendiendo Swift en iOS ",
+          "when": "Para crear apps nativas en iOS frente a desarrollar en Objective-C porque Swift es el nuevo lenguaje de referencia para el desarrollo en iOS y ya sabemos como se las gasta Apple con lo viejo.",
+          "how": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html\n",
+          "links": [
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html"
+          ]
+        }
+      },
+      {
+        "id": 2018045,
+        "twitter": "itziarl",
+        "vienede": "Pamplona",
+        "foto": "https://pbs.twimg.com/profile_images/969600182454235138/cERO8atc_400x400.jpg",
+        "nombre": "Itziar López",
+        "experiencia": {
+          "title": "Generación y lectura de códigos de barras mediante una app móvil para gestionar los productos de un almacén.",
+          "why": "El objetivo era generar y mantener actualizado el stock de productos de un almacén y poder llevarlo a cabo mediante el escaneo de los códigos de barras de los productos, de cuya generación también nos ocupábamos nosotras.\nEl sistema de gestión en el que se registran dichos movimientos de almacén está desarrollado con symfony y la app mediante la que se escanean los códigos de barras de momento sólo la tenemos terminada para iOS (Objective-C) y estamos desarrollándola para Android.",
+          "when": "Nos plantemos comprar un lector de códigos de barras para que los escaneos funcionaran de la forma más eficiente posible pero finalmente nos decantamos por desarrollar una app móvil para ello para poder comunicarnos con el sistema de gestión mediante una API propia y también para que estos escaneos pudieran realizarse fuera del almacén ya que, a veces, parte del stock sale a ferias, etc. De esta manera, desarrollamos un sistema y su comunicación a medida de nuestras necesidades específicas.\n",
+          "how": "Nos plantemos comprar un lector de códigos de barras para que los escaneos funcionaran de la forma más eficiente posible pero finalmente nos decantamos por desarrollar una app móvil para ello para poder comunicarnos con el sistema de gestión mediante una API propia y también para que estos escaneos pudieran realizarse fuera del almacén ya que, a veces, parte del stock sale a ferias, etc. De esta manera, desarrollamos un sistema y su comunicación a medida de nuestras necesidades específicas.",
+          "links": []
+        }
+      },
+      {
+        "id": 2018046,
+        "twitter": "iusTo",
+        "vienede": "Pamplona",
+        "foto": "https://pbs.twimg.com/profile_images/777856317935484928/FuGNKfo8_400x400.jpg",
+        "nombre": "Usue Napal",
+        "experiencia": {
+          "title": "BLE en iOS",
+          "why": "El trabajo con BLE se distribuyó entre dos proyectos. En uno el objetivo era la comunicación entre la app de iOS y unos mandos copiadores para realizar copias de mandos de garaje. En la otra era la comunicación entre la app de iOS y Beacons, que permitían la distribución de ofertas personalizadas por usuario.",
+          "when": "En ambos proyectos la tecnología bluetooth encajaba perfectamente por el modelo de negocio.",
+          "how": "https://developer.apple.com/bluetooth/\nhttps://developer.apple.com/ibeacon/",
+          "links": [
+            "https://developer.apple.com/bluetooth",
+            "https://developer.apple.com/ibeacon"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Tech & Tools",
+    "asistentes": [
+      {
+        "id": 2018041,
+        "twitter": "wideawakening",
+        "vienede": "Bilbo",
+        "foto": "https://pbs.twimg.com/profile_images/56756978/tatoo_400x400.png",
+        "nombre": "Irune prado",
+        "experiencia": {
+          "title": "Dando cobertura a Google Search Appliance mediante productos Open: Apache Nutch y SOLR",
+          "why": "Tras el corte de servicio de Google de su search appliance, se requería unificar varias páginas webs de distintos dominios (intranet, extranet, subdominios, ...) , tecnologías (HTML, JSP, ASP), naturalezas (con trabajo de SEO, sin SEO, con iframes, flash...) y tipos de documentos (html, doc, pdf, ...) en un mismo buscador con capacidad avanzadas, para el usuario del portal corporativo.\n\n\"Una solución para gobernarlos a todos. Una solución para encontrarlos,\nuna solución para atraerlos a todos y atarlos en las tiniebla.... digo pantalla de búsqueda avanzada.\"\n\n",
+          "when": "Apache Nutch es una solución de crawleo construida sobre Java  que nos puede servir para extraer información \"pseudo-homogénea\" de diferentes orígenes / semillas, y mediante un esquema de conversión, converger su información en un sistema de índices,  como puede ser SOLR\n",
+          "how": "http://nutch.apache.org/\nhttp://lucene.apache.org/solr/\nhttps://www.zylk.net/en/web-2-0/blog/-/blogs/como-configurar-nutch-1-13-para-que-use-solrcloud-6-6-0",
+          "links": [
+            "http://nutch.apache.org",
+            "http://lucene.apache.org/solr",
+            "https://zylk.net/en/web-2-0/blog/-/blogs/como-configurar-nutch-1-13-para-que-use-solrcloud-6-6-0"
+          ]
+        }
+      },
+      {
+        "id": 2018040,
+        "twitter": "penniath",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/470165028692189184/IrgKGKkP_400x400.png",
+        "nombre": "Fernando Fariña",
+        "experiencia": {
+          "title": " Spring Boot + Angular",
+          "why": "Nuestro objetivo era darle un giro al stack tecnológico que aplicábamos en los proyectos y explorar alternativas que no fueran traumáticas.\nEn este sentido, la evolución ha sido de Symfony + AngujarJS a Spring Boot + Angular (4+).",
+          "when": "Si bien al principio utilizamos Spring Boot para servicios REST, en este momento lo utilizamos para módulos de consola, de tareas programadas... Tratamos de aprovechar el marco que ofrece Spring Boot para módulos de cualquier tipo.\n\nA pesar de que Angular sea el framework de componentes menos querido por la comunidad, nos ha dado buen resultado a la hora de desarrollar herramientas web.",
+          "how": "http://www.baeldung.com/\nhttps://alligator.io/angular/",
+          "links": [
+            "http://baeldung.com",
+            "https://alligator.io/angular"
+          ]
+        }
+      },
+      {
+        "id": 2018003,
+        "twitter": "devjuggler",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/668697242589601792/EdIa-P9y_400x400.jpg",
+        "nombre": "Sergio Sáenz",
+        "experiencia": {
+          "title": "Spring Boot",
+          "why": "En realidad eran varios objetivos. Lo he usado en la cárnica en la que trabajaba a diario durante 4 años.\nAl ser una empresa orientada a servicios me ha tocado pelearme con muchos entornos distintos. Siempre con mucha indefinición y mucho cámbio de última hora.\nEl objetivo realmente ha sido la versatilidad y rapidez de desarrollo así como la facilidad de integrar nuevos perfiles en poco tiempo de arranque. Hay suficiente comunidad y librerías en el ecosistema Spring Boot como para facilitar integraciones de casi cualquier tipo. Desde una base de datos a un REST pasando por un sistema de colas o incluso websocket.",
+          "when": "Buff... esta es difícil... yo lo intento usar para casi todo. Pero solo en entornos web o entornos de escritorio (casos puntuales concretos).\nYo no lo veo como buena herramienta para sistemas embebidos. En ese caso he tirado más por un motor de javascript y pantallas html5.\nQuizás tampoco sería mi primera opción para una aplicación de escritorio pura, sin web en ningún sentido. Habría que darle unas vueltas.\nPara scripting tampoco le veo mucho sentido.\nBásicamente fuera del mundo web o de integración habría que analizar el caso despacio.",
+          "how": "https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/\nhttps://spring.io/guides/gs/spring-boot/\nhttp://www.baeldung.com/",
+          "links": [
+            "https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle",
+            "https://spring.io/guides/gs/spring-boot",
+            "http://baeldung.com"
+          ]
+        }
+      },
+      {
+        "id": 2018008,
+        "twitter": "gorkma",
+        "vienede": "Pamplona",
+        "foto": "https://pbs.twimg.com/profile_images/476963726214856704/erDHC1lk_400x400.jpeg",
+        "nombre": "Gorka Moreno",
+        "experiencia": {
+          "title": "Python",
+          "why": "- Aprender una nueva tecnología\n- Ampliar negocio\n- Cumplir la necesidad del cliente trabajando en el idioma que domina.\n- Implementar prácticas conocidas en un nuevo lenguaje (testing, modularización, análisis estático de código, gestores de paquetes, etc)\n- Ver nuevos patrones en nuevos idiomas (generators, listas en línea, etc, funciones de primer nivel, entornos virtuales, etc.)\n- Salir de la zona de confort :)\n- Realizar web scraping (Scrapy)\n- Captar un nuevo y potencial cliente",
+          "when": "- Web scraping (framework scrapy es de los más usados)\n- Multiplataforma y portable\n- Multiproposito\n- Aprender un nuevo lenguage",
+          "how": "- Python koans: https://github.com/gregmalcolm/python_koans\n- Curso codeacademy: https://www.codecademy.com/learn/learn-python\n- Guía python: http://docs.python-guide.org/en/latest",
+          "links": [
+            "https://github.com/gregmalcolm/python_koans",
+            "https://codecademy.com/learn/learn-python",
+            "http://docs.python-guide.org/en/latest"
+          ]
+        }
+      },
+      {
+        "id": 2018021,
+        "twitter": "jerolba",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/777888420693704704/LdgQPokw_400x400.jpg",
+        "nombre": "Jerónimo López",
+        "experiencia": {
+          "title": "Profiling de la JVM",
+          "why": "En Nextail tenemos procesos que manejan gran cantidad de datos y los magrean mucho.\nHasta ahora se había implementado los procesos para que funcionaran sin preocuparse de cuanto tiempo tardaran o cuantos recursos consumieran, y se escalaba verticalmente.\nEjecutar esos procesos en local era imposible por los recursos que requería, por lo que dificultaba la ejecución de pruebas (que no test) en entornos locales para validar. Esto hacía que todo se tuviera que probar en un entorno de integración con un proceso largo de prueba y error, llegando a subir cosas a producción con errores por haberse hecho pocas pruebas.\nEn mi empeño de poder hacer pruebas en mi máquina hice profiling de la aplicación, permitiendo reducir el consumo de memoria a 1/10 y el tiempo de proceso a 1/3, y mejorado mi salud mental :)\nIndirectamente ha favorecido al entorno de producción, reduciendo los tiempos de los procesos y el gasto de AWS",
+          "when": "Aplicaciones con gran consumo de recursos donde se está llegando al límite del escalado vertical, o donde se intuye que hay un problema de recursos que impide mejorar el throughtput del sistema.\nÚltimo recurso, no olvidemos que \"La optimización prematura es la raiz de todo mal.",
+          "how": "http://www.brendangregg.com/flamegraphs.html\nhttp://hirt.se/blog/",
+          "links": [
+            "http://brendangregg.com/flamegraphs.html",
+            "http://hirt.se/blog"
+          ]
+        }
+      },
+      {
+        "id": 2018028,
+        "twitter": "felixvela",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/3133997210/27828bcf3b7ae0267373706158af98ae_400x400.jpeg",
+        "nombre": "Felix Vela",
+        "experiencia": {
+          "title": "Analisis y toma de decisiones",
+          "why": "El objetivo es tener un código no solo que sean fashion y atractivo, sino que además tengamos ciertas reglas para optimizarlo.\nNo reinventamos la rueda, con 4 conceptos básicos el código queda con buen rendimiento y no hace falta tener mucho hierro para proyectos con cierta carga de tráfico. ",
+          "when": "El contexto puede ser cualquier proyecto web. Yo en concreto utilizaba nginx + php + mysql",
+          "how": "No hay link que valga, son cosas tan tontas y que no se hacen casi nunca que nadie escribe sobre ellas.",
+          "links": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Front-end 2",
+    "asistentes": [
+      {
+        "id": 2018014,
+        "twitter": "janogarcia",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/1235397594/SDIM1581_square_PS_400x400.jpg",
+        "nombre": "Alejandro García",
+        "experiencia": {
+          "title": "\"CSS - Arquitecturas imposibles\" (envío un par de opciones, ésta es 1/2)",
+          "why": "Escribir CSS es fácil, escalarlo sigue siendo un reto. O cómo podemos intentar hacerlo para evitar el desastre.",
+          "when": "Básicamente, cada vez que nos enfrentamos a CSS, ya que gran parte de los problemas que podemos encontrar en proyectos complejos pueden afectar igualmente incluso a los más sencillos.",
+          "how": "Me interesaría especialmente hablar de cómo actualmente no es un problema resuelto y por qué estar abierto a las distintas metodologías, incluso a aquellas que inicialmente desafían radicalmente tu postura. https://en.bem.info/methodology/ (Yandex y demás), https://acss.io/ (Yahoo!), http://ecss.io/ (bet365). En mi caso, desde las trincheras, voy integrando estos conceptos en la librería Bento CSS, usado en diferentes proyectos de Doist. https://github.com/Doist/bentocss ",
+          "links": [
+            "https://en.bem.info/methodology",
+            "https://acss.io",
+            "http://ecss.io",
+            "https://github.com/Doist/bentocss"
+          ]
+        }
+      },
+      {
+        "id": 2018032,
+        "twitter": "gonzalo123",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/916587733522505735/i5qB2ov1_400x400.jpg",
+        "nombre": "Gonzalo Ayuso",
+        "experiencia": {
+          "title": "jQuery",
+          "why": "El título es un poco troll. La herramienta es OpenUI5. Usa jQuery en el fondo (muy en el fondo). En realidad cuando la usas no te enteras. La sintaxis es la de un fw de front moderno . El motivo era que tenía que elegir un framework de front con un ciclo de vida grande (en el 2017). Me sorprendió mucho esta herramienta. Casi nadie la conoce (lo que es malo), o al menos casi nadie que está en el último hype de js, pero si buceas encuentras una comunidad muy grande y mucha documentación (hay vida detrás del hype). Tiene por detrás a SAP, que ha metido mucha pasta en eso y la ha sacado como open source. No es tan molona como Vue o React, pero bueno, yo tampoco soy tan moderno :)",
+          "when": "Desarrollo de front puro. Pero no solo framework, sino una serie de widgets o toolkits para desarrollar aplicaciones empresariales (y andar buscando en github herramientas cada una de su padre y de su madre)",
+          "how": "https://openui5.hana.ondemand.com/",
+          "links": [
+            "https://openui5.hana.ondemand.com"
+          ]
+        }
+      },
+      {
+        "id": 2018052,
+        "twitter": "_mejias",
+        "vienede": "",
+        "foto": "https://pbs.twimg.com/profile_images/1308769631/redes_rafa_400x400.JPG",
+        "nombre": "Rafa Fernández",
+        "experiencia": {
+          "title": "Making FrontEnd Decisions",
+          "why": "Porque en los últimos años, en todos los proyectos de tipo Web app donde he participado han existido problemas de modularidad y de cancelación de llamadas asíncronas. El objetivo era desarrollar un SaaS basado en componentes con una fuerte carga de APIs.\nLa arquitectura para este proyecto está basada en React, Redux y la utilización de observables (RxJs) que permitieran la cancelación de las llamadas.",
+          "when": "Explotación de un SaaS basado en lllamadas APIs que calculan indicadores inmobiliarios en el back utilizando machine learning y una fuerte componente geográfica. Para esto último, se utiliza la extensión PostGIS en PostGreSQL",
+          "how": "www.pulse.urbandataanaytics.com",
+          "links": [
+            "http://www.pulse.urbandataanaytics.com"
+          ]
+        }
+      },
+      {
+        "id": 2018036,
+        "twitter": "rubenbpv",
+        "vienede": "Pamplona",
+        "foto": "https://pbs.twimg.com/profile_images/593182533136834561/IzycLaJZ_400x400.jpg",
+        "nombre": "Rubén Bernardez",
+        "experiencia": {
+          "title": "En busca de la entrega continua a través de Trunk Based Development",
+          "why": "Buscábamos eliminar los principales problemas que nos ocasionaban las ramas de larga duración de funcionalidades que tardaran semanas e incluso meses en ser aprobadas para pasar a producción. Aunque conscientes de que el principal causante de esa larga vida era el ciclo de vida de las historias, algo complicado de cambiar en una empresa por la tipología de empresa cliente, buscábamos tener todo el código lo más sincronizado posible (integración continua), feedback lo más rápido posible de posibles conflictos entre el código de los desarrolladores del eqipo, conseguir hacer refactorizaciones horizontales sin morir en el intento, compartir código más rápidamente, eliminar el dolor y sufrimiento que puede causar mergear ramas que llevan desincronizadas meses, mejorar la comunicación y ser algo más felices en nuestro día a día. ",
+          "when": "Mi experiencia a sido aplicar este método de trabajo a proyectos Front-End donde debíamos evolucionar una aplicación sprint a sprint con equipos de entre 4 a 12 desarrolladores. Bajo este contexto nos ha funcionado de maravilla.\n\nSi que hay ciertas premisas que ayudan a potenciar la técnica como son: tener una batería automatizada de test, compilaciones automatizadas, servidor de IC con despliegues automatizados y un equipo con cierta experiencia que te permite tener el código de la rama principal de desarrollo siempre listo para pasar a producción.",
+          "how": "https://trunkbaseddevelopment.com/\nhttps://www.martinfowler.com/articles/continuousIntegration.html",
+          "links": [
+            "https://trunkbaseddevelopment.com",
+            "https://martinfowler.com/articles/continuousIntegration.html"
+          ]
+        }
+      },
+      {
+        "id": 2018026,
+        "twitter": "akaJumi",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/927540298531655681/Dkj8j7C0_400x400.jpg",
+        "nombre": "Juan Miguel Imaz",
+        "experiencia": {
+          "title": "Tecnología: React Mantra: Keep it symple",
+          "why": "El objetivo del mantra, mantener los proyectos \"asequibles\" a colaboradores.",
+          "when": "Sentido común cuando tienes que trabajar con compañeros que no conoces o conocen la tecnología.",
+          "how": "Sin links",
+          "links": []
+        }
+      },
+      {
+        "id": 2018033,
+        "twitter": "ja_anaya",
+        "vienede": "Madrid",
+        "foto": "https://pbs.twimg.com/profile_images/458891527192735744/UEsPOd99_400x400.jpeg",
+        "nombre": "Javier Anaya Martinez",
+        "experiencia": {
+          "title": "React-native",
+          "why": "El objetivo era crear una app sin mucho esfuerzo y sencilla y que no tuviéramos que hacerlo de manera nativa para ios y android",
+          "when": "Si decides hacer una aplicación móvil con javascript esta tecnología te soluciona muchos problemas. Es fácil de usar y los resultados son muy buenos.",
+          "how": "https://facebook.github.io/react-native/\nhttps://medium.freecodecamp.org/how-to-get-started-with-react-native-8ef42f65160a?gi=bd3b5b37d27a\nhttp://www.reactnativeexpress.com/",
+          "links": [
+            "https://facebook.github.io/react-native",
+            "https://medium.freecodecamp.org/how-to-get-started-with-react-native-8ef42f65160a?gi=bd3b5b37d27a",
+            "http://reactnativeexpress.com"
+          ]
+        }
+      },
+      {
+        "id": 2018047,
+        "twitter": "epelde",
+        "vienede": "Bilbao",
+        "foto": "https://pbs.twimg.com/profile_images/687995847775248385/t9Cpa8hh_400x400.jpg",
+        "nombre": "Alex Epelde",
+        "experiencia": {
+          "title": "Primeros pasos con Vue + Vuex",
+          "why": "El objetivo era \"modernizar\" (no sé si es el término adecuado) partes de la interfaz de una aplicación \"antigua\".",
+          "when": "Intentar traer un poco de \"cordura\" y homogeneidad al desarrollo front de la aplicación. Reutilizar código. ",
+          "how": "https://vuex.vuejs.org/en/installation.html\nhttps://medium.com/coding-stones/abstracting-vuex-redux-action-patterns-8df36b0e2fcc",
+          "links": [
+            "https://vuex.vuejs.org/en/installation.html",
+            "https://medium.com/coding-stones/abstracting-vuex-redux-action-patterns-8df36b0e2fcc"
+          ]
+        }
+      },
+      {
+        "id": 2018053,
+        "twitter": "hicom150",
+        "vienede": "Donosti",
+        "foto": "https://pbs.twimg.com/profile_images/804964176875716608/SpafYo0h_400x400.jpg",
+        "nombre": "Julen",
+        "experiencia": {
+          "title": "Actualizacion de AngularJS y tooling",
+          "why": "Para poder utilizar una arquitectura más enfocada a componentes y que el proyecto sea más coherente",
+          "when": "Cuando se hereda un proyecto AngularJS legacy y se pretende actualizarlo para acercarse más a enfoques desarrollo por componentes como Angular, React o Vue",
+          "how": "Por un lado leyendo a fondo la documentación de AngularJS y por otro basándose en las buenas prácticas y guías de estilo como por ejemplo\nhttps://github.com/johnpapa/angular-styleguide\nhttps://github.com/toddmotto/angularjs-styleguide",
+          "links": [
+            "https://github.com/johnpapa/angular-styleguide",
+            "https://github.com/toddmotto/angularjs-styleguide"
+          ]
+        }
+      }
+    ]
+  }
+]
