@@ -27,7 +27,7 @@ export default {
 
         connectedCallback() {
             super.connectedCallback();
-            this.year = this.location.params.year;
+            this.year = this.location.params.year; //location.params setted by vaadin router
             this.asistentes = data[this.year];
         }
 
@@ -53,11 +53,7 @@ export default {
           <div class="container">
           
 
-        ${repeat(this.asistentes, asistente => html`
-            <pre>
-                ${JSON.stringify(asistente)}
-            </pre>
-        `)}
+            <pre>${JSON.stringify(this.asistentes, null, 2)}</pre>
       
       </div>
       </section>
