@@ -99,6 +99,7 @@
 # Javascript antifrágil (aburrido)
 
 - https://training.buntplanet.com/recursos/js/
+- https://github.com/nefe/You-Dont-Need-jQuery
 
 # Puntuación lighthouse
 
@@ -140,4 +141,5 @@
 - https://sheety.co/
 - https://sheetlabs.com/#/
 - https://sheetdb.io/
+- https://airtable.com/
  
