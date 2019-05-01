@@ -51,7 +51,7 @@
     "vienede": null,
     "experiencia": {
       "title": "Aprende a programar mediante el legacy code",
-      "why": "Este año no he planificado un aprendizaje (más allá de poder saber qué es GraalVM y dar una charla del tema, pero no lo considero material para el FTT)\n\nEl tema no ha sido planificado, y me ha surgido por el mero hecho de trabajar:\n\nCuando apredemos alguna técnica, te cuentan cómo usarla, el valor que aporta y porqué es buena. Te lo crees porque lo dice alguien con autoridad e intuyes que es cierto, aunque no lo veas claro el valor real.\nLuego en tu día a día las usas en mayor o menor medida y parece que todo va bien, pero como las usas por \"cargo cult\" no aprecias de verdad el efecto de no aplicar dichas técnicas.\n\nEste año teniendo que trabajar con código legacy, para poder evolucionarlo, he tenido que refactorizarlo y cada vez que \"arreglaba\" algo, era evidente que habiendo aplicado alguna de las buenas prácticas todo hubiera sido mucho más sencillo desde el principio. Por ejemplo: que he aprendido el verdadero poder del SRP o que la herencia es el origen de muchos males :) Cuando has estado allí no lo olvidas :D\n\nHaciendo un símil: es difícil saber el infierno que es usar el GOTO cuando toda la vida has usado procedimientos/funciones, y no aprecias la mierda que te puede salir cuando lo usas.",
+      "why": "Este año no he planificado un aprendizaje (más allá de poder saber qué es GraalVM y dar una charla del tema, pero no lo considero material para el FTT)\n\nEl tema no ha sido planificado, y me ha surgido por el mero hecho de trabajar:\n\nCuando apredemos alguna técnica, te cuentan cómo usarla, el valor que aporta y porqué es buena. Te lo crees porque lo dice alguien con autoridad e intuyes que es cierto, aunque no lo veas claro el valor real.\nLuego en tu día a día las usas en mayor o menor medida y parece que todo va bien, pero como las usas por \"cargo cult\" no aprecias de verdad el efecto de no aplicar dichas t��cnicas.\n\nEste año teniendo que trabajar con código legacy, para poder evolucionarlo, he tenido que refactorizarlo y cada vez que \"arreglaba\" algo, era evidente que habiendo aplicado alguna de las buenas prácticas todo hubiera sido mucho más sencillo desde el principio. Por ejemplo: que he aprendido el verdadero poder del SRP o que la herencia es el origen de muchos males :) Cuando has estado allí no lo olvidas :D\n\nHaciendo un símil: es difícil saber el infierno que es usar el GOTO cuando toda la vida has usado procedimientos/funciones, y no aprecias la mierda que te puede salir cuando lo usas.",
       "when": "Os hackeo el formulario para contar que he seguido investigando sobre temas de rendimiento y cómo aprendiendo a usar bien las estructuras de datos o creando nuevas estructuras de datos con otra implementación (pero manteniendo una abstracción que no exponga detalles de implementación y condicione nuestro código) podemos mejorar el rendimiento de nuestra aplicación, sin necesidad de ofuscar tu código buscando mejorar un ciclo de reloj o un byte de memoria.\n¿En qué momento dejas de aplicar la fuerza bruta y te preocupas por la complejidad de tu código y tus datos? ",
       "how": null,
       "links": [
@@ -800,7 +800,7 @@
     "experiencia": {
       "title": "De las tablas también se sale (ó no sin mis tablas)",
       "why": "Me he encontrado con muchas personas que \"aprietan el culo\" si les digo de salir a producción persistiendo la información en ficheros. Acaban poniendo cara de que no es serio/profesional.\nEl objetivo es demostrar que se puede vivir sin tablas y salir a producción con repositorios que persistan en ficheros normalicos (texto plano sería ideal)",
-      "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la informaci��n y con lo mínimo, podemos aplazar esta decisión",
+      "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la información y con lo mínimo, podemos aplazar esta decisión",
       "how": null,
       "links": [
         "https://deviq.com/repository-pattern/",
@@ -1695,7 +1695,7 @@
   },
   {
     "id": 1554120512000,
-    "nombre": "JULIA OLCOZ",
+    "nombre": "Julia Olcoz",
     "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
     "twitter": "Julia_Olcoz",
     "vienede": null,
@@ -1711,8 +1711,8 @@
       ]
     },
     "grupo": {
-      "id": "13",
-      "name": "Agile 1"
+      "id": "14",
+      "name": "Agile 2"
     }
   },
   {
@@ -1844,9 +1844,9 @@
     "twitter": "flipper83",
     "vienede": null,
     "experiencia": {
-      "title": "Paso a paso. Que es esto de la ingenieria del software?",
-      "why": "llegar a un equipo que llevan años trabajando solos y en un block de notas. La mayoria de ellos no valoraba el trabajo bien hecho, o el continous delivery o ni siquiera sabian que es un control de versiones. Convertirlos en tus aliados y no en tus enemigos es la mejor opción.",
-      "when": "",
+      "title": "Paso a paso: ¿qué es esto de la ingeniería del software?",
+      "why": "Llegar a un equipo que llevan años trabajando solos y en un bloc de notas. La mayoria de ellos no valoraba el trabajo bien hecho, o el continous delivery o ni siquiera sabian que es un control de versiones. Convertirlos en tus aliados y no en tus enemigos es la mejor opción.",
+      "when": "cuando te encuentras con gente de vieja guardia o que no es técnica.",
       "how": null,
       "links": [
         "https://www.youtube.com/watch?v=9wVJHZEeTY0",
@@ -1943,7 +1943,17 @@
     "foto": "https://pbs.twimg.com/profile_images/1078682575667900417/WXqH_u2w_400x400.jpg",
     "twitter": "aledoo",
     "vienede": null,
-    "experiencia": {},
+    "experiencia": {
+      "title": "¿Backlog Infinito? Welcome to my team!",
+      "why": "Desde que tengo mentalidad Agile el backlog infinito me ha perseguido en cada sprint hasta que llegue a Comalatech. No es la solución definitiva pero si que es algo que como PM me deja dormir más tranquilo. No quiere vender la moto sino poner el valor algo que me ha servido para poder priorizar una lista de issues.",
+      "when": "Esta herramienta está basada en un a metodología de priorización en base a una matriz. Los ejes pueden configurarse de varias formas, haciendo más sencilla la priorización del Backlog. No es la panacea pero por el momento no he encontrado nada mejor. Ójala de con algo que mole.",
+      "how": null,
+      "links": [
+        "https://medium.com/alexdolara/agile-ranking-tool-e2f07729b05d",
+        "https://marketplace.atlassian.com/apps/1217292/comala-agile-ranking?hosting=cloud&tab=overview",
+        ""
+      ]
+    },
     "grupo": {
       "id": "19",
       "name": "Sin asignar, pendiente"
