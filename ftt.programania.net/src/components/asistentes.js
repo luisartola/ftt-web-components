@@ -33,7 +33,7 @@ export default {
         connectedCallback() {
             super.connectedCallback();
             this.year = this.location.params.year;
-            this.todos = list;
+            this.todos = data[this.year];
 
             const list = data[this.year];
             const chunckSize = 10;
