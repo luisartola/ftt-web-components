@@ -81,20 +81,50 @@ customElements.define('lit-app', class extends LitElement {
     }
   }
 
-
-
 );
 
-//https://medium.com/@webmaxru/workbox-4-implementing-refresh-to-update-version-flow-using-the-workbox-window-module-41284967e79c
-if ('serviceWorker' in navigator) {
-    const wb = new Workbox('sw.js');
 
+if ('serviceWorker' in navigator) {
+    const wb = new Workbox('/sw.js');
+
+//https://medium.com/@webmaxru/workbox-4-implementing-refresh-to-update-version-flow-using-the-workbox-window-module-41284967e79c
     wb.addEventListener('installed', event => {
         if (event.isUpdate) {
             if (confirm('New content is available!. Click OK to refresh')) {
                 window.location.reload();
             }
         }
+    });
+
+//https://developers.google.com/web/tools/workbox/guides/advanced-recipes#offer_a_page_reload_for_users
+
+    // Add an event listener to detect when the registered
+    // service worker has installed but is waiting to activate.
+    wb.addEventListener('waiting', (event) => {
+        // `event.wasWaitingBeforeRegister` will be false if this is
+        // the first time the updated service worker is waiting.
+        // When `event.wasWaitingBeforeRegister` is true, a previously
+        // updated same service worker is still waiting.
+        // You may want to customize the UI prompt accordingly.
+
+        // Assumes your app has some sort of prompt UI element
+        // that a user can either accept or reject.
+
+        if (confirm('New content is available!. Click OK to refresh')) {
+            // Assuming the user accepted the update, set up a listener
+            // that will reload the page as soon as the previously waiting
+            // service worker has taken control.
+            wb.addEventListener('controlling', (event) => {
+                window.location.reload();
+            });
+
+            // Send a message telling the service worker to skip waiting.
+            // This will trigger the `controlling` event handler above.
+            // Note: for this to work, you have to add a message
+            // listener in your service worker. See below.
+            wb.messageSW({type: 'SKIP_WAITING'});
+        }
+
     });
 
     wb.register();
