@@ -800,7 +800,7 @@
     "experiencia": {
       "title": "De las tablas también se sale (ó no sin mis tablas)",
       "why": "Me he encontrado con muchas personas que \"aprietan el culo\" si les digo de salir a producción persistiendo la información en ficheros. Acaban poniendo cara de que no es serio/profesional.\nEl objetivo es demostrar que se puede vivir sin tablas y salir a producción con repositorios que persistan en ficheros normalicos (texto plano sería ideal)",
-      "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la información y con lo mínimo, podemos aplazar esta decisión",
+      "when": "Sobre todo al principio del proyecto o del producto, cuando no se tiene claro cuales van a ser tu entidades de negocio o \"presientes\" que van a cambiar. Estamos en una fase en la que se está descubriendo el negocio por lo que todo puede cambiar drásticamente.\n\nNo merece la pena invertir tiempo/esfuerzo en la persistencia de la informaci��n y con lo mínimo, podemos aplazar esta decisión",
       "how": null,
       "links": [
         "https://deviq.com/repository-pattern/",
@@ -1787,10 +1787,20 @@
     "foto": "https://pbs.twimg.com/profile_images/607930537848602625/qfaocmyA_400x400.jpg",
     "twitter": "borjareinares",
     "vienede": null,
-    "experiencia": {},
+    "experiencia": {
+      "title": "SRE, I will survive?",
+      "why": "En los tiempos de CI/CD algo no deseado puede llegar hasta producción, provocando comportamientos erróneos o no esperados. El reto está en que tu implementación sea resiliente y sobreviva.",
+      "when": "El aterrizaje de un equipo en una red de microservicios implica adquirir nuevas metodologías con enfoques diferentes, o a los que se podría no estar acostumbrado. La escalabilidad, y la mejora de la disponibilidad, en entornos con grandes despliegues y distribuidos se convierte en pieza clave, y con ello algunas recomendaciones a tener en cuenta.",
+      "how": null,
+      "links": [
+        "https://medium.com/asos-techblog/improve-availability-and-resilience-of-your-micro-services-using-this-7-cloud-design-patterns-16006eaf32b1",
+        "https://github.com/benhallouk/cloud-design-patterns",
+        ""
+      ]
+    },
     "grupo": {
-      "id": "19",
-      "name": "Sin asignar, pendiente"
+      "id": "17",
+      "name": "Devops"
     }
   },
   {
@@ -1904,18 +1914,6 @@
     }
   },
   {
-    "id": 1551108247000,
-    "nombre": "Alfredo Fernández",
-    "foto": "https://pbs.twimg.com/profile_images/834136216/6a0120a85dcdae970b01287798c31e970c-800wi_400x400.png",
-    "twitter": "alfredodev",
-    "vienede": null,
-    "experiencia": {},
-    "grupo": {
-      "id": "19",
-      "name": "Sin asignar, pendiente"
-    }
-  },
-  {
     "id": 1552209546000,
     "nombre": "Aitor Aznar Álvarez",
     "foto": "https://pbs.twimg.com/profile_images/898278619428081668/y9cCjW5y_400x400.jpg",
@@ -1955,8 +1953,8 @@
       ]
     },
     "grupo": {
-      "id": "19",
-      "name": "Sin asignar, pendiente"
+      "id": "16",
+      "name": "Equipos + producto"
     }
   },
   {
@@ -1965,10 +1963,20 @@
     "foto": "https://pbs.twimg.com/profile_images/415925617868034048/boQGEXYD_400x400.jpeg",
     "twitter": "tatai",
     "vienede": null,
-    "experiencia": {},
+    "experiencia": {
+      "title": "Fileteando un monolito",
+      "why": "Tener un proyecto propio/legado que se ha hecho mayor y no ha crecido como debería. Desarrollo acoplado y enrevesado, despliegues complicados, dolores de cabeza... ",
+      "when": "Poco a poco, con paciencia y fijando el objetivo en piezas concretas, sin dejar de evolucionar",
+      "how": null,
+      "links": [
+        "",
+        "",
+        ""
+      ]
+    },
     "grupo": {
-      "id": "19",
-      "name": "Sin asignar, pendiente"
+      "id": "1",
+      "name": "Legacy 1"
     }
   },
   {
