@@ -47,7 +47,7 @@
         "vienede": null,
         "experiencia": {
           "title": "Aprende a programar mediante el legacy code",
-          "why": "Este año no he planificado un aprendizaje (más allá de poder saber qué es GraalVM y dar una charla del tema, pero no lo considero material para el FTT)\n\nEl tema no ha sido planificado, y me ha surgido por el mero hecho de trabajar:\n\nCuando apredemos alguna técnica, te cuentan cómo usarla, el valor que aporta y porqué es buena. Te lo crees porque lo dice alguien con autoridad e intuyes que es cierto, aunque no lo veas claro el valor real.\nLuego en tu día a día las usas en mayor o menor medida y parece que todo va bien, pero como las usas por \"cargo cult\" no aprecias de verdad el efecto de no aplicar dichas técnicas.\n\nEste año teniendo que trabajar con código legacy, para poder evolucionarlo, he tenido que refactorizarlo y cada vez que \"arreglaba\" algo, era evidente que habiendo aplicado alguna de las buenas prácticas todo hubiera sido mucho más sencillo desde el principio. Por ejemplo: que he aprendido el verdadero poder del SRP o que la herencia es el origen de muchos males :) Cuando has estado allí no lo olvidas :D\n\nHaciendo un símil: es difícil saber el infierno que es usar el GOTO cuando toda la vida has usado procedimientos/funciones, y no aprecias la mierda que te puede salir cuando lo usas.",
+          "why": "Este año no he planificado un aprendizaje (más allá de poder saber qué es GraalVM y dar una charla del tema, pero no lo considero material para el FTT)\n\nEl tema no ha sido planificado, y me ha surgido por el mero hecho de trabajar:\n\nCuando apredemos alguna técnica, te cuentan cómo usarla, el valor que aporta y porqué es buena. Te lo crees porque lo dice alguien con autoridad e intuyes que es cierto, aunque no lo veas claro el valor real.\nLuego en tu día a día las usas en mayor o menor medida y parece que todo va bien, pero como las usas por \"cargo cult\" no aprecias de verdad el efecto de no aplicar dichas t��cnicas.\n\nEste año teniendo que trabajar con código legacy, para poder evolucionarlo, he tenido que refactorizarlo y cada vez que \"arreglaba\" algo, era evidente que habiendo aplicado alguna de las buenas prácticas todo hubiera sido mucho más sencillo desde el principio. Por ejemplo: que he aprendido el verdadero poder del SRP o que la herencia es el origen de muchos males :) Cuando has estado allí no lo olvidas :D\n\nHaciendo un símil: es difícil saber el infierno que es usar el GOTO cuando toda la vida has usado procedimientos/funciones, y no aprecias la mierda que te puede salir cuando lo usas.",
           "when": "Os hackeo el formulario para contar que he seguido investigando sobre temas de rendimiento y cómo aprendiendo a usar bien las estructuras de datos o creando nuevas estructuras de datos con otra implementación (pero manteniendo una abstracción que no exponga detalles de implementación y condicione nuestro código) podemos mejorar el rendimiento de nuestra aplicación, sin necesidad de ofuscar tu código buscando mejorar un ciclo de reloj o un byte de memoria.\n¿En qué momento dejas de aplicar la fuerza bruta y te preocupas por la complejidad de tu código y tus datos? ",
           "how": null,
           "links": [
@@ -85,6 +85,24 @@
           "title": "Static Action objects ",
           "why": "Los estamos usando para recubrir el legacy en Nextail, no es idea mia ya esta allí, pero me gusta por: interfaz comun a todos los actions (call()) desde la consola puedes instanciarlos facilmente crearse internamente el objeto con sus dependencias injectadas. ",
           "when": "Puedes aplicarlo si no inicializas los objetos con diferences dependencias. Interfaz comun a un legacy existente.",
+          "how": null,
+          "links": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1552631443000,
+        "nombre": "Fran Naranjo",
+        "foto": "https://pbs.twimg.com/profile_images/415925617868034048/boQGEXYD_400x400.jpeg",
+        "twitter": "tatai",
+        "vienede": null,
+        "experiencia": {
+          "title": "Fileteando un monolito",
+          "why": "Tener un proyecto propio/legado que se ha hecho mayor y no ha crecido como debería. Desarrollo acoplado y enrevesado, despliegues complicados, dolores de cabeza... ",
+          "when": "Poco a poco, con paciencia y fijando el objetivo en piezas concretas, sin dejar de evolucionar",
           "how": null,
           "links": [
             "",
@@ -1226,24 +1244,6 @@
             "https://dev.to/davidsteveen/peer-mentoring---can-benefit-the-student-4g55"
           ]
         }
-      },
-      {
-        "id": 1554120512000,
-        "nombre": "JULIA OLCOZ",
-        "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
-        "twitter": "Julia_Olcoz",
-        "vienede": null,
-        "experiencia": {
-          "title": "Desarrollando Scrum Masters",
-          "why": "Sea por la necesidad del negocio o por la saturación del mercado, entre otros, en ocasiones, el Scrum Master de un equipo Scrum, surge del propio equipo de desarrollo, como resultado de un experimento.\n\nSe trata de una transformación, de un cambio de rol iteración tras iteración, del que todo el equipo Scrum, en primera instancia, así como la Organización en sí, son partícipes. La dualidad de rol suele ser factible al comienzo, cuando el conocimiento y la especialización en uno de los roles prepondera sobre el otro. Sin embargo, a medida que los sprints se suceden, pueden darse situaciones que habitualmente se gestionan mediante un cambio de sombrero (\"ahora desarrollador\", \"ahora Scrum Master\"). El desempeño de múltiples funciones en paralelo puede llegar a ser enriquecedor, pero lograr aportar el máximo valor al equipo desde todas las perspectivas, no suele ser sencillo.\n\nAsí como al principio del experimento nos identificábamos e identificaban como desarrolladores, porque contribuíamos al objetivo común del equipo implementando funcionalidades en código, al final, suele optarse por uno u otro rol, es decir, seguir siendo miembro del equipo de desarrollo, o bien, ser el Scrum Master del equipo, si creemos que así aportamos más. Si bien, la cantidad de valor aportado generalmente suele estar relacionada con la dedicación, sin interrupciones, a las funciones del rol desempeñado.",
-          "when": "Equipo de 6-8 personas comenzando a trabajar con metodología Scrum (sin Scrum Master dedicado).",
-          "how": null,
-          "links": [
-            "https://www.scrumguides.org/",
-            "",
-            ""
-          ]
-        }
       }
     ]
   },
@@ -1318,6 +1318,24 @@
           "how": null,
           "links": [
             "Básicamente: ser transparente, seguir followups...",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1554120512000,
+        "nombre": "Julia Olcoz",
+        "foto": "https://pbs.twimg.com/profile_images/1117380747713818625/TyArebZk_400x400.png",
+        "twitter": "Julia_Olcoz",
+        "vienede": null,
+        "experiencia": {
+          "title": "Desarrollando Scrum Masters",
+          "why": "Sea por la necesidad del negocio o por la saturación del mercado, entre otros, en ocasiones, el Scrum Master de un equipo Scrum, surge del propio equipo de desarrollo, como resultado de un experimento.\n\nSe trata de una transformación, de un cambio de rol iteración tras iteración, del que todo el equipo Scrum, en primera instancia, así como la Organización en sí, son partícipes. La dualidad de rol suele ser factible al comienzo, cuando el conocimiento y la especialización en uno de los roles prepondera sobre el otro. Sin embargo, a medida que los sprints se suceden, pueden darse situaciones que habitualmente se gestionan mediante un cambio de sombrero (\"ahora desarrollador\", \"ahora Scrum Master\"). El desempeño de múltiples funciones en paralelo puede llegar a ser enriquecedor, pero lograr aportar el máximo valor al equipo desde todas las perspectivas, no suele ser sencillo.\n\nAsí como al principio del experimento nos identificábamos e identificaban como desarrolladores, porque contribuíamos al objetivo común del equipo implementando funcionalidades en código, al final, suele optarse por uno u otro rol, es decir, seguir siendo miembro del equipo de desarrollo, o bien, ser el Scrum Master del equipo, si creemos que así aportamos más. Si bien, la cantidad de valor aportado generalmente suele estar relacionada con la dedicación, sin interrupciones, a las funciones del rol desempeñado.",
+          "when": "Equipo de 6-8 personas comenzando a trabajar con metodología Scrum (sin Scrum Master dedicado).",
+          "how": null,
+          "links": [
+            "https://www.scrumguides.org/",
             "",
             ""
           ]
@@ -1532,6 +1550,24 @@
             ""
           ]
         }
+      },
+      {
+        "id": 1551605640000,
+        "nombre": "Álex Dolara",
+        "foto": "https://pbs.twimg.com/profile_images/1078682575667900417/WXqH_u2w_400x400.jpg",
+        "twitter": "aledoo",
+        "vienede": null,
+        "experiencia": {
+          "title": "¿Backlog Infinito? Welcome to my team!",
+          "why": "Desde que tengo mentalidad Agile el backlog infinito me ha perseguido en cada sprint hasta que llegue a Comalatech. No es la solución definitiva pero si que es algo que como PM me deja dormir más tranquilo. No quiere vender la moto sino poner el valor algo que me ha servido para poder priorizar una lista de issues.",
+          "when": "Esta herramienta está basada en un a metodología de priorización en base a una matriz. Los ejes pueden configurarse de varias formas, haciendo más sencilla la priorización del Backlog. No es la panacea pero por el momento no he encontrado nada mejor. Ójala de con algo que mole.",
+          "how": null,
+          "links": [
+            "https://medium.com/alexdolara/agile-ranking-tool-e2f07729b05d",
+            "https://marketplace.atlassian.com/apps/1217292/comala-agile-ranking?hosting=cloud&tab=overview",
+            ""
+          ]
+        }
       }
     ]
   },
@@ -1571,6 +1607,24 @@
           "links": [
             "https://github.com/progrium/bashstyle",
             "https://github.com/sstephenson/bats",
+            ""
+          ]
+        }
+      },
+      {
+        "id": 1549701097000,
+        "nombre": "Borja Reinares Ruiz Navarro",
+        "foto": "https://pbs.twimg.com/profile_images/607930537848602625/qfaocmyA_400x400.jpg",
+        "twitter": "borjareinares",
+        "vienede": null,
+        "experiencia": {
+          "title": "SRE, I will survive?",
+          "why": "En los tiempos de CI/CD algo no deseado puede llegar hasta producción, provocando comportamientos erróneos o no esperados. El reto está en que tu implementación sea resiliente y sobreviva.",
+          "when": "El aterrizaje de un equipo en una red de microservicios implica adquirir nuevas metodologías con enfoques diferentes, o a los que se podría no estar acostumbrado. La escalabilidad, y la mejora de la disponibilidad, en entornos con grandes despliegues y distribuidos se convierte en pieza clave, y con ello algunas recomendaciones a tener en cuenta.",
+          "how": null,
+          "links": [
+            "https://medium.com/asos-techblog/improve-availability-and-resilience-of-your-micro-services-using-this-7-cloud-design-patterns-16006eaf32b1",
+            "https://github.com/benhallouk/cloud-design-patterns",
             ""
           ]
         }
@@ -1678,9 +1732,9 @@
         "twitter": "flipper83",
         "vienede": null,
         "experiencia": {
-          "title": "Paso a paso. Que es esto de la ingenieria del software?",
-          "why": "llegar a un equipo que llevan años trabajando solos y en un block de notas. La mayoria de ellos no valoraba el trabajo bien hecho, o el continous delivery o ni siquiera sabian que es un control de versiones. Convertirlos en tus aliados y no en tus enemigos es la mejor opción.",
-          "when": "",
+          "title": "Paso a paso: ¿qué es esto de la ingeniería del software?",
+          "why": "Llegar a un equipo que llevan años trabajando solos y en un bloc de notas. La mayoria de ellos no valoraba el trabajo bien hecho, o el continous delivery o ni siquiera sabian que es un control de versiones. Convertirlos en tus aliados y no en tus enemigos es la mejor opción.",
+          "when": "cuando te encuentras con gente de vieja guardia o que no es técnica.",
           "how": null,
           "links": [
             "https://www.youtube.com/watch?v=9wVJHZEeTY0",
@@ -1688,44 +1742,6 @@
             ""
           ]
         }
-      }
-    ]
-  },
-  {
-    "id": "19",
-    "name": "Sin asignar, pendiente",
-    "asistentes": [
-      {
-        "id": 1549701097000,
-        "nombre": "Borja Reinares Ruiz Navarro",
-        "foto": "https://pbs.twimg.com/profile_images/607930537848602625/qfaocmyA_400x400.jpg",
-        "twitter": "borjareinares",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1551108247000,
-        "nombre": "Alfredo Fernández",
-        "foto": "https://pbs.twimg.com/profile_images/834136216/6a0120a85dcdae970b01287798c31e970c-800wi_400x400.png",
-        "twitter": "alfredodev",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1551605640000,
-        "nombre": "Álex Dolara",
-        "foto": "https://pbs.twimg.com/profile_images/1078682575667900417/WXqH_u2w_400x400.jpg",
-        "twitter": "aledoo",
-        "vienede": null,
-        "experiencia": {}
-      },
-      {
-        "id": 1552631443000,
-        "nombre": "Fran Naranjo",
-        "foto": "https://pbs.twimg.com/profile_images/415925617868034048/boQGEXYD_400x400.jpeg",
-        "twitter": "tatai",
-        "vienede": null,
-        "experiencia": {}
       }
     ]
   }
