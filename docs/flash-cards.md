@@ -1,5 +1,18 @@
 <!-- footer: web components concepts -->
 
+# Conceptos clave
+
+- Template literals
+- Template tags
+- Custom Elements
+- HTML Templates
+- Shadow DOM
+- Light DOM
+- Polyfill
+- Lit-element / Lit-html
+
+---
+
 # Template literals
 
 -----
@@ -52,8 +65,6 @@ customElements.define('my-component', MyComponent);
 
 ```
 
-¿lit-element?
-
 -----
 
 # HTML Templates
@@ -79,8 +90,6 @@ customElements.define('my-component', MyComponent);
 </template>
 ```
 
-¿lit-html?
-
 ---
 
 # Shadow dom
@@ -93,8 +102,6 @@ customElements.define('my-component', MyComponent);
 - Simplifica CSS: el DOM dentro del ámbito significa que puedes usar simples selectores de CSS, nombres de id/clase más genéricos, y no preocuparte por conflictos de nombres.
 - https://developers.google.com/web/fundamentals/web-components/shadowdom
 - shadowRoot, attachShadow({ mode: 'open' })
-
-¿lit-element?
 
 -----
 
@@ -134,11 +141,12 @@ A polyfill, or polyfiller, is a piece of code (or plugin) that provides the tech
 -----
 
 # Lit-element
-
-- [El coñazo de hacerlo from the scratch](https://css-tricks.com/creating-a-custom-element-from-scratch/)
-- [Ejemplo compmleto](https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/)
-- No hay bindings.... @click, etc..
-- Sigue las [best practices](
+- [Try lit-element](https://stackblitz.com/run?file=my-element.js)
+- [Lit-element](https://lit-element.polymer-project.org/)
+- [El coñazo de hacerlo desde cero](https://css-tricks.com/creating-a-custom-element-from-scratch/)
+- [Ejemplo completo de hacerlo desde cero](https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/)
+- Sin lit-element, no hay bindings.... @click, etc..
+- Lit-element sigue las [best practices](
 https://developers.google.com/web/fundamentals/web-components/best-practices)
 
 ---
@@ -149,7 +157,7 @@ https://developers.google.com/web/fundamentals/web-components/best-practices)
 
 # Lit-html
 
-- https://lit-html.polymer-project.org/guide/concepts
+- [Lit-html concepts](https://lit-html.polymer-project.org/guide/concepts)
 
 ----
 
@@ -158,12 +166,9 @@ https://developers.google.com/web/fundamentals/web-components/best-practices)
 - CSS custom properties
 - Constructible stylesheets
 - CSS Modules
-- host element
-- host
-- With the exception of **inherited CSS properties**, shadow roots are also isolated from styles defined outside the shadow root, whether in the main page or an outer shadow root.
-- https://lit-element.polymer-project.org/guide/styles#CSS-Inheritance-and-shadow-DOM
-- Constructable Stylesheets
-- CSS Custom Properties
+- :host
+- *With the exception of **inherited CSS properties**, shadow roots are also isolated from styles defined outside the shadow root, whether in the main page or an outer shadow root.*
+- [CSS Inheritance and shadow dom](https://lit-element.polymer-project.org/guide/styles#CSS-Inheritance-and-shadow-DOM)
 
 ------
 
@@ -171,6 +176,6 @@ https://developers.google.com/web/fundamentals/web-components/best-practices)
 
 - connectedCallback
 - lit-element lifecycle versus estandar web components
-- https://lit-element.polymer-project.org/guide/lifecycle#firstupdated
-- https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#Using_the_lifecycle_callbacks
+- [First updated](https://lit-element.polymer-project.org/guide/lifecycle#firstupdated)
+- [Mozilla, custom elements lifecycle]( https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#Using_the_lifecycle_callbacks)
 
