@@ -79,7 +79,7 @@ export default {
                 .year="${this.year}" 
                 .grupo="${this.grupo}" 
                 .content="${this.content}" 
-                .audio="https://github.com/Programania/ftt/blob/master/2018/audio/${this.grupo.id}.mp3?raw=true">
+                .audio="https://github.com/Programania/ftt/blob/master/${this.year}/audio/${this.grupo.id}.mp3?raw=true">
           </ftt-grupo-section>
           `: ''}
           

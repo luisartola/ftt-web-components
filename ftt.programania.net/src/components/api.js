@@ -18,5 +18,5 @@ export const doTextQuery = async (query, callback) => {
 };
 
 export const groupContentQuery = (year, n) => {
-  return ({url: `https://raw.githubusercontent.com/Programania/ftt/master/${year}/grupos/grupo${n}.md`});
+  return ({url: `https://raw.githubusercontent.com/Programania/ftt/master/${year}/grupos/${n}.md`});
 };

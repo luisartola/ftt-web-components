@@ -6,9 +6,9 @@ import a2019 from '../../data/2019/audio.js';
 
 import {repeat} from '../../node_modules/lit-html/directives/repeat';
 import css from '../mystyles.scss';
-//import {doTextQuery, groupContentQuery} from './api';
-//import mdFactory from 'markdown-it';
-//const md = mdFactory();
+import {doTextQuery, groupContentQuery} from './api';
+import mdFactory from 'markdown-it';
+const md = mdFactory();
 
 const grupos = {
     2018: g2018,
@@ -49,24 +49,25 @@ export default {
             for (let i = chunckSize; i < list.length; i = i + chunckSize) {
                 setTimeout(() => {
                     this.grupos = this.grupos.concat(list.slice(i, i + chunckSize));
+
+                    this.grupos.map(g => g.id)
+                        .forEach(n => {
+                            doTextQuery(
+                                groupContentQuery(this.year, n),
+                                content => {
+                                    const aux = [...this.content];
+                                    aux[n] = md.render(content);
+                                    this.content = aux;
+                                }
+                            );
+                        });
+
                 }, 0);
             }
 
             this.audios = audios[this.year];
 
-            /*
-            [1, 2, 4, 5, 6, 7, 8, 9, 10]
-              .forEach(n => {
-                doTextQuery(
-                  groupContentQuery(this.year,n),
-                  content => {
-                    const aux = [...this.content];
-                    aux[n] = md.render(content);
-                    this.content = aux;
-                  }
-                );
-              });
-            */
+
         }
 
         render() {

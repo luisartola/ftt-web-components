@@ -56,9 +56,8 @@
 
 ## i18n
 
+- https://github.com/Dabolus/fluent-localize-mixin
 - https://github.com/koala-interactive/frenchkiss.js
-
-
 - https://www.i18next.com/overview/comparison-to-others
 - https://www.i18next.com/
 - https://github.com/globalizejs/globalize
