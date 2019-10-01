@@ -1,9 +1,42 @@
 import {LitElement, html} from 'lit-element';
 import css from  '../mystyles.scss';
+import {doTextQuery, groupContentQuery} from './api';
+import {range} from 'ramda';
+import mdFactory from 'markdown-it';
+import {unsafeHTML} from "../../node_modules/lit-html/directives/unsafe-html";
+const md = mdFactory();
+
 
 export default {
   name: 'ftt-portada',
   element: class extends LitElement {
+
+      static get properties(){
+          return {
+              content: {type: Array}
+          };
+      }
+
+    connectedCallback(){
+      super.connectedCallback();
+
+      this.content = [];
+        let range1 = range(1, 19);
+
+        range1
+            .forEach(n => {
+                doTextQuery(
+                    groupContentQuery(2019, n),
+                    content => {
+                        const aux = [...this.content];
+                        aux[n] = md.render(content);
+                        this.content = aux;
+                    }
+                );
+            });
+    }
+
+
     render() {
       return html`
 
@@ -13,14 +46,14 @@ export default {
     </style>
     
     
-    <section class="hero is-medium is-primary">
+    <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
       From the trenches
       </h1>
       <h2 class="subtitle">
-      Experiencia real + dictadura benévola + txuleta
+      Experiencia real + dinámica dirigida + txuleta
       </h2>
     </div>
   </div>
@@ -51,13 +84,25 @@ export default {
             </div>
           </div>
         </nav>
+        
+        
       </div>
-  </div>
+      
+      </div>
   
-</section>
+    </section>
+      
+      ${this.content.filter((n, i)=> i !==0).map((groupContent, i) => html`
 
+        <section class="section">
+            <div class="container content">
+                <h1 class="title">Output del grupo ${i + 1}</h1>
+                    ${ !!groupContent ? unsafeHTML(groupContent) : 'Pendiente de subir'}
+                `)}
+            </div>
+        </section>
 
 		`;
     }
   }
-}
+};

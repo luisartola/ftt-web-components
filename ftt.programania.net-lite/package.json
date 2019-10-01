@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack --env production",
     "test": "jest",
-    "start": "webpack-dev-server --disable-host-check --env development"
+    "start": "webpack-dev-server --disable-host-check --env development --host 0.0.0.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",

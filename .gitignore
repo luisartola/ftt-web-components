@@ -8,3 +8,4 @@ output
 dist
 ftt-scripts/data
 ftt-scripts/scripts/*.json
+.DS_Store
