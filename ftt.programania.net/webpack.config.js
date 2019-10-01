@@ -26,6 +26,10 @@ const assets = [
   {
     from: resolve('./src/assets'),
     to: resolve('dist/assets/')
+  },
+  {
+    from: resolve('./src/assets/.well-known/assetlinks.json'),
+    to: resolve('dist/.well-known/assetlinks.json')
   }
 ];
 
