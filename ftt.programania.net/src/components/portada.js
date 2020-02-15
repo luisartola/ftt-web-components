@@ -11,36 +11,9 @@ export default {
   name: 'ftt-portada',
   element: class extends LitElement {
 
-      static get properties(){
-          return {
-              content: {type: Array}
-          };
-      }
-
-    connectedCallback(){
-      super.connectedCallback();
-
-      this.content = [];
-        let range1 = range(1, 19);
-
-        range1
-            .forEach(n => {
-                doTextQuery(
-                    groupContentQuery(2019, n),
-                    content => {
-                        const aux = [...this.content];
-                        aux[n] = md.render(content);
-                        this.content = aux;
-                    }
-                );
-            });
-    }
-
-
     render() {
       return html`
 
-    <!-- idea para reutilizar css comunes a los componentes -->
     <style>
       ${css} 
     </style>
@@ -92,16 +65,6 @@ export default {
   
     </section>
       
-      ${this.content.filter((n, i)=> i !==0).map((groupContent, i) => html`
-
-        <section class="section">
-            <div class="container content">
-                <h1 class="title">Output del grupo ${i + 1}</h1>
-                    ${ !!groupContent ? unsafeHTML(groupContent) : 'Pendiente de subir'}
-                `)}
-            </div>
-        </section>
-
 		`;
     }
   }

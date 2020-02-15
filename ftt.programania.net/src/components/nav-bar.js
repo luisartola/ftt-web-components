@@ -2,12 +2,16 @@ import css from  '../mystyles.scss';
 import {html, LitElement} from 'lit-element';
 import {subscribe} from './state';
 
+/*
 const pages = [
   {name: 'Horario', path: '/horario'},
-  {name: 'Grupos', path: '/2019/grupos'},
   {name: 'Qué es', path: '/concepto'},
+  {name: '2019', path: '/2019/grupos'},
   {name: '2018', path: '/2018/grupos'}
 ];
+*/
+
+const pages = [];
 
 export default {
   name: 'ftt-nav-bar',
@@ -51,7 +55,7 @@ export default {
         <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="/" @click="${() => this.closeMenu()}">
-            #ftt2019
+            #ftt2020
           </a>
       
           <a role="button" @click="${() => this.toggleMenu() }" 
@@ -71,9 +75,9 @@ export default {
               <a class="navbar-item" @click="${() => this.toggleMenu()}" href="${page.path}">${page.name}</a>
             `)}
            
-           <a class="navbar-item"  @click="${() => this.toggleMenu()}" href="/2019/asistentes">
+           <!--a class="navbar-item"  @click="${() => this.toggleMenu()}" href="/2019/asistentes">
             Capturados: ${this.capturados.length}
-            </a>
+            </a-->
       
           </div>
         </div>
