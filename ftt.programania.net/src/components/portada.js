@@ -82,7 +82,7 @@ export default {
             </tr>
           <tr>
               <td style="width:20%">9:30</td>
-              <td>9:30 : decidir grupos</td>
+              <td>decidir grupos</td>
             </tr>
           <tr>
               <td style="width:20%">10:45</td>
