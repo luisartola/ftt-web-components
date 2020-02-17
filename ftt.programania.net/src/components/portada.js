@@ -39,44 +39,32 @@ export default {
             <div>
               <p class="heading">Cuándo</p>
               <p class="title">25-04-2020</p>
+               <small>Habrá una <strong>segunda edición éste año</strong>, no desesperar</small>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
-              <p class="heading">Dónde</p>
-              <p class="title">Buntplanet</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">...</p>
-              <p class="title">....</p>
+              <p class="heading">Asistencia</p>
+              <p class="title">Por invitación</p>
+              <small>35 asistentes elegidos con criterio de diversidad y justicia poética</small>
             </div>
           </div>
         </nav>
       </div>
-      
-      
-      <h1 class="title">Ojo cambios en el formato</h1>
-      
-      <div class="content">
-        <ul>
-            <li>Mañana y tarde</li>
-            <li>Cena en sidrería</li>
-            <li>Dos ediciones</li>
-            <li>35 asistentes</li>
-            <li>El formato de output será Pecha Kucha</li>
-            <li>
-                Entradas por invitación siguiendo el siguiente criterio:
-                antigüedad, diversidad, azar y justicia poética
-             </li>
-        </ul>
-      
-</div>
-      
         
-        <h1 class="title">Horario</h1>
         
+        <div class="notification is-info">
+          <span class="icon">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+          </span>
+        Atención al nuevo formato, explicado en el Horario
+        </div>
+
+    
+      <h1 class="title">
+        Horario
+      </h1>
+                      
         <table class="table is-striped is-fullwidth">
           <thead>
             <tr>
@@ -106,7 +94,12 @@ export default {
           </tr>
           <tr>
               <td style="width:20%">12:00</td>
-              <td> Esquema general del Pecha Kucha</td>
+              <td> 
+                  Planteamineto del Output (ésta vez será para todos el mismo, un Pecha Kucha)
+                  <a href="https://www.youtube.com/watch?v=jJ2yepIaAtE">
+                      <small>¿qué es un pecha kucha?</small>
+                  </a>
+              </td>
           </tr>
           
           <tr>
@@ -128,7 +121,7 @@ export default {
               <td style="width:20%">19:00</td>
               <td>
                 Coger transporte a la <a target="_blank" href="https://www.iruinsagardotegia.com/home">sidrería Irúin</a>.
-                
+                <br>
                 Cañeo intenso + cenar txuleta
               </td>
           </tr>

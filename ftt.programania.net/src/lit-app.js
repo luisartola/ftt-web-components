@@ -18,7 +18,7 @@ import asistentesComponent from './components/asistentes.js';
 import galeriaComponent from './components/galeria.js';
 import horarioComponent from './components/horario.js';
 import sectionTitle from './components/ftt-section-title.js';
-import { Workbox } from 'workbox-window';
+// import { Workbox } from 'workbox-window';
 
 [
   sectionTitle,
@@ -82,7 +82,7 @@ customElements.define('lit-app', class extends LitElement {
   }
 
 );
-
+/*
 
 if ('serviceWorker' in navigator) {
     const wb = new Workbox('/sw.js');
@@ -129,3 +129,4 @@ if ('serviceWorker' in navigator) {
 
     wb.register();
 }
+*/
