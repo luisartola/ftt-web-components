@@ -23,6 +23,13 @@ export default {
 
 <section class="section">
     <div class="container">
+        <div class="notification is-info">
+          <span class="icon">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+          </span>
+            Atención al nuevo formato, explicado en el Horario
+        </div>
+        
         <div class="box">
             <nav class="level">
                 <div class="level-item has-text-centered">
@@ -34,14 +41,14 @@ export default {
                 </div>
                 <div class="level-item has-text-centered">
                     <div>
-                        <p class="heading">Cuándo</p>
+                        <p class="heading">Fecha</p>
                         <p class="title">25-04-2020</p>
                         <p class="title">TBD (otoño/invierno)</p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
                     <div>
-                        <p class="heading">Asistencia</p>
+                        <p class="heading">Aforo</p>
                         <p class="title">35 invitados</p>
                         <p class="title">35 invitados</p>
                     </div>
@@ -49,16 +56,7 @@ export default {
             </nav>
         </div>
 
-        <div class="notification is-info">
-          <span class="icon">
-            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-          </span>
-            Atención al nuevo formato, explicado en el Horario
-        </div>
-
-        <h1 class="title">
-            Horario
-        </h1>
+        <h1 class="title">Horario</h1>
 
         <table class="table is-striped is-fullwidth">
             <tbody>
@@ -71,7 +69,7 @@ export default {
             </tr>
             <tr>
                 <td style="width:20%">9:30</td>
-                <td>Iteración 1: Decidimos grupos</td>
+                <td>Iteración 1: Formación de grupos</td>
             </tr>
             <tr>
                 <td style="width:20%">10:45</td>
@@ -79,7 +77,7 @@ export default {
             </tr>
             <tr>
                 <td style="width:20%">11:30</td>
-                <td>Hamaiketako: Recuperar fuerzas</td>
+                <td><em class="is-italic" data-tooltip="Tooltip Text">Hamaiketako</em>: Recuperar fuerzas</td>
             </tr>
             <tr>
                 <td style="width:20%">12:00</td>
@@ -107,6 +105,7 @@ export default {
                     El autobús sale a la <a target="_blank" href="https://www.iruinsagardotegia.com/home">sidrería Iruin</a>
                 </td>
             </tr>
+            </tbody>
         </table>
     </div>
 </section>

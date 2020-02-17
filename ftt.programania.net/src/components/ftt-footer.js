@@ -27,11 +27,6 @@ export default {
                 <span style="margin:10px">|</span>
             <a  href="/2018/grupos">2018</a>
       </div>
-           <div class="content has-text-centered">
-              <a target="_blank" href="https://agile-spain.org/">
-                <img style="height:100px" src="/assets/logo-agilespain.png"/>
-              </a>
-          </div>
         </footer>
 		`;
     }
