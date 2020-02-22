@@ -71,7 +71,7 @@ customElements.define('lit-app', class extends LitElement {
           ${css}
         </style>
         
-        <ftt-nav-bar></ftt-nav-bar>
+<!--        <ftt-nav-bar></ftt-nav-bar>-->
         
         <div id="outlet"></div>
         
