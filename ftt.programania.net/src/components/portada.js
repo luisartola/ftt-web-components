@@ -35,22 +35,43 @@ export default {
                 <div class="level-item has-text-centered">
                     <div>
                         <p class="heading">Edición</p>
-                        <p class="title">FTT 2020.1</p>
-                        <p class="title">FTT 2020.2</p>
+                        <p class="title">FTT 2020<span style="font-size:0.75em">.1</span></p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
                     <div>
                         <p class="heading">Fecha</p>
                         <p class="title">25-04-2020</p>
-                        <p class="title">TBD (otoño/invierno)</p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
                     <div>
                         <p class="heading">Aforo</p>
                         <p class="title">35 invitados</p>
-                        <p class="title">35 invitados</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        
+        <div class="box">
+            <nav class="level">
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Edición</p>
+                        <p style="color:#00000050" class="title">FTT 2020<span style="font-size:0.75em">.2</span></p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Fecha</p>
+                        <p style="color:#00000050" class="title"> Otoño </p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Aforo</p>
+                        <p style="color:#00000050" class="title">35 invitados</p>
                     </div>
                 </div>
             </nav>
@@ -115,26 +136,37 @@ export default {
 
         <h1 class="title">Más info</h1>
 
-        <div class="columns">
+        <div class="columns is-multiline">
             <div class="column">
-                <h2 class="title">Dónde será el FTT?</h2>
+                <h2 class="subtitle">¿Dónde será el FTT?</h2>
                 
-                <p>Este año la gente maja de <a target="_blank" href="https://buntplanet.com">BuntPlanet</a> nos cede su espacio:</p>
+                <p>Este año la gente maja de <a target="_blank" href="https://buntplanet.com">BuntPlanet</a> nos cede su espacio en el <strong>parque empresarial Zuatzu</strong></strong>:</p>
         
                 <iframe width="100%" height="auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.8346699552903!2d-2.0112086840373102!3d43.29678388342164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b06bbb3d4b5f%3A0x5395911b9d8dff8d!2sBUNT%20PLANET%20SL!5e0!3m2!1ses!2ses!4v1581961827150!5m2!1ses!2ses" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 
-                <h2 class="title">Qué es un Pecha Kutxa?</h2>
+                </div>
+                <div class="column">
+                
+                <h2 class="subtitle">¿Qué es un Pecha Kutxa?</h2>
+                
+                Es un formato de presentación donde se reproducen 20 transparencias que duran 20 segundos cada una:
 
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/jJ2yepIaAtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            </div>
+            <div class="columns is-multiline">
+        
             <div class="column">
-                <h2 class="title">Dónde vamos a comer?</h2>
+                <h2 class="subtitle">¿Dónde vamos a comer?</h2>
     
-                <p>Comeremos en el restaurante Algorri, en el mismo parque empresarial:</p>
+                <p>Comeremos en el <strong>restaurante Algorri</strong>, en el mismo parque empresarial:</p>
                 
                 <iframe width="100%" height="auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.7628224098585!2d-2.007185884037278!3d43.29828838332475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b013eea3ce93%3A0xcf5201d3afa88864!2sAlgorri!5e0!3m2!1ses!2ses!4v1581961346429!5m2!1ses!2ses" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 
-                <h2 class="title">Dónde vamos a cenar?</h2>
+                </div>
+                <div class="column">
+                
+                <h2 class="subtitle">¿Dónde vamos a cenar?</h2>
 
                 <p>Los asistentes al evento y sus acompañantes iremos a cenar a la <a target="_blank" href="https://www.iruinsagardotegia.com/home">sidrería Iruin</a>:</p>
                 

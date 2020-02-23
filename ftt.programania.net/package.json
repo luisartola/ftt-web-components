@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "author": "Luis Artola",
   "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!lit-element).+\\.js$",
+      "/node_modules/(?!lit-html).+\\.js"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/luisartola/ftt-web-components"
@@ -20,6 +29,7 @@
     "bulma": "^0.7.4",
     "bulma-extensions": "^4.0.1",
     "express": "^4.16.3",
+    "jsdom": "^16.2.0",
     "lit-element": "^2.1.0",
     "lit-html": "^1.0.0",
     "markdown-it": "^8.4.2",
@@ -47,7 +57,7 @@
     "eslint-plugin-import": "^2.13.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^4.0.0-alpha",
-    "jest": "^23.6.0",
+    "jest": "latest",
     "node-sass": "^4.13.1",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^3.0.0",

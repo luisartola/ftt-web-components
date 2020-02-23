@@ -1,4 +1,6 @@
 import {capturar} from "./state";
+import {LitElement, html} from 'lit-element';
+
 
 test("No puedes capturar dos veces el mismo", () => {
 
