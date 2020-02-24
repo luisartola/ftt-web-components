@@ -123,7 +123,14 @@ export default {
             <tr>
                 <td style="width:20%">19:00</td>
                 <td>
-                    El autobús sale a la <a target="_blank" href="https://www.iruinsagardotegia.com/home">sidrería Iruin</a>
+                    El autobús sale hacia la <a target="_blank" href="https://www.iruinsagardotegia.com/home">sidrería Iruin</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width:20%">23:00</td>
+                <td>
+                    El autobús nos recoge de la sidrería y nos deja en la <a href="https://goo.gl/maps/SPMBQ16VYYz1pPbU6">Calle Okendo</a>
                 </td>
             </tr>
             </tbody>
