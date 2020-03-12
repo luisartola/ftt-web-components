@@ -47,7 +47,7 @@ export default {
                 <div class="level-item has-text-centered">
                     <div>
                         <p class="heading">Aforo</p>
-                        <p class="title">35 invitados</p>
+                        <p class="title"><strong>CANCELADO</strong></p>
                     </div>
                 </div>
             </nav>
