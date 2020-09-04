@@ -6,6 +6,6 @@
   "scripts": {},
   "dependencies": {
     "get-urls": "^8.0.0",
-    "showdown": "^1.8.6"
+    "showdown": "^1.9.1"
   }
 }
