@@ -32,7 +32,7 @@
     "jsdom": "^16.2.0",
     "lit-element": "^2.1.0",
     "lit-html": "^1.0.0",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "promise-polyfill": "^8.0.0",
     "pwa-helpers": "^0.8.3",
     "ramda": "^0.26.1",
