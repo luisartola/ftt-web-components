@@ -58,7 +58,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^4.0.0-alpha",
     "jest": "latest",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.0.6",
